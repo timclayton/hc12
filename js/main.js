@@ -93,6 +93,13 @@ $(document).ready(function() {
 			{id:document.getElementById("text-christmas"), globalStart: 1.6, globalEnd: 1.99, endX: 0, endY: -100, type:"translate"},
 			{id:document.getElementById("grinch-face"), globalStart: 1.85, globalEnd: 1.99, endX: 0, endY: -300, type:"translate"}
 						
+		],
+		
+		[
+		
+			{id:document.getElementById("textbox1"), globalStart: 2.05, globalEnd: 2.2, endX: 1, endY: 0, type:"opacity"},
+			{id:document.getElementById("textbox2"), globalStart: 2.4, globalEnd: 2.55, endX: 1, endY: 0, type:"opacity"}
+		
 		]
 		
 	
@@ -104,7 +111,11 @@ $(document).ready(function() {
 		}, 4000, 'linear', function() {
 			$("html,body").animate({
 				scrollTop: 4000
-			}, 1100, 'linear')
+			}, 1100, 'linear', function() {
+				$("html,body").animate({
+					scrollTop: 7000
+				}, 6000, 'linear')
+			});
 		});
 	});
 	
