@@ -139,6 +139,10 @@ window.onload = function() {
             scrollTo(element, to, duration - 10);
         }, 10);
     }
+
+    // var clearTimeout = function(element) {
+    // 	window.setTimeout()  ;
+    // }
 	
 	var scenes = [
 	
@@ -172,7 +176,10 @@ window.onload = function() {
 		[  // scene 2
 
 			{id:document.getElementById("textbox1"), start: 2.05, end: 2.15, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("textbox2"), start: 2.3, end: 2.4, x: 1, y: 0, type:"opacity"}
+			{id:document.getElementById("textbox2"), start: 2.3, end: 2.4, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("near-cliff"), start:2.0, end:2.80, x: 0, y: -2200, type:"translate"},
+			{id:document.getElementById("far-cliff"), start:2.0, end:2.99, x: 0, y:-1600, type:"translate"},
+			{id:document.getElementById("ledge"), start:2.1, end:2.3, x: -628, y:0, type:"translate"}
 		
 		],
 		
@@ -217,6 +224,11 @@ window.onload = function() {
 	
 	document.getElementById("play").onclick = function () {
 	   scrollTo(document.body, d-wh-2, 20000);   
+	}
+
+	//pause the scroll
+	document.getElementById("controls").onclick = function () {
+		
 	}
 	
 	stickScene();  //  Apply fixed positioning to first scene
