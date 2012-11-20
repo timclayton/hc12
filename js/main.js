@@ -137,7 +137,7 @@ window.onload = function() {
         setTimeout(function() {
             element.scrollTop = element.scrollTop + perTick;
             scrollTo(element, to, duration - 10);
-        }, 10);
+        }, 15);
     }
 
     // var clearTimeout = function(element) {
@@ -147,9 +147,10 @@ window.onload = function() {
 	var scenes = [
 	
 		{scene:1, start:0, end:3000},
-		{scene:2, start:3000, end:9000},
-		{scene:3, start:9000, end:17000},
-		{scene:4, start:17000, end:23000}
+		{scene:2, start:3000, end:13000},
+		{scene:3, start:13000, end:22000},
+		{scene:4, start:22000, end:30000},
+		{scene:5, start:30000, end:36000}
 	
 	]
 	
@@ -158,6 +159,9 @@ window.onload = function() {
 		[  // global
 		
 			{id:document.getElementById("candycane1"), start: 0.07, end: 0.15, x: 60, y: -400, type:"translate"},
+			{id:document.getElementById("snowflakes-mid"), start: 0.1, end: 0.25, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-top"), start: 0.2, end: 0.45, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-bottom"), start: 0.25, end: 0.65, x: 0, y: 2000, type:"translate"}
 		
 		],
 		
@@ -176,18 +180,31 @@ window.onload = function() {
 		[  // scene 2
 
 			{id:document.getElementById("textbox1"), start: 2.05, end: 2.15, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("textbox2"), start: 2.3, end: 2.4, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("near-cliff"), start:2.0, end:2.80, x: 0, y: -2200, type:"translate"},
-			{id:document.getElementById("far-cliff"), start:2.0, end:2.99, x: 0, y:-1600, type:"translate"},
-			{id:document.getElementById("ledge"), start:2.1, end:2.3, x: -628, y:0, type:"translate"}
+			{id:document.getElementById("textbox2"), start: 2.55, end: 2.65, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("near-cliff"), start:2.0, end:2.80, x: 0, y: -1800, type:"translate"},
+			{id:document.getElementById("far-cliff"), start:2.0, end:2.9, x: 0, y:-1200, type:"translate"},
+			{id:document.getElementById("ledge"), start:2.3, end:2.6, x: -628, y:0, type:"translate"},
+			{id:document.getElementById("grinch"), start:2.7, end:2.74, x: 0, y: -718, type:"translate"},
+			{id:document.getElementById("max"), start:2.3, end:2.6, x: -628, y:0, type:"translate"},
+			{id:document.getElementById("lights"), start:2.5, end:2.8, x: 1, y:0, type:"opacity"},
 		
 		],
 		
 		[  // scene 3
+			
+			{id:document.getElementById("textbox3"), start: 3.05, end: 3.15, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("back-row-houses"), start:3.2, end:3.6, x: -1400, y:0, type:"translate"},
+			{id:document.getElementById("front-row-houses"), start:3.3, end:3.5, x: 967, y:0, type:"translate"},
+			{id:document.getElementById("lawn-ornaments"), start:3.25, end:3.4, x: -1235, y:0, type:"translate"},
+			{id:document.getElementById("gate"), start:3.65, end:3.75, x: 0, y:-850, type:"translate"}
 		
-			{id:document.getElementById("ericw"), start: 3, end: 3.05, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -800, y: 0, type:"translate"},
-			{id:document.getElementById("s3bg"), start: 3.4, end: 3.6, x: 100, y: 0, type:"bgShiftX"}
+		],
+		
+		[  // scene 4
+		
+			{id:document.getElementById("ericw"), start: 4, end: 4.05, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("ericw"), start: 4.4, end: 4.6, x: -800, y: 0, type:"translate"},
+			{id:document.getElementById("s3bg"), start: 4.4, end: 4.6, x: 100, y: 0, type:"bgShiftX"}
 		
 		]
 		
@@ -205,12 +222,16 @@ window.onload = function() {
 		],
 	
 		[  // scene 2
-		
+			{id:document.getElementById("max"), start: 2.35, end: 2.8, prefix: "max", order: [1,2,3,4,5,6], repeat:6}
 		],
 		
 		[  // scene 3
 		
-			{id:document.getElementById("ericw"), start: 3.1, end: 3.7, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:2}
+			
+		],
+		
+		[ // scene 4
+			{id:document.getElementById("ericw"), start: 4.1, end: 4.7, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:2}
 		
 		]
 	

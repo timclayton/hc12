@@ -110,16 +110,17 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scenes ===== */
 
 #scene1 { height: 3000px; }
-#scene2 { height: 6000px; } 
-#scene3 { height: 8000px; }
-#scene4 { height: 6000px; }
+#scene2 { height: 10000px; } 
+#scene3 { height: 9000px; } 
+#scene4 { height: 8000px; }
+#scene5 { height: 6000px; }
 
 /* ===== Backgrounds ===== */
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left top no-repeat fixed; }
-#scene2 .bg { background: #B51428 url('../img/scene2/bg.jpg') left top repeat fixed; }
-#scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') left bottom repeat fixed; }
-#scene4 .bg { background: yellow; }
+#scene2 .bg { background: #B51428 url('../img/scene2/bg-2.jpg') left top repeat fixed; }
+#scene3 .bg { background: #B51428 url('../img/scene2/bg-3.jpg') left top repeat fixed; }
+#scene4 .bg {background: #B51428 url('../img/scene3/bg.jpg') left bottom repeat fixed; }
 #scene5 .bg { background: purple; }
 #scene6 .bg { background: orange; }
 #scene7 .bg { background: tan; }
@@ -144,8 +145,26 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; top:0;  }
 #far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0; top:0; }
 #ledge { position: absolute; width: 628px; height: 206px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:-628px; bottom: 0; }
+#grinch { position: absolute; width: 298px; height: 618px; background: url('../img/scene2/grinch-temp.png') no-repeat 0 0; bottom:-618px; right:0px; }
+#lights { position: absolute; width: 1114px; height: 401px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:0; bottom:0;}
 
 /* ===== Scene 3 ===== */
+
+#textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 325px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
+#back-row-houses { position: absolute; width: 1400px; height: 680px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: -1400px; bottom: 0; }
+#front-row-houses  { position: absolute; width: 967px; height: 477px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -967px; bottom: 0; }
+#lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -1235px; bottom: 0; }
+#gate { position: absolute; width: 1400px; height: 816px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:0; bottom: -850px; }
+
+#max { position: absolute; right:-318px; bottom:94px; background: url('../img/scene2/max-sprite.png') no-repeat 0 0; width: 290px; height: 241px; }
+#max.max1 { background-position: 0 0; }
+#max.max2 { background-position: 0 -241px; }
+#max.max3 { background-position: 0 -482px; }
+#max.max4 { background-position: 0 -723px; }
+#max.max5 { background-position: 0 -964px; }
+#max.max6 { background-position: 0 -1205px; }
+
+/* ===== Scene 4 ===== */
 
 #ericw { position: absolute; bottom: 3%; left: 35%; margin-left:  -215px; width: 350px; height: 606px; background: url('../img/scene3/ericw-sprite.png') no-repeat; background-position: 0px -48px; opacity: 0; }
 #ericw.ericw0 { background-image: none; }
@@ -171,6 +190,10 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 #candycane1 { position: fixed; top: 21%; right: 19%; width: 287px; height: 198px; background: url('../img/global/candycane.png') no-repeat; z-index: 200; }
 #candycane2 { position: absolute; top: px; left: px; width: px; height: px; background: url('../img/scene1/sprite.png') no-repeat -px -px; }
+#snowflakes-mid { position: fixed; top: -800px; left:200px; width: 842px; height: 798px; background: url('../img/global/snowflakes-mid.png') no-repeat; z-index: 200; } 
+#snowflakes-top { position: fixed; top: -1000px;  width: 1342px; height: 964px; background: url('../img/global/snowflakes-top.png') no-repeat; z-index: 200; } 
+#snowflakes-bottom { position: fixed; top: -1200px;  width: 1342px; height: 964px; background: url('../img/global/snowflakes-bottom.png') no-repeat; z-index: 200; } 
+
 
 /* ==========================================================================
    Helper classes
