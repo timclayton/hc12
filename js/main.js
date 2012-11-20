@@ -129,15 +129,13 @@ window.onload = function() {
 	
 	}
 	
-	var scrollTo = function(element, to, duration) {
-        if (duration < 0) return;
-        var difference = to - element.scrollTop;
-        var perTick = difference / duration * 10;
-        
-        setTimeout(function() {
-            element.scrollTop = element.scrollTop + perTick;
-            scrollTo(element, to, duration - 10);
-        }, 15);
+	var scrollToEnd = function() {
+        var scroll = setInterval( function() {
+			window.scrollTo(0,s+=15);
+			if ( s >= d-wh ) {
+				clearInterval(scroll);
+			}
+		}, 15);
     }
 
     // var clearTimeout = function(element) {
@@ -244,12 +242,12 @@ window.onload = function() {
 	window.scrollTo(0,0);
 	
 	document.getElementById("play").onclick = function () {
-	   scrollTo(document.body, d-wh-2, 20000);   
+	   scrollToEnd();
 	}
 
 	//pause the scroll
 	document.getElementById("controls").onclick = function () {
-		
+		scrollToEnd();
 	}
 	
 	stickScene();  //  Apply fixed positioning to first scene
