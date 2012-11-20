@@ -110,18 +110,18 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scenes ===== */
 
 #scene1 { height: 3000px; }
-#scene2 { height: 10000px; } 
-#scene3 { height: 9000px; } 
-#scene4 { height: 8000px; }
-#scene5 { height: 6000px; }
+#scene2 { height: 16000px; } 
+#scene3 { height: 8000px; } 
+#scene4 { height: 6000px; }
+#scene5 { height: 4000px; }
 
 /* ===== Backgrounds ===== */
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left top no-repeat fixed; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-2.jpg') left top repeat fixed; }
-#scene3 .bg { background: #B51428 url('../img/scene2/bg-3.jpg') left top repeat fixed; }
-#scene4 .bg {background: #B51428 url('../img/scene3/bg.jpg') left bottom repeat fixed; }
-#scene5 .bg { background: purple; }
+#scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') left bottom repeat fixed; }
+#scene4 .bg {background: red; }
+#scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; ; }
 #scene6 .bg { background: orange; }
 #scene7 .bg { background: tan; }
 #scene8 .bg { background: brown; }
@@ -146,13 +146,10 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0; top:0; }
 #ledge { position: absolute; width: 628px; height: 206px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:-628px; bottom: 0; }
 #grinch { position: absolute; width: 298px; height: 618px; background: url('../img/scene2/grinch-temp.png') no-repeat 0 0; bottom:-618px; right:0px; }
-#lights { position: absolute; width: 1114px; height: 401px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:0; bottom:0;}
-
-/* ===== Scene 3 ===== */
-
+#lights { position: absolute; width: 1400px; height: 900px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-820px; bottom:-810px;}
 #textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 325px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
-#back-row-houses { position: absolute; width: 1399px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: -1400px; bottom: 0; }
-#front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -967px; bottom: 0; }
+#back-row-houses { position: absolute; width: 1399px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; left: 80px; bottom: -770px; }
+#front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -967px; bottom: -400px; }
 #lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -1235px; bottom: 0; }
 #gate { position: absolute; width: 1400px; height: 830px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:0; bottom: -850px; }
 
@@ -163,8 +160,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #max.max4 { background-position: 0 -723px; }
 #max.max5 { background-position: 0 -964px; }
 #max.max6 { background-position: 0 -1205px; }
-
-/* ===== Scene 4 ===== */
+/* ===== Scene 3 ===== */
 
 #ericw { position: absolute; bottom: 3%; left: 35%; margin-left:  -215px; width: 350px; height: 606px; background: url('../img/scene3/ericw-sprite.png') no-repeat; background-position: 0px -48px; opacity: 0; }
 #ericw.ericw0 { background-image: none; }
@@ -185,6 +181,35 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #ericw.ericw15 { height: 628px; background-position: -358px -3209px; }
 #ericw.ericw16 { height: 608px; background-position: -358px -3853px; }
 #ericw.ericw17 { height: 611px; background-position: -358px -4554px; }
+
+/* ===== Scene 4 ===== */
+
+
+/* ===== Scene 5 ===== */
+
+#clouds-1 { position: absolute; width: 1400px; height: 426px; background: url('../img/scene5/clouds-1.png') no-repeat 0 0;left:0; top: 150px; }
+#clouds-2 { position: absolute; width: 849px; height: 403px; background: url('../img/scene5/clouds-2.png') no-repeat 0 0;left:400px; top: 250px; }
+#monumnent {  }
+#monumnent-lights {  }
+#textbox-scene5 {  }
+
+#drummers {  position: absolute; bottom: 0; right:100px ; width: 857px; height: 490px; background: url('../img/scene5/drummers-sprite.png') no-repeat; background-position: 0px 0px; }
+#drummers.drummers1 { background-position: 0 0; }
+#drummers.drummers2 { background-position: 0 -490px; }
+#drummers.drummers3 { background-position: 0 -980px; }
+#drummers.drummers4 { background-position: 0 -1470px; }
+#drummers.drummers5 { background-position: 0 -1960px; }
+#drummers.drummers6 { background-position: 0 -2450px; }
+#drummers.drummers7 { background-position: 0 -2940px; }
+#drummers.drummers8 { background-position: 0 -3430px; }
+#drummers.drummers9 { background-position: 0 -3920px; }
+#drummers.drummers10 { background-position: 0 -4410px; }
+#drummers.drummers11 { background-position: 0 -4900px; }
+#drummers.drummers12 { background-position: 0 -5390px; }
+#drummers.drummers13 { background-position: 0 -5880px; }
+#drummers.drummers14 { background-position: 0 -6370px; }
+#drummers.drummers15 { background-position: 0 -6860px; }
+#drummers.drummers16 { background-position: 0 -7340px; }
 
 /* ===== Independent Animations ===== */
 
