@@ -151,10 +151,10 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scene 3 ===== */
 
 #textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 325px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
-#back-row-houses { position: absolute; width: 1400px; height: 680px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: -1400px; bottom: 0; }
-#front-row-houses  { position: absolute; width: 967px; height: 477px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -967px; bottom: 0; }
+#back-row-houses { position: absolute; width: 1399px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: -1400px; bottom: 0; }
+#front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -967px; bottom: 0; }
 #lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -1235px; bottom: 0; }
-#gate { position: absolute; width: 1400px; height: 816px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:0; bottom: -850px; }
+#gate { position: absolute; width: 1400px; height: 830px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:0; bottom: -850px; }
 
 #max { position: absolute; right:-318px; bottom:94px; background: url('../img/scene2/max-sprite.png') no-repeat 0 0; width: 290px; height: 241px; }
 #max.max1 { background-position: 0 0; }
