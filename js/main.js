@@ -132,13 +132,17 @@ window.onload = function() {
 	}
 	
 	var scrollToEnd = function() {
-        var scroll = setInterval( function() {
-			window.scrollTo(0,s+=15);
-			if ( s >= d-wh ) {
-				clearInterval(scroll);
-			}
-		}, 15);
+        autoScroll = setInterval(scrollIncrement, 15);
     }
+	
+	var scrollIncrement = function() {
+		if ( s >= d - wh ) { stopScroll() }
+		else { window.scrollTo(0,s+=15) }
+	}
+	
+	var stopScroll = function() {
+		clearInterval(autoScroll);
+	}
 
     // var clearTimeout = function(element) {
     // 	window.setTimeout()  ;
@@ -258,14 +262,16 @@ window.onload = function() {
 	}
 	
 	window.scrollTo(0,0);
-	
-	document.getElementById("play").onclick = function () {
-	   scrollToEnd();
-	}
 
-	//pause the scroll
-	document.getElementById("controls").onclick = function () {
-		scrollToEnd();
+	document.getElementById("play-toggle").onclick = function() {
+		if ( this.className === "playing" ) {
+			stopScroll();
+			this.className = "paused";
+		}
+		else {
+			scrollToEnd();
+			this.className = "playing";
+		}
 	}
 	
 	stickScene();  //  Apply fixed positioning to first scene

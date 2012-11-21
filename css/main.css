@@ -95,9 +95,9 @@ textarea {
 
 #preload { display: none; }
    
-#controls { position: fixed; width:48px; height: 39px; background: url(../img/global/controls.png) no-repeat top left; top:20px; right:20px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em; }
-#controls a { display: block; width: 48px; height: 39px; }
-#controls.paused { background-position: 0 100%;  }
+#play-toggle { display: block; position: fixed; width:48px; height: 39px; background: url(../img/global/controls.png) no-repeat top left; top:20px; right:20px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em; }
+#play-toggle.paused { background-position: 0 100%; }
+#play-toggle.playing { background-position: 0 0; }
 
 
 section { position: relative; }
