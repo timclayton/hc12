@@ -150,7 +150,7 @@ window.onload = function() {
 		{scene:2, start:3000, end:19000},
 		{scene:3, start:19000, end:27000},
 		{scene:4, start:27000, end:33000},
-		{scene:5, start:33000, end:37000}
+		{scene:5, start:33000, end:40000}
 	
 	]
 	
@@ -160,8 +160,8 @@ window.onload = function() {
 		
 			{id:document.getElementById("candycane1"), start: 0.07, end: 0.15, x: 60, y: -400, type:"translate"},
 			{id:document.getElementById("snowflakes-mid"), start: 0.1, end: 0.25, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-top"), start: 0.2, end: 0.45, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-bottom"), start: 0.25, end: 0.65, x: 0, y: 2000, type:"translate"}
+			{id:document.getElementById("snowflakes-top"), start: 0.14, end: 0.3, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-bottom"), start: 0.2, end: 0.55, x: 0, y: 2000, type:"translate"}
 		
 		],
 		
@@ -207,6 +207,17 @@ window.onload = function() {
 		
 			
 		
+		], 
+		
+		[ 	//scene 5
+			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
+			{id:document.getElementById("clouds-2"), start: 5.0, end: 5.99, x: 100, y: 5, type:"translate"},
+			{id:document.getElementById("monument"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
+			{id:document.getElementById("monument-lights"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
+			{id:document.getElementById("symbols"), start: 5.0, end: 5.99, x:30, y: -150, type:"translate"},
+			{id:document.getElementById("feeling-it"), start: 5.45, end: 5.5, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("didgeri-do"), start: 5.25, end: 5.3, x:1, y: 0, type:"opacity"},
 		]
 		
 	
@@ -233,7 +244,11 @@ window.onload = function() {
 		
 		[ // scene 4
 			
-		
+			
+		],
+
+		[
+			{id:document.getElementById("drummers"), start: 5.1, end: 5.9, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:2}
 		]
 	
 	]

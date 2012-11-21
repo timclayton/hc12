@@ -113,7 +113,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene2 { height: 16000px; } 
 #scene3 { height: 8000px; } 
 #scene4 { height: 6000px; }
-#scene5 { height: 4000px; }
+#scene5 { height: 7000px; }
 
 /* ===== Backgrounds ===== */
 
@@ -187,13 +187,16 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 /* ===== Scene 5 ===== */
 
-#clouds-1 { position: absolute; width: 1400px; height: 426px; background: url('../img/scene5/clouds-1.png') no-repeat 0 0;left:0; top: 150px; }
-#clouds-2 { position: absolute; width: 849px; height: 403px; background: url('../img/scene5/clouds-2.png') no-repeat 0 0;left:400px; top: 250px; }
-#monumnent {  }
-#monumnent-lights {  }
-#textbox-scene5 {  }
+#clouds-1 { position: absolute; width: 1800px; height: 376px; background: url('../img/scene5/clouds-1.png') no-repeat 0 0;left:0; top: -20px; }
+#clouds-2 { position: absolute; width: 849px; height: 403px; background: url('../img/scene5/clouds-2.png') no-repeat 0 0;left:400px; top: -120px; }
+#monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene5/monument.png') no-repeat 0 0;left:0px; top: 20px; }
+#monument-lights { position: absolute; width: 252px; height: 702px; background: url('../img/scene5/monument-lights.png') no-repeat 0 0;left: 130px; top: 126px; }
+#textbox-scene5 { position: absolute; width: 432px; height: 177px; background: url('../img/scene5/text-5.png') no-repeat 0 0;left: 50%; margin-left:  -177px; top: 30px; z-index: 50; opacity: 0;}
+#symbols { position: absolute; width: 1363px; height: 585px; background: url('../img/scene5/symbols.png') no-repeat 0 0; right:10px; bottom: 30px;}
+#feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene5/feeling-it.png') no-repeat 0 0; right:320px; bottom: 350px; opacity: 0;}
+#didgeri-do { position: absolute; width: 95px; height: 91px; background: url('../img/scene5/didgeri-do.png') no-repeat 0 0; right:500px; bottom: 270px; opacity: 0;}
 
-#drummers {  position: absolute; bottom: 0; right:100px ; width: 857px; height: 490px; background: url('../img/scene5/drummers-sprite.png') no-repeat; background-position: 0px 0px; }
+#drummers {  position: absolute; bottom: -80px; right:100px ; width: 857px; height: 490px; background: url('../img/scene5/drummers-sprite.png') no-repeat; background-position: 0px 0px; }
 #drummers.drummers1 { background-position: 0 0; }
 #drummers.drummers2 { background-position: 0 -490px; }
 #drummers.drummers3 { background-position: 0 -980px; }
