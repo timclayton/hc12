@@ -16,6 +16,8 @@ window.onload = function() {
 					gPercent				=  s / (d-wh),	
 					pos 						=	Math.floor( sPercent ),  //  calculated position					
 					stuck,
+					play						=  document.getElementById("play"),
+					playToggle			=  document.getElementById("play-toggle"),
 					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']);
 	
 	window.onresize = function() {
@@ -142,11 +144,9 @@ window.onload = function() {
 	
 	var stopScroll = function() {
 		clearInterval(autoScroll);
+		play.className = "";
+		playToggle.className = "paused";
 	}
-
-    // var clearTimeout = function(element) {
-    // 	window.setTimeout()  ;
-    // }
 	
 	var scenes = [
 	
@@ -295,7 +295,7 @@ window.onload = function() {
 	
 	window.scrollTo(0,0);
 
-	document.getElementById("play-toggle").onclick = function() {
+	playToggle.onclick = function() {
 		if ( this.className === "playing" ) {
 			stopScroll();
 			this.className = "paused";
@@ -303,6 +303,15 @@ window.onload = function() {
 		else {
 			scrollToEnd();
 			this.className = "playing";
+			play.className = "playing";
+		}
+	}
+	
+	play.onclick = function() {
+		if ( this.className !== "playing" ) {
+			scrollToEnd();
+			this.className = "playing";
+			playToggle.className = "playing";
 		}
 	}
 	
