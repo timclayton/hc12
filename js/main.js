@@ -154,7 +154,10 @@ window.onload = function() {
 		{scene:2, start:3000, end:19000},
 		{scene:3, start:19000, end:27000},
 		{scene:4, start:27000, end:33000},
-		{scene:5, start:33000, end:40000}
+		{scene:5, start:33000, end:40000},
+		{scene:6, start:40000, end:46000},
+		{scene:7, start:46000, end:52000},
+		{scene:8, start:52000, end:58000}
 	
 	]
 	
@@ -193,8 +196,8 @@ window.onload = function() {
 			{id:document.getElementById("lights"), start:2.3, end:2.9, x: 800, y:-1000, type:"translate"},
 			{id:document.getElementById("textbox3"), start: 2.5, end: 2.55, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("back-row-houses"), start:2.6, end:2.7, x: -30, y:-670, type:"translate"},
-			{id:document.getElementById("front-row-houses"), start:2.6, end:2.7, x: 967, y:-400, type:"translate"},
-			{id:document.getElementById("lawn-ornaments"), start:2.6, end:2.7, x: -1235, y:0, type:"translate"},
+			{id:document.getElementById("front-row-houses"), start:2.6, end:2.7, x: 50, y:-400, type:"translate"},
+			{id:document.getElementById("lawn-ornaments"), start:2.6, end:2.7, x: -40, y:0, type:"translate"},
 			{id:document.getElementById("gate"), start:2.8, end:2.9, x: 0, y:-850, type:"translate"}
 		
 		],
@@ -222,7 +225,20 @@ window.onload = function() {
 			{id:document.getElementById("symbols"), start: 5.0, end: 5.99, x:30, y: -150, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 5.45, end: 5.5, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("didgeri-do"), start: 5.25, end: 5.3, x:1, y: 0, type:"opacity"},
+		],
+
+		[ //scene 6
+
+		],
+
+		[ //scene 7
+
+		],
+
+		[ //scene 8 - aquarium
+
 		]
+
 		
 	
 	]
@@ -234,6 +250,7 @@ window.onload = function() {
 		],
 		
 		[  // scene 1
+			{id:document.getElementById("wings"), start: 1.0, end: 1.99, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:3}
 		
 		],
 	
@@ -251,8 +268,23 @@ window.onload = function() {
 			
 		],
 
-		[
-			{id:document.getElementById("drummers"), start: 5.1, end: 5.9, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:2}
+		[ //scene 5
+			{id:document.getElementById("drummers"), start: 5.0, end: 5.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:2}
+		],
+		
+		[ // scene 6
+			
+			
+		],
+		
+		[ // scene 7
+			
+			
+		],
+		
+		[ // scene 8 - aquarium
+			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3}
+			
 		]
 	
 	]

@@ -114,6 +114,9 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene3 { height: 8000px; } 
 #scene4 { height: 6000px; }
 #scene5 { height: 7000px; }
+#scene6 { height: 6000px; }
+#scene7 { height: 6000px; }
+#scene8 { height: 6000px; }
 
 /* ===== Backgrounds ===== */
 
@@ -121,10 +124,10 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-2.jpg') left top repeat fixed; }
 #scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') left bottom repeat fixed; }
 #scene4 .bg {background: red; }
-#scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; ; }
+#scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; }
 #scene6 .bg { background: orange; }
 #scene7 .bg { background: tan; }
-#scene8 .bg { background: brown; }
+#scene8 .bg { background:  #B51428 url('../img/scene-aquarium/bg.jpg') left bottom repeat fixed;}
 
 /* ===== Scene 1 ===== */
 
@@ -137,6 +140,18 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #text-christmas { position: absolute; top: 49.1%; left: 19.8%; width: 557px; height: 152px; background: url('../img/scene1/sprite.png') no-repeat -22px -662px; }
 #play { display: block; position: absolute; bottom: 12.3%; left: 42%; width: 130px; height: 59px; background: url('../img/scene1/sprite.png') no-repeat -441px -166px; cursor: pointer; }
 #grinch-face { position: fixed; top: 0; right: 0; width: 416px; height: 100%; background: url('../img/scene1/grinch-face.png') no-repeat 100% 50%; }
+#wings { position: absolute; bottom: 7.3%; left: 11%; width: 320px; height: 198px; background: url('../img/scene1/wings-sprite.png') no-repeat 0 0;}
+#wings.wings1 { background-position: 0 0; }
+#wings.wings2 { background-position: 0 -198px; }
+#wings.wings3 { background-position: 0 -396px; }
+#wings.wings4 { background-position: 0 -594px; }
+#wings.wings5 { background-position: 0 -792px; }
+#wings.wings6 { background-position: 0 -990px; }
+#wings.wings7 { background-position: 0 -1188px; }
+#wings.wings8 { background-position: 0 -1386px; }
+#wings.wings9 { background-position: 0 -1584px; }
+
+
 
 /* ===== Scene 2 ===== */
 
@@ -149,8 +164,8 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #lights { position: absolute; width: 1400px; height: 900px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-820px; bottom:-810px;}
 #textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 325px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
 #back-row-houses { position: absolute; width: 1399px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; left: 80px; bottom: -770px; }
-#front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -967px; bottom: -400px; }
-#lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -1235px; bottom: 0; }
+#front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -50px; bottom: -477px; }
+#lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -35px; bottom: -380px; }
 #gate { position: absolute; width: 1400px; height: 830px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:0; bottom: -850px; }
 
 #max { position: absolute; right:-318px; bottom:94px; background: url('../img/scene2/max-sprite.png') no-repeat 0 0; width: 290px; height: 241px; }
@@ -185,7 +200,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scene 4 ===== */
 
 
-/* ===== Scene 5 ===== */
+/* ===== Scene 5 - Drummers ===== */
 
 #clouds-1 { position: absolute; width: 1800px; height: 376px; background: url('../img/scene5/clouds-1.png') no-repeat 0 0;left:0; top: -20px; }
 #clouds-2 { position: absolute; width: 849px; height: 403px; background: url('../img/scene5/clouds-2.png') no-repeat 0 0;left:400px; top: -120px; }
@@ -213,6 +228,25 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #drummers.drummers14 { background-position: 0 -6370px; }
 #drummers.drummers15 { background-position: 0 -6860px; }
 #drummers.drummers16 { background-position: 0 -7340px; }
+
+/* ===== Scene 6 - Garage Band  ===== */
+
+/* ===== Scene 7 - Miracle 34th ===== */
+
+/* ===== Scene 8 - Aquarium  ===== */
+
+#aquarium-people { width:915px; height:483px; background: url('../img/scene-aquarium/aquarium-sprite.png') no-repeat; bottom: 0; right: 100px; }
+#aquarium-people.aqua1 { width: 915px; height: 483px; background-position: -0px -0px; }
+#aquarium-people.aqua2 { width: 893px; height: 467px; background-position: -907px -979px;}
+#aquarium-people.aqua3 { width: 888px; height: 475px; background-position: -903px -493px; }
+#aquarium-people.aqua4 { width: 904px; height: 482px; background-position: -926px -0px; }
+#aquarium-people.aqua5 { width: 850px; height: 476px; background-position: -1811px -974px; } 
+#aquarium-people.aqua6 { width: 863px; height: 474px; background-position: -1841px -489px; }
+#aquarium-people.aqua7 { width: 870px; height: 478px; background-position: -907px -1457px; }
+#aquarium-people.aqua8 { width: 866px; height: 478px; background-position: -1841px -0px; }
+#aquarium-people.aqua9 { width: 892px; height: 474px; background-position: -0px -493px; }
+#aquarium-people.aqua0 { width: 896px; height: 470px; background-position: -0px -979px; }
+
 
 /* ===== Independent Animations ===== */
 
