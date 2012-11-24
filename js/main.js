@@ -160,7 +160,8 @@ window.onload = function() {
 		{scene:8, start:52000, end:62000},
 		{scene:9, start:62000, end:76000},
 		{scene:10, start:76000, end:86000},
-		{scene:10, start:86000, end:90000}
+		{scene:10, start:86000, end:96000},
+		{scene:11, start:96000, end:106000}
 	
 	]
 	
@@ -308,12 +309,12 @@ window.onload = function() {
 
 		[ // scene 9 - pool
 			{id:document.getElementById("phelps"), start: 9.0, end: 9.99, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
-			{id:document.getElementById("swimmers"), start: 9.0, end: 9.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2}
+			{id:document.getElementById("swimmers"), start: 9.0, end: 9.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2}
 			
 		],
 
 		[ // scene 10 
-			
+			{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], repeat:2}
 			
 		],
 

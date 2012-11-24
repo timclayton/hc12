@@ -301,15 +301,15 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 #phelps { position:absolute;background: url('../img/scene-pool/phelps-sprite.png') no-repeat; left:100px; bottom:400px; }
 
-#phelps.phelps01 { width: 54px; height: 84px; background-position: -1681px -1368px; }
-#phelps.phelps02 { width: 138px; height: 103px; background-position: -607px -756px; }
-#phelps.phelps03 { width: 150px; height: 117px; background-position: -1320px -1424px; }
-#phelps.phelps04 { width: 190px; height: 129px; background-position: -1480px -1284px; }
-#phelps.phelps05 { width: 203px; height: 131px; background-position: -739px -1284px; }
-#phelps.phelps06 { width: 205px; height: 131px; background-position: -523px -1284px; }
-#phelps.phelps07 { width: 242px; height: 164px; background-position: -1524px -201px; }
-#phelps.phelps08 { width: 227px; height: 167px; background-position: -1503px -949px; }
-#phelps.phelps09 { width: 288px; height: 166px; background-position: -1454px -381px; }
+#phelps.phelps1 { width: 54px; height: 84px; background-position: -1681px -1368px; }
+#phelps.phelps2 { width: 138px; height: 103px; background-position: -607px -756px; }
+#phelps.phelps3 { width: 150px; height: 117px; background-position: -1320px -1424px; }
+#phelps.phelps4 { width: 190px; height: 129px; background-position: -1480px -1284px; }
+#phelps.phelps5 { width: 203px; height: 131px; background-position: -739px -1284px; }
+#phelps.phelps6 { width: 205px; height: 131px; background-position: -523px -1284px; }
+#phelps.phelps7 { width: 242px; height: 164px; background-position: -1524px -201px; }
+#phelps.phelps8 { width: 227px; height: 167px; background-position: -1503px -949px; }
+#phelps.phelps9 { width: 288px; height: 166px; background-position: -1454px -381px; }
 #phelps.phelps10 { width: 247px; height: 187px; background-position: -1506px -558px; }
 #phelps.phelps11 { width: 403px; height: 208px; background-position: -414px -925px; }
 #phelps.phelps12 { width: 403px; height: 217px; background-position: -0px -925px; }
@@ -342,15 +342,15 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 
 #swimmers { position:absolute; bottom: 0; left:400px; background: url('../img/scene-pool/swimmers.png') no-repeat; }
-#swimmers.swimmers01 { width: 546px; height: 363px; background-position: -2339px -404px; }
-#swimmers.swimmers02 { width: 546px; height: 393px; background-position: -2339px -0px; }
-#swimmers.swimmers03 { width: 555px; height: 397px; background-position: -1751px -1771px; }
-#swimmers.swimmers04 { width: 581px; height: 396px; background-position: -0px -1771px; }
-#swimmers.swimmers05 { width: 541px; height: 462px; background-position: -1475px -823px; }
-#swimmers.swimmers06 { width: 510px; height: 464px; background-position: -1751px -1296px; }
-#swimmers.swimmers07 { width: 642px; height: 441px; background-position: -1686px -0px; }
-#swimmers.swimmers08 { width: 639px; height: 407px; background-position: -825px -452px; }
-#swimmers.swimmers09 { width: 624px; height: 367px; background-position: -592px -1771px; }
+#swimmers.swimmers1 { width: 546px; height: 363px; background-position: -2339px -404px; }
+#swimmers.swimmers2 { width: 546px; height: 393px; background-position: -2339px -0px; }
+#swimmers.swimmers3 { width: 555px; height: 397px; background-position: -1751px -1771px; }
+#swimmers.swimmers4 { width: 581px; height: 396px; background-position: -0px -1771px; }
+#swimmers.swimmers5 { width: 541px; height: 462px; background-position: -1475px -823px; }
+#swimmers.swimmers6 { width: 510px; height: 464px; background-position: -1751px -1296px; }
+#swimmers.swimmers7 { width: 642px; height: 441px; background-position: -1686px -0px; }
+#swimmers.swimmers8 { width: 639px; height: 407px; background-position: -825px -452px; }
+#swimmers.swimmers9 { width: 624px; height: 367px; background-position: -592px -1771px; }
 #swimmers.swimmers10 { width: 614px; height: 399px; background-position: -614px -1296px; }
 #swimmers.swimmers11 { width: 708px; height: 360px; background-position: -1475px -452px; }
 #swimmers.swimmers12 { width: 850px; height: 364px; background-position: -825px -0px; }
@@ -373,8 +373,29 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 /* ===== Scene 10 - Truck ===== */
 
+#truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: 0;left:0px; }
+#text-truck { position:absolute; width:354px; height:214px; background:url('../img/scene-pool/text-truck.png') no-repeat; bottom: 119px;left:162px; }
 
-
+#businessmen { position:absolute; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat; }
+#businessmen.businessmen1 { width: 638px; height: 480px; background-position: -2245px -2445px; }
+#businessmen.businessmen2 { width: 638px; height: 480px; background-position: -2260px -1954px; }
+#businessmen.businessmen3 { width: 638px; height: 480px; background-position: -2318px -1463px; }
+#businessmen.businessmen4 { width: 766px; height: 488px; background-position: -0px -1089px; }
+#businessmen.businessmen5 { width: 643px; height: 471px; background-position: -3049px -0px; }
+#businessmen.businessmen6 { width: 680px; height: 482px; background-position: -2387px -970px; }
+#businessmen.businessmen7 { width: 714px; height: 483px; background-position: -1520px -2089px; }
+#businessmen.businessmen8 { width: 751px; height: 474px; background-position: -0px -2089px; }
+#businessmen.businessmen9 { width: 747px; height: 475px; background-position: -762px -2089px; }
+#businessmen.businessmen10 { width: 765px; height: 483px; background-position: -777px -1089px; }
+#businessmen.businessmen11 { width: 754px; height: 486px; background-position: -1553px -1089px; }
+#businessmen.businessmen12 { width: 688px; height: 491px; background-position: -2350px -0px; }
+#businessmen.businessmen13 { width: 734px; height: 488px; background-position: -777px -1586px; }
+#businessmen.businessmen14 { width: 723px; height: 457px; background-position: -2387px -502px; }
+#businessmen.businessmen15 { width: 727px; height: 492px; background-position: -1522px -1586px; }
+#businessmen.businessmen17 { width: 797px; height: 604px; background-position: -771px -0px; }
+#businessmen.businessmen18 { width: 760px; height: 639px; background-position: -0px -0px; }
+#businessmen.businessmen19 { width: 760px; height: 568px; background-position: -1579px -0px; }
+#businessmen.businessmen20 { width: 797px; height: 499px; background-position: -1579px -579px; }
 
 /* ===== Independent Animations ===== */
 
