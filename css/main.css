@@ -117,7 +117,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene5 { height: 7000px; }
 #scene6 { height: 6000px; }
 #scene7 { height: 6000px; }
-#scene8 { height: 6000px; }
+#scene8 { height: 10000px; }
 
 /* ===== Backgrounds ===== */
 
@@ -259,6 +259,17 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scene 7 - Miracle 34th ===== */
 
 /* ===== Scene 8 - Aquarium  ===== */
+
+#bubbles-1 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 0px;left:-200px;}
+#bubbles-2 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 300px;left:200px;}
+#bubbles-3 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 800px;left:-420px;}
+#tree { position:absolute; width:363px;height:461px; background:url('../img/scene-aquarium/tree.png') no-repeat; bottom: 0;left:20px; }
+#garland { position:absolute; width:1400px; height:150px;background:url('../img/scene-aquarium/garland.png') no-repeat; bottom: 200px;left:0; }
+#big-fish { position:absolute; width:542px; height:289px; background:url('../img/scene-aquarium/big-fish.png') no-repeat; top:450px; right:200px; }
+#little-fish-1 { position:absolute; width:352px;height:297px; background:url('../img/scene-aquarium/little-fish-9.png') no-repeat; top:150px; right:200px;  }
+#little-fish-2 { position:absolute; width:480px;height:307px; background:url('../img/scene-aquarium/little-fish-18.png') no-repeat; top:50px; left:200px;  }
+#text-aquarium { position:absolute; width:505px;height:177px; background:url('../img/scene-aquarium/text-aquarium.png') no-repeat;left: 50%; margin-left:  -177px; top: 50px; z-index: 50; opacity: 0; }
+#shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
 
 #aquarium-people { position:absolute; width:915px; height:483px; background: url('../img/scene-aquarium/aquarium-sprite.png') no-repeat; bottom: 0; right: 100px; }
 #aquarium-people.aqua1 { width: 915px; height: 483px; background-position: -0px -0px; }

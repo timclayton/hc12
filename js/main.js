@@ -157,7 +157,7 @@ window.onload = function() {
 		{scene:5, start:33000, end:40000},
 		{scene:6, start:40000, end:46000},
 		{scene:7, start:46000, end:52000},
-		{scene:8, start:52000, end:58000}
+		{scene:8, start:52000, end:62000}
 	
 	]
 	
@@ -236,7 +236,14 @@ window.onload = function() {
 		],
 
 		[ //scene 8 - aquarium
-
+			{id:document.getElementById("bubbles-1"), start: 8.0, end: 8.99, x: 0, y: -300, type:"translate"},
+			{id:document.getElementById("bubbles-2"), start: 8.0, end: 8.99, x: 0, y: -350, type:"translate"},
+			{id:document.getElementById("bubbles-3"), start: 8.0, end: 8.99, x: 0, y:-500, type:"translate"},
+			{id:document.getElementById("little-fish-1"), start: 8.0, end: 8.99, x: -200, y: 0, type:"translate"},
+			{id:document.getElementById("little-fish-2"), start: 8.0, end: 8.99, x: -250, y: 20, type:"translate"},
+			{id:document.getElementById("big-fish"), start: 8.0, end: 8.99, x: -500, y: 20, type:"translate"},
+			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("shark"), start: 8.5, end: 8.99, x: -3000, y: 0, type:"translate"}
 		]
 
 		
