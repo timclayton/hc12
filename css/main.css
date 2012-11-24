@@ -244,7 +244,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene5/feeling-it.png') no-repeat 0 0; right:320px; bottom: 350px; opacity: 0;}
 #didgeri-do { position: absolute; width: 95px; height: 91px; background: url('../img/scene5/didgeri-do.png') no-repeat 0 0; right:500px; bottom: 270px; opacity: 0;}
 
-#drummers {  position: absolute; bottom: -80px; right:100px ; width: 857px; height: 490px; background: url('../img/scene5/drummers-sprite.png') no-repeat; background-position: 0px 0px; }
+#drummers {  position: absolute; bottom: -80px; right:100px ; width: 857px; height: 490px; background: url('../img/scene5/drummers-sprite.png') no-repeat; background-position: 0px 0px; opacity: 0;  }
 #drummers.drummers1 { background-position: 0 0; }
 #drummers.drummers2 { background-position: 0 -490px; }
 #drummers.drummers3 { background-position: 0 -980px; }
@@ -279,7 +279,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #text-aquarium { position:absolute; width:505px;height:177px; background:url('../img/scene-aquarium/text-aquarium.png') no-repeat;left: 50%; margin-left:  -177px; top: 50px; z-index: 50; opacity: 0; }
 #shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
 
-#aquarium-people { position:absolute; width:915px; height:483px; background: url('../img/scene-aquarium/aquarium-sprite.png') no-repeat; bottom: 0; right: 100px; }
+#aquarium-people { position:absolute; width:915px; height:483px; background: url('../img/scene-aquarium/aquarium-sprite.png') no-repeat; bottom: 0; right: 100px;opacity: 0;  }
 #aquarium-people.aqua1 { width: 915px; height: 483px; background-position: -0px -0px; }
 #aquarium-people.aqua2 { width: 893px; height: 467px; background-position: -907px -979px;}
 #aquarium-people.aqua3 { width: 888px; height: 475px; background-position: -903px -493px; }
@@ -295,8 +295,8 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 #decorations { position:absolute; width:1400px; height:312px; background:url('../img/scene-pool/decorations.png') no-repeat; bottom: 466px;left:0px; }
 #text-pool { position:absolute; width:332px;height:217px; background:url('../img/scene-pool/text-pool.png') no-repeat;left: 50%; margin-left:  -177px; top: 50px; z-index: 50; opacity: 0; }
-#back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; bottom: 164px;left:860px;  }
-#front-splash { position:absolute; width:1147px; height:385px; background:url('../img/scene-pool/front-splash.png') no-repeat; bottom: 0;left:182px;  }
+#back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; bottom: 164px;left:640px;  }
+#front-splash { position:absolute; width:1147px; height:385px; background:url('../img/scene-pool/front-splash.png') no-repeat; bottom: 0;left:144px;  }
 
 
 #phelps { position:absolute;background: url('../img/scene-pool/phelps-sprite.png') no-repeat; left:100px; bottom:400px; }
@@ -341,7 +341,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #phelps.phelps42 { width: 89px; height: 66px; background-position: -197px -1368px;}
 
 
-#swimmers { position:absolute; bottom: 0; left:400px; background: url('../img/scene-pool/swimmers.png') no-repeat; }
+#swimmers { position:absolute; bottom: 0; left:485px; background: url('../img/scene-pool/swimmers.png') no-repeat; opacity: 0;  }
 #swimmers.swimmers1 { width: 546px; height: 363px; background-position: -2339px -404px; }
 #swimmers.swimmers2 { width: 546px; height: 393px; background-position: -2339px -0px; }
 #swimmers.swimmers3 { width: 555px; height: 397px; background-position: -1751px -1771px; }
@@ -376,7 +376,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: 0;left:0px; }
 #text-truck { position:absolute; width:354px; height:214px; background:url('../img/scene-pool/text-truck.png') no-repeat; bottom: 119px;left:162px; }
 
-#businessmen { position:absolute; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat; }
+#businessmen { position:absolute; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat; opacity: 0; }
 #businessmen.businessmen1 { width: 638px; height: 480px; background-position: -2245px -2445px; }
 #businessmen.businessmen2 { width: 638px; height: 480px; background-position: -2260px -1954px; }
 #businessmen.businessmen3 { width: 638px; height: 480px; background-position: -2318px -1463px; }

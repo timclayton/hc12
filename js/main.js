@@ -221,6 +221,7 @@ window.onload = function() {
 		], 
 		
 		[ 	//scene 5
+		  {id:document.getElementById("drummers"), start: 5., end: 5.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
 			{id:document.getElementById("clouds-2"), start: 5.0, end: 5.99, x: 100, y: 5, type:"translate"},
@@ -240,6 +241,7 @@ window.onload = function() {
 		],
 
 		[ //scene 8 - aquarium
+			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("bubbles-1"), start: 8.0, end: 8.99, x: 0, y: -300, type:"translate"},
 			{id:document.getElementById("bubbles-2"), start: 8.0, end: 8.99, x: 0, y: -350, type:"translate"},
 			{id:document.getElementById("bubbles-3"), start: 8.0, end: 8.99, x: 0, y:-500, type:"translate"},
@@ -251,12 +253,13 @@ window.onload = function() {
 		],
 
 		[ //scene 9 - pool
+			{id:document.getElementById("swimmers"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-pool"), start: 9.4, end: 9.5, x: 1, y: 0, type:"opacity"},
 		 	// {id:document.getElementById("phelps"), start: 9.1, end: 9.7, x: -500, y: 0, type:"translate"},
 		 ],
 
 		 [ //scene 10 - truck
-			
+			{id:document.getElementById("businessmen"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"}
 		 ],
 
 		 [ //scene 11 
