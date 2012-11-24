@@ -119,7 +119,8 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene7 { height: 6000px; }
 #scene8 { height: 10000px; }
 #scene9 { height: 14000px; }
-#scene10 { height: 14000px; }
+#scene10 { height: 10000px; }
+#scene11 { height: 10000px; }
 
 /* ===== Backgrounds ===== */
 
@@ -132,7 +133,10 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene7 .bg { background: tan; }
 #scene8 .bg { background:  #B51428 url('../img/scene-aquarium/bg.jpg') left bottom repeat fixed;}
 #scene9 .bg { background:  #B51428 url('../img/scene-pool/bg.jpg') left bottom repeat fixed;}
-#scene10 .bg { background:  blue;}
+#scene10 .bg { background:  #B51428 url('../img/scene-truck/bg.jpg') left bottom repeat fixed; }
+#scene11 .bg { background:  blue;}
+
+.prev div { display: none; }
 
 /* ===== Scene 1 ===== */
 
@@ -366,6 +370,11 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #swimmers.swimmers26 { width: 442px; height: 368px; background-position: -2317px -1771px; }
 #swimmers.swimmers27 { width: 439px; height: 368px; background-position: -1045px -2150px; }
 #swimmers.swimmers28 { width: 430px; height: 368px; background-position: -0px -2440px; }
+
+/* ===== Scene 10 - Truck ===== */
+
+
+
 
 /* ===== Independent Animations ===== */
 

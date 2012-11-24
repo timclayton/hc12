@@ -159,7 +159,8 @@ window.onload = function() {
 		{scene:7, start:46000, end:52000},
 		{scene:8, start:52000, end:62000},
 		{scene:9, start:62000, end:76000},
-		{scene:10, start:76000, end:90000}
+		{scene:10, start:76000, end:86000},
+		{scene:10, start:86000, end:90000}
 	
 	]
 	
@@ -253,7 +254,11 @@ window.onload = function() {
 		 	// {id:document.getElementById("phelps"), start: 9.1, end: 9.7, x: -500, y: 0, type:"translate"},
 		 ],
 
-		 [ //scene 10 
+		 [ //scene 10 - truck
+			
+		 ],
+
+		 [ //scene 11 
 			
 		 ]
 
@@ -310,6 +315,10 @@ window.onload = function() {
 		[ // scene 10 
 			
 			
+		],
+
+		[ // scene 11
+
 		]
 	
 	]
