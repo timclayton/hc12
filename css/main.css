@@ -236,7 +236,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 /* ===== Scene 8 - Aquarium  ===== */
 
-#aquarium-people { width:915px; height:483px; background: url('../img/scene-aquarium/aquarium-sprite.png') no-repeat; bottom: 0; right: 100px; }
+#aquarium-people { position:absolute; width:915px; height:483px; background: url('../img/scene-aquarium/aquarium-sprite.png') no-repeat; bottom: 0; right: 100px; }
 #aquarium-people.aqua1 { width: 915px; height: 483px; background-position: -0px -0px; }
 #aquarium-people.aqua2 { width: 893px; height: 467px; background-position: -907px -979px;}
 #aquarium-people.aqua3 { width: 888px; height: 475px; background-position: -903px -493px; }
