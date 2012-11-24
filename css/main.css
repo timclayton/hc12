@@ -118,6 +118,8 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene6 { height: 6000px; }
 #scene7 { height: 6000px; }
 #scene8 { height: 10000px; }
+#scene9 { height: 14000px; }
+#scene10 { height: 14000px; }
 
 /* ===== Backgrounds ===== */
 
@@ -129,6 +131,8 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene6 .bg { background: orange; }
 #scene7 .bg { background: tan; }
 #scene8 .bg { background:  #B51428 url('../img/scene-aquarium/bg.jpg') left bottom repeat fixed;}
+#scene9 .bg { background:  #B51428 url('../img/scene-pool/bg.jpg') left bottom repeat fixed;}
+#scene10 .bg { background:  blue;}
 
 /* ===== Scene 1 ===== */
 
@@ -283,6 +287,85 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #aquarium-people.aqua9 { width: 892px; height: 474px; background-position: -0px -493px; }
 #aquarium-people.aqua0 { width: 896px; height: 470px; background-position: -0px -979px; }
 
+/* ===== Scene 9 - Pool ===== */
+
+#decorations { position:absolute; width:1400px; height:312px; background:url('../img/scene-pool/decorations.png') no-repeat; bottom: 466px;left:0px; }
+#text-pool { position:absolute; width:332px;height:217px; background:url('../img/scene-pool/text-pool.png') no-repeat;left: 50%; margin-left:  -177px; top: 50px; z-index: 50; opacity: 0; }
+#back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; bottom: 164px;left:860px;  }
+#front-splash { position:absolute; width:1147px; height:385px; background:url('../img/scene-pool/front-splash.png') no-repeat; bottom: 0;left:182px;  }
+
+
+#phelps { position:absolute;background: url('../img/scene-pool/phelps-sprite.png') no-repeat; left:100px; bottom:400px; }
+
+#phelps.phelps01 { width: 54px; height: 84px; background-position: -1681px -1368px; }
+#phelps.phelps02 { width: 138px; height: 103px; background-position: -607px -756px; }
+#phelps.phelps03 { width: 150px; height: 117px; background-position: -1320px -1424px; }
+#phelps.phelps04 { width: 190px; height: 129px; background-position: -1480px -1284px; }
+#phelps.phelps05 { width: 203px; height: 131px; background-position: -739px -1284px; }
+#phelps.phelps06 { width: 205px; height: 131px; background-position: -523px -1284px; }
+#phelps.phelps07 { width: 242px; height: 164px; background-position: -1524px -201px; }
+#phelps.phelps08 { width: 227px; height: 167px; background-position: -1503px -949px; }
+#phelps.phelps09 { width: 288px; height: 166px; background-position: -1454px -381px; }
+#phelps.phelps10 { width: 247px; height: 187px; background-position: -1506px -558px; }
+#phelps.phelps11 { width: 403px; height: 208px; background-position: -414px -925px; }
+#phelps.phelps12 { width: 403px; height: 217px; background-position: -0px -925px; }
+#phelps.phelps13 { width: 447px; height: 217px; background-position: -761px -697px; }
+#phelps.phelps14 { width: 359px; height: 216px; background-position: -828px -925px; } 
+#phelps.phelps15 { width: 271px; height: 214px; background-position: -1198px -1139px; }
+#phelps.phelps16 { width: 171px; height: 165px; background-position: -341px -1284px; }
+#phelps.phelps19 { width: 184px; height: 108px; background-position: -953px -1424px; }
+#phelps.phelps20 { width: 223px; height: 146px; background-position: -1503px -1127px; }
+#phelps.phelps21 { width: 257px; height: 190px; background-position: -1524px -0px; }
+#phelps.phelps22 { width: 276px; height: 229px; background-position: -1219px -669px; }
+#phelps.phelps23 { width: 317px; height: 277px; background-position: -1126px -381px; }
+#phelps.phelps24 { width: 369px; height: 328px; background-position: -381px -381px; }
+#phelps.phelps25 { width: 370px; height: 370px; background-position: -0px -381px; }
+#phelps.phelps26 { width: 370px; height: 370px; background-position: -1143px -0px; }
+#phelps.phelps27 { width: 370px; height: 370px; background-position: -762px -0px; }
+#phelps.phelps28 { width: 370px; height: 370px; background-position: -381px -0px; }
+#phelps.phelps29 { width: 370px; height: 370px; background-position: -0px -0px; }
+#phelps.phelps30 { width: 354px; height: 305px; background-position: -761px -381px; }
+#phelps.phelps31 { width: 273px; height: 219px; background-position: -1219px -909px; }
+#phelps.phelps32 { width: 223px; height: 114px; background-position: -953px -1284px; }
+#phelps.phelps35 { width: 246px; height: 182px; background-position: -1506px -756px; }
+#phelps.phelps36 { width: 330px; height: 168px; background-position: -0px -1152px; }
+#phelps.phelps37 { width: 215px; height: 152px; background-position: -381px -756px; }
+#phelps.phelps38 { width: 186px; height: 121px; background-position: -0px -1424px;}
+#phelps.phelps39 { width: 161px; height: 115px; background-position: -1148px -1424px; }
+#phelps.phelps40 { width: 140px; height: 91px; background-position: -1481px -1424px;}
+#phelps.phelps41 { width: 99px; height: 73px; background-position: -1681px -1284px; }
+#phelps.phelps42 { width: 89px; height: 66px; background-position: -197px -1368px;}
+
+
+#swimmers { position:absolute; bottom: 0; left:400px; background: url('../img/scene-pool/swimmers.png') no-repeat; }
+#swimmers.swimmers01 { width: 546px; height: 363px; background-position: -2339px -404px; }
+#swimmers.swimmers02 { width: 546px; height: 393px; background-position: -2339px -0px; }
+#swimmers.swimmers03 { width: 555px; height: 397px; background-position: -1751px -1771px; }
+#swimmers.swimmers04 { width: 581px; height: 396px; background-position: -0px -1771px; }
+#swimmers.swimmers05 { width: 541px; height: 462px; background-position: -1475px -823px; }
+#swimmers.swimmers06 { width: 510px; height: 464px; background-position: -1751px -1296px; }
+#swimmers.swimmers07 { width: 642px; height: 441px; background-position: -1686px -0px; }
+#swimmers.swimmers08 { width: 639px; height: 407px; background-position: -825px -452px; }
+#swimmers.swimmers09 { width: 624px; height: 367px; background-position: -592px -1771px; }
+#swimmers.swimmers10 { width: 614px; height: 399px; background-position: -614px -1296px; }
+#swimmers.swimmers11 { width: 708px; height: 360px; background-position: -1475px -452px; }
+#swimmers.swimmers12 { width: 850px; height: 364px; background-position: -825px -0px; }
+#swimmers.swimmers13 { width: 680px; height: 369px; background-position: -0px -823px; }
+#swimmers.swimmers14 { width: 814px; height: 471px; background-position: -0px -0px; }
+#swimmers.swimmers15 { width: 603px; height: 414px; background-position: -0px -1296px; }
+#swimmers.swimmers16 { width: 501px; height: 480px; background-position: -1239px -1296px; }
+#swimmers.swimmers17 { width: 591px; height: 332px; background-position: -2194px -778px; }
+#swimmers.swimmers18 { width: 567px; height: 329px; background-position: -2272px -1121px; }
+#swimmers.swimmers19 { width: 567px; height: 299px; background-position: -2272px -1461px; }
+#swimmers.swimmers20 { width: 567px; height: 279px; background-position: -2317px -2150px; }
+#swimmers.swimmers21 { width: 356px; height: 342px; background-position: -2632px -2440px; }
+#swimmers.swimmers22 { width: 368px; height: 415px; background-position: -2253px -2440px; }
+#swimmers.swimmers23 { width: 368px; height: 415px; background-position: -1874px -2440px; }
+#swimmers.swimmers24 { width: 442px; height: 368px; background-position: -592px -2150px; }
+#swimmers.swimmers25 { width: 368px; height: 415px; background-position: -1495px -2440px; }
+#swimmers.swimmers26 { width: 442px; height: 368px; background-position: -2317px -1771px; }
+#swimmers.swimmers27 { width: 439px; height: 368px; background-position: -1045px -2150px; }
+#swimmers.swimmers28 { width: 430px; height: 368px; background-position: -0px -2440px; }
 
 /* ===== Independent Animations ===== */
 

@@ -157,7 +157,9 @@ window.onload = function() {
 		{scene:5, start:33000, end:40000},
 		{scene:6, start:40000, end:46000},
 		{scene:7, start:46000, end:52000},
-		{scene:8, start:52000, end:62000}
+		{scene:8, start:52000, end:62000},
+		{scene:9, start:62000, end:76000},
+		{scene:10, start:76000, end:90000}
 	
 	]
 	
@@ -244,7 +246,17 @@ window.onload = function() {
 			{id:document.getElementById("big-fish"), start: 8.0, end: 8.99, x: -500, y: 20, type:"translate"},
 			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("shark"), start: 8.5, end: 8.99, x: -3000, y: 0, type:"translate"}
-		]
+		],
+
+		[ //scene 9 - pool
+			{id:document.getElementById("text-pool"), start: 9.4, end: 9.5, x: 1, y: 0, type:"opacity"},
+		 	// {id:document.getElementById("phelps"), start: 9.1, end: 9.7, x: -500, y: 0, type:"translate"},
+		 ],
+
+		 [ //scene 10 
+			
+		 ]
+
 
 		
 	
@@ -286,6 +298,17 @@ window.onload = function() {
 		
 		[ // scene 8 - aquarium
 			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3}
+			
+		],
+
+		[ // scene 9 - pool
+			{id:document.getElementById("phelps"), start: 9.0, end: 9.99, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
+			{id:document.getElementById("swimmers"), start: 9.0, end: 9.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2}
+			
+		],
+
+		[ // scene 10 
+			
 			
 		]
 	
