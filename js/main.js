@@ -212,7 +212,7 @@ window.onload = function() {
 		
 		[  // scene 4
 		
-			
+			{id:document.getElementById("poker"), start: 4., end: 4.06, x:1, y: 0, type:"opacity"}
 		
 		], 
 		
@@ -250,22 +250,19 @@ window.onload = function() {
 		],
 		
 		[  // scene 1
-			{id:document.getElementById("wings"), start: 1.0, end: 1.99, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:3}
-		
+			{id:document.getElementById("wings"), start: 1.0, end: 1.99, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:3}		
 		],
 	
 		[  // scene 2
 			{id:document.getElementById("max"), start: 2.35, end: 2.8, prefix: "max", order: [1,2,3,4,5,6], repeat:6}
 		],
 		
-		[  // scene 3
-		
+		[  // scene 3		
 			{id:document.getElementById("ericw"), start: 3.1, end: 3.7, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:2}
 		],
 		
-		[ // scene 4
-			
-			
+		[ // scene 4			
+			{id:document.getElementById("poker"), start: 4, end: 4.9, prefix: "poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:2}
 		],
 
 		[ //scene 5
@@ -273,13 +270,11 @@ window.onload = function() {
 		],
 		
 		[ // scene 6
-			
-			
+					
 		],
 		
 		[ // scene 7
-			
-			
+						
 		],
 		
 		[ // scene 8 - aquarium
