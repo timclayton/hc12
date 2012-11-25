@@ -273,6 +273,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #garage-exterior { position: absolute; bottom: 0; right: 0; width: 1400px; height: 853px; background: url('../img/scene-garageband/garage-exterior.png') no-repeat; }
 #garage-interior { position: absolute; bottom: 92px; right: 358px; width: 628px; height: 505px; background: url('../img/scene-garageband/garage-interior.jpg') no-repeat; }
 #garage-decorations { position: absolute; bottom: 581px; right: 207px; width: 1121px; height: 324px; background: url('../img/scene-garageband/garage-decorations.png') no-repeat; }
+#textbox-scene6 { position: absolute; bottom: 550px; right: 600px; width: 354px; height: 176px; background: url('../img/scene-garageband/text.png') no-repeat; opacity: 0; }
 
 #garageband { position: absolute; bottom: 0; right: 12%; width: 788px; height: 485px; background: url('../img/scene-garageband/garageband-sprite.png') no-repeat; background-position: -0px -3113px; }
 #garageband.garageband1 { width: 788px; height: 485px; right: 14%; background-position: -0px -3113px; }
