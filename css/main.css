@@ -456,6 +456,13 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #celebration.celebration7 { width: 804px; height: 609px; background-position: -877px -0px; }
 #celebration.celebration8 { width: 776px; height: 609px; background-position: -823px -1220px }
 
+#celebration-light { position:absolute; left: 440px; bottom: 230px; background: url('../img/scene-celebration/celebration-light-sprite.png') no-repeat; opacity: 0; }
+#celebration-light.celebration-light1 { width: 578px; height: 455px; background-position: -1110px -553px; }
+#celebration-light.celebration-light2 { width: 498px; height: 542px; background-position: -1090px -0px; }
+#celebration-light.celebration-light3 { width: 527px; height: 568px; background-position: -0px -0px; }
+#celebration-light.celebration-light4 { width: 561px; height: 502px; background-position: -538px -553px; }
+#celebration-light.celebration-light5 { width: 541px; height: 542px; background-position: -538px -0px; }
+
 /*=== Scene 14  - Sky ===== */
 
 .sky { position:absolute;background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat: no-repeat; }
