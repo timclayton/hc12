@@ -160,9 +160,10 @@ window.onload = function() {
 		{scene:8, start:56000, end:66000},
 		{scene:9, start:66000, end:80000},
 		{scene:10, start:80000, end:90000},
-		{scene:10, start:90000, end:100000},
-		{scene:11, start:100000, end:110000}
-	
+		{scene:11, start:90000, end:100000},
+		{scene:12, start:100000, end:110000},
+		{scene:13, start:110000, end:120000},
+		{scene:14, start:120000, end:130000}
 	]
 	
 	var transforms = [	// First array holds global transforms, following are per scene
@@ -262,15 +263,29 @@ window.onload = function() {
 
 		[ //scene 9 - pool
 			{id:document.getElementById("swimmers"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-pool"), start: 9.4, end: 9.5, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-pool"), start: 9.4, end: 9.5, x: 1, y: 0, type:"opacity"}
 		 	// {id:document.getElementById("phelps"), start: 9.1, end: 9.7, x: -500, y: 0, type:"translate"},
 		 ],
 
 		 [ //scene 10 - truck
-			{id:document.getElementById("businessmen"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"}
+			{id:document.getElementById("businessmen"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-truck"), start: 10.3, end: 10.4, x:1, y: 0, type:"opacity"}
 		 ],
 
 		 [ //scene 11 
+			
+		 ],
+
+		 [ //scene 12 
+			
+		 ],
+
+		 [ //scene 13 - celebration 
+			{id:document.getElementById("celebration"), start: 13.0, end: 13.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-celebration"), start: 13.3, end: 13.4, x:1, y: 0, type:"opacity"}
+		 ],
+
+		 [ //scene 14 
 			
 		 ]
 
@@ -330,6 +345,18 @@ window.onload = function() {
 		],
 
 		[ // scene 11
+
+		],
+
+		[ // scene 12
+
+		],
+
+		[ // scene 13 - celebration
+			{id:document.getElementById("celebration"), start: 13.0, end: 13.99, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:3}
+		],
+
+		[ // scene 14
 
 		]
 	

@@ -121,6 +121,9 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene9 { height: 14000px; }
 #scene10 { height: 10000px; }
 #scene11 { height: 10000px; }
+#scene12 { height: 10000px; }
+#scene13 { height: 10000px; }
+#scene14 { height: 10000px; }
 
 /* ===== Backgrounds ===== */
 
@@ -135,6 +138,9 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene9 .bg { background:  #B51428 url('../img/scene-pool/bg.jpg') left bottom repeat fixed;}
 #scene10 .bg { background:  #B51428 url('../img/scene-truck/bg.jpg') left bottom repeat fixed; }
 #scene11 .bg { background:  blue;}
+#scene12 .bg { background:  blue;}
+#scene13 .bg { background:  #B51428 url('../img/scene-celebration/bg.jpg') left bottom repeat fixed; }
+#scene14 .bg { background:  blue;}
 
 .prev div { display: none; }
 
@@ -402,7 +408,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scene 10 - Truck ===== */
 
 #truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: 0;left:0px; }
-#text-truck { position:absolute; width:354px; height:214px; background:url('../img/scene-pool/text-truck.png') no-repeat; bottom: 119px;left:162px; }
+#text-truck { position:absolute; width:354px; height:214px; background:url('../img/scene-truck/text-truck.png') no-repeat; bottom: 119px;left:162px; }
 
 #businessmen { position:absolute; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat; opacity: 0; }
 #businessmen.businessmen1 { width: 638px; height: 480px; background-position: -2245px -2445px; }
@@ -424,6 +430,30 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #businessmen.businessmen18 { width: 760px; height: 639px; background-position: -0px -0px; }
 #businessmen.businessmen19 { width: 760px; height: 568px; background-position: -1579px -0px; }
 #businessmen.businessmen20 { width: 797px; height: 499px; background-position: -1579px -579px; }
+
+/* ===== Scene 11  ===== */
+
+
+/* ===== Scene 12  ===== */
+
+
+/* ===== Scene 13 - Celebration ===== */
+
+#text-celebration { position:absolute; width:315px;height:357px;background: url('../img/scene-celebration/text-celebration.png') no-repeat; bottom: 0; left: 50px; }
+
+#celebration { position:absolute; bottom: 0; left:300px;background: url('../img/scene-celebration/celebration-sprite.png') no-repeat; opacity: 0; }
+#celebration.celebration1 { width: 774px; height: 594px; background-position: -1692px -0px; }
+#celebration.celebration2 { width: 775px; height: 581px; background-position: -1692px -605px; }
+#celebration.celebration3 { width: 747px; height: 573px; background-position: -1656px -1197px; }
+#celebration.celebration4 { width: 866px; height: 576px; background-position: -0px -0px; }
+#celebration.celebration5 { width: 812px; height: 597px; background-position: -0px -620px; }
+#celebration.celebration6 { width: 822px; height: 589px; background-position: -823px -620px; }
+#celebration.celebration7 { width: 804px; height: 609px; background-position: -877px -0px; }
+#celebration.celebration8 { width: 776px; height: 609px; background-position: -823px -1220px }
+
+/*=== Scene 14  ===== */
+
+
 
 /* ===== Independent Animations ===== */
 
