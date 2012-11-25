@@ -115,7 +115,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene3 { height: 8000px; } 
 #scene4 { height: 6000px; }
 #scene5 { height: 7000px; }
-#scene6 { height: 6000px; }
+#scene6 { height: 10000px; }
 #scene7 { height: 6000px; }
 #scene8 { height: 10000px; }
 #scene9 { height: 14000px; }
@@ -129,7 +129,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') left bottom repeat fixed; }
 #scene4 .bg {background: #B51428 url('../img/scene4/bg.jpg') left bottom repeat fixed; }
 #scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; }
-#scene6 .bg { background: orange; }
+#scene6 .bg { background:  #B51428 url('../img/scene-garageband/bg.jpg') left bottom repeat fixed; }
 #scene7 .bg { background: tan; }
 #scene8 .bg { background:  #B51428 url('../img/scene-aquarium/bg.jpg') left bottom repeat fixed;}
 #scene9 .bg { background:  #B51428 url('../img/scene-pool/bg.jpg') left bottom repeat fixed;}
@@ -263,6 +263,34 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #drummers.drummers16 { background-position: 0 -7340px; }
 
 /* ===== Scene 6 - Garage Band  ===== */
+
+#garage-exterior { position: absolute; bottom: 0; right: 0; width: 1400px; height: 853px; background: url('../img/scene-garageband/garage-exterior.png') no-repeat; }
+#garage-interior { position: absolute; bottom: 92px; right: 358px; width: 628px; height: 505px; background: url('../img/scene-garageband/garage-interior.jpg') no-repeat; }
+#garage-decorations { position: absolute; bottom: 581px; right: 207px; width: 1121px; height: 324px; background: url('../img/scene-garageband/garage-decorations.png') no-repeat; }
+
+#garageband { position: absolute; bottom: 0; right: 12%; width: 788px; height: 485px; background: url('../img/scene-garageband/garageband-sprite.png') no-repeat; background-position: -0px -3113px; }
+#garageband.garageband1 { width: 788px; height: 485px; right: 14%; background-position: -0px -3113px; }
+#garageband.garageband2 { width: 755px; height: 484px; right: 15%; background-position: -1593px -3113px; }
+#garageband.garageband3 { width: 833px; height: 487px; right: 10%; background-position: -2770px -1579px; }
+#garageband.garageband4 { width: 840px; height: 507px; right: 17%; background-position: -1826px -2269px; }
+#garageband.garageband5 { width: 789px; height: 494px; right: 16%; background-position: -2687px -2598px; }
+#garageband.garageband6 { width: 820px; height: 499px; right: 18%; background-position: -2985px -1059px; }
+#garageband.garageband7 { width: 899px; height: 495px; right: 8%; background-position: -0px -2269px; }
+#garageband.garageband8 { width: 823px; height: 490px; right: 12%; background-position: -2765px -2087px; }
+#garageband.garageband9 { width: 836px; height: 494px; right: 14%; background-position: -3050px -0px; }
+#garageband.garageband10 { width: 763px; height: 495px; right: 16%; background-position: -809px -3113px; }
+#garageband.garageband11 { width: 788px; height: 523px; right: 14%; background-position: -3050px -515px; }
+#garageband.garageband12 { width: 862px; height: 528px; right: 11%; background-position: -1882px -1720px; }
+#garageband.garageband13 { width: 880px; height: 525px; right: 9%; background-position: -0px -1720px; }
+#garageband.garageband14 { width: 1053px; height: 548px; right: 10%; background-position: -0px -0px; }
+#garageband.garageband15 { width: 921px; height: 547px; right: 13%; background-position: -2043px -564px; }
+#garageband.garageband16 { width: 837px; height: 567px; right: 11%; background-position: -1912px -1132px; }
+#garageband.garageband17 { width: 927px; height: 513px; right: 10%; background-position: -964px -1132px; }
+#garageband.garageband18 { width: 943px; height: 515px; right: 8%; background-position: -0px -1132px; }
+#garageband.garageband19 { width: 960px; height: 478px; right: 8%; background-position: -901px -1720px; }
+#garageband.garageband20 { width: 986px; height: 543px; right: 6%; background-position: -2043px -0px; }
+#garageband.garageband21 { width: 948px; height: 571px; right: 11%; background-position: -1074px -0px; }
+#garageband.garageband22 { width: 885px; height: 496px; right: 12%; background-position: -920px -2269px; }
 
 /* ===== Scene 7 - Miracle 34th ===== */
 

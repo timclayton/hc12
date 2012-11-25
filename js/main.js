@@ -70,7 +70,7 @@ window.onload = function() {
 		element.total = element.order.length;
 	}
 	
-	var calcPercent = function(a,b,c, element) {	
+	var calcPercent = function(a,b,c) {	
 		
 		if ( a <= b ) { return 0 }
 		else { return a >= c ? 1 : ( a - b ) / ( c - b ) }
@@ -89,8 +89,8 @@ window.onload = function() {
 	
 	var transform = function(element, index, array) {
 		
-		if ( array === transforms[0] ) { var animPercent = calcPercent(gPercent,element.start,element.end, element); }  // global transforms 
-		else { var animPercent = calcPercent(sPercent,element.start,element.end, element); }  //  scene specific transforms
+		if ( array === transforms[0] ) { var animPercent = calcPercent(gPercent,element.start,element.end); }  // global transforms 
+		else { var animPercent = calcPercent(sPercent,element.start,element.end); }  //  scene specific transforms
 			
 		var		x 					=  element.x * animPercent,
 					y					=  element.y * animPercent;
@@ -115,9 +115,9 @@ window.onload = function() {
 			
 		}
 		
-		else if ( element.type === "bgShiftX" ) {
+		else if ( element.type === "bgShift" ) {
 			
-			element.id.style.backgroundPosition=x + "% 100%"
+			element.id.style.backgroundPosition=x + "%" + (100-y) + "%"
 			
 		}
 			
@@ -155,13 +155,13 @@ window.onload = function() {
 		{scene:3, start:19000, end:27000},
 		{scene:4, start:27000, end:33000},
 		{scene:5, start:33000, end:40000},
-		{scene:6, start:40000, end:46000},
-		{scene:7, start:46000, end:52000},
-		{scene:8, start:52000, end:62000},
-		{scene:9, start:62000, end:76000},
-		{scene:10, start:76000, end:86000},
-		{scene:10, start:86000, end:96000},
-		{scene:11, start:96000, end:106000}
+		{scene:6, start:40000, end:50000},
+		{scene:7, start:50000, end:56000},
+		{scene:8, start:56000, end:66000},
+		{scene:9, start:66000, end:80000},
+		{scene:10, start:80000, end:90000},
+		{scene:10, start:90000, end:100000},
+		{scene:11, start:100000, end:110000}
 	
 	]
 	
@@ -210,7 +210,7 @@ window.onload = function() {
 			
 			{id:document.getElementById("ericw"), start: 3, end: 3.05, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -800, y: 0, type:"translate"},
-			{id:document.getElementById("s3bg"), start: 3.4, end: 3.6, x: 100, y: 0, type:"bgShiftX"}
+			{id:document.getElementById("s3bg"), start: 3.4, end: 3.6, x: 100, y: 0, type:"bgShift"}
 		
 		],
 		
@@ -233,7 +233,15 @@ window.onload = function() {
 		],
 
 		[ //scene 6
-
+			{id:document.getElementById("garage-interior"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garage-exterior"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garage-decorations"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garageband"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garage-interior"), start: 6.5, end: 6.62, x:0, y: 250, type:"translate"},
+			{id:document.getElementById("garage-exterior"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("garage-decorations"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("garageband"), start: 6.5, end: 6.62, x:0, y: 350, type:"translate"},
+			{id:document.getElementById("garage-bg"), start: 6.5, end: 6.62, x:0, y: 80, type:"bgShift"}
 		],
 
 		[ //scene 7
@@ -298,7 +306,7 @@ window.onload = function() {
 		],
 		
 		[ // scene 6
-					
+			{id:document.getElementById("garageband"), start: 6, end: 6.9, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:2}		
 		],
 		
 		[ // scene 7
