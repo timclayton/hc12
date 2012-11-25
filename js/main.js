@@ -163,7 +163,9 @@ window.onload = function() {
 		{scene:11, start:90000, end:100000},
 		{scene:12, start:100000, end:110000},
 		{scene:13, start:110000, end:120000},
-		{scene:14, start:120000, end:130000}
+		{scene:14, start:120000, end:130000},
+		{scene:15, start:130000, end:140000},
+		{scene:16, start:140000, end:150000}
 	]
 	
 	var transforms = [	// First array holds global transforms, following are per scene
@@ -288,13 +290,31 @@ window.onload = function() {
 			{id:document.getElementById("text-celebration"), start: 13.3, end: 13.4, x:1, y: 0, type:"opacity"}
 		 ],
 
-		 [ //scene 14 
+		 [ //scene 14 - sky
+			{id:document.getElementById("text-sky-1"), start: 14.1, end: 14.2, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-sky-2"), start: 14.5, end: 14.6, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-large"), start: 14.0, end: 14.1, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-large"), start: 14.5, end: 14.7, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-large"), start: 14.0, end: 14.99, x:0, y: -100, type:"translate"},
+			{id:document.getElementById("hearts-large"), start: 14.0, end: 14.99, x:0, y: -100, type:"translate"},
+			{id:document.getElementById("questions-medium"), start: 14.0, end: 14.1, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-medium"), start: 14.5, end: 14.7, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-medium"), start: 14.0, end: 14.99, x:0, y: -60, type:"translate"},
+			{id:document.getElementById("hearts-medium"), start: 14.0, end: 14.99, x:0, y: -60, type:"translate"},
+			{id:document.getElementById("questions-small"), start: 14.0, end: 14.1, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-small"), start: 14.5, end: 14.7, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-small"), start: 14.0, end: 14.99, x:0, y: -30, type:"translate"},
+			{id:document.getElementById("hearts-small"), start: 14.0, end: 14.99, x:0, y: -30, type:"translate"},
+		 ],
+
+		 [ //scene 15 
+			
+		 ],
+
+
+		 [ //scene 16 
 			
 		 ]
-
-
-		
-	
 	]
 	
 	var classShifts = [  // First array holds global class shifts, following are per scene
@@ -360,6 +380,14 @@ window.onload = function() {
 		],
 
 		[ // scene 14
+
+		],
+
+		[ // scene 15
+
+		],
+
+		[ // scene 16
 
 		]
 	
