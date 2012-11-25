@@ -1,3 +1,4 @@
+
 window.onload = function() {
 
 	function getsupportedprop(proparray){
@@ -16,6 +17,7 @@ window.onload = function() {
 					gPercent				=  s / (d-wh),	
 					pos 						=	Math.floor( sPercent ),  //  calculated position					
 					stuck,
+					sections 				=  document.getElementsByTagName("section");
 					play						=  document.getElementById("play"),
 					playToggle			=  document.getElementById("play-toggle"),
 					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']);
@@ -85,8 +87,6 @@ window.onload = function() {
 		}  
 	}
 
-
-	
 	var transform = function(element, index, array) {
 		
 		if ( array === transforms[0] ) { var animPercent = calcPercent(gPercent,element.start,element.end); }  // global transforms 
@@ -139,7 +139,7 @@ window.onload = function() {
 	
 	var scrollIncrement = function() {
 		if ( s >= d - wh ) { stopScroll() }
-		else { window.scrollTo(0,s+=15) }
+		else { window.scrollBy(0,15) }
 	}
 	
 	var stopScroll = function() {
@@ -148,25 +148,29 @@ window.onload = function() {
 		playToggle.className = "paused";
 	}
 	
-	var scenes = [
+	var scenes = new Array();
 	
-		{scene:1, start:0, end:3000},
-		{scene:2, start:3000, end:19000},
-		{scene:3, start:19000, end:27000},
-		{scene:4, start:27000, end:33000},
-		{scene:5, start:33000, end:40000},
-		{scene:6, start:40000, end:50000},
-		{scene:7, start:50000, end:56000},
-		{scene:8, start:56000, end:66000},
-		{scene:9, start:66000, end:80000},
-		{scene:10, start:80000, end:90000},
-		{scene:11, start:90000, end:100000},
-		{scene:12, start:100000, end:110000},
-		{scene:13, start:110000, end:124000},
-		{scene:14, start:124000, end:134000},
-		{scene:15, start:134000, end:144000},
-		{scene:16, start:144000, end:154000}
-	]
+	var createSceneObjects = function() {
+		
+		var start = 0;
+	
+		for (var i = 0; i < sections.length; ++i) {
+			var 	item = sections[i],
+					height = parseInt(item.clientHeight),
+					end = start + height,
+					newScene = new Object();
+			
+			newScene.scene = i + 1;
+			newScene.height = height;
+			newScene.start = start;
+			newScene.end = end;
+			
+			scenes.push(newScene);
+			
+			start = end;
+		}
+	
+	}
 	
 	var transforms = [	// First array holds global transforms, following are per scene
 	
@@ -313,6 +317,7 @@ window.onload = function() {
 		 ],
 
 
+
 		 [ //scene 16 
 			
 		 ]
@@ -394,6 +399,8 @@ window.onload = function() {
 		]
 	
 	]
+	
+	createSceneObjects();
 	
 	for ( i = 0; i < classShifts.length; i++ ) {
 		classShifts[i].forEach(duplicate, this);
