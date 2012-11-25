@@ -438,10 +438,10 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 
 /* ===== Scene 13 - Celebration ===== */
-
+#globe { position:absolute; width:1707px;height:681px;background: url('../img/scene-celebration/globe.png') no-repeat; bottom: -681px; left: 0px; }
 #text-celebration { position:absolute; width:315px;height:357px;background: url('../img/scene-celebration/text-celebration.png') no-repeat; bottom: 0; left: 50px; }
 
-#celebration { position:absolute; bottom: 0; left:300px;background: url('../img/scene-celebration/celebration-sprite.png') no-repeat; opacity: 0; }
+#celebration { position:absolute; bottom: -600px; left:300px;background: url('../img/scene-celebration/celebration-sprite.png') no-repeat; opacity: 0; }
 #celebration.celebration1 { width: 774px; height: 594px; background-position: -1692px -0px; }
 #celebration.celebration2 { width: 775px; height: 581px; background-position: -1692px -605px; }
 #celebration.celebration3 { width: 747px; height: 573px; background-position: -1656px -1197px; }

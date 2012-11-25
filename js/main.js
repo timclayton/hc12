@@ -281,6 +281,8 @@ window.onload = function() {
 		 ],
 
 		 [ //scene 13 - celebration 
+		  {id:document.getElementById("globe"), start: 13.0, end: 13.6, x:0, y: -681, type:"translate"},
+		  {id:document.getElementById("celebration"), start: 13.0, end: 13.6, x:0, y: -600, type:"translate"},
 			{id:document.getElementById("celebration"), start: 13.0, end: 13.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-celebration"), start: 13.3, end: 13.4, x:1, y: 0, type:"opacity"}
 		 ],
