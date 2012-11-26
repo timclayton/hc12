@@ -116,7 +116,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene4 { height: 6000px; }
 #scene5 { height: 7000px; }
 #scene6 { height: 10000px; }
-#scene7 { height: 6000px; }
+#scene7 { height: 10000px; }
 #scene8 { height: 10000px; }
 #scene9 { height: 14000px; }
 #scene10 { height: 10000px; }
@@ -135,7 +135,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene4 .bg {background: #B51428 url('../img/scene4/bg.jpg') left bottom repeat fixed; }
 #scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; }
 #scene6 .bg { background:  #B51428 url('../img/scene-garageband/bg.jpg') left bottom repeat fixed; }
-#scene7 .bg { background: tan; }
+#scene7 .bg { background: #B51428 url('../img/scene-miracle/bg.jpg') left bottom repeat fixed; }
 #scene8 .bg { background:  #B51428 url('../img/scene-aquarium/bg.jpg') left bottom repeat fixed;}
 #scene9 .bg { background:  #B51428 url('../img/scene-pool/bg.jpg') left bottom repeat fixed;}
 #scene10 .bg { background:  #B51428 url('../img/scene-truck/bg.jpg') left bottom repeat fixed; }
@@ -305,6 +305,38 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 /* ===== Scene 7 - Miracle 34th ===== */
 
+#text-miracle { position: absolute; bottom: 550px; right: 600px; width: 332px; height: 217px; background: url('../img/scene-miracle/text-miracle.png') no-repeat; opacity: 0; }
+#flamingo { position:absolute;width:350px; height:605px; bottom: 0; left: -20px; background: url('../img/scene-miracle/flamingo.png') no-repeat;  }
+#snowman { position:absolute;width:300px; height:438px; bottom: 0; right: -20px; background: url('../img/scene-miracle/snowman.png') no-repeat;  }
+#teddy-bear { position:absolute;width:300px; height:438px; bottom: 30px; right: -20px; background: url('../img/scene-miracle/teddy-bear.png') no-repeat;  }
+
+
+#carolers { position:absolute; width: 665px; height: 545px; background: url('../img/scene-miracle/carolers-sprite.png') no-repeat; bottom: 0; left: 200px;opacity: 0; }
+#carolers.carolers2 { width: 665px; height: 545px; background-position: -687px -1647px; }
+#carolers.carolers3 { width: 669px; height: 539px; background-position: -1363px -2192px; }
+#carolers.carolers4 { width: 676px; height: 537px; background-position: -0px -1647px; }
+#carolers.carolers5 { width: 683px; height: 532px; background-position: -2369px -0px; }
+#carolers.carolers6 { width: 695px; height: 541px; background-position: -2339px -544px; }
+#carolers.carolers7 { width: 768px; height: 537px; background-position: -827px -0px; }
+#carolers.carolers8 { width: 722px; height: 531px; background-position: -1606px -544px; }
+#carolers.carolers9 { width: 689px; height: 536px; background-position: -706px -1096px; }
+#carolers.carolers10 { width: 669px; height: 520px; background-position: -3063px -474px; }
+#carolers.carolers11 { width: 683px; height: 530px; background-position: -1363px -1647px; }
+#carolers.carolers12 { width: 677px; height: 534px; background-position: -2057px -1647px; }
+#carolers.carolers13 { width: 681px; height: 525px; background-position: -2043px -2192px; }
+#carolers.carolers14 { width: 695px; height: 527px; background-position: -1406px -1096px; }
+#carolers.carolers15 {width: 668px; height: 518px; background-position: -2801px -1566px; }
+#carolers.carolers16 { width: 816px; height: 521px; background-position: -0px -0px; }
+#carolers.carolers17 { width: 750px; height: 523px; background-position: -0px -544px; }
+#carolers.carolers18 { width: 695px; height: 540px; background-position: -0px -1096px; }
+#carolers.carolers19 { width: 768px; height: 463px; background-position: -3063px -0px; }
+#carolers.carolers20 { width: 632px; height: 532px; background-position: -2745px -2095px; }
+#carolers.carolers21 { width: 590px; height: 518px; background-position: -2735px -2638px; }
+#carolers.carolers22 {width: 752px; height: 533px; background-position: -1606px -0px; }
+#carolers.carolers23 { width: 661px; height: 492px; background-position: -0px -2638px; }
+#carolers.carolers24 { width: 623px; height: 514px; background-position: -672px -2638px; }
+#carolers.carolers25 { width: 632px; height: 550px; background-position: -3045px -1005px; }
+#carolers.carolers26 { width: 678px; height: 540px; background-position: -2112px -1096px; }
 /* ===== Scene 8 - Aquarium  ===== */
 
 #bubbles-1 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 0px;left:-200px;}
