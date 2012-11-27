@@ -177,9 +177,9 @@ window.onload = function() {
 		[  // global
 		
 			{id:document.getElementById("candycane1"), start: 0.01, end: 0.04, x: 60, y: -400, type:"translate"},
-			{id:document.getElementById("snowflakes-mid"), start: 0.02, end: 0.05, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-top"), start: 0.04, end: 0.06, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-bottom"), start: 0.03, end: 0.055, x: 0, y: 2000, type:"translate"}
+			{id:document.getElementById("snowflakes-mid"), start: 0.02, end: 0.1, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-top"), start: 0.04, end: 0.11, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-bottom"), start: 0.03, end: 0.12, x: 0, y: 2000, type:"translate"}
 		
 		],
 		
