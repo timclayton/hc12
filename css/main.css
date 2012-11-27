@@ -146,7 +146,9 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene15 .bg { background:  blue;}
 #scene16 .bg { background:  blue;}
 
-.prev div { display: none; }
+section div { display: none; }
+section.active div {display: block;}
+
 
 /* ===== Scene 1 ===== */
 
@@ -337,6 +339,27 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #carolers.carolers24 { width: 963px; height: 575px; background-position: -1948px -0px; }
 #carolers.carolers25 { width: 963px; height: 575px; background-position: -974px -0px; }
 #carolers.carolers26 { width: 963px; height: 575px; background-position: -0px -0px; }
+
+#miracle-grinch { position:absolute; background: url('../img/scene-miracle/miracle-grinch.png') no-repeat; bottom: 400px; left: 0px;}
+#miracle-grinch.miracle-grinch1 { width: 1400px; height: 600px; background-position: -0px -3666px; }
+#miracle-grinch.miracle-grinch2 { width: 1400px; height: 600px; background-position: -2822px -3055px; }
+#miracle-grinch.miracle-grinch3 { width: 1400px; height: 600px; background-position: -2822px -2444px; }
+#miracle-grinch.miracle-grinch4 { width: 1400px; height: 600px; background-position: -2822px -1833px; }
+#miracle-grinch.miracle-grinch5 { width: 1400px; height: 600px; background-position: -2822px -1222px; }
+#miracle-grinch.miracle-grinch6 { width: 1400px; height: 600px; background-position: -2822px -611px; }
+#miracle-grinch.miracle-grinch7 { width: 1400px; height: 600px; background-position: -2822px -0px; }
+#miracle-grinch.miracle-grinch8 { width: 1400px; height: 600px; background-position: -1411px -3055px; }
+#miracle-grinch.miracle-grinch9 { width: 1400px; height: 600px; background-position: -0px -3055px; }
+#miracle-grinch.miracle-grinch10 { width: 1400px; height: 600px; background-position: -1411px -2444px; }
+#miracle-grinch.miracle-grinch11 { width: 1400px; height: 600px; background-position: -0px -2444px; }
+#miracle-grinch.miracle-grinch12 { width: 1400px; height: 600px; background-position: -1411px -1833px; }
+#miracle-grinch.miracle-grinch13 { width: 1400px; height: 600px; background-position: -0px -1833px; }
+#miracle-grinch.miracle-grinch14 { width: 1400px; height: 600px; background-position: -1411px -1222px; }
+#miracle-grinch.miracle-grinch15 { width: 1400px; height: 600px; background-position: -0px -1222px; }
+#miracle-grinch.miracle-grinch16 { width: 1400px; height: 600px; background-position: -1411px -611px; }
+#miracle-grinch.miracle-grinch17 { width: 1400px; height: 600px; background-position: -0px -611px; }
+#miracle-grinch.miracle-grinch18 { width: 1400px; height: 600px; background-position: -1411px -0px; }
+#miracle-grinch.miracle-grinch19 { width: 1400px; height: 600px; background-position: -0px -0px; }
 /* ===== Scene 8 - Aquarium  ===== */
 
 #bubbles-1 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 0px;left:-200px;}
