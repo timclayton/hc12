@@ -310,7 +310,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #snowman { position:absolute;width:300px; height:438px; bottom: 30px; right: -20px; background: url('../img/scene-miracle/snowman.png') no-repeat;  }
 #teddy-bear { position:absolute;width:300px; height:438px; bottom: 0px; right: -20px; background: url('../img/scene-miracle/teddy-bear.png') no-repeat;  }
 
-#carolers { position:absolute; width: 665px; height: 545px; background: url('../img/scene-miracle/carolers-sprite.png') no-repeat; bottom: 0; left: 200px;opacity: 0; }
+#carolers { position:absolute; width: 963px; height: 575px; background: url('../img/scene-miracle/carolers-sprite.png') no-repeat; bottom: 0; left: 200px;opacity: 0; }
 #carolers.carolers1 { width: 963px; height: 575px; background-position: -974px -3516px; }
 #carolers.carolers2 { width: 963px; height: 575px; background-position: -0px -3516px; }
 #carolers.carolers3 { width: 963px; height: 575px; background-position: -2922px -2930px; }
@@ -351,7 +351,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
 
 
-#aquarium-people { position:absolute; width:915px; height:483px; background: url('../img/scene-aquarium/aquarium-sprite.png') no-repeat; bottom: 0; right: 100px;opacity: 0;  }
+#aquarium-people { position:absolute; width:960px; height:492px; background: url('../img/scene-aquarium/aquarium-sprite.png') no-repeat; bottom: 0; right: 100px;opacity: 0;  }
 #aquarium-people.aqua1 { width: 969px; height: 492px; background-position: -1960px -503px; }
 #aquarium-people.aqua2 { width: 969px; height: 492px; background-position: -1960px -0px; }
 #aquarium-people.aqua3 { width: 969px; height: 492px; background-position: -980px -1509px; }
