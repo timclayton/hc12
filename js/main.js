@@ -253,10 +253,11 @@ window.onload = function() {
 		],
 
 		[ //scene 7 - miracle
+			{id:document.getElementById("s7bg"), start: 7.0, end: 7.99, x: 0, y:-30, type:"bgShift"},
 			{id:document.getElementById("carolers"), start: 7.0, end: 7.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("snowman"), start: 7.0, end: 7.6, x:-20, y: 0, type:"translate"},
-			{id:document.getElementById("teddy-bear"), start: 7.0, end: 7.6, x:-0, y: 0, type:"translate"},
-			{id:document.getElementById("flamingo"), start: 7.0, end: 7.6, x:20, y: 0, type:"translate"},
+			{id:document.getElementById("snowman"), start: 7.0, end: 7.6, x:10, y: -10, type:"translate"},
+			{id:document.getElementById("teddy-bear"), start: 7.0, end: 7.6, x:-10, y: -20, type:"translate"},
+			{id:document.getElementById("flamingo"), start: 7.0, end: 7.6, x:20, y: -10, type:"translate"},
 		],
 
 		[ //scene 8 - aquarium
