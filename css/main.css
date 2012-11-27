@@ -146,9 +146,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene15 .bg { background:  blue;}
 #scene16 .bg { background:  blue;}
 
-section div { display: none; }
-section.active div {display: block;}
-
+.prev div { display: none; }
 
 /* ===== Scene 1 ===== */
 

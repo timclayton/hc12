@@ -102,12 +102,6 @@ window.onload = function() {
 			
 		}
 		
-		else if ( element.type === "size" ) {
-			
-			element.id.style.width=x + '%';
-			element.id.style.height=y + '%'
-			
-		}
 		
 		else if ( element.type === "opacity" ) {
 			
@@ -118,6 +112,13 @@ window.onload = function() {
 		else if ( element.type === "bgShift" ) {
 			
 			element.id.style.backgroundPosition=x + "%" + (100-y) + "%"
+			
+		}
+		
+		else if ( element.type === "size" ) {
+			
+			element.id.style.width=x + '%';
+			element.id.style.height=y + '%'
 			
 		}
 			
