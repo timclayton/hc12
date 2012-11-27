@@ -344,23 +344,24 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #bubbles-3 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 800px;left:-420px;}
 #tree { position:absolute; width:363px;height:461px; background:url('../img/scene-aquarium/tree.png') no-repeat; bottom: 0;left:20px; }
 #garland { position:absolute; width:1400px; height:150px;background:url('../img/scene-aquarium/garland.png') no-repeat; bottom: 200px;left:0; }
-#big-fish { position:absolute; width:542px; height:289px; background:url('../img/scene-aquarium/big-fish.png') no-repeat; top:450px; right:200px; }
-#little-fish-1 { position:absolute; width:352px;height:297px; background:url('../img/scene-aquarium/little-fish-9.png') no-repeat; top:150px; right:200px;  }
-#little-fish-2 { position:absolute; width:480px;height:307px; background:url('../img/scene-aquarium/little-fish-18.png') no-repeat; top:50px; left:200px;  }
+#big-fish { position:absolute; width:542px; height:289px; background:url('../img/scene-aquarium/big-fish.png') no-repeat; top:450px; right:200px; opacity: 0;}
+#little-fish-1 { position:absolute; width:352px;height:297px; background:url('../img/scene-aquarium/little-fish-9.png') no-repeat; top:150px; right:200px; opacity: 0;  }
+#little-fish-2 { position:absolute; width:480px;height:307px; background:url('../img/scene-aquarium/little-fish-18.png') no-repeat; top:50px; left:200px; opacity: 0;}
 #text-aquarium { position:absolute; width:505px;height:177px; background:url('../img/scene-aquarium/text-aquarium.png') no-repeat;left: 50%; margin-left:  -177px; top: 50px; z-index: 50; opacity: 0; }
 #shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
 
+
 #aquarium-people { position:absolute; width:915px; height:483px; background: url('../img/scene-aquarium/aquarium-sprite.png') no-repeat; bottom: 0; right: 100px;opacity: 0;  }
-#aquarium-people.aqua1 { width: 915px; height: 483px; background-position: -0px -0px; }
-#aquarium-people.aqua2 { width: 893px; height: 467px; background-position: -907px -979px;}
-#aquarium-people.aqua3 { width: 888px; height: 475px; background-position: -903px -493px; }
-#aquarium-people.aqua4 { width: 904px; height: 482px; background-position: -926px -0px; }
-#aquarium-people.aqua5 { width: 850px; height: 476px; background-position: -1811px -974px; } 
-#aquarium-people.aqua6 { width: 863px; height: 474px; background-position: -1841px -489px; }
-#aquarium-people.aqua7 { width: 870px; height: 478px; background-position: -907px -1457px; }
-#aquarium-people.aqua8 { width: 866px; height: 478px; background-position: -1841px -0px; }
-#aquarium-people.aqua9 { width: 892px; height: 474px; background-position: -0px -493px; }
-#aquarium-people.aqua0 { width: 896px; height: 470px; background-position: -0px -979px; }
+#aquarium-people.aqua1 { width: 969px; height: 492px; background-position: -1960px -503px; }
+#aquarium-people.aqua2 { width: 969px; height: 492px; background-position: -1960px -0px; }
+#aquarium-people.aqua3 { width: 969px; height: 492px; background-position: -980px -1509px; }
+#aquarium-people.aqua4 { width: 969px; height: 492px; background-position: -0px -1509px; }
+#aquarium-people.aqua5 { width: 969px; height: 492px; background-position: -980px -1006px; }
+#aquarium-people.aqua6 { width: 969px; height: 492px; background-position: -0px -1006px; }
+#aquarium-people.aqua7 { width: 969px; height: 492px; background-position: -980px -503px; }
+#aquarium-people.aqua8 { width: 969px; height: 492px; background-position: -0px -503px; }
+#aquarium-people.aqua9 { width: 969px; height: 492px; background-position: -980px -0px; }
+#aquarium-people.aqua0 { width: 969px; height: 492px; background-position: -0px -0px; }
 
 /* ===== Scene 9 - Pool ===== */
 
