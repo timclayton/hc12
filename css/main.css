@@ -274,6 +274,24 @@ section.active div {display: block;}
 #drummers.drummers15 { background-position: 0 -6860px; }
 #drummers.drummers16 { background-position: 0 -7340px; }
 
+#drummers {  position: absolute; bottom: 0px; right:100px ; background: url('../img/scene5/drummers-sprite.png') no-repeat; background-position: 0px 0px; opacity: 0;  }
+#drummers.drummers1 { width: 825px; height: 442px; background-position: -0px -2265px; }
+#drummers.drummers2 { width: 825px; height: 442px; background-position: -1672px -1812px; }
+#drummers.drummers3 { width: 825px; height: 442px; background-position: -1672px -1359px; }
+#drummers.drummers4 { width: 825px; height: 442px; background-position: -1672px -906px; }
+#drummers.drummers5 { width: 825px; height: 442px; background-position: -1672px -453px; }
+#drummers.drummers6 { width: 825px; height: 442px; background-position: -1672px -0px; }
+#drummers.drummers7 { width: 825px; height: 442px; background-position: -836px -1812px; }
+#drummers.drummers8 { width: 825px; height: 442px; background-position: -0px -1812px; }
+#drummers.drummers9 { width: 825px; height: 442px; background-position: -836px -1359px; }
+#drummers.drummers10 { width: 825px; height: 442px; background-position: -0px -1359px; }
+#drummers.drummers11 { width: 825px; height: 442px; background-position: -836px -906px; }
+#drummers.drummers12 { width: 825px; height: 442px; background-position: -0px -906px; }
+#drummers.drummers13 { width: 825px; height: 442px; background-position: -836px -453px; }
+#drummers.drummers14 { width: 825px; height: 442px; background-position: -0px -453px; }
+#drummers.drummers15 { width: 825px; height: 442px; background-position: -836px -0px; }
+#drummers.drummers16 { width: 825px; height: 442px; background-position: -0px -0px; }
+
 /* ===== Scene 6 - Garage Band  ===== */
 
 #garage-exterior { position: absolute; bottom: 0; right: 0; width: 1400px; height: 853px; background: url('../img/scene-garageband/garage-exterior.png') no-repeat; }

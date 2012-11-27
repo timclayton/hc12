@@ -176,10 +176,10 @@ window.onload = function() {
 	
 		[  // global
 		
-			{id:document.getElementById("candycane1"), start: 0.07, end: 0.15, x: 60, y: -400, type:"translate"},
-			{id:document.getElementById("snowflakes-mid"), start: 0.1, end: 0.25, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-top"), start: 0.14, end: 0.3, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-bottom"), start: 0.2, end: 0.55, x: 0, y: 2000, type:"translate"}
+			{id:document.getElementById("candycane1"), start: 0.01, end: 0.04, x: 60, y: -400, type:"translate"},
+			{id:document.getElementById("snowflakes-mid"), start: 0.02, end: 0.05, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-top"), start: 0.04, end: 0.06, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-bottom"), start: 0.03, end: 0.055, x: 0, y: 2000, type:"translate"}
 		
 		],
 		
@@ -234,9 +234,8 @@ window.onload = function() {
 			{id:document.getElementById("clouds-2"), start: 5.0, end: 5.99, x: 100, y: 5, type:"translate"},
 			{id:document.getElementById("monument"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
 			{id:document.getElementById("monument-lights"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
-			{id:document.getElementById("symbols"), start: 5.0, end: 5.99, x:30, y: -150, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 5.45, end: 5.5, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("didgeri-do"), start: 5.25, end: 5.3, x:1, y: 0, type:"opacity"},
+	
 		],
 
 		[ //scene 6
