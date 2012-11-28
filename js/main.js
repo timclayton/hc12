@@ -254,14 +254,20 @@ window.onload = function() {
 			{id:document.getElementById("textbox2"), start: 2.25, end: 2.30, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("near-cliff"), start:2.0, end:2.50, x: 0, y: -1800, type:"translate"},
 			{id:document.getElementById("far-cliff"), start:2.0, end:2.5, x: 0, y:-1200, type:"translate"},
-			{id:document.getElementById("ledge"), start:2.15, end:2.3, x: -628, y:0, type:"translate"},
-			{id:document.getElementById("grinch"), start:2.3, end:2.34, x: 0, y: -718, type:"translate"},
-			{id:document.getElementById("max"), start:2.15, end:2.3, x: -628, y:0, type:"translate"},
-			{id:document.getElementById("lights"), start:2.3, end:2.9, x: 800, y:-1000, type:"translate"},
-			{id:document.getElementById("textbox3"), start: 2.5, end: 2.55, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("back-row-houses"), start:2.6, end:2.7, x: -30, y:-670, type:"translate"},
-			{id:document.getElementById("front-row-houses"), start:2.6, end:2.7, x: 50, y:-400, type:"translate"},
-			{id:document.getElementById("lawn-ornaments"), start:2.6, end:2.7, x: -40, y:0, type:"translate"},
+			{id:document.getElementById("near-cliff"), start:2.5, end:2.70, x: 600, y: -800, type:"translate"},
+			{id:document.getElementById("far-cliff"), start:2.5, end:2.75, x: 600, y:-500, type:"translate"},
+			{id:document.getElementById("ledge"), start:2.15, end:2.3, x: 0, y:-354, type:"translate"},
+			{id:document.getElementById("grinch"), start:2.15, end:2.3, x: 0, y: -696, type:"translate"},
+			{id:document.getElementById("max"), start:2.15, end:2.3, x: 0, y:-354, type:"translate"},
+			{id:document.getElementById("ledge"), start:2.5, end:2.65, x: 700, y:-500, type:"translate"},
+			{id:document.getElementById("grinch"), start:2.5, end:2.65, x: 700, y: -500, type:"translate"},
+			{id:document.getElementById("max"), start:2.50, end:2.65, x: 700, y:-500, type:"translate"},
+			{id:document.getElementById("lights"), start:2.5, end:2.9, x: 800, y:-1000, type:"translate"},
+			{id:document.getElementById("textbox3"), start: 2.55, end: 2.6, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox3"), start: 2.8, end: 2.85, x: -1, y: 0, type:"opacity"},
+			{id:document.getElementById("back-row-houses"), start:2.6, end:2.75, x: -30, y:-670, type:"translate"},
+			{id:document.getElementById("front-row-houses"), start:2.6, end:2.75, x: 50, y:-400, type:"translate"},
+			{id:document.getElementById("lawn-ornaments"), start:2.6, end:2.75, x: -40, y:-380, type:"translate"},
 			{id:document.getElementById("gate"), start:2.8, end:2.9, x: 0, y:-850, type:"translate"}
 		
 		],
@@ -399,7 +405,8 @@ window.onload = function() {
 		],
 	
 		[  // scene 2
-			{id:document.getElementById("max"), start: 2.35, end: 2.8, prefix: "max", order: [1,2,3,4,5,6], repeat:6}
+			{id:document.getElementById("max"), start: 2.15, end: 2.8, prefix: "max", order: [1,2,3,4,5,6], repeat:6},
+			{id:document.getElementById("grinch"), start: 2.15, end: 2.8, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9], repeat:6}
 		],
 		
 		[  // scene 3		

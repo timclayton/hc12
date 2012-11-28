@@ -111,7 +111,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scenes ===== */
 
 #scene1 { height: 3000px; }
-#scene2 { height: 16000px; } 
+#scene2 { height: 24000px; } 
 #scene3 { height: 8000px; } 
 #scene4 { height: 6000px; }
 #scene5 { height: 7000px; }
@@ -178,16 +178,27 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #textbox2 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 253px; background: url('../img/scene2/textbox2.png') no-repeat; opacity: 0; }
 #near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; top:0;  }
 #far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0; top:0; }
-#ledge { position: absolute; width: 628px; height: 206px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:-628px; bottom: 0; }
-#grinch { position: absolute; width: 298px; height: 618px; background: url('../img/scene2/grinch-temp.png') no-repeat 0 0; bottom:-618px; right:0px; }
+#ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
 #lights { position: absolute; width: 1400px; height: 900px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-820px; bottom:-810px;}
 #textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 325px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
 #back-row-houses { position: absolute; width: 1399px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; left: 80px; bottom: -770px; }
 #front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -50px; bottom: -477px; }
-#lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -35px; bottom: -380px; }
+#lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -165px; bottom: -380px; }
 #gate { position: absolute; width: 1400px; height: 830px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:0; bottom: -850px; }
 
-#max { position: absolute; right:-318px; bottom:94px; background: url('../img/scene2/max-sprite.png') no-repeat 0 0; width: 290px; height: 241px; }
+#grinch { position:absolute;  background: url('../img/scene2/grinch.png') no-repeat; bottom:-696px; right:0px; }
+#grinch.grinch1 { width: 399px; height: 696px; background-position: -0px -1414px; }
+#grinch.grinch2 { width: 399px; height: 696px; background-position: -1230px -707px; }
+#grinch.grinch3 { width: 399px; height: 696px; background-position: -1230px -0px; }
+#grinch.grinch4 { width: 399px; height: 696px; background-position: -820px -707px; }
+#grinch.grinch5 { width: 399px; height: 696px; background-position: -410px -707px; }
+#grinch.grinch6 { width: 399px; height: 696px; background-position: -0px -707px; }
+#grinch.grinch7 { width: 399px; height: 696px; background-position: -820px -0px; }
+#grinch.grinch8 { width: 399px; height: 696px; background-position: -410px -0px; }
+#grinch.grinch9 { width: 399px; height: 696px; background-position: -0px -0px; }
+
+
+#max { position: absolute; right:306px; bottom:-262px; background: url('../img/scene2/max-sprite.png') no-repeat 0 0; width: 290px; height: 241px; }
 #max.max1 { background-position: 0 0; }
 #max.max2 { background-position: 0 -241px; }
 #max.max3 { background-position: 0 -482px; }
