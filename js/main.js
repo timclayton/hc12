@@ -18,9 +18,11 @@ window.onload = function() {
 					pos 						=	Math.floor( sPercent ),  //  calculated position					
 					stuck,
 					sections 				=  document.getElementsByTagName("section");
+					scenes 				=  new Array(),
 					play						=  document.getElementById("play"),
 					playToggle			=  document.getElementById("play-toggle"),
-					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']);
+					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']),
+					transformMaps 		=  new Array();
 	
 	window.onresize = function() {
 		
@@ -44,6 +46,7 @@ window.onload = function() {
 		classShifts[0].forEach(shiftClass, this);
 		classShifts[pos].forEach(shiftClass, this);
 		
+		console.log(transformMaps[18].translate);
 	}
 	
 	var stickScene = function() {  //  Adds proper class to current/prev scenes
@@ -91,36 +94,51 @@ window.onload = function() {
 		
 		if ( array === transforms[0] ) { var animPercent = calcPercent(gPercent,element.start,element.end); }  // global transforms 
 		else { var animPercent = calcPercent(sPercent,element.start,element.end); }  //  scene specific transforms
-			
-		var		x 					=  element.x * animPercent,
-					y					=  element.y * animPercent;
 		
-
-		if ( element.type === "translate" ) {			
+		var		x1				= element.x * animPercent,
+					y1				= element.y * animPercent;
 			
-			element.id.style[csstransform]='translate(' + x + 'px,' + y + 'px)'
+		var		x 					= x1 === 0 ? 0 : x1 - element.mapX,
+					y					= y1 === 0 ? 0 : y1 - element.mapY;
+
+		if ( element.type === "translate" ) {
+			
+			transformMaps[element.map].translate[0] += x;
+			transformMaps[element.map].translate[1] += y;
+			
+			element.id.style[csstransform]='translate(' + transformMaps[element.map].translate[0] + 'px,' + transformMaps[element.map].translate[1] + 'px)';
 			
 		}
 		
+		else if ( element.type === "size" ) {
+					
+			transformMaps[element.map].size[0] += x;
+			transformMaps[element.map].size[1] += y;
+			
+			element.id.style.width=transformMaps[element.map].size[0] + '%';
+			element.id.style.height=transformMaps[element.map].size[1] + '%';
+			
+		}
 		
 		else if ( element.type === "opacity" ) {
 			
-			element.id.style.opacity=x
+			transformMaps[element.map].opacity += x;
+			
+			element.id.style.opacity=transformMaps[element.map].opacity;
 			
 		}
 		
 		else if ( element.type === "bgShift" ) {
 			
-			element.id.style.backgroundPosition=x + "%" + (100-y) + "%"
+			transformMaps[element.map].bgShift[0] += x;
+			transformMaps[element.map].bgShift[1] += y;
+			
+			element.id.style.backgroundPosition=transformMaps[element.map].bgShift[0] + "%" + (100 - transformMaps[element.map].bgShift[1]) + "%";
 			
 		}
 		
-		else if ( element.type === "size" ) {
-			
-			element.id.style.width=x + '%';
-			element.id.style.height=y + '%'
-			
-		}
+		element.mapX = x1;
+		element.mapY = y1;
 			
 	}
 	
@@ -149,7 +167,37 @@ window.onload = function() {
 		playToggle.className = "paused";
 	}
 	
-	var scenes = new Array();
+	var createTransformMaps = function() {
+	
+		var elements = new Array();
+		
+		var assignMap = function(element) {
+			var el = element.id.outerHTML;
+			
+			if ( elements.indexOf(el) < 0 ) {
+				elements.push(el);
+				var map = new Object({
+					translate: [0,0],
+					opacity: 0, 
+					size: [0,0], 
+					bgShift: [0,0]
+				});
+				transformMaps.push(map);
+			}
+			
+			element.map = transformMaps.length;
+			element.mapX = 0;
+			element.mapY = 0;
+			
+		}
+	
+		for (var i = 0; i < transforms.length; i++) {
+		
+			transforms[i].forEach(assignMap, this);
+		
+		}
+		
+	}
 	
 	var createSceneObjects = function() {
 		
@@ -159,15 +207,14 @@ window.onload = function() {
 			var 	item = sections[i],
 					height = parseInt(item.clientHeight),
 					end = start + height,
-					newScene = new Object();
+					newScene = new Object({
+						scene: i + 1,
+						height: height,
+						start: start,
+						end: end
+					});
 			
-			newScene.scene = i + 1;
-			newScene.height = height;
-			newScene.start = start;
-			newScene.end = end;
-			
-			scenes.push(newScene);
-			
+			scenes.push(newScene);		
 			start = end;
 		}
 	
@@ -306,8 +353,10 @@ window.onload = function() {
 
 		 [ //scene 14 - sky
 			{id:document.getElementById("text-sky-1"), start: 14.1, end: 14.2, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-sky-1"), start: 14.5, end: 14.6, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-sky-2"), start: 14.5, end: 14.6, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-large"), start: 14.0, end: 14.1, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-large"), start: 14.5, end: 14.7, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-large"), start: 14.5, end: 14.7, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-large"), start: 14.0, end: 14.99, x:0, y: -100, type:"translate"},
 			{id:document.getElementById("hearts-large"), start: 14.0, end: 14.99, x:0, y: -100, type:"translate"},
@@ -411,6 +460,7 @@ window.onload = function() {
 	]
 	
 	createSceneObjects();
+	createTransformMaps();
 	
 	for ( i = 0; i < classShifts.length; i++ ) {
 		classShifts[i].forEach(duplicate, this);
