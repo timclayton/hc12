@@ -169,7 +169,8 @@ window.onload = function() {
 	
 	var createTransformMaps = function() {
 	
-		var elements = new Array();
+		var 	elements = new Array(),
+				mapNumber;
 		
 		var assignMap = function(element) {
 			var el = element.id.outerHTML;
@@ -183,9 +184,13 @@ window.onload = function() {
 					bgShift: [0,0]
 				});
 				transformMaps.push(map);
+				mapNumber = transformMaps.length;
+			}
+			else {
+				mapNumber = elements.indexOf(el) + 1;
 			}
 			
-			element.map = transformMaps.length;
+			element.map = mapNumber;
 			element.mapX = 0;
 			element.mapY = 0;
 			
