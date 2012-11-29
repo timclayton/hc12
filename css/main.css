@@ -177,7 +177,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #textbox1 { position: absolute; top: 4.4%; left: 50%; margin-left:  -177px; width: 354px; height: 253px; background: url('../img/scene2/textbox1.png') no-repeat; opacity: 0; }
 #textbox2 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 253px; background: url('../img/scene2/textbox2.png') no-repeat; opacity: 0; }
 #near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; top:0;  }
-#far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0; top:0; }
+#far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0px; top:0; }
 #ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
 #lights { position: absolute; width: 1400px; height: 900px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-820px; bottom:-810px;}
 #textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 325px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
