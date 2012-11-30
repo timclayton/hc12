@@ -283,14 +283,15 @@ window.onload = function() {
 			{id:document.getElementById("ericw"), start: 3, end: 3.05, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -800, y: 0, type:"translate"},
 			{id:document.getElementById("bunny-2"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("bunny-big"), start: 3.4, end: 3.6, x: -1100, y: 0, type:"translate"},
-			{id:document.getElementById("know-your-memes"), start: 3.4, end: 3.6, x: -1100, y: 0, type:"translate"},
-			{id:document.getElementById("know-your-memes"), start: 3.6, end: 3.65, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("doorway"), start: 3.4, end: 3.6, x: -1152, y: 0, type:"translate"},
-			{id:document.getElementById("couch"), start: 3.4, end: 3.6, x: -1213, y: 0, type:"translate"},
-			//{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.41, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.6, x: -1108, y: 0, type:"translate"},
-			{id:document.getElementById("s3bg"), start: 3.4, end: 3.6, x: 100, y: 0, type:"bgShift"}
+			{id:document.getElementById("bunny-big"), start: 3.4, end: 3.6, x: -980, y: 0, type:"translate"},
+			{id:document.getElementById("know-your-memes"), start: 3.4, end: 3.6, x: -980, y: 0, type:"translate"},
+			{id:document.getElementById("know-your-memes"), start: 3.65, end: 3.7, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("doorway"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("couch"), start: 3.4, end: 3.6, x: -950, y: 0, type:"translate"},
+			{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
+			//{id:document.getElementById("s3bg"), start: 3.4, end: 3.6, x: 100, y: 0, type:"bgShift"}
+			{id:document.getElementById("bg-test"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("bg-test"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 		
 		],
 		
@@ -424,7 +425,7 @@ window.onload = function() {
 		],
 		
 		[  // scene 3		
-			{id:document.getElementById("ericw"), start: 3.05, end: 3.5, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:2},
+			{id:document.getElementById("ericw"), start: 3.05, end: 3.5, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:3},
 			{id:document.getElementById("grinch-burbs"), start: 3.7, end: 3.9, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
 		],
 		
