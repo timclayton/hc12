@@ -111,9 +111,9 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scenes ===== */
 
 #scene1 { height: 3000px; }
-#scene2 { height: 24000px; } 
-#scene3 { height: 20000px; } 
-#scene4 { height: 6000px; }
+#scene2 { height: 2400px; } /* 24000 */
+#scene3 { height: 20000px; } /* 20000 */
+#scene4 { height: 16000px; }
 #scene5 { height: 7000px; }
 #scene6 { height: 10000px; }
 #scene7 { height: 10000px; }
@@ -132,7 +132,8 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left top no-repeat fixed; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-2.jpg') left top repeat fixed; }
 #scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') left bottom repeat fixed; } 
-#scene4 .bg {background: #B51428 url('../img/scene4/bg.jpg') left bottom repeat fixed; }
+#scene4 .bg {background:  url('../img/scene4/bg-2.png') left 105% repeat fixed }
+#scene4 .second-bg { background:url('../img/scene4/backroom-3.png') left 105% no-repeat fixed}
 #scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; }
 #scene6 .bg { background:  #B51428 url('../img/scene-garageband/bg.jpg') left bottom repeat fixed; }
 #scene7 .bg { background: #B51428 url('../img/scene-miracle/bg.jpg') left 110% repeat fixed; }
@@ -252,28 +253,29 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 /* ===== Scene 4 ===== */
 
-#poker { position: absolute;width: 1138px; height: 367px; bottom: 0; right: 12%; background: url('../img/scene4/poker-sprite.png') no-repeat; background-position: -0px -3260px; opacity: 0; }
-#poker.poker1 { width: 1138px; height: 367px; background-position: -0px -3260px; }
-#poker.poker2 { width: 1151px; height: 386px; background-position: -2299px -1310px; }
-#poker.poker3 { width: 1152px; height: 386px; background-position: -2308px -913px; }
-#poker.poker4 { width: 1150px; height: 385px; background-position: -2294px -1707px; }
-#poker.poker5 { width: 1151px; height: 381px; background-position: -2294px -2103px; }
-#poker.poker6 { width: 1124px; height: 375px; background-position: -0px -2103px; }
-#poker.poker7 { width: 1158px; height: 367px; background-position: -2294px -2495px; }
-#poker.poker8 { width: 1121px; height: 376px; background-position: -2286px -2873px; }
-#poker.poker9 { width: 1123px; height: 429px; background-position: -2308px -473px; }
-#poker.poker10 { width: 1134px; height: 507px; background-position: -0px -1556px; }
-#poker.poker11 { width: 1134px; height: 507px; background-position: -1154px -1038px; }
-#poker.poker12 { width: 1143px; height: 503px; background-position: -0px -1038px; }
-#poker.poker13 { width: 1143px; height: 503px; background-position: -1154px -524px; }
-#poker.poker14 { width: 1143px; height: 503px; background-position: -0px -524px; }
-#poker.poker15 { width: 1138px; height: 503px; background-position: -1145px -2070px; }
-#poker.poker16 { width: 1138px; height: 503px; background-position: -1145px -1556px; }
-#poker.poker17 { width: 1140px; height: 513px; background-position: -1151px -0px; }
-#poker.poker18 { width: 1140px; height: 513px; background-position: -0px -0px; }
-#poker.poker19 { width: 1141px; height: 462px; background-position: -2302px -0px; }
-#poker.poker20 { width: 1141px; height: 462px; background-position: -1134px -2584px; }
-#poker.poker21 { width: 1123px; height: 472px; background-position: -0px -2584px; }
+
+#poker { position: absolute; bottom: -40px; right: 12%; background: url('../img/scene4/poker-sprite.png') no-repeat; background-position: -0px -3260px; opacity: 0; }
+#poker.poker1 { width: 1208px; height: 524px; background-position: -3657px -1070px; }
+#poker.poker2 { width: 1208px; height: 524px; background-position: -0px -1605px; }
+#poker.poker3 { width: 1208px; height: 524px; background-position: -0px -1070px; }
+#poker.poker4 { width: 1208px; height: 524px; background-position: -2438px -535px; }
+#poker.poker5 { width: 1208px; height: 524px; background-position: -1219px -535px; }
+#poker.poker6 { width: 1208px; height: 524px; background-position: -0px -535px; }
+#poker.poker7 { width: 1208px; height: 524px; background-position: -2438px -0px; }
+#poker.poker8 { width: 1208px; height: 524px; background-position: -1219px -0px; }
+#poker.poker9 { width: 1208px; height: 524px; background-position: -0px -0px; }
+#poker.poker10 { width: 1208px; height: 524px; background-position: -3657px -535px; }
+#poker.poker11 { width: 1208px; height: 524px; background-position: -3657px -0px; }
+#poker.poker12 { width: 1208px; height: 524px; background-position: -2438px -2675px; }
+#poker.poker13 { width: 1208px; height: 524px; background-position: -1219px -2675px; }
+#poker.poker14 { width: 1208px; height: 524px; background-position: -0px -2675px; }
+#poker.poker15 { width: 1208px; height: 524px; background-position: -2438px -2140px; }
+#poker.poker16 { width: 1208px; height: 524px; background-position: -1219px -2140px; }
+#poker.poker17 { width: 1208px; height: 524px; background-position: -0px -2140px; }
+#poker.poker18 { width: 1208px; height: 524px; background-position: -2438px -1605px; }
+#poker.poker19 { width: 1208px; height: 524px; background-position: -1219px -1605px; }
+#poker.poker20 { width: 1208px; height: 524px; background-position: -2438px -1070px; }
+#poker.poker21 { width: 1208px; height: 524px; background-position: -1219px -1070px; }
 
 #dog { position: absolute; bottom: 0; right: 3%; width: 352px; height: 230px; background: url('../img/scene4/dog.png'); }
 

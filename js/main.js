@@ -46,7 +46,6 @@ window.onload = function() {
 		classShifts[0].forEach(shiftClass, this);
 		classShifts[pos].forEach(shiftClass, this);
 		
-		console.log(transformMaps[18].translate);
 	}
 	
 	var stickScene = function() {  //  Adds proper class to current/prev scenes
@@ -297,7 +296,10 @@ window.onload = function() {
 		
 		[  // scene 4
 		
-			{id:document.getElementById("poker"), start: 4., end: 4.06, x:1, y: 0, type:"opacity"}
+			{id:document.getElementById("poker"), start: 4., end: 4.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("poker"), start: 4., end: 4.05, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("second-bg"), start: 4.0, end: 4.05, x:0, y: -20, type:"bgShift"},
+			{id:document.getElementById("poker-bg"), start: 4.0, end: 4.05, x:0, y: -30, type:"bgShift"}
 		
 		], 
 		
@@ -430,7 +432,8 @@ window.onload = function() {
 		],
 		
 		[ // scene 4			
-			{id:document.getElementById("poker"), start: 4, end: 4.9, prefix: "poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:2}
+			{id:document.getElementById("poker"), start: 4, end: 4.9, prefix: "poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:3},
+			
 		],
 
 		[ //scene 5
