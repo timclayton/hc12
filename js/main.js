@@ -359,15 +359,15 @@ window.onload = function() {
 			{id:document.getElementById("shark"), start: 8.5, end: 8.99, x: -3000, y: 0, type:"translate"}
 		],
 
-		[ //scene 9 - pool
-			{id:document.getElementById("swimmers"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-pool"), start: 9.4, end: 9.5, x: 1, y: 0, type:"opacity"}
-		 	// {id:document.getElementById("phelps"), start: 9.1, end: 9.7, x: -500, y: 0, type:"translate"},
+		 [ //scene 9 - truck
+			{id:document.getElementById("businessmen"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-truck"), start: 9.3, end: 9.4, x:1, y: 0, type:"opacity"}
 		 ],
 
-		 [ //scene 10 - truck
-			{id:document.getElementById("businessmen"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-truck"), start: 10.3, end: 10.4, x:1, y: 0, type:"opacity"}
+		 [ //scene 10 - pool
+			{id:document.getElementById("swimmers"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-pool"), start: 10.4, end: 10.5, x: 1, y: 0, type:"opacity"}
+		 	// {id:document.getElementById("phelps"), start: 9.1, end: 9.7, x: -500, y: 0, type:"translate"},
 		 ],
 
 		 [ //scene 11 
@@ -462,14 +462,16 @@ window.onload = function() {
 			
 		],
 
-		[ // scene 9 - pool
-			{id:document.getElementById("phelps"), start: 9.0, end: 9.99, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
-			{id:document.getElementById("swimmers"), start: 9.0, end: 9.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2}
+		
+
+		[ // scene 9 - truck 
+			{id:document.getElementById("businessmen"), start: 9.0, end: 9.99, prefix: "businessmen", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], repeat:2}
 			
 		],
 
-		[ // scene 10 
-			{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20], repeat:2}
+		[ // scene 10 - pool
+			{id:document.getElementById("phelps"), start: 10.0, end: 10.99, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
+			{id:document.getElementById("swimmers"), start: 10.0, end: 10.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2}
 			
 		],
 
