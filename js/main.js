@@ -298,8 +298,15 @@ window.onload = function() {
 		
 			{id:document.getElementById("poker"), start: 4., end: 4.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("poker"), start: 4., end: 4.05, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("grinch-poker"), start: 4., end: 4.05, x:0, y: -20, type:"translate"},
+			{id:document.getElementById("bg-inner"), start: 4., end: 4.05, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("second-bg"), start: 4.0, end: 4.05, x:0, y: -20, type:"bgShift"},
-			{id:document.getElementById("poker-bg"), start: 4.0, end: 4.05, x:0, y: -30, type:"bgShift"}
+			{id:document.getElementById("poker-bg"), start: 4.0, end: 4.05, x:0, y: -30, type:"bgShift"},
+			{id:document.getElementById("poker"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("grinch-poker"), start: 4.95, end: 4.99, x:0, y: -20, type:"translate"},
+			{id:document.getElementById("bg-inner"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("poker-text"), start: 4.3, end: 4.35, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("poker-text"), start: 4.6, end: 4.65, x:-1, y: 0, type:"opacity"}
 		
 		], 
 		
@@ -433,6 +440,7 @@ window.onload = function() {
 		
 		[ // scene 4			
 			{id:document.getElementById("poker"), start: 4, end: 4.9, prefix: "poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:3},
+			{id:document.getElementById("grinch-poker"), start: 4.5, end: 4.9, prefix: "grinch-poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1},
 			
 		],
 

@@ -111,9 +111,9 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scenes ===== */
 
 #scene1 { height: 3000px; }
-#scene2 { height: 2400px; } /* 24000 */
+#scene2 { height: 24000px; } /* 24000 */
 #scene3 { height: 20000px; } /* 20000 */
-#scene4 { height: 16000px; }
+#scene4 { height: 14000px; }
 #scene5 { height: 7000px; }
 #scene6 { height: 10000px; }
 #scene7 { height: 10000px; }
@@ -278,6 +278,25 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #poker.poker21 { width: 1208px; height: 524px; background-position: -1219px -1070px; }
 
 #dog { position: absolute; bottom: 0; right: 3%; width: 352px; height: 230px; background: url('../img/scene4/dog.png'); }
+#bg-inner { z-index:0; bottom:-40px;}
+#poker-text { position: absolute; bottom: 430px; left: 390px; width: 354px; height: 253px; background: url('../img/scene4/poker-text.png'); }
+
+#grinch-poker {position:absolute; width: 1400px; height: 1000px; bottom:0px; left:0px; background: url('../img/scene4/grinch-poker-2b.jpg') no-repeat;   }
+#grinch-poker.grinch-poker1 { width: 1400px; height: 1000px; background-position: -4233px -2022px; }
+#grinch-poker.grinch-poker2 { width: 1400px; height: 1000px; background-position: -4233px -1011px; }
+#grinch-poker.grinch-poker3 { width: 1400px; height: 1000px; background-position: -4233px -0px; }
+#grinch-poker.grinch-poker4 { width: 1400px; height: 1000px; background-position: -2822px -3033px; }
+#grinch-poker.grinch-poker5 { width: 1400px; height: 1000px; background-position: -1411px -3033px; }
+#grinch-poker.grinch-poker6 { width: 1400px; height: 1000px; background-position: -0px -3033px; }
+#grinch-poker.grinch-poker7 { width: 1400px; height: 1000px; background-position: -2822px -2022px; }
+#grinch-poker.grinch-poker8 { width: 1400px; height: 1000px; background-position: -1411px -2022px; }
+#grinch-poker.grinch-poker9 { width: 1400px; height: 1000px; background-position: -0px -2022px; }
+#grinch-poker.grinch-poker10 { width: 1400px; height: 1000px; background-position: -2822px -1011px; }
+#grinch-poker.grinch-poker11 { width: 1400px; height: 1000px; background-position: -1411px -1011px; }
+#grinch-poker.grinch-poker12 { width: 1400px; height: 1000px; background-position: -0px -1011px; }
+#grinch-poker.grinch-poker13 { width: 1400px; height: 1000px; background-position: -2822px -0px; }
+#grinch-poker.grinch-poker14 { width: 1400px; height: 1000px; background-position: -1411px -0px; }
+#grinch-poker.grinch-poker15 { width: 1400px; height: 1000px; background-position: -0px -0px; }
 
 /* ===== Scene 5 - Drummers ===== */
 
