@@ -120,7 +120,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene8 { height: 10000px; }
 #scene9 { height: 10000px; }
 #scene10 { height: 14000px; }
-#scene11 { height: 10000px; }
+#scene11 { height: 8000px; }
 #scene12 { height: 10000px; }
 #scene13 { height: 10000px; }
 #scene14 { height: 10000px; }
@@ -140,7 +140,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene8 .bg { background:  #B51428 url('../img/scene-aquarium/bg.jpg') left bottom repeat fixed;}
 #scene9 .bg { background:  #B51428 url('../img/scene-truck/bg.jpg') left bottom repeat fixed; }
 #scene10 .bg { background:  #B51428 url('../img/scene-pool/bg.jpg') left bottom repeat fixed;}
-#scene11 .bg { background:  blue;}
+#scene11 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left bottom repeat fixed;}
 #scene12 .bg { background:  blue;}
 #scene13 .bg { background:  #B51428 url('../img/scene-celebration/bg.jpg') left bottom repeat fixed; }
 #scene14 .bg { background:  #B51428 url('../img/scene-sky/bg.jpg') left bottom repeat fixed;}
@@ -182,9 +182,9 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
 #lights { position: absolute; width: 1400px; height: 900px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-100px; bottom:-900px; opacity: .7;}
 #textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 325px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
-#back-row-houses { position: absolute; width: 1399px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; left: 80px; bottom: -770px; }
-#front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -50px; bottom: -477px; }
-#lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -165px; bottom: -380px; }
+#back-row-houses { position: absolute; width: 1399px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; left: 0px; bottom: -770px; }
+#front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: 0px; bottom: -477px; }
+#lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: 0px; bottom: -380px; }
 #gate { position: absolute; width: 1400px; height: 860px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:0; bottom: -870px; }
 
 #grinch { position:absolute;  background: url('../img/scene2/grinch.png') no-repeat; bottom:-696px; right:0px; }
@@ -567,6 +567,55 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 /* ===== Scene 11  ===== */
 
+#stieff-text { position:absolute; width:332px;height:217px; background:url('../img/scene-stieff/stieff-text.png') no-repeat;left: 50%; margin-left:  -177px; bottom:364px; opacity: 0; }
+#foreground {  position:absolute;bottom:0; left:299px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
+#lights-out { position:absolute; bottom: 407px; left:0; width:1399px; height:593px; background:url('../img/scene-stieff/lights-out.jpg') no-repeat; opacity: 0; }
+#midground { position:absolute; bottom: 0px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat; opacity: 0;  }
+
+#fire { position:absolute; bottom: 0; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat;  }
+#fire.fire1 { width: 381px; height: 370px; background-position: -784px -381px; }
+#fire.fire2 { width: 381px; height: 370px; background-position: -784px -0px; }
+#fire.fire3 { width: 381px; height: 370px; background-position: -392px -381px; }
+#fire.fire4 { width: 381px; height: 370px; background-position: -0px -381px; }
+#fire.fire5 { width: 381px; height: 370px; background-position: -392px -0px; }
+#fire.fire6 { width: 381px; height: 370px; background-position: -0px -0px; }
+
+#stieff { position:absolute; bottom: 0; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat; }
+#stieff.stieff1 { width: 879px; height: 474px; background-position: -2670px -485px; }
+#stieff.stieff2 { width: 879px; height: 474px; background-position: -2670px -0px; }
+#stieff.stieff3 { width: 879px; height: 474px; background-position: -1780px -2425px; }
+#stieff.stieff4 { width: 879px; height: 474px; background-position: -890px -2425px; }
+#stieff.stieff5 { width: 879px; height: 474px; background-position: -0px -2425px; }
+#stieff.stieff6 { width: 879px; height: 474px; background-position: -1780px -1940px; }
+#stieff.stieff7 { width: 879px; height: 474px; background-position: -890px -1940px; }
+#stieff.stieff8 { width: 879px; height: 474px; background-position: -0px -1940px; }
+#stieff.stieff9 { width: 879px; height: 474px; background-position: -1780px -1455px; }
+#stieff.stieff10 { width: 879px; height: 474px; background-position: -890px -1455px; }
+#stieff.stieff11 { width: 879px; height: 474px; background-position: -0px -1455px; }
+#stieff.stieff12 { width: 879px; height: 474px; background-position: -1780px -970px; }
+#stieff.stieff13 { width: 879px; height: 474px; background-position: -890px -970px; }
+#stieff.stieff14 { width: 879px; height: 474px; background-position: -0px -970px; }
+#stieff.stieff15 { width: 879px; height: 474px; background-position: -1780px -485px; }
+#stieff.stieff16 { width: 879px; height: 474px; background-position: -890px -485px; }
+#stieff.stieff17 { width: 879px; height: 474px; background-position: -0px -485px; }
+#stieff.stieff18 { width: 879px; height: 474px; background-position: -1780px -0px; }
+#stieff.stieff19 { width: 879px; height: 474px; background-position: -890px -0px; }
+#stieff.stieff20 { width: 879px; height: 474px; background-position: -0px -0px; }
+
+#grinch-stieff { position:absolute; bottom: 0; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat; opacity: 0;  }
+#grinch-stieff.grinch-stieff1 { width: 480px; height: 579px; background-position: -0px -1770px; }
+#grinch-stieff.grinch-stieff2 { width: 480px; height: 579px; background-position: -1473px -1180px; }
+#grinch-stieff.grinch-stieff3 { width: 480px; height: 579px; background-position: -1473px -590px; }
+#grinch-stieff.grinch-stieff4 { width: 480px; height: 579px; background-position: -1473px -0px; }
+#grinch-stieff.grinch-stieff5 { width: 480px; height: 579px; background-position: -982px -1180px; }
+#grinch-stieff.grinch-stieff6 { width: 480px; height: 579px; background-position: -491px -1180px; }
+#grinch-stieff.grinch-stieff7 { width: 480px; height: 579px; background-position: -0px -1180px; }
+#grinch-stieff.grinch-stieff8 { width: 480px; height: 579px; background-position: -982px -590px; }
+#grinch-stieff.grinch-stieff9 { width: 480px; height: 579px; background-position: -491px -590px; }
+#grinch-stieff.grinch-stieff10 { width: 480px; height: 579px; background-position: -0px -590px; }
+#grinch-stieff.grinch-stieff11 { width: 480px; height: 579px; background-position: -982px -0px; }
+#grinch-stieff.grinch-stieff12 { width: 480px; height: 579px; background-position: -491px -0px; }
+#grinch-stieff.grinch-stieff13 { width: 480px; height: 579px; background-position: -0px -0px; }
 
 /* ===== Scene 12  ===== */
 

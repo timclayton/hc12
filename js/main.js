@@ -266,14 +266,14 @@ window.onload = function() {
 			{id:document.getElementById("lights"), start:2.6, end:2.8, x: 0, y:-800, type:"translate"},
 			{id:document.getElementById("textbox3"), start: 2.55, end: 2.6, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox3"), start: 2.8, end: 2.85, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("back-row-houses"), start:2.63, end:2.8, x: -30, y:-670, type:"translate"},
-			{id:document.getElementById("front-row-houses"), start:2.63, end:2.78, x: 50, y:-400, type:"translate"},
-			{id:document.getElementById("lawn-ornaments"), start:2.63, end:2.8, x: -40, y:-380, type:"translate"},
-			{id:document.getElementById("back-row-houses"), start:2.9, end:2.99, x: 0, y:-30, type:"translate"},
-			{id:document.getElementById("front-row-houses"), start:2.9, end:2.99, x: 0, y:-40, type:"translate"},
-			{id:document.getElementById("lawn-ornaments"), start:2.9, end:2.99, x: 0, y:-35, type:"translate"},
-			{id:document.getElementById("lights"), start:2.9, end:2.99, x: 0, y:-20, type:"translate"},
-			{id:document.getElementById("gate"), start:2.78, end:2.99, x: 0, y:-850, type:"translate"}
+			{id:document.getElementById("back-row-houses"), start:2.63, end:2.85, x: -3, y:-670, type:"translate"},
+			{id:document.getElementById("front-row-houses"), start:2.73, end:2.85, x: 5, y:-400, type:"translate"},
+			{id:document.getElementById("lawn-ornaments"), start:2.73, end:2.85, x: -4, y:-380, type:"translate"},
+			// {id:document.getElementById("back-row-houses"), start:2.8, end:2.99, x: 0, y:-30, type:"translate"},
+			// {id:document.getElementById("front-row-houses"), start:2.8, end:2.99, x: 0, y:-40, type:"translate"},
+			// {id:document.getElementById("lawn-ornaments"), start:2.8, end:2.99, x: 0, y:-35, type:"translate"},
+			{id:document.getElementById("lights"), start:2.8, end:2.99, x: 0, y:-20, type:"translate"},
+			{id:document.getElementById("gate"), start:2.82, end:2.9, x: 0, y:-850, type:"translate"}
 		
 		],
 		
@@ -288,7 +288,6 @@ window.onload = function() {
 			{id:document.getElementById("doorway"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("couch"), start: 3.4, end: 3.6, x: -950, y: 0, type:"translate"},
 			{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			//{id:document.getElementById("s3bg"), start: 3.4, end: 3.6, x: 100, y: 0, type:"bgShift"}
 			{id:document.getElementById("bg-test"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("bg-test"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 		
@@ -371,7 +370,11 @@ window.onload = function() {
 		 ],
 
 		 [ //scene 11 
-			
+		 	{id:document.getElementById("stieff"), start: 11.0, end: 11.05, x: 1, y: 0, type:"opacity"},
+		 	{id:document.getElementById("stieff-text"), start: 11.65, end: 11.7, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("lights-out"), start: 11.7, end: 11.73, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("grinch-stieff"), start: 11.4, end: 11.41, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("midground"), start: 11.05, end: 11.1, x: 1, y: 0, type:"opacity"},
 		 ],
 
 		 [ //scene 12 
@@ -476,7 +479,9 @@ window.onload = function() {
 		],
 
 		[ // scene 11
-
+			{id:document.getElementById("fire"), start: 11.0, end: 11.99, prefix: "fire", order: [1,2,3,4,5,6], repeat:10},
+			{id:document.getElementById("stieff"), start: 11.0, end: 11.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:3},
+			{id:document.getElementById("grinch-stieff"), start: 11.4, end: 11.8, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
 		],
 
 		[ // scene 12
