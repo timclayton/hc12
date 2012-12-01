@@ -119,7 +119,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene7 { height: 10000px; }
 #scene8 { height: 10000px; }
 #scene9 { height: 10000px; }
-#scene10 { height: 14000px; }
+#scene10 { height: 12000px; }
 #scene11 { height: 8000px; }
 #scene12 { height: 10000px; }
 #scene13 { height: 10000px; }
@@ -462,7 +462,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scene 9 - Truck ===== */
 
 #truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: 0;left:0px; }
-#text-truck { position:absolute; width:354px; height:214px; background:url('../img/scene-truck/text-truck.png') no-repeat; bottom: 119px;left:162px; }
+#text-truck { position:absolute; width:314px; height:175px; background:url('../img/scene-truck/text-truck.png') no-repeat; bottom: 119px;left:162px; }
 
 #businessmen { position:absolute; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat; opacity: 0; }
 #businessmen.businessmen1 { width: 638px; height: 480px; background-position: -2245px -2445px; }
@@ -488,7 +488,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scene 10 - Pool ===== */
 
 #decorations { position:absolute; width:1400px; height:312px; background:url('../img/scene-pool/decorations.png') no-repeat; bottom: 466px;left:0px; }
-#text-pool { position:absolute; width:332px;height:217px; background:url('../img/scene-pool/text-pool.png') no-repeat;left: 50%; margin-left:  -177px; top: 50px; z-index: 50; opacity: 0; }
+#text-pool { position:absolute; width:333px;height:177px; background:url('../img/scene-pool/text-pool.png') no-repeat;left: 50%; margin-left:  -177px; bottom: 450px; z-index: 50; opacity: 0; }
 #back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; bottom: 164px;left:640px;  }
 #front-splash { position:absolute; width:1147px; height:385px; background:url('../img/scene-pool/front-splash.png') no-repeat; bottom: 0;left:144px;  }
 
