@@ -95,9 +95,11 @@ textarea {
 
 #preload { display: none; }
    
-#play-toggle { display: block; position: fixed; width:48px; height: 39px; background: url(../img/global/controls.png) no-repeat top left; top:20px; right:20px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em; }
-#play-toggle.paused { background-position: 0 100%; }
-#play-toggle.playing { background-position: 0 0; }
+#play-toggle { display: block; position: fixed; width:30px; height: 35px; background: url(../img/global/controls.png) no-repeat -30px top; top:20px; right:50px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em; cursor: pointer;}
+#play-toggle.paused { background-position: -30px -35px; }
+#play-toggle.playing { background-position: -30px 0px; }
+#rewind { display: block; position: fixed; width:30px; height: 35px; background: url(../img/global/controls.png) no-repeat 0px top; top:20px; right:80px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em;  cursor: pointer;}
+#fastforward { display: block; position: fixed; width:30px; height: 35px; background: url(../img/global/controls.png) no-repeat -58px top; top:20px; right:20px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em; cursor: pointer;}
 
 
 section { position: relative; }
@@ -136,7 +138,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene4 .second-bg { background:url('../img/scene4/backroom-3.png') left 105% no-repeat fixed}
 #scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; }
 #scene6 .bg { background:  #B51428 url('../img/scene-garageband/bg.jpg') left bottom repeat fixed; }
-#scene7 .bg { background: #B51428 url('../img/scene-miracle/bg.jpg') left 110% repeat fixed; }
+#scene7 .bg { background: #B51428 url('../img/scene-miracle/bg.jpg') left bottom repeat fixed; }
 #scene8 .bg { background:  #B51428 url('../img/scene-aquarium/bg.jpg') left bottom repeat fixed;}
 #scene9 .bg { background:  #B51428 url('../img/scene-truck/bg.jpg') left bottom repeat fixed; }
 #scene10 .bg { background:  #B51428 url('../img/scene-pool/bg.jpg') left bottom repeat fixed;}
@@ -148,6 +150,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene16 .bg { background:  blue;}
 
 .prev div { display: none; }
+.next div { display: none; }
 
 /* ===== Scene 1 ===== */
 
@@ -378,10 +381,10 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 /* ===== Scene 7 - Miracle 34th ===== */
 
-#text-miracle { position: absolute; bottom: 550px; right: 600px; width: 332px; height: 217px; background: url('../img/scene-miracle/text-miracle.png') no-repeat; opacity: 0; }
-#flamingo { position:absolute;width:350px; height:605px; bottom: 0; left: -20px; background: url('../img/scene-miracle/flamingo.png') no-repeat;  }
+#text-miracle { position: absolute; bottom: 350px; right: 600px; width: 332px; height: 217px; background: url('../img/scene-miracle/text-miracle.png') no-repeat; opacity: 0; }
+#flamingo { position:absolute;width:350px; height:605px; bottom: -30px; left: -20px; background: url('../img/scene-miracle/flamingo.png') no-repeat;  }
 #snowman { position:absolute;width:300px; height:438px; bottom: 30px; right: -20px; background: url('../img/scene-miracle/snowman.png') no-repeat;  }
-#teddy-bear { position:absolute;width:300px; height:438px; bottom: 0px; right: -20px; background: url('../img/scene-miracle/teddy-bear.png') no-repeat;  }
+#teddy-bear { position:absolute;width:300px; height:438px; bottom: -170px; right: -20px; background: url('../img/scene-miracle/teddy-bear.png') no-repeat;  }
 
 #carolers { position:absolute; width: 963px; height: 575px; background: url('../img/scene-miracle/carolers-sprite.png') no-repeat; bottom: 0; left: 200px;opacity: 0; }
 #carolers.carolers1 { width: 963px; height: 575px; background-position: -974px -3516px; }
