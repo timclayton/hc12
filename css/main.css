@@ -552,14 +552,14 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #phelps.phelps22 { bottom: 230px; left:82px;  width: 276px; height: 229px; background-position: -1219px -669px; }
 #phelps.phelps23 { bottom: 230px; left:68px;  width: 317px; height: 277px; background-position: -1126px -381px; }
 #phelps.phelps24 { bottom: 230px; left:44px;  width: 369px; height: 328px; background-position: -381px -381px; }
-#phelps.phelps25 { bottom: 200px; left:44px;  width: 370px; height: 370px; background-position: -0px -381px; }
-#phelps.phelps26 { bottom: 200px; left:44px;  width: 370px; height: 370px; background-position: -1143px -0px; }
-#phelps.phelps27 { bottom: 200px; left:44px;  width: 370px; height: 370px; background-position: -762px -0px; }
-#phelps.phelps28 { bottom: 200px; left:44px;  width: 370px; height: 370px; background-position: -381px -0px; }
-#phelps.phelps29 { bottom: 200px; left:44px;  width: 370px; height: 370px; background-position: -0px -0px; }
-#phelps.phelps30 { bottom: 200px; left:44px;  width: 354px; height: 305px; background-position: -761px -381px; }
-#phelps.phelps31 { bottom: 200px; left:44px;  width: 273px; height: 219px; background-position: -1219px -909px; }
-#phelps.phelps32 { bottom: 200px; left:111px;  width: 223px; height: 114px; background-position: -953px -1284px; }
+#phelps.phelps25 { bottom: 220px; left:44px;  width: 370px; height: 370px; background-position: -0px -381px; }
+#phelps.phelps26 { bottom: 220px; left:44px;  width: 370px; height: 370px; background-position: -1143px -0px; }
+#phelps.phelps27 { bottom: 220px; left:44px;  width: 370px; height: 370px; background-position: -762px -0px; }
+#phelps.phelps28 { bottom: 220px; left:44px;  width: 370px; height: 370px; background-position: -381px -0px; }
+#phelps.phelps29 { bottom: 220px; left:44px;  width: 370px; height: 370px; background-position: -0px -0px; }
+#phelps.phelps30 { bottom: 220px; left:44px;  width: 354px; height: 305px; background-position: -761px -381px; }
+#phelps.phelps31 { bottom: 220px; left:44px;  width: 273px; height: 219px; background-position: -1219px -909px; }
+#phelps.phelps32 { bottom: 220px; left:111px;  width: 223px; height: 114px; background-position: -953px -1284px; }
 #phelps.phelps35 { bottom: 180px; left:298px;  width: 246px; height: 182px; background-position: -1506px -756px; }
 #phelps.phelps36 { bottom: 230px; left:266px;  width: 330px; height: 168px; background-position: -0px -1152px; }
 #phelps.phelps37 { bottom: 300px; left:535px;  width: 215px; height: 152px; background-position: -381px -756px; }
@@ -603,7 +603,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /* ===== Scene 11  ===== */
 
 #stieff-text { position:absolute; width:332px;height:217px; background:url('../img/scene-stieff/stieff-text.png') no-repeat;left: 50%; margin-left:  -177px; bottom:364px; opacity: 0; }
-#foreground {  position:absolute;bottom:0; left:299px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
+#foreground {  position:absolute;bottom:0; left:329px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
 #lights-out { position:absolute; bottom: 407px; left:0; width:1399px; height:593px; background:url('../img/scene-stieff/lights-out.jpg') no-repeat; opacity: 0; }
 #midground { position:absolute; bottom: 0px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat; opacity: 0;  }
 

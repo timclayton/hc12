@@ -385,8 +385,8 @@ window.onload = function() {
 		 	{id:document.getElementById("stieff"), start: 11.0, end: 11.05, x: 1, y: 0, type:"opacity"},
 		 	{id:document.getElementById("stieff-text"), start: 11.65, end: 11.7, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("lights-out"), start: 11.7, end: 11.73, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("grinch-stieff"), start: 11.4, end: 11.41, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("midground"), start: 11.05, end: 11.1, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("grinch-stieff"), start: 11.5, end: 11.51, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("midground"), start: 11.00, end: 11.05, x: 1, y: 0, type:"opacity"},
 		 ],
 
 		 [ //scene 12 - sleeping
@@ -514,7 +514,7 @@ window.onload = function() {
 		[ // scene 11
 			{id:document.getElementById("fire"), start: 11.0, end: 11.99, prefix: "fire", order: [1,2,3,4,5,6], repeat:10},
 			{id:document.getElementById("stieff"), start: 11.0, end: 11.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:3},
-			{id:document.getElementById("grinch-stieff"), start: 11.4, end: 11.8, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
+			{id:document.getElementById("grinch-stieff"), start: 11.5, end: 11.85, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
 		],
 
 		[ // scene 12 - sleeping
