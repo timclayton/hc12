@@ -352,7 +352,6 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 #garage-exterior { position: absolute; bottom: 0; right: 0; width: 1400px; height: 853px; background: url('../img/scene-garageband/garage-exterior.png') no-repeat; }
 #garage-interior { position: absolute; bottom: 92px; right: 358px; width: 628px; height: 505px; background: url('../img/scene-garageband/garage-interior.jpg') no-repeat; }
-#garage-decorations { position: absolute; bottom: 581px; right: 207px; width: 1121px; height: 324px; background: url('../img/scene-garageband/garage-decorations.png') no-repeat; }
 #textbox-scene6 { position: absolute; bottom: 550px; right: 600px; width: 354px; height: 176px; background: url('../img/scene-garageband/text.png') no-repeat; opacity: 0; }
 
 #garageband { position: absolute; bottom: 0; right: 12%; width: 788px; height: 485px; background: url('../img/scene-garageband/garageband-sprite.png') no-repeat; background-position: -0px -3113px; }
@@ -378,6 +377,39 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #garageband.garageband20 { width: 986px; height: 543px; right: 6%; background-position: -2043px -0px; }
 #garageband.garageband21 { width: 948px; height: 571px; right: 11%; background-position: -1074px -0px; }
 #garageband.garageband22 { width: 885px; height: 496px; right: 12%; background-position: -920px -2269px; }
+
+#garage-grinch { position: absolute; bottom: 196px; right: -15px; background: url('../img/scene-garageband/grinch-sprite.png') no-repeat; width: 1400px; height: 825px; background-position: -4203px -0px; opacity: 0; }
+#garage-grinch.grinch1 { background-position: -4203px -0px; }
+#garage-grinch.grinch2 { background-position: -2802px -3304px; }
+#garage-grinch.grinch3 { background-position: -1401px -3304px; }
+#garage-grinch.grinch4 { background-position: -0px -3304px; }
+#garage-grinch.grinch5 { background-position: -2802px -2478px; }
+#garage-grinch.grinch6 { background-position: -1401px -2478px; }
+#garage-grinch.grinch7 { background-position: -0px -2478px; }
+#garage-grinch.grinch8 { background-position: -2802px -1652px; }
+#garage-grinch.grinch9 { background-position: -1401px -1652px; }
+#garage-grinch.grinch10 { background-position: -0px -1652px; }
+#garage-grinch.grinch11 { background-position: -2802px -826px; }
+#garage-grinch.grinch12 { background-position: -1401px -826px; }
+#garage-grinch.grinch13 { background-position: -0px -826px; }
+#garage-grinch.grinch14 { background-position: -2802px -0px; }
+#garage-grinch.grinch15 { background-position: -1401px -0px; }
+#garage-grinch.grinch16 { background-position: -0px -0px; }
+
+#garage-decorations { position: absolute; bottom: 581px; right: 207px; background: url('../img/scene-garageband/decorations-sprite.png') no-repeat; width: 1125px; height: 325px; background-position: -1126px -1630px; }
+#garage-decorations.decorations1 { background-position: -1126px -1630px; }
+#garage-decorations.decorations2 { background-position: -1126px -1304px; }
+#garage-decorations.decorations3 { background-position: -1126px -978px; }
+#garage-decorations.decorations4 { background-position: -1126px -652px; }
+#garage-decorations.decorations5 { background-position: -1126px -326px; }
+#garage-decorations.decorations6 { background-position: -1126px -0px; }
+#garage-decorations.decorations7 { background-position: -0px -1630px; }
+#garage-decorations.decorations8 { background-position: -0px -1304px; }
+#garage-decorations.decorations9 { background-position: -0px -978px; }
+#garage-decorations.decorations10 { background-position: -0px -652px; }
+#garage-decorations.decorations11 { background-position: -0px -326px; }
+#garage-decorations.decorations12 { background-position: -0px -0px; }
+#garage-decorations.decorations13 { background: none; }
 
 /* ===== Scene 7 - Miracle 34th ===== */
 

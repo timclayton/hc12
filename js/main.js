@@ -333,9 +333,12 @@ window.onload = function() {
 			{id:document.getElementById("textbox-scene6"), start: 6.1, end: 6.2, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("garage-interior"), start: 6.5, end: 6.62, x:0, y: 250, type:"translate"},
 			{id:document.getElementById("garage-exterior"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("textbox-scene6"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
 			{id:document.getElementById("garage-decorations"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
 			{id:document.getElementById("garageband"), start: 6.5, end: 6.62, x:0, y: 350, type:"translate"},
-			{id:document.getElementById("garage-bg"), start: 6.5, end: 6.62, x:0, y: 80, type:"bgShift"}
+			{id:document.getElementById("garage-bg"), start: 6.5, end: 6.62, x:0, y: 80, type:"bgShift"},
+			{id:document.getElementById("garage-grinch"), start: 6.4, end: 6.55, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garage-grinch"), start: 6.5, end: 6.62, x:1, y: 300, type:"translate"}
 		],
 
 		[ //scene 7 - miracle
@@ -480,7 +483,9 @@ window.onload = function() {
 		],
 		
 		[ // scene 6
-			{id:document.getElementById("garageband"), start: 6, end: 6.9, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:2}		
+			{id:document.getElementById("garageband"), start: 6, end: 6.9, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:2},	
+			{id:document.getElementById("garage-grinch"), start: 6.5, end: 6.9, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1},
+			{id:document.getElementById("garage-decorations"), start: 6.5, end: 6.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13], repeat:1}	
 		],
 		
 		[ // scene 7
