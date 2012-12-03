@@ -765,9 +765,9 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 /*=== Scene 14  - Sky ===== */
 
 .sky { position:absolute;background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat: no-repeat; }
-#hearts-large { position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/hearts-large.png'); background-repeat: no-repeat; }
-#hearts-medium { position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px; background-image: url('../img/scene-sky/hearts-medium.png'); background-repeat: no-repeat;}
-#hearts-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/hearts-small.png'); background-repeat: no-repeat;}
+#hearts-large { position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/hearts-large.png'); background-repeat: no-repeat; opacity: 0; }
+#hearts-medium { position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px; background-image: url('../img/scene-sky/hearts-medium.png'); background-repeat: no-repeat; opacity: 0;}
+#hearts-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/hearts-small.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-large {position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/questions-large.png'); background-repeat: no-repeat; }
 #questions-medium {position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px;background-image: url('../img/scene-sky/questions-medium.png'); background-repeat: no-repeat; }
 #questions-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/questions-small.png'); background-repeat: no-repeat; }
