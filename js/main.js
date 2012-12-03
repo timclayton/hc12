@@ -386,8 +386,27 @@ window.onload = function() {
 			{id:document.getElementById("midground"), start: 11.05, end: 11.1, x: 1, y: 0, type:"opacity"},
 		 ],
 
-		 [ //scene 12 
-			
+		 [ //scene 12 - sleeping
+		  {id:document.getElementById("audrey"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("matt"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("diana"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("eric"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("julia"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("katie"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("erika"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("beds-back"), start: 12.0, end: 12.7, x:0, y: 1000, type:"translate"},
+			{id:document.getElementById("julia"), start: 12.0, end: 12.7, x: 0, y: 1000, type:"translate"},
+		  {id:document.getElementById("katie"), start: 12.0, end: 12.7, x: 0, y: 1000, type:"translate"},
+			{id:document.getElementById("beds-mid"), start: 12.0, end: 12.7, x:0, y: 1200, type:"translate"},
+			{id:document.getElementById("diana"), start: 12.0, end: 12.7, x: 0, y: 1200, type:"translate"},
+			{id:document.getElementById("erika"), start: 12.0, end: 12.7, x: 0, y: 1200, type:"translate"},
+			{id:document.getElementById("beds-front"), start: 12.0, end: 12.7, x:0, y: 1300, type:"translate"},
+			{id:document.getElementById("audrey"), start: 12.0, end: 12.7, x: 0, y: 1300, type:"translate"},
+		  {id:document.getElementById("matt"), start: 12.0, end: 12.7, x: 0, y: 1300, type:"translate"},
+		  {id:document.getElementById("eric"), start: 12.0, end: 12.7, x: 0, y: 1300, type:"translate"},
+		  {id:document.getElementById("sleeping-grinch"), start: 12.7, end: 12.75, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("sleeping-grinch"), start: 12.9, end: 12.95, x: -1, y: 0, type:"opacity"},
+		  {id:document.getElementById("sleepingbg"), start: 12.0, end: 12.99, x:0, y: 120, type:"bgShift"}
 		 ],
 
 		 [ //scene 13 - celebration 
@@ -493,8 +512,15 @@ window.onload = function() {
 			{id:document.getElementById("grinch-stieff"), start: 11.4, end: 11.8, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
 		],
 
-		[ // scene 12
-
+		[ // scene 12 - sleeping
+			{id:document.getElementById("audrey"), start: 12.0, end: 12.7, prefix: "audrey", order: [1,2,3,4,5,6,7,8], repeat:6},
+			{id:document.getElementById("diana"), start: 12.0, end: 12.7, prefix: "diana", order: [1,2,3,4,5,6,7], repeat:6},
+			{id:document.getElementById("eric"), start: 12.0, end: 12.7, prefix: "eric", order: [1,2,3,4,5,6,7,8,9,10], repeat:6},
+			{id:document.getElementById("erika"), start: 12.0, end: 12.7, prefix: "erika", order: [1,2,3,4,5,6,7,8], repeat:6},
+			{id:document.getElementById("julia"), start: 12.0, end: 12.7, prefix: "julia", order: [1,2,3,4,5,6,7,8], repeat:6},
+			{id:document.getElementById("katie"), start: 12.0, end: 12.7, prefix: "katie", order: [1,2,3,4,5,6,7], repeat:6},
+			{id:document.getElementById("matt"), start: 12.0, end: 12.7, prefix: "matt", order: [1,2,3,4,5,6,7], repeat:6},
+			{id:document.getElementById("sleeping-grinch"), start: 12.75, end: 12.9, prefix: "sleeping-grinch", order: [1,2,3,4,5,6,7,8,9,10,11], repeat:1},
 		],
 
 		[ // scene 13 - celebration
