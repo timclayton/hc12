@@ -229,29 +229,6 @@ window.onload = function() {
 	
 	}
 	
-	var resetTransforms = function(pos) {
-	
-		var zero = function(element) {
-		
-			element.mapX = 0;
-			element.mapY = 0;
-			
-			transformMaps[element.map].translate = [0,0];
-			transformMaps[element.map].opacity = 0;
-			transformMaps[element.map].size = [0,0];
-			transformMaps[element.map].bgShift = [0,0];
-			
-			console.log(transformMaps[element.map]);
-		
-		}
-		
-		for ( i = pos - 1; i <= pos; i++ ) {
-			
-			transforms[i].forEach(zero, this);
-			
-		}
-		
-	}
 	var transforms = [	// First array holds global transforms, following are per scene
 	
 		[  // global
@@ -599,21 +576,21 @@ window.onload = function() {
 		playToggle.click();
 		pos += 1;
 		stickScene();
-		window.scrollTo(0, scenes[pos-1].start);
+		var diff = (scenes[pos-1].start) - s; 
+		window.scrollBy(0, diff);
 		playToggle.click();
 
 	}
 
 	rewind.onclick = function () {
 		playToggle.click();
-		var x = pos - 2;
-		document.getElementById("scene" + pos).className = "";
-		resetTransforms(pos);
+		document.getElementById("scene" + pos).className = "next";	
 		pos -= 1;
-		document.getElementById("scene" + pos).className = "active";
-		window.scrollTo(0,  scenes[x].start);
 		stickScene();
+		var newPlace = s - scenes[pos].start;
+		window.scrollBy(0,  -newPlace);
 		playToggle.click();
+
 	}
 	
 	play.onclick = function() {
