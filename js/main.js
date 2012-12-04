@@ -57,13 +57,27 @@ window.onload = function() {
 		if ( pos !== 1 ) { document.getElementById("scene" + (pos - 1)).className = "prev"; }
 		stuck = true;
 		
-		if(document.getElementById("audio" + pos)) {
-			if(document.getElementById("audio" + (pos-1))) {
-				console.log("yep");
-					document.getElementById("audio" + (pos-1)).pause();
-			 }
-			document.getElementById("audio" + pos).play();
-		}
+		// if(document.getElementById("audio" + pos)) {
+		// 	if(document.getElementById("audio" + (pos-1))) {
+		// 		var lastAudio = document.getElementById("audio" + (pos-1));
+		// 			//document.getElementById("audio" + (pos-1)).pause();
+
+		// 			var interval = 40; // 200ms interval
+
+		// 			var fadeout = setInterval(
+		// 			  function() {
+		// 			    if (lastAudio.volume > 0) {
+		// 			    	console.log(lastAudio.volume);
+		// 			      lastAudio.volume -= 0.1
+		// 			    }
+		// 			    else {
+		// 			      // Stop the setInterval when 0 is reached
+		// 			      clearInterval(fadeout);
+		// 			    }
+		// 			  }, interval);
+		// 	 }
+		// 	document.getElementById("audio" + pos).play();
+		// }
 
 		
 	}
@@ -376,14 +390,14 @@ window.onload = function() {
 		[ //scene 7 - miracle
 			// {id:document.getElementById("s7bg"), start: 7.0, end: 7.2, x: 0, y:-30, type:"bgShift"},
 			{id:document.getElementById("carolers"), start: 7.0, end: 7.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-miracle"), start: 7.25, end: 7.3, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-miracle"), start: 7.55, end: 7.6, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("snowman"), start: 7.4, end: 7.5, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("teddy-bear"), start: 7.4, end: 7., x:0, y: 100, type:"translate"},
-			{id:document.getElementById("flamingo"), start: 7.4, end: 7.5, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("miracle-grinch"), start: 7.4, end: 7.5, x:0, y: 80, type:"translate"},
-			{id:document.getElementById("carolers"), start: 7.4, end: 7.5, x:0, y: 150, type:"translate"},
-			{id:document.getElementById("s7bg"), start: 7.4, end: 7.5, x:0, y: 120, type:"bgShift"}
+			{id:document.getElementById("text-miracle"), start: 7.15, end: 7.20, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-miracle"), start: 7.45, end: 7.55, x:-1, y: 0, type:"opacity"},
+			// {id:document.getElementById("snowman"), start: 7.4, end: 7.5, x:0, y: 100, type:"translate"},
+			// {id:document.getElementById("teddy-bear"), start: 7.4, end: 7., x:0, y: 100, type:"translate"},
+			{id:document.getElementById("flamingo"), start: 7.5, end: 7.6, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("miracle-grinch"), start: 7.5, end: 7.6, x:0, y: 140, type:"translate"},
+			{id:document.getElementById("carolers"), start: 7.5, end: 7.6, x:0, y: 150, type:"translate"},
+			{id:document.getElementById("s7bg"), start: 7.5, end: 7.6, x:0, y: 80, type:"bgShift"}
 		],
 
 		[ //scene 8 - aquarium
@@ -540,7 +554,7 @@ window.onload = function() {
 		
 		[ // scene 7
 			{id:document.getElementById("carolers"), start: 7.0, end: 7.99, prefix: "carolers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:2},
-			{id:document.getElementById("miracle-grinch"), start: 7.4, end: 7.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:1}	
+			{id:document.getElementById("miracle-grinch"), start: 7.5, end: 7.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:1}	
 		],
 		
 		[ // scene 8 - aquarium

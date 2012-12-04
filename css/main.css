@@ -417,8 +417,8 @@ audio { display: none; }
 
 #text-miracle { position: absolute; bottom: 350px; right: 600px; width: 332px; height: 217px; background: url('../img/scene-miracle/text-miracle.png') no-repeat; opacity: 0; }
 #flamingo { position:absolute;width:350px; height:605px; bottom: -30px; left: -20px; background: url('../img/scene-miracle/flamingo.png') no-repeat;  }
-#snowman { position:absolute;width:300px; height:438px; bottom: 30px; right: -20px; background: url('../img/scene-miracle/snowman.png') no-repeat;  }
-#teddy-bear { position:absolute;width:300px; height:438px; bottom: -170px; right: -20px; background: url('../img/scene-miracle/teddy-bear.png') no-repeat;  }
+/*#snowman { position:absolute;width:300px; height:438px; bottom: 30px; right: -20px; background: url('../img/scene-miracle/snowman.png') no-repeat;  }
+#teddy-bear { position:absolute;width:300px; height:438px; bottom: -170px; right: -20px; background: url('../img/scene-miracle/teddy-bear.png') no-repeat;  }*/
 
 #carolers { position:absolute; width: 963px; height: 575px; background: url('../img/scene-miracle/carolers-sprite.png') no-repeat; bottom: 0; left: 200px;opacity: 0; }
 #carolers.carolers1 { width: 963px; height: 575px; background-position: -974px -3516px; }
