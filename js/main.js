@@ -308,11 +308,11 @@ window.onload = function() {
 		[  // scene 3
 			
 			{id:document.getElementById("ericw"), start: 3, end: 3.05, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -800, y: 0, type:"translate"},
+			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bunny-2"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("bunny-big"), start: 3.4, end: 3.6, x: -980, y: 0, type:"translate"},
-			{id:document.getElementById("know-your-memes"), start: 3.4, end: 3.6, x: -980, y: 0, type:"translate"},
-			{id:document.getElementById("know-your-memes"), start: 3.65, end: 3.7, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("bunny-big"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("know-your-memes"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
+			// {id:document.getElementById("know-your-memes"), start: 3.65, end: 3.7, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("doorway"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("couch"), start: 3.4, end: 3.6, x: -950, y: 0, type:"translate"},
 			{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},

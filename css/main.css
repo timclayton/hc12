@@ -218,7 +218,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #doorway { position:absolute; background: url('../img/scene3/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; }
 #couch { position:absolute; background: url('../img/scene3/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; }
 
-#ericw { position: absolute; bottom: 3%; left: 35%; margin-left:  -215px; width: 350px; height: 606px; background: url('../img/scene3/ericw-sprite.png') no-repeat; background-position: 0px -48px; opacity: 0; }
+/*#ericw { position: absolute; bottom: 3%; left: 35%; margin-left:  -215px; width: 350px; height: 606px; background: url('../img/scene3/ericw-sprite.png') no-repeat; background-position: 0px -48px; opacity: 0; }
 #ericw.ericw0 { background-image: none; }
 #ericw.ericw1 { height: 606px; background-position: 0px -48px; }
 #ericw.ericw2 { height: 610px; background-position: 0px -657px; }
@@ -236,7 +236,26 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #ericw.ericw14 { height: 628px; background-position: -358px -2580px; }
 #ericw.ericw15 { height: 628px; background-position: -358px -3209px; }
 #ericw.ericw16 { height: 608px; background-position: -358px -3853px; }
-#ericw.ericw17 { height: 611px; background-position: -358px -4554px; }
+#ericw.ericw17 { height: 611px; background-position: -358px -4554px; }*/
+
+#ericw { position: absolute; bottom: 3%; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene3/eric-pancakes-sprite.png') no-repeat; opacity: 0;  }
+#ericw.ericw1 { width: 391px; height: 887px; background-position: -804px -1796px; }
+#ericw.ericw2 { width: 391px; height: 887px; background-position: -402px -1796px; }
+#ericw.ericw3 { width: 391px; height: 887px; background-position: -0px -1796px; }
+#ericw.ericw4 { width: 391px; height: 887px; background-position: -2412px -898px; }
+#ericw.ericw5 { width: 391px; height: 887px; background-position: -2412px -0px; }
+#ericw.ericw6 { width: 391px; height: 887px; background-position: -2010px -898px; }
+#ericw.ericw7 { width: 391px; height: 887px; background-position: -1608px -898px; }
+#ericw.ericw8 { width: 391px; height: 887px; background-position: -1206px -898px; }
+#ericw.ericw9 { width: 391px; height: 887px; background-position: -804px -898px; }
+#ericw.ericw10 { width: 391px; height: 887px; background-position: -402px -898px; }
+#ericw.ericw11 { width: 391px; height: 887px; background-position: -0px -898px; }
+#ericw.ericw12 { width: 391px; height: 887px; background-position: -2010px -0px; }
+#ericw.ericw13 { width: 391px; height: 887px; background-position: -1608px -0px; }
+#ericw.ericw14 { width: 391px; height: 887px; background-position: -1206px -0px; }
+#ericw.ericw15 { width: 391px; height: 887px; background-position: -804px -0px; }
+#ericw.ericw16 { width: 391px; height: 887px; background-position: -402px -0px; }
+#ericw.ericw17 { width: 391px; height: 887px; background-position: -0px -0px; }
 
 #grinch-burbs { position:absolute; left: 1150px; bottom:220px; background: url('../img/scene3/grinch.png') no-repeat; }
 #grinch-burbs.grinch-burbs0 { width: 1446px; height: 616px; background: url('../img/scene3/grinch-start.png') no-repeat;  }
@@ -248,7 +267,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #grinch-burbs.grinch-burbs6 { width: 1446px; height: 616px; background-position: -0px -1881px; }
 #grinch-burbs.grinch-burbs7 { width: 1446px; height: 616px; background-position: -1457px -1254px; }
 #grinch-burbs.grinch-burbs8 { width: 1446px; height: 616px; background-position: -0px -1254px; }
-#grinch-burbs.grinch-burbs09 { width: 1446px; height: 616px; background-position: -1457px -627px; }
+#grinch-burbs.grinch-burbs9 { width: 1446px; height: 616px; background-position: -1457px -627px; }
 #grinch-burbs.grinch-burbs10 { width: 1446px; height: 616px; background-position: -0px -627px; }
 #grinch-burbs.grinch-burbs11 { width: 1446px; height: 616px; background-position: -1457px -0px; }
 #grinch-burbs.grinch-burbs12 { width: 1446px; height: 616px; background-position: -0px -0px; }
