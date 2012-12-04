@@ -56,6 +56,14 @@ window.onload = function() {
 		document.getElementById("scene" + pos).className = "active";	
 		if ( pos !== 1 ) { document.getElementById("scene" + (pos - 1)).className = "prev"; }
 		stuck = true;
+		
+		if(document.getElementById("audio" + pos)) {
+			if(document.getElementById("audio" + (pos-1))) {
+				console.log("yep");
+					document.getElementById("audio" + (pos-1)).pause();
+			 }
+			document.getElementById("audio" + pos).play();
+		}
 
 		
 	}
@@ -64,6 +72,7 @@ window.onload = function() {
 	
 		document.getElementById("scene" + next).className = "";
 		stuck = false;
+		
 		
 	}
 	

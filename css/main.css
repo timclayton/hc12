@@ -110,6 +110,8 @@ section { position: relative; }
 
 div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%; min-height: 700px; }
 
+audio { display: none; }
+
 /* ===== Scenes ===== */
 
 #scene1 { height: 3000px; }
@@ -218,25 +220,6 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #doorway { position:absolute; background: url('../img/scene3/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; }
 #couch { position:absolute; background: url('../img/scene3/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; }
 
-/*#ericw { position: absolute; bottom: 3%; left: 35%; margin-left:  -215px; width: 350px; height: 606px; background: url('../img/scene3/ericw-sprite.png') no-repeat; background-position: 0px -48px; opacity: 0; }
-#ericw.ericw0 { background-image: none; }
-#ericw.ericw1 { height: 606px; background-position: 0px -48px; }
-#ericw.ericw2 { height: 610px; background-position: 0px -657px; }
-#ericw.ericw3 { height: 663px; background-position: 0px -1275px; }
-#ericw.ericw4 { height: 608px; background-position: 0px -1972px; }
-#ericw.ericw5 { height: 587px; background-position: 0px -2620px; }
-#ericw.ericw6 { height: 589px; background-position: 0px -3248px; }
-#ericw.ericw7 { height: 605px; background-position: 0px -3856px; }
-#ericw.ericw8 { height: 688px; background-position: 0px -4471px; }
-#ericw.ericw9 { height: 660px; background-position: 0px -5164px; }
-#ericw.ericw10 { height: 655px; background-position: -358px 0px; }
-#ericw.ericw11 { height: 603px; background-position: -358px -661px; }
-#ericw.ericw12 { height: 605px; background-position: -358px -1333px; }
-#ericw.ericw13 { height: 634px; background-position: -358px -1946px; }
-#ericw.ericw14 { height: 628px; background-position: -358px -2580px; }
-#ericw.ericw15 { height: 628px; background-position: -358px -3209px; }
-#ericw.ericw16 { height: 608px; background-position: -358px -3853px; }
-#ericw.ericw17 { height: 611px; background-position: -358px -4554px; }*/
 
 #ericw { position: absolute; bottom: 3%; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene3/eric-pancakes-sprite.png') no-repeat; opacity: 0;  }
 #ericw.ericw1 { width: 391px; height: 887px; background-position: -804px -1796px; }
