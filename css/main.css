@@ -522,6 +522,32 @@ audio { display: none; }
 #businessmen.businessmen19 { width: 760px; height: 568px; background-position: -1579px -0px; }
 #businessmen.businessmen20 { width: 797px; height: 499px; background-position: -1579px -579px; }
 
+#truck-decorations { position:absolute; bottom: 58px; left:0px;background: url('../img/scene-truck/decorations.png') no-repeat; width: 1576px; height: 598px; background-position: -1587px -609px; opacity: 0; }
+#truck-decorations.decorations1 { width: 1576px; height: 598px; background-position: -1587px -609px; }
+#truck-decorations.decorations2 { width: 1576px; height: 598px; background-position: -1587px -0px; }
+#truck-decorations.decorations3 { width: 1576px; height: 598px; background-position: -0px -1218px; }
+#truck-decorations.decorations4 { width: 1576px; height: 598px; background-position: -0px -609px; }
+#truck-decorations.decorations5 { width: 1576px; height: 598px; background-position: -0px -0px; }
+
+#truck-grinch { position:absolute; bottom: 254px; left:98px;background: url('../img/scene-truck/truck-grinch.png') no-repeat; width: 372px; height: 242px; background-position: -1149px -253px;opacity: 0; }
+#truck-grinch.truck-grinch1 { width: 372px; height: 242px; background-position: -1149px -253px; }
+#truck-grinch.truck-grinch2 { width: 372px; height: 242px; background-position: -1149px -0px; }
+#truck-grinch.truck-grinch3 { width: 372px; height: 242px; background-position: -766px -1012px; }
+#truck-grinch.truck-grinch4 { width: 372px; height: 242px; background-position: -383px -1012px; }
+#truck-grinch.truck-grinch5 { width: 372px; height: 242px; background-position: -0px -1012px; }
+#truck-grinch.truck-grinch6 { width: 372px; height: 242px; background-position: -766px -759px; }
+#truck-grinch.truck-grinch7 { width: 372px; height: 242px; background-position: -383px -759px; }
+#truck-grinch.truck-grinch8 { width: 372px; height: 242px; background-position: -0px -759px; }
+#truck-grinch.truck-grinch9 { width: 372px; height: 242px; background-position: -766px -506px; }
+#truck-grinch.truck-grinch10 { width: 372px; height: 242px; background-position: -383px -506px; }
+#truck-grinch.truck-grinch11 { width: 372px; height: 242px; background-position: -0px -506px; }
+#truck-grinch.truck-grinch12 { width: 372px; height: 242px; background-position: -766px -253px; }
+#truck-grinch.truck-grinch13 { width: 372px; height: 242px; background-position: -383px -253px; }
+#truck-grinch.truck-grinch14 { width: 372px; height: 242px; background-position: -0px -253px; }
+#truck-grinch.truck-grinch15 { width: 372px; height: 242px; background-position: -766px -0px; }
+#truck-grinch.truck-grinch16 { width: 372px; height: 242px; background-position: -383px -0px; }
+#truck-grinch.truck-grinch17 { width: 372px; height: 242px; background-position: -0px -0px; }
+
 /* ===== Scene 10 - Pool ===== */
 
 #decorations { position:absolute; width:1400px; height:312px; background:url('../img/scene-pool/decorations.png') no-repeat; bottom: 466px;left:0px; }

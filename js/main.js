@@ -417,7 +417,15 @@ window.onload = function() {
 
 		 [ //scene 9 - truck
 			{id:document.getElementById("businessmen"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-truck"), start: 9.3, end: 9.4, x:1, y: 0, type:"opacity"}
+			{id:document.getElementById("truck-grinch"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("truck"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-truck"), start: 9.3, end: 9.4, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-truck"), start: 9.55, end: 9.6, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("truck-decorations"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("truck-grinch"), start: 9.6, end: 9.8, x:-1400, y: 0, type:"translate"},
+			{id:document.getElementById("truck"), start: 9.6, end: 9.8, x:-1400, y: 0, type:"translate"}
+
+
 		 ],
 
 		 [ //scene 10 - pool
@@ -565,7 +573,10 @@ window.onload = function() {
 		
 
 		[ // scene 9 - truck 
-			{id:document.getElementById("businessmen"), start: 9.0, end: 9.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:2}
+			{id:document.getElementById("businessmen"), start: 9.0, end: 9.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:2},
+			{id:document.getElementById("truck-decorations"), start: 9.7, end: 9.8, prefix: "decorations", order: [1,2,3,4,5], repeat:1},
+			{id:document.getElementById("truck-grinch"), start: 9.2, end: 9.8, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1}
+			
 			
 		],
 
