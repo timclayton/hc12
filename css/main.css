@@ -124,7 +124,7 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #scene10 { height: 12000px; }
 #scene11 { height: 8000px; }
 #scene12 { height: 12000px; }
-#scene13 { height: 10000px; }
+#scene13 { height: 32000px; }
 #scene14 { height: 10000px; }
 #scene15 { height: 10000px; }
 #scene16 { height: 10000px; }
@@ -654,9 +654,9 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 /* ===== Scene 12  ===== */
 
-#beds-back { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-back.png') no-repeat; left: 5px; bottom:154px;  }
-#beds-mid { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-mid.png') no-repeat; left: 291px; bottom:444px; }
-#beds-front { position:absolute; width: 1077px; height:1059px; background: url('../img/scene-sleeping/beds-front.png') no-repeat; left: 210px; bottom:50px; }
+#beds-back { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-back.png') no-repeat; left: 5px; bottom:154px;  opacity: 0;}
+#beds-mid { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-mid.png') no-repeat; left: 291px; bottom:444px; opacity: 0;}
+#beds-front { position:absolute; width: 1077px; height:1059px; background: url('../img/scene-sleeping/beds-front.png') no-repeat; left: 210px; bottom:50px; opacity: 0;}
 
 #audrey { position:absolute; bottom: 182px; left:405px;background: url('../img/scene-sleeping/audrey.png') no-repeat; opacity: 0; }
 #audrey.audrey1 { width: 457px; height: 287px; background-position: -936px -298px; }
@@ -762,17 +762,42 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 #celebration-light.celebration-light4 { width: 631px; height: 587px; background-position: -642px -0px; }
 #celebration-light.celebration-light5 { width: 631px; height: 587px; background-position: -0px -0px; }
 
-/*=== Scene 14  - Sky ===== */
-
-.sky { position:absolute;background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat: no-repeat; }
+/*.sky { position:absolute;background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat: no-repeat; }*/
 #hearts-large { position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/hearts-large.png'); background-repeat: no-repeat; opacity: 0; }
 #hearts-medium { position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px; background-image: url('../img/scene-sky/hearts-medium.png'); background-repeat: no-repeat; opacity: 0;}
 #hearts-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/hearts-small.png'); background-repeat: no-repeat; opacity: 0;}
-#questions-large {position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/questions-large.png'); background-repeat: no-repeat; }
-#questions-medium {position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px;background-image: url('../img/scene-sky/questions-medium.png'); background-repeat: no-repeat; }
-#questions-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/questions-small.png'); background-repeat: no-repeat; }
+#questions-large {position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/questions-large.png'); background-repeat: no-repeat; opacity: 0;}
+#questions-medium {position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px;background-image: url('../img/scene-sky/questions-medium.png'); background-repeat: no-repeat; opacity: 0;}
+#questions-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/questions-small.png'); background-repeat: no-repeat; opacity: 0; }
 #text-sky-1 { position:absolute; width: 354px; height: 253px; background-position: -924px -328px;background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat:  no-repeat; left: 50%; margin-left:  -177px; top: 30px; z-index: 50; opacity: 0;}
 #text-sky-2 { position:absolute; width: 353px; height: 317px; background-position: -924px -0px; background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat:  no-repeat;left: 50%; margin-left:  -177px; top: 10px; z-index: 50; opacity: 0;}
+
+#grinch-heart { position:absolute; left: 189px; bottom: 0px; width:1082px;height:1000px; background: url('../img/scene-celebration/grinch-heart.png') no-repeat; opacity: 0;  }
+#growing-heart { position:absolute; left: 378px; bottom: 264px; background: url('../img/scene-celebration/grinch-heart-sprite.png') no-repeat; opacity: 0; }
+#growing-heart.growing-heart1 { width: 1020px; height: 503px; background-position: -3093px -0px; }
+#growing-heart.growing-heart2 { width: 1020px; height: 503px; background-position: -2062px -1028px; }
+#growing-heart.growing-heart3 { width: 1020px; height: 503px; background-position: -1031px -1028px; }
+#growing-heart.growing-heart4 { width: 1020px; height: 503px; background-position: -0px -1028px; }
+#growing-heart.growing-heart5 { width: 1020px; height: 503px; background-position: -2062px -514px; }
+#growing-heart.growing-heart6 { width: 1020px; height: 503px; background-position: -1031px -514px; }
+#growing-heart.growing-heart7 { width: 1020px; height: 503px; background-position: -0px -514px; }
+#growing-heart.growing-heart8 { width: 1020px; height: 503px; background-position: -2062px -0px; }
+#growing-heart.growing-heart9 { width: 1020px; height: 503px; background-position: -1031px -0px; }
+#growing-heart.growing-heart10 { width: 1020px; height: 503px; background-position: -2062px -2570px; }
+#growing-heart.growing-heart11 { width: 1020px; height: 503px; background-position: -1031px -2570px; }
+#growing-heart.growing-heart12 { width: 1020px; height: 503px; background-position: -0px -2570px; }
+#growing-heart.growing-heart13 { width: 1020px; height: 503px; background-position: -2062px -2056px; }
+#growing-heart.growing-heart14 { width: 1020px; height: 503px; background-position: -1031px -2056px; }
+#growing-heart.growing-heart15 { width: 1020px; height: 503px; background-position: -0px -2056px; }
+#growing-heart.growing-heart16 { width: 1020px; height: 503px; background-position: -2062px -1542px; }
+#growing-heart.growing-heart17 { width: 1020px; height: 503px; background-position: -1031px -1542px; }
+#growing-heart.growing-heart18 { width: 1020px; height: 503px; background-position: -0px -1542px; }
+#growing-heart.growing-heart19 { width: 1020px; height: 503px; background-position: -0px -0px; }
+
+
+
+/*=== Scene 14  - Sky ===== */
+
 
 /* ===== Independent Animations ===== */
 
