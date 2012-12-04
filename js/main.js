@@ -401,6 +401,7 @@ window.onload = function() {
 		],
 
 		[ //scene 8 - aquarium
+			{id:document.getElementById("aquarium-grinch"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("bubbles-1"), start: 8.0, end: 8.99, x: 0, y: -300, type:"translate"},
 			{id:document.getElementById("bubbles-2"), start: 8.0, end: 8.99, x: 0, y: -350, type:"translate"},
@@ -412,6 +413,7 @@ window.onload = function() {
 			{id:document.getElementById("little-fish-2"), start: 8.0, end: 8.99, x: -250, y: 20, type:"translate"},
 			{id:document.getElementById("big-fish"), start: 8.0, end: 8.99, x: -500, y: 20, type:"translate"},
 			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-aquarium"), start: 8.8, end: 8.85, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("shark"), start: 8.5, end: 8.99, x: -3000, y: 0, type:"translate"}
 		],
 
@@ -566,7 +568,8 @@ window.onload = function() {
 		],
 		
 		[ // scene 8 - aquarium
-			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3}
+			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
+			{id:document.getElementById("aquarium-grinch"), start: 8.3, end: 8.8, prefix: "aquarium-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1}
 			
 		],
 

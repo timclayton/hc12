@@ -471,14 +471,12 @@ audio { display: none; }
 /* ===== Scene 8 - Aquarium  ===== */
 
 #bubbles-1 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 0px;left:-200px;}
-#bubbles-2 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 300px;left:200px;}
+#bubbles-2 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 460px;left:-100px;}
 #bubbles-3 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 800px;left:-420px;}
-#tree { position:absolute; width:363px;height:461px; background:url('../img/scene-aquarium/tree.png') no-repeat; bottom: 0;left:20px; }
-#garland { position:absolute; width:1400px; height:150px;background:url('../img/scene-aquarium/garland.png') no-repeat; bottom: 200px;left:0; }
 #big-fish { position:absolute; width:542px; height:289px; background:url('../img/scene-aquarium/big-fish.png') no-repeat; top:450px; right:200px; opacity: 0;}
 #little-fish-1 { position:absolute; width:352px;height:297px; background:url('../img/scene-aquarium/little-fish-9.png') no-repeat; top:150px; right:200px; opacity: 0;  }
 #little-fish-2 { position:absolute; width:480px;height:307px; background:url('../img/scene-aquarium/little-fish-18.png') no-repeat; top:50px; left:200px; opacity: 0;}
-#text-aquarium { position:absolute; width:505px;height:177px; background:url('../img/scene-aquarium/text-aquarium.png') no-repeat;left: 50%; margin-left:  -177px; top: 50px; z-index: 50; opacity: 0; }
+#text-aquarium { position:absolute; width:505px;height:177px; background:url('../img/scene-aquarium/text-aquarium.png') no-repeat;left: 50%; margin-left:  -252px; top: 50px; z-index: 50; opacity: 0; }
 #shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
 
 
@@ -493,6 +491,24 @@ audio { display: none; }
 #aquarium-people.aqua8 { width: 969px; height: 492px; background-position: -0px -503px; }
 #aquarium-people.aqua9 { width: 969px; height: 492px; background-position: -980px -0px; }
 #aquarium-people.aqua0 { width: 969px; height: 492px; background-position: -0px -0px; }
+
+#aquarium-grinch{ position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch.png') no-repeat; bottom: 0; left:0; opacity: 0;   }
+#aquarium-grinch.aquarium-grinch0 {  background-position: -2822px -1098px; }
+#aquarium-grinch.aquarium-grinch1 { background-position: -2822px -549px; }
+#aquarium-grinch.aquarium-grinch2 { background-position: -2822px -0px; }
+#aquarium-grinch.aquarium-grinch3 { background-position: -1411px -2745px; }
+#aquarium-grinch.aquarium-grinch4 { background-position: -0px -2745px; }
+#aquarium-grinch.aquarium-grinch5 { background-position: -1411px -2196px; }
+#aquarium-grinch.aquarium-grinch6 { background-position: -0px -2196px; }
+#aquarium-grinch.aquarium-grinch7 { background-position: -1411px -1647px; }
+#aquarium-grinch.aquarium-grinch8 { background-position: -0px -1647px; }
+#aquarium-grinch.aquarium-grinch9 { background-position: -1411px -1098px; }
+#aquarium-grinch.aquarium-grinch10 { background-position: -0px -1098px; }
+#aquarium-grinch.aquarium-grinch11 { background-position: -1411px -549px; }
+#aquarium-grinch.aquarium-grinch12 { background-position: -0px -549px; }
+#aquarium-grinch.aquarium-grinch13 { background-position: -1411px -0px; }
+#aquarium-grinch.aquarium-grinch14 { background-position: -0px -0px; }
+#aquarium-grinch.aquarium-grinch15 { background: url('../img/scene-aquarium/aquarium-grinch-last.png') no-repeat; }
 
 
 
