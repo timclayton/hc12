@@ -127,9 +127,7 @@ audio { display: none; }
 #scene11 { height: 8000px; }
 #scene12 { height: 12000px; }
 #scene13 { height: 32000px; }
-#scene14 { height: 10000px; }
-#scene15 { height: 10000px; }
-#scene16 { height: 10000px; }
+#scene14 { height: 20000px; }
 
 /* ===== Backgrounds ===== */
 
@@ -147,9 +145,7 @@ audio { display: none; }
 #scene11 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left bottom repeat fixed;}
 #scene12 .bg { background:  #B51428 url('../img/scene-sleeping/bg.jpg') left bottom repeat fixed;}
 #scene13 .bg { background:  #B51428 url('../img/scene-celebration/bg.jpg') left bottom repeat fixed; }
-#scene14 .bg { background:  #B51428 url('../img/scene-sky/bg.jpg') left bottom repeat fixed;}
-#scene15 .bg { background:  blue;}
-#scene16 .bg { background:  blue;}
+#scene14 .bg { background:  #B51428 url('../img/scene-finale/bg.jpg') left bottom repeat fixed; }
 
 .prev div { display: none; }
 .next div { display: none; }
@@ -842,6 +838,35 @@ audio { display: none; }
 
 /*=== Scene 14  - Sky ===== */
 
+#curtain { position: absolute; top: -50px; left: 0; width: 1376px; height: 476px; background: url('../img/scene-finale/curtains.png') no-repeat; }
+
+#bells { position: absolute; top: -50px; left: 0; width: 1140px; height: 500px; background: url('../img/scene-finale/bells-sprite.png') no-repeat; background-position: -2282px -2004px; }
+#bells.bells1 { width: 1140px; height: 500px; background-position: -2282px -2004px; }
+#bells.bells2 { width: 1140px; height: 500px; background-position: -2282px -1503px; }
+#bells.bells3 { width: 1140px; height: 500px; background-position: -2282px -1002px; }
+#bells.bells4 { width: 1140px; height: 500px; background-position: -2282px -501px; }
+#bells.bells5 { width: 1140px; height: 500px; background-position: -2282px -0px; }
+#bells.bells6 { width: 1140px; height: 500px; background-position: -1141px -2004px; }
+#bells.bells7 { width: 1140px; height: 500px; background-position: -0px -2004px; }
+#bells.bells8 { width: 1140px; height: 500px; background-position: -1141px -1503px; }
+#bells.bells9 { width: 1140px; height: 500px; background-position: -0px -1503px; }
+#bells.bells10 { width: 1140px; height: 500px; background-position: -1141px -1002px; }
+#bells.bells11 { width: 1140px; height: 500px; background-position: -0px -1002px; }
+#bells.bells12 { width: 1140px; height: 500px; background-position: -1141px -501px; }
+#bells.bells13 { width: 1140px; height: 500px; background-position: -0px -501px; }
+#bells.bells14 { width: 1140px; height: 500px; background-position: -1141px -0px; }
+#bells.bells15 { width: 1140px; height: 500px; background-position: -0px -0px; }
+
+#tbg { position: absolute; bottom: 0; left: 0; width: 1180px; height: 650px; background: url('../img/scene-finale/tbg-sprite.png') no-repeat; background-position: -2362px -0px; opacity: 0; }
+#tbg.tbg1 { width: 1180px; height: 650px; background-position: -2362px -0px; }
+#tbg.tbg2 { width: 1180px; height: 650px; background-position: -1181px -1953px; }
+#tbg.tbg3 { width: 1180px; height: 650px; background-position: -0px -1953px; }
+#tbg.tbg4 { width: 1180px; height: 650px; background-position: -1181px -1302px; }
+#tbg.tbg5 { width: 1180px; height: 650px; background-position: -0px -1302px; }
+#tbg.tbg6 { width: 1180px; height: 650px; background-position: -1181px -651px; }
+#tbg.tbg7 { width: 1180px; height: 650px; background-position: -0px -651px; }
+#tbg.tbg8 { width: 1180px; height: 650px; background-position: -1181px -0px; }
+#tbg.tbg9 { width: 1180px; height: 650px; background-position: -0px -0px; }
 
 /* ===== Independent Animations ===== */
 

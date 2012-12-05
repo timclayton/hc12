@@ -45,7 +45,7 @@ window.onload = function() {
 
 		scenes.forEach(setPos, this);
 		transforms[0].forEach(transform, this);
-		transforms[next].forEach(transform, this);
+		transforms[pos].forEach(transform, this);
 		classShifts[0].forEach(shiftClass, this);
 		classShifts[pos].forEach(shiftClass, this);
 		
@@ -210,10 +210,10 @@ window.onload = function() {
 					bgShift: [0,0]
 				});
 				transformMaps.push(map);
-				mapNumber = transformMaps.length;
+				mapNumber = transformMaps.length - 1;
 			}
 			else {
-				mapNumber = elements.indexOf(el) + 1;
+				mapNumber = elements.indexOf(el);
 			}
 			
 			element.map = mapNumber;
@@ -228,6 +228,7 @@ window.onload = function() {
 		
 		}
 		
+		delete elements;
 	}
 	
 	var createSceneObjects = function() {
@@ -252,29 +253,31 @@ window.onload = function() {
 	
 	}
 	
-	var resetTransforms = function(pos) {
+	var resetTransforms = function(x) {
 	
 		var zero = function(element) {
 		
 			element.mapX = 0;
 			element.mapY = 0;
+			element.id.removeAttribute("style");
 			
 			transformMaps[element.map].translate = [0,0];
 			transformMaps[element.map].opacity = 0;
 			transformMaps[element.map].size = [0,0];
 			transformMaps[element.map].bgShift = [0,0];
-			
-			console.log(transformMaps[element.map]);
+
+
 		
 		}
 		
-		for ( i = pos - 1; i <= pos; i++ ) {
+		for ( i = x - 1; i <= x; i++ ) {
 			
 			transforms[i].forEach(zero, this);
 			
 		}
 		
 	}
+	
 	var transforms = [	// First array holds global transforms, following are per scene
 	
 		[  // global
@@ -512,17 +515,7 @@ window.onload = function() {
 		 ],
 
 		 [ //scene 14 - sky
-			{id:document.getElementById("placeholder"), start: 14.62, end: 14.64, x:1, y: 0, type:"opacity"},
-		 ],
-
-		 [ //scene 15 
-			
-		 ],
-
-
-
-		 [ //scene 16 
-			
+			{id:document.getElementById("tbg"), start: 14, end: 14.05, x:1, y: 0, type:"opacity"}
 		 ]
 	]
 	
@@ -613,15 +606,8 @@ window.onload = function() {
 		],
 
 		[ // scene 14
-
-		],
-
-		[ // scene 15
-
-		],
-
-		[ // scene 16
-
+			{id:document.getElementById("bells"), start: 14, end: 14.99, prefix: "bells", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:12},
+			{id:document.getElementById("tbg"), start: 14, end: 14.99, prefix: "tbg", order: [1,2,3,4,5,6,7,8,9], repeat:12}
 		]
 	
 	]
@@ -658,13 +644,11 @@ window.onload = function() {
 
 	rewind.onclick = function () {
 		playToggle.click();
-		var x = pos - 2;
-		document.getElementById("scene" + pos).className = "";
+		var x = pos;
+		window.scrollTo(0,  scenes[x-2].start);
+		document.getElementById("scene" + x).className = "";
 		resetTransforms(pos);
-		pos -= 1;
-		document.getElementById("scene" + pos).className = "active";
-		window.scrollTo(0,  scenes[x].start);
-		stickScene();
+		document.getElementById("scene" + (x-1)).className = "active";
 		playToggle.click();
 	}
 	
