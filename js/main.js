@@ -22,8 +22,8 @@ window.onload = function() {
 					play						=  document.getElementById("play"),
 					playToggle			=  document.getElementById("play-toggle"),
 					fastforward			=  document.getElementById("fastforward"),
-					rewind			=  document.getElementById("rewind"),
-					currentScene = document.getElementById("scene" + pos),
+					rewind					=  document.getElementById("rewind"),
+					currentScene			= document.getElementById("scene" + pos),
 					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']),
 					transformMaps 		=  new Array();
 	
@@ -165,6 +165,11 @@ window.onload = function() {
 		
 		element.mapX = x1;
 		element.mapY = y1;
+		
+		if ( animPercent === 1 ) {
+			array.splice(index, 1);
+			completedTransforms[pos].push(element);
+		}
 			
 	}
 	
@@ -228,7 +233,6 @@ window.onload = function() {
 		
 		}
 		
-		delete elements;
 	}
 	
 	var createSceneObjects = function() {
@@ -255,6 +259,11 @@ window.onload = function() {
 	
 	var resetTransforms = function(x) {
 	
+		var pushBack = function(element, index, array) {
+			var arrayIndex = completedTransforms.indexOf(array);
+			transforms[arrayIndex].push(element);
+		}
+	
 		var zero = function(element) {
 		
 			element.mapX = 0;
@@ -265,13 +274,12 @@ window.onload = function() {
 			transformMaps[element.map].opacity = 0;
 			transformMaps[element.map].size = [0,0];
 			transformMaps[element.map].bgShift = [0,0];
-
-
 		
 		}
 		
 		for ( i = x - 1; i <= x; i++ ) {
 			
+			completedTransforms[i].forEach(pushBack, this);
 			transforms[i].forEach(zero, this);
 			
 		}
@@ -429,8 +437,6 @@ window.onload = function() {
 			{id:document.getElementById("truck-decorations"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("truck-grinch"), start: 9.6, end: 9.8, x:-1400, y: 0, type:"translate"},
 			{id:document.getElementById("truck"), start: 9.6, end: 9.8, x:-1400, y: 0, type:"translate"}
-
-
 		 ],
 
 		 [ //scene 10 - pool
@@ -507,17 +513,16 @@ window.onload = function() {
 			{id:document.getElementById("hearts-small"), start: 13.54, end: 13.57, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 13.63, end: 13.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 13.4, end: 13.99, x:0, y: -50, type:"translate"},
-
 			{id:document.getElementById("grinch-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("growing-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"},
-			
-			
+			{id:document.getElementById("growing-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"}	
 		 ],
 
 		 [ //scene 14 - sky
 			{id:document.getElementById("tbg"), start: 14, end: 14.05, x:1, y: 0, type:"opacity"}
 		 ]
 	]
+	
+	var completedTransforms = [ [],[],[],[],[],[],[],[],[],[],[],[],[],[],[] ];
 	
 	var classShifts = [  // First array holds global class shifts, following are per scene
 	
