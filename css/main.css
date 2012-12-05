@@ -116,7 +116,7 @@ audio { display: none; }
 
 #scene1 { height: 3000px; }
 #scene2 { height: 24000px; } /* 24000 */
-#scene3 { height: 16000px; } /* 20000 */
+#scene3 { height: 6000px; } /* 20000 */
 #scene4 { height: 10000px; } /*10000 */
 #scene5 { height: 7000px; } /* 7000 */
 #scene6 { height: 10000px; }
@@ -259,7 +259,7 @@ audio { display: none; }
 /* ===== Scene 4 ===== */
 
 
-#poker { position: absolute; bottom: -40px; right: 12%; background: url('../img/scene4/poker-sprite.png') no-repeat; background-position: -0px -3260px; opacity: 0; }
+#poker { position: absolute; bottom: -80px; right: 12%; background: url('../img/scene4/poker-sprite.png') no-repeat; background-position: -0px -3260px; /*opacity: 0;*/ }
 #poker.poker1 { width: 1208px; height: 524px; background-position: -3657px -1070px; }
 #poker.poker2 { width: 1208px; height: 524px; background-position: -0px -1605px; }
 #poker.poker3 { width: 1208px; height: 524px; background-position: -0px -1070px; }
@@ -283,10 +283,10 @@ audio { display: none; }
 #poker.poker21 { width: 1208px; height: 524px; background-position: -1219px -1070px; }
 
 #dog { position: absolute; bottom: 0; right: 3%; width: 352px; height: 230px; background: url('../img/scene4/dog.png'); }
-#bg-inner { z-index:0; bottom:-40px;}
+#bg-inner { z-index:0; /*bottom:-40px;*/ }
 #poker-text { position: absolute; bottom: 430px; left: 390px; width: 354px; height: 253px; background: url('../img/scene4/poker-text.png'); }
 
-#grinch-poker {position:absolute; width: 1400px; height: 1000px; bottom:0px; left:0px; background: url('../img/scene4/grinch-poker-2b.jpg') no-repeat;   }
+#grinch-poker {position:absolute; width: 1400px; height: 1000px; bottom:105%; left:0px; background: url('../img/scene4/grinch-poker-2b.jpg') no-repeat;   }
 #grinch-poker.grinch-poker1 { width: 1400px; height: 1000px; background-position: -4233px -2022px; }
 #grinch-poker.grinch-poker2 { width: 1400px; height: 1000px; background-position: -4233px -1011px; }
 #grinch-poker.grinch-poker3 { width: 1400px; height: 1000px; background-position: -4233px -0px; }

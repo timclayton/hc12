@@ -45,7 +45,7 @@ window.onload = function() {
 
 		scenes.forEach(setPos, this);
 		transforms[0].forEach(transform, this);
-		transforms[pos].forEach(transform, this);
+		transforms[next].forEach(transform, this);
 		classShifts[0].forEach(shiftClass, this);
 		classShifts[pos].forEach(shiftClass, this);
 		
@@ -346,12 +346,12 @@ window.onload = function() {
 		
 		[  // scene 4
 		
-			{id:document.getElementById("poker"), start: 4., end: 4.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("poker"), start: 4., end: 4.05, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("grinch-poker"), start: 4., end: 4.05, x:0, y: -20, type:"translate"},
-			{id:document.getElementById("bg-inner"), start: 4., end: 4.05, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("second-bg"), start: 4.0, end: 4.05, x:0, y: -20, type:"bgShift"},
-			{id:document.getElementById("poker-bg"), start: 4.0, end: 4.05, x:0, y: -30, type:"bgShift"},
+			// {id:document.getElementById("poker"), start: 4., end: 4.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("poker"), start: 3.85, end: 3.99, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("grinch-poker"), start: 3.80, end: 3.99, x:0, y: -20, type:"translate"},
+			{id:document.getElementById("bg-inner"), start: 3.85, end: 3.99, x:0, y: -20, type:"translate"},
+			{id:document.getElementById("second-bg"), start: 3.85, end: 3.99, x:0, y: -20, type:"bgShift"},
+			{id:document.getElementById("poker-bg"), start: 3.85, end: 3.99, x:0, y: -30, type:"bgShift"},
 			{id:document.getElementById("poker"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("grinch-poker"), start: 4.95, end: 4.99, x:0, y: -20, type:"translate"},
 			{id:document.getElementById("bg-inner"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
