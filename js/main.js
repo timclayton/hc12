@@ -427,7 +427,7 @@ window.onload = function() {
 			{id:document.getElementById("big-fish"), start: 8.0, end: 8.99, x: -500, y: 20, type:"translate"},
 			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-aquarium"), start: 8.8, end: 8.85, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("shark"), start: 8.5, end: 8.99, x: -3000, y: 0, type:"translate"}
+			{id:document.getElementById("shark"), start: 8.65, end: 8.99, x: -3000, y: 0, type:"translate"}
 		],
 
 		 [ //scene 9 - truck
@@ -443,8 +443,8 @@ window.onload = function() {
 
 		 [ //scene 10 - pool
 			{id:document.getElementById("swimmers"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-pool"), start: 10.4, end: 10.5, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-pool"), start: 10.7, end: 10.75, x: -1, y: 0, type:"opacity"}
+			{id:document.getElementById("text-pool"), start: 10.0, end: 10.05, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-pool"), start: 10.35, end: 10.4, x: -1, y: 0, type:"opacity"}
 		 ],
 
 		 [ //scene 11 
@@ -572,7 +572,7 @@ window.onload = function() {
 		
 		[ // scene 8 - aquarium
 			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
-			{id:document.getElementById("aquarium-grinch"), start: 8.3, end: 8.8, prefix: "aquarium-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1}
+			{id:document.getElementById("aquarium-grinch"), start: 8.3, end: 8.65, prefix: "aquarium-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1}
 			
 		],
 
@@ -588,7 +588,8 @@ window.onload = function() {
 
 		[ // scene 10 - pool
 			{id:document.getElementById("phelps"), start: 10.0, end: 10.7, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
-			{id:document.getElementById("swimmers"), start: 10.0, end: 10.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2}
+			{id:document.getElementById("swimmers"), start: 10.0, end: 10.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2},
+			{id:document.getElementById("pool-grinch"), start: 10.5, end: 10.8, prefix: "pool-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1}
 			
 		],
 

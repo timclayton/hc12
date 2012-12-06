@@ -123,7 +123,7 @@ audio { display: none; }
 #scene7 { height: 10000px; }
 #scene8 { height: 10000px; }
 #scene9 { height: 10000px; }
-#scene10 { height: 12000px; }
+#scene10 { height: 10000px; }
 #scene11 { height: 8000px; }
 #scene12 { height: 12000px; }
 #scene13 { height: 32000px; }
@@ -141,7 +141,7 @@ audio { display: none; }
 #scene7 .bg { background: #000 url('../img/scene-miracle/bg.jpg') left bottom no-repeat fixed; }
 #scene8 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left bottom no-repeat fixed;}
 #scene9 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left bottom no-repeat fixed; }
-#scene10 .bg { background:  #B6D5EA url('../img/scene-pool/bg.jpg') left bottom no-repeat fixed;}
+#scene10 .bg { background:  #B6D5EA url('../img/scene-pool/bg-2.jpg') left bottom no-repeat fixed;}
 #scene11 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left bottom repeat fixed;}
 #scene12 .bg { background:  #B51428 url('../img/scene-sleeping/bg.jpg') left bottom repeat fixed;}
 #scene13 .bg { background:  #B51428 url('../img/scene-celebration/bg.jpg') left bottom repeat fixed; }
@@ -572,7 +572,6 @@ audio { display: none; }
 
 /* ===== Scene 10 - Pool ===== */
 
-#decorations { position:absolute; width:1400px; height:312px; background:url('../img/scene-pool/decorations.png') no-repeat; bottom: 466px;left:0px; }
 #text-pool { position:absolute; width:333px;height:177px; background:url('../img/scene-pool/text-pool.png') no-repeat;left: 50%; margin-left:  -177px; bottom: 450px; z-index: 50; opacity: 0; }
 #back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; bottom: 164px;left:640px;  }
 #front-splash { position:absolute; width:1147px; height:385px; background:url('../img/scene-pool/front-splash.png') no-repeat; bottom: 0;left:144px;  }
@@ -649,6 +648,25 @@ audio { display: none; }
 #swimmers.swimmers26 { width: 442px; height: 368px; background-position: -2317px -1771px; }
 #swimmers.swimmers27 { width: 439px; height: 368px; background-position: -1045px -2150px; }
 #swimmers.swimmers28 { width: 430px; height: 368px; background-position: -0px -2440px; }
+
+
+#pool-grinch { position:absolute; bottom: 419px; left:702px; background: url('../img/scene-pool/pool-grinch.png') no-repeat; }
+#pool-grinch.pool-grinch0 { width: 700px; height: 237px; background-position: -1422px -744px; }
+#pool-grinch.pool-grinch1 { width: 700px; height: 237px; background-position: -1422px -496px; }
+#pool-grinch.pool-grinch2 { width: 700px; height: 237px; background-position: -1422px -248px; }
+#pool-grinch.pool-grinch3 { width: 700px; height: 237px; background-position: -1422px -0px; }
+#pool-grinch.pool-grinch4 { width: 700px; height: 237px; background-position: -711px -1240px; }
+#pool-grinch.pool-grinch5 { width: 700px; height: 237px; background-position: -0px -1240px; }
+#pool-grinch.pool-grinch6 { width: 700px; height: 237px; background-position: -711px -992px; }
+#pool-grinch.pool-grinch7 { width: 700px; height: 237px; background-position: -0px -992px; }
+#pool-grinch.pool-grinch8 { width: 700px; height: 237px; background-position: -711px -744px; }
+#pool-grinch.pool-grinch9 { width: 700px; height: 237px; background-position: -0px -744px; }
+#pool-grinch.pool-grinch10 { width: 700px; height: 237px; background-position: -711px -496px; }
+#pool-grinch.pool-grinch11 { width: 700px; height: 237px; background-position: -0px -496px; }
+#pool-grinch.pool-grinch12 { width: 700px; height: 237px; background-position: -711px -248px; }
+#pool-grinch.pool-grinch13 { width: 700px; height: 237px; background-position: -0px -248px; }
+#pool-grinch.pool-grinch14 { width: 700px; height: 237px; background-position: -711px -0px; }
+#pool-grinch.pool-grinch15 { width: 700px; height: 237px; background-position: -0px -0px; }
 
 /* ===== Scene 11  ===== */
 
