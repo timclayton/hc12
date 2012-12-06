@@ -215,7 +215,7 @@ audio { display: none; }
 #know-your-memes {  position:absolute; background: url('../img/scene3/know-your-memes.png') no-repeat 0 0; width: 117px; height: 101px; left: 1542px; bottom: 300px; }
 #doorway { position:absolute; background: url('../img/scene3/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; }
 #couch { position:absolute; background: url('../img/scene3/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; }
-
+#kitchen-text { position:absolute; background: url('../img/scene3/kitchen-text.png') no-repeat 0 0; width: 354px; height: 253px; left: 50%; margin-left: -177px; bottom:380px; }
 
 #ericw { position: absolute; bottom: 3%; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene3/eric-pancakes-sprite.png') no-repeat; opacity: 0;  }
 #ericw.ericw1 { width: 391px; height: 887px; background-position: -804px -1796px; }
