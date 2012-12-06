@@ -587,8 +587,8 @@ window.onload = function() {
 		],
 
 		[ // scene 10 - pool
-			{id:document.getElementById("phelps"), start: 10.0, end: 10.99, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
-			{id:document.getElementById("swimmers"), start: 10.0, end: 10.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:3}
+			{id:document.getElementById("phelps"), start: 10.0, end: 10.7, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
+			{id:document.getElementById("swimmers"), start: 10.0, end: 10.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2}
 			
 		],
 
