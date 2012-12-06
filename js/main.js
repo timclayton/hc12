@@ -184,7 +184,7 @@ window.onload = function() {
 	}
 	
 	var scrollToEnd = function() {
-        autoScroll = setInterval(scrollIncrement, 15);
+        autoScroll = setInterval(scrollIncrement, 30);
     }
 	
 	var scrollIncrement = function() {
@@ -405,17 +405,18 @@ window.onload = function() {
 			{id:document.getElementById("carolers"), start: 7.0, end: 7.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-miracle"), start: 7.15, end: 7.20, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-miracle"), start: 7.45, end: 7.55, x:-1, y: 0, type:"opacity"},
-			// {id:document.getElementById("snowman"), start: 7.4, end: 7.5, x:0, y: 100, type:"translate"},
-			// {id:document.getElementById("teddy-bear"), start: 7.4, end: 7., x:0, y: 100, type:"translate"},
 			{id:document.getElementById("flamingo"), start: 7.5, end: 7.6, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("miracle-grinch"), start: 7.5, end: 7.6, x:0, y: 140, type:"translate"},
 			{id:document.getElementById("carolers"), start: 7.5, end: 7.6, x:0, y: 150, type:"translate"},
-			{id:document.getElementById("s7bg"), start: 7.5, end: 7.6, x:0, y: 80, type:"bgShift"}
+			{id:document.getElementById("s7bg"), start: 7.5, end: 7.6, x:0, y: 80, type:"bgShift"},
+			{id:document.getElementById("aquariumbg"), start: 7.85, end: 7.99, x:0, y: 95, type:"bgShift"},
+			{id:document.getElementById("aquarium-grinch"), start: 7.85, end: 7.99, x:0, y: 40, type:"translate"},
+			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: 20, type:"translate"}
 		],
 
 		[ //scene 8 - aquarium
-			{id:document.getElementById("aquarium-grinch"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
+			// {id:document.getElementById("aquarium-grinch"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
+			// {id:document.getElementById("aquarium-people"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("bubbles-1"), start: 8.0, end: 8.99, x: 0, y: -300, type:"translate"},
 			{id:document.getElementById("bubbles-2"), start: 8.0, end: 8.99, x: 0, y: -350, type:"translate"},
 			{id:document.getElementById("bubbles-3"), start: 8.0, end: 8.99, x: 0, y:-500, type:"translate"},
