@@ -305,7 +305,9 @@ window.onload = function() {
 			{id:document.getElementById("text-grinch"), start: 1.6, end: 1.99, x: 0, y: -60, type:"translate"},
 			{id:document.getElementById("text-stole"), start: 1.6, end: 1.99, x: 0, y: -80, type:"translate"},
 			{id:document.getElementById("text-christmas"), start: 1.6, end: 1.99, x: 0, y: -100, type:"translate"},
-			{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"}
+			{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
+			{id:document.getElementById("s1bg"), start: 1.6, end: 1.99, x: 0, y: -40, type:"bgShift"},
+			{id:document.getElementById("s2bg"), start: 1.7, end: 1.99, x: 0, y: -30, type:"bgShift"}
 						
 		],
 		
@@ -514,7 +516,9 @@ window.onload = function() {
 			{id:document.getElementById("hearts-small"), start: 13.63, end: 13.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 13.4, end: 13.99, x:0, y: -50, type:"translate"},
 			{id:document.getElementById("grinch-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("growing-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"}	
+			{id:document.getElementById("growing-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"},	
+			{id:document.getElementById("curtain"), start: 13.96, end: 13.999, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("bells"), start: 13.96, end: 13.999, x:0, y: 300, type:"translate"}	
 		 ],
 
 		 [ //scene 14 - sky
