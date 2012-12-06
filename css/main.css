@@ -278,11 +278,11 @@ audio { display: none; }
 #poker.poker20 { width: 1208px; height: 524px; background-position: -2438px -1070px; }
 #poker.poker21 { width: 1208px; height: 524px; background-position: -1219px -1070px; }
 
-#dog { position: absolute; bottom: 0; right: 3%; width: 352px; height: 230px; background: url('../img/scene4/dog.png'); }
+#dog { position: absolute; bottom: 0; right: 30px; width: 352px; height: 230px; background: url('../img/scene4/dog.png'); }
 #bg-inner { z-index:0; /*bottom:-40px;*/ }
 #poker-text { position: absolute; bottom: 430px; left: 390px; width: 354px; height: 253px; background: url('../img/scene4/poker-text.png'); }
 
-#grinch-poker {position:absolute; width: 1400px; height: 1000px; bottom:105%; left:0px; background: url('../img/scene4/grinch-poker-2b.jpg') no-repeat;   }
+#grinch-poker { position:absolute; width: 1400px; height: 1000px; bottom:105%; left:0px; background: url('../img/scene4/grinch-poker-2b.jpg') no-repeat; }
 #grinch-poker.grinch-poker1 { width: 1400px; height: 1000px; background-position: -4233px -2022px; }
 #grinch-poker.grinch-poker2 { width: 1400px; height: 1000px; background-position: -4233px -1011px; }
 #grinch-poker.grinch-poker3 { width: 1400px; height: 1000px; background-position: -4233px -0px; }
@@ -298,6 +298,16 @@ audio { display: none; }
 #grinch-poker.grinch-poker13 { width: 1400px; height: 1000px; background-position: -2822px -0px; }
 #grinch-poker.grinch-poker14 { width: 1400px; height: 1000px; background-position: -1411px -0px; }
 #grinch-poker.grinch-poker15 { width: 1400px; height: 1000px; background-position: -0px -0px; }
+
+#smoke { position:absolute; width: 69px; height: 176px; bottom:124px; right:307px; background: url('../img/scene4/smoke.png') no-repeat; opacity: 0;}
+#smoke.smoke1 { width: 69px; height: 176px; background-position: -160px -187px; }
+#smoke.smoke2 { width: 69px; height: 176px; background-position: -80px -187px; }
+#smoke.smoke3 { width: 69px; height: 176px; background-position: -0px -187px; }
+#smoke.smoke4 { width: 69px; height: 176px; background-position: -320px -0px; }
+#smoke.smoke5 { width: 69px; height: 176px; background-position: -240px -0px; }
+#smoke.smoke6 { width: 69px; height: 176px; background-position: -160px -0px; }
+#smoke.smoke7 { width: 69px; height: 176px; background-position: -80px -0px; }
+#smoke.smoke8 { width: 69px; height: 176px; background-position: -0px -0px; }
 
 /* ===== Scene 5 - Drummers ===== */
 
