@@ -279,7 +279,7 @@ audio { display: none; }
 #poker.poker21 { width: 1208px; height: 524px; background-position: -1219px -1070px; }
 
 #dog { position: absolute; bottom: 0; right: 30px; width: 352px; height: 230px; background: url('../img/scene4/dog.png'); }
-#bg-inner { z-index:0; /*bottom:-40px;*/ }
+#bg-inner { z-index:0; bottom:-40px; }
 #poker-text { position: absolute; bottom: 430px; left: 390px; width: 354px; height: 253px; background: url('../img/scene4/poker-text.png'); }
 
 #grinch-poker { position:absolute; width: 1400px; height: 1000px; bottom:105%; left:0px; background: url('../img/scene4/grinch-poker-2b.jpg') no-repeat; }

@@ -30,6 +30,7 @@ window.onload = function() {
 	window.onresize = function() {
 		
 					wh						= window.innerHeight;
+					setBgHeight()
 		
 	}
 	
@@ -256,6 +257,18 @@ window.onload = function() {
 		}
 	
 	}
+
+	 var setBgHeight = function () {
+
+
+	 	background =  document.getElementsByClassName('bg');
+	 	
+	 	 for (var i = 0; i < background.length; i++) {
+	 	 	background[i].style.height = wh + 'px';
+	 	 };
+	 }
+
+
 	
 	var resetTransforms = function(x) {
 	
@@ -355,25 +368,34 @@ window.onload = function() {
 			{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bg-test"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("bg-test"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-		
-		],
-		
-		[  // scene 4
-			{id:document.getElementById("smoke"), start: 3.0, end: 3.99, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("poker"), start: 3.85, end: 3.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("grinch-poker"), start: 3.80, end: 3.99, x:0, y: -20, type:"translate"},
 			{id:document.getElementById("bg-inner"), start: 3.85, end: 3.99, x:0, y: -20, type:"translate"},
 			{id:document.getElementById("second-bg"), start: 3.85, end: 3.99, x:0, y: -20, type:"bgShift"},
-			{id:document.getElementById("poker-bg"), start: 3.85, end: 3.99, x:0, y: -30, type:"bgShift"},
+			{id:document.getElementById("poker-bg"), start: 3.85, end: 3.99, x:0, y: -30, type:"bgShift"}
+		
+		],
+		
+		[  // scene 4
+			// {id:document.getElementById("smoke"), start: 3.0, end: 3.99, x:1, y: 0, type:"opacity"},
+			
 			{id:document.getElementById("poker"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("grinch-poker"), start: 4.95, end: 4.99, x:0, y: -20, type:"translate"},
 			{id:document.getElementById("bg-inner"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("poker-text"), start: 4.3, end: 4.35, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("poker-text"), start: 4.6, end: 4.65, x:-1, y: 0, type:"opacity"}
+			{id:document.getElementById("poker-text"), start: 4.6, end: 4.65, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("poker"), start: 4.75, end: 4.99, x:0, y: -200, type:"translate"},
+			{id:document.getElementById("grinch-poker"), start: 4.75, end: 4.99, x:0, y: -100, type:"translate"},
+			{id:document.getElementById("bg-inner"), start: 4.75, end: 4.99, x:0, y: -100, type:"translate"},
+			{id:document.getElementById("second-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
+			{id:document.getElementById("poker-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
+			
+
 		
 		], 
 		
 		[ 	//scene 5
+			
 		  {id:document.getElementById("drummers"), start: 5., end: 5.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
@@ -673,5 +695,6 @@ window.onload = function() {
 	}
 	
 	stickScene();  //  Apply fixed positioning to first scene
+	setBgHeight(); 
 	
 }
