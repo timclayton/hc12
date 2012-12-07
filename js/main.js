@@ -436,7 +436,7 @@ window.onload = function() {
 			{id:document.getElementById("s7bg"), start: 7.5, end: 7.6, x:0, y: 80, type:"bgShift"},
 			{id:document.getElementById("aquariumbg"), start: 7.85, end: 7.99, x:0, y: 95, type:"bgShift"},
 			{id:document.getElementById("aquarium-grinch"), start: 7.85, end: 7.99, x:0, y: 40, type:"translate"},
-			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: 20, type:"translate"}
+			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: 80, type:"translate"}
 		], 
 
 		[ //scene 8 - aquarium

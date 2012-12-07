@@ -483,7 +483,7 @@ audio { display: none; }
 #text-aquarium { position:absolute; width:505px;height:177px; background:url('../img/scene-aquarium/text-aquarium.png') no-repeat;left: 50%; margin-left:  -252px; top: 50px; z-index: 50; opacity: 0; }
 #shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
 
-#aquarium-people { position:absolute; width:960px; height:492px; background: url('../img/scene-aquarium/aquarium-sprite-lo.png') no-repeat -1960px -503px; bottom: 40px; right: 100px;/*opacity: 0;*/  }
+#aquarium-people { position:absolute; width:960px; height:492px; background: url('../img/scene-aquarium/aquarium-sprite-lo.png') no-repeat -1960px -503px; bottom: -80px; right: 100px;/*opacity: 0;*/  }
 #aquarium-people.aqua1 { background-position: -1960px -503px; }
 #aquarium-people.aqua2 { background-position: -1960px -0px; }
 #aquarium-people.aqua3 { background-position: -980px -1509px; }
@@ -495,7 +495,7 @@ audio { display: none; }
 #aquarium-people.aqua9 { background-position: -980px -0px; }
 #aquarium-people.aqua0 { background-position: -0px -0px; }
 
-#aquarium-grinch { position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch.png') no-repeat -2822px -1098px; bottom: 20px; left:0; /*opacity: 0;*/   }
+#aquarium-grinch { position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch.png') no-repeat -2822px -1098px; bottom: -40px; left:0; /*opacity: 0;*/   }
 #aquarium-grinch.aquarium-grinch0 { background-position: -2822px -1098px; }
 #aquarium-grinch.aquarium-grinch1 { background-position: -2822px -549px; }
 #aquarium-grinch.aquarium-grinch2 { background-position: -2822px -0px; }
@@ -520,7 +520,7 @@ audio { display: none; }
 #truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: 0;left:0px; }
 #text-truck { position:absolute; width:314px; height:175px; background:url('../img/scene-truck/text-truck.png') no-repeat; bottom: 119px;left:162px; }
 
-#businessmen { position:absolute;width: 638px; height: 480px; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat; opacity: 0; }
+#businessmen { position:absolute; width: 638px; height: 480px; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat; opacity: 0; }
 #businessmen.businessmen1 { background-position: -2245px -2445px; }
 #businessmen.businessmen2 { background-position: -2260px -1954px; }
 #businessmen.businessmen3 { background-position: -2318px -1463px; }
