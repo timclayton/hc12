@@ -133,7 +133,7 @@ audio { display: none; }
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left bottom no-repeat fixed; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-2.jpg') left top repeat fixed; }
-#scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') left bottom repeat fixed; } 
+#scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') left 105% no-repeat fixed; } 
 #scene4 .bg {background:  url('../img/scene4/bg-2.png') left 105% repeat fixed }
 #scene4 .second-bg { background:url('../img/scene4/backroom-3.png') left 105% no-repeat fixed}
 #scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; }
@@ -209,47 +209,47 @@ audio { display: none; }
 #max.max6 { background-position: 0 -1205px; }
 /* ===== Scene 3 ===== */
 
-#bg-test { position:absolute; background: url('../img/scene3/bg.jpg') no-repeat 0 0; width:2866px; height:1000px; bottom: 0; left: 0; } 
+#bg-test { position:absolute; background: url('../img/scene3/bg.jpg') no-repeat 0 0; width:2866px; height:1000px; bottom: -40px; left: 0; } 
 #bunny-2 { position:absolute; background: url('../img/scene3/bunny-2.png') no-repeat 0 0; width: 209px; height: 178px; left: 1182px; bottom:10px; }
 #bunny-big { position:absolute; background: url('../img/scene3/bunny-big.png') no-repeat 0 0; width: 437px; height: 391px; left: 1642px; bottom: -20px; }
 #know-your-memes {  position:absolute; background: url('../img/scene3/know-your-memes.png') no-repeat 0 0; width: 117px; height: 101px; left: 1542px; bottom: 300px; }
 #doorway { position:absolute; background: url('../img/scene3/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; }
 #couch { position:absolute; background: url('../img/scene3/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; }
-#kitchen-text { position:absolute; background: url('../img/scene3/kitchen-text.png') no-repeat 0 0; width: 354px; height: 253px; left: 50%; margin-left: -177px; bottom:380px; }
+#kitchen-text { position:absolute; background: url('../img/scene3/kitchen-text.png') no-repeat 0 0; width: 354px; height: 253px; left: 50%; margin-left: -177px; bottom:380px; opacity: 0;}
 
-#ericw { position: absolute; bottom: 3%; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene3/eric-pancakes-sprite.png') no-repeat; opacity: 0;  }
-#ericw.ericw1 { width: 391px; height: 887px; background-position: -804px -1796px; }
-#ericw.ericw2 { width: 391px; height: 887px; background-position: -402px -1796px; }
-#ericw.ericw3 { width: 391px; height: 887px; background-position: -0px -1796px; }
-#ericw.ericw4 { width: 391px; height: 887px; background-position: -2412px -898px; }
-#ericw.ericw5 { width: 391px; height: 887px; background-position: -2412px -0px; }
-#ericw.ericw6 { width: 391px; height: 887px; background-position: -2010px -898px; }
-#ericw.ericw7 { width: 391px; height: 887px; background-position: -1608px -898px; }
-#ericw.ericw8 { width: 391px; height: 887px; background-position: -1206px -898px; }
-#ericw.ericw9 { width: 391px; height: 887px; background-position: -804px -898px; }
-#ericw.ericw10 { width: 391px; height: 887px; background-position: -402px -898px; }
-#ericw.ericw11 { width: 391px; height: 887px; background-position: -0px -898px; }
-#ericw.ericw12 { width: 391px; height: 887px; background-position: -2010px -0px; }
-#ericw.ericw13 { width: 391px; height: 887px; background-position: -1608px -0px; }
-#ericw.ericw14 { width: 391px; height: 887px; background-position: -1206px -0px; }
-#ericw.ericw15 { width: 391px; height: 887px; background-position: -804px -0px; }
-#ericw.ericw16 { width: 391px; height: 887px; background-position: -402px -0px; }
-#ericw.ericw17 { width: 391px; height: 887px; background-position: -0px -0px; }
+#ericw { position: absolute; bottom: -130px; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene3/eric-pancakes-sprite.png') no-repeat  -804px -1796px; }
+#ericw.ericw1 { background-position: -804px -1796px; }
+#ericw.ericw2 { background-position: -402px -1796px; }
+#ericw.ericw3 { background-position: -0px -1796px; }
+#ericw.ericw4 { background-position: -2412px -898px; }
+#ericw.ericw5 { background-position: -2412px -0px; }
+#ericw.ericw6 { background-position: -2010px -898px; }
+#ericw.ericw7 { background-position: -1608px -898px; }
+#ericw.ericw8 { background-position: -1206px -898px; }
+#ericw.ericw9 { background-position: -804px -898px; }
+#ericw.ericw10 { background-position: -402px -898px; }
+#ericw.ericw11 { background-position: -0px -898px; }
+#ericw.ericw12 { background-position: -2010px -0px; }
+#ericw.ericw13 { background-position: -1608px -0px; }
+#ericw.ericw14 { background-position: -1206px -0px; }
+#ericw.ericw15 { background-position: -804px -0px; }
+#ericw.ericw16 { background-position: -402px -0px; }
+#ericw.ericw17 { background-position: -0px -0px; }
 
-#grinch-burbs { position:absolute; left: 1150px; bottom:220px; background: url('../img/scene3/grinch.png') no-repeat; }
-#grinch-burbs.grinch-burbs0 { width: 1446px; height: 616px; background: url('../img/scene3/grinch-start.png') no-repeat;  }
-#grinch-burbs.grinch-burbs1 { width: 1446px; height: 616px; background-position: -2914px -627px; }
-#grinch-burbs.grinch-burbs2 { width: 1446px; height: 616px; background-position: -2914px -0px; }
-#grinch-burbs.grinch-burbs3 { width: 1446px; height: 616px; background-position: -1457px -2508px; }
-#grinch-burbs.grinch-burbs4 { width: 1446px; height: 616px; background-position: -0px -2508px; }
-#grinch-burbs.grinch-burbs5 { width: 1446px; height: 616px; background-position: -1457px -1881px; }
-#grinch-burbs.grinch-burbs6 { width: 1446px; height: 616px; background-position: -0px -1881px; }
-#grinch-burbs.grinch-burbs7 { width: 1446px; height: 616px; background-position: -1457px -1254px; }
-#grinch-burbs.grinch-burbs8 { width: 1446px; height: 616px; background-position: -0px -1254px; }
-#grinch-burbs.grinch-burbs9 { width: 1446px; height: 616px; background-position: -1457px -627px; }
-#grinch-burbs.grinch-burbs10 { width: 1446px; height: 616px; background-position: -0px -627px; }
-#grinch-burbs.grinch-burbs11 { width: 1446px; height: 616px; background-position: -1457px -0px; }
-#grinch-burbs.grinch-burbs12 { width: 1446px; height: 616px; background-position: -0px -0px; }
+#grinch-burbs { position:absolute; left: 1150px; bottom:220px; width: 1446px; height: 616px; background: url('../img/scene3/grinch.png') no-repeat; }
+#grinch-burbs.grinch-burbs0 { background: url('../img/scene3/grinch-start.png') no-repeat;  }
+#grinch-burbs.grinch-burbs1 { background-position: -2914px -627px; }
+#grinch-burbs.grinch-burbs2 { background-position: -2914px -0px; }
+#grinch-burbs.grinch-burbs3 { background-position: -1457px -2508px; }
+#grinch-burbs.grinch-burbs4 { background-position: -0px -2508px; }
+#grinch-burbs.grinch-burbs5 { background-position: -1457px -1881px; }
+#grinch-burbs.grinch-burbs6 { background-position: -0px -1881px; }
+#grinch-burbs.grinch-burbs7 { background-position: -1457px -1254px; }
+#grinch-burbs.grinch-burbs8 { background-position: -0px -1254px; }
+#grinch-burbs.grinch-burbs9 { background-position: -1457px -627px; }
+#grinch-burbs.grinch-burbs10 { background-position: -0px -627px; }
+#grinch-burbs.grinch-burbs11 { background-position: -1457px -0px; }
+#grinch-burbs.grinch-burbs12 { background-position: -0px -0px; }
 #grinch-burbs.grinch-burbs13 { width: 0px; height: 0px; background-position: -0px -0px; }
 
 /* ===== Scene 4 ===== */
@@ -280,7 +280,7 @@ audio { display: none; }
 
 #dog { position: absolute; bottom: 0; right: 30px; width: 352px; height: 230px; background: url('../img/scene4/dog.png'); }
 #bg-inner { z-index:0; bottom:-40px; }
-#poker-text { position: absolute; bottom: 430px; left: 390px; width: 354px; height: 253px; background: url('../img/scene4/poker-text.png'); }
+#poker-text { position: absolute; bottom: 430px; left: 390px; width: 354px; height: 253px; background: url('../img/scene4/poker-text.png'); opacity: 0;}
 
 #grinch-poker { position:absolute; width: 1400px; height: 1000px; bottom:105%; left:0px; background: url('../img/scene4/grinch-poker-2b.jpg') no-repeat; }
 #grinch-poker.grinch-poker1 { width: 1400px; height: 1000px; background-position: -4233px -2022px; }

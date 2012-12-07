@@ -350,23 +350,26 @@ window.onload = function() {
 			// {id:document.getElementById("front-row-houses"), start:2.8, end:2.99, x: 0, y:-40, type:"translate"},
 			// {id:document.getElementById("lawn-ornaments"), start:2.8, end:2.99, x: 0, y:-35, type:"translate"},
 			{id:document.getElementById("lights"), start:2.8, end:2.99, x: 0, y:-20, type:"translate"},
-			{id:document.getElementById("gate"), start:2.82, end:2.9, x: 0, y:-850, type:"translate"}
+			{id:document.getElementById("gate"), start:2.82, end:2.9, x: 0, y:-850, type:"translate"},
+			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 0, y: -160, type:"translate"},
+			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 0, y: -40, type:"translate"},
+			{id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 0, y: -40, type:"bgShift"},
 		
 		],
 		
 		[  // scene 3
 			
-			{id:document.getElementById("ericw"), start: 3, end: 3.05, x: 1, y: 0, type:"opacity"},
+			
+			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("kitchen-text"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("kitchen-text"), start: 3.4, end: 3.45, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bunny-2"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bunny-big"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("know-your-memes"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("doorway"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("couch"), start: 3.4, end: 3.6, x: -950, y: 0, type:"translate"},
 			{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("bg-test"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
+			// {id:document.getElementById("bg-test"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("bg-test"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("poker"), start: 3.85, end: 3.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("grinch-poker"), start: 3.80, end: 3.99, x:0, y: -20, type:"translate"},
@@ -374,7 +377,7 @@ window.onload = function() {
 			{id:document.getElementById("second-bg"), start: 3.85, end: 3.99, x:0, y: -20, type:"bgShift"},
 			{id:document.getElementById("poker-bg"), start: 3.85, end: 3.99, x:0, y: -30, type:"bgShift"}
 		
-		],
+		], 
 		
 		[  // scene 4
 			// {id:document.getElementById("smoke"), start: 3.0, end: 3.99, x:1, y: 0, type:"opacity"},
@@ -392,7 +395,7 @@ window.onload = function() {
 			
 
 		
-		], 
+		],  
 		
 		[ 	//scene 5
 			
@@ -404,7 +407,7 @@ window.onload = function() {
 			{id:document.getElementById("monument-lights"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 5.45, end: 5.5, x:1, y: 0, type:"opacity"},
 	
-		],
+		], 
 
 		[ //scene 6
 			{id:document.getElementById("garage-interior"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
@@ -420,7 +423,7 @@ window.onload = function() {
 			{id:document.getElementById("garage-bg"), start: 6.5, end: 6.62, x:0, y: 80, type:"bgShift"},
 			{id:document.getElementById("garage-grinch"), start: 6.4, end: 6.55, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("garage-grinch"), start: 6.5, end: 6.62, x:1, y: 300, type:"translate"}
-		],
+		], 
 
 		[ //scene 7 - miracle
 			// {id:document.getElementById("s7bg"), start: 7.0, end: 7.2, x: 0, y:-30, type:"bgShift"},
@@ -434,7 +437,7 @@ window.onload = function() {
 			{id:document.getElementById("aquariumbg"), start: 7.85, end: 7.99, x:0, y: 95, type:"bgShift"},
 			{id:document.getElementById("aquarium-grinch"), start: 7.85, end: 7.99, x:0, y: 40, type:"translate"},
 			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: 20, type:"translate"}
-		],
+		], 
 
 		[ //scene 8 - aquarium
 			// {id:document.getElementById("aquarium-grinch"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
@@ -568,7 +571,7 @@ window.onload = function() {
 		
 		[  // scene 3		
 			{id:document.getElementById("ericw"), start: 3.05, end: 3.5, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:3},
-			{id:document.getElementById("grinch-burbs"), start: 3.7, end: 3.9, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
+			{id:document.getElementById("grinch-burbs"), start: 3.61, end: 3.85, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
 		],
 		
 		[ // scene 4			
