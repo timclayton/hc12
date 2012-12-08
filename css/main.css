@@ -521,25 +521,25 @@ audio { display: none; }
 #text-truck { position:absolute; width:314px; height:175px; background:url('../img/scene-truck/text-truck.png') no-repeat; bottom: 119px;left:162px; opacity: 0; }
 
 #businessmen { position:absolute; width: 638px; height: 480px; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat; opacity: 0; }
-#businessmen.businessmen1 { background-position: -2245px -2445px; }
-#businessmen.businessmen2 { background-position: -2260px -1954px; }
-#businessmen.businessmen3 { background-position: -2318px -1463px; }
-#businessmen.businessmen4 { background-position: -0px -1089px; }
-#businessmen.businessmen5 { background-position: -3049px -0px; }
-#businessmen.businessmen6 { background-position: -2387px -970px; }
-#businessmen.businessmen7 { background-position: -1520px -2089px; }
-#businessmen.businessmen8 { background-position: -0px -2089px; }
-#businessmen.businessmen9 { background-position: -762px -2089px; }
-#businessmen.businessmen10 { background-position: -777px -1089px; }
-#businessmen.businessmen11 { background-position: -1553px -1089px; }
-#businessmen.businessmen12 { background-position: -2350px -0px; }
-#businessmen.businessmen13 { background-position: -777px -1586px; }
-#businessmen.businessmen14 { background-position: -2387px -502px; }
-#businessmen.businessmen15 { background-position: -1522px -1586px; }
-#businessmen.businessmen17 { background-position: -771px -0px; }
-#businessmen.businessmen18 { background-position: -0px -0px; }
-#businessmen.businessmen19 { background-position: -1579px -0px; }
-#businessmen.businessmen20 { background-position: -1579px -579px; }
+#businessmen.businessmen1 { width: 638px; height: 480px; background-position: -2245px -2445px; }
+#businessmen.businessmen2 { width: 638px; height: 480px; background-position: -2260px -1954px; }
+#businessmen.businessmen3 { width: 638px; height: 480px; background-position: -2318px -1463px; }
+#businessmen.businessmen4 { width: 766px; height: 488px; background-position: -0px -1089px; }
+#businessmen.businessmen5 { width: 643px; height: 471px; background-position: -3049px -0px; }
+#businessmen.businessmen6 { width: 680px; height: 482px; background-position: -2387px -970px; }
+#businessmen.businessmen7 { width: 714px; height: 483px; background-position: -1520px -2089px; }
+#businessmen.businessmen8 { width: 751px; height: 474px; background-position: -0px -2089px; }
+#businessmen.businessmen9 { width: 747px; height: 475px; background-position: -762px -2089px; }
+#businessmen.businessmen10 { width: 765px; height: 483px; background-position: -777px -1089px; }
+#businessmen.businessmen11 { width: 754px; height: 486px; background-position: -1553px -1089px; }
+#businessmen.businessmen12 { width: 688px; height: 491px; background-position: -2350px -0px; }
+#businessmen.businessmen13 { width: 734px; height: 488px; background-position: -777px -1586px; }
+#businessmen.businessmen14 { width: 723px; height: 457px; background-position: -2387px -502px; }
+#businessmen.businessmen15 { width: 727px; height: 492px; background-position: -1522px -1586px; }
+#businessmen.businessmen17 { width: 797px; height: 604px; background-position: -771px -0px; }
+#businessmen.businessmen18 { width: 760px; height: 639px; background-position: -0px -0px; }
+#businessmen.businessmen19 { width: 760px; height: 568px; background-position: -1579px -0px; }
+#businessmen.businessmen20 { width: 797px; height: 499px; background-position: -1579px -579px; }
 
 #truck-decorations { position:absolute; bottom: 58px; left:0px;background: url('../img/scene-truck/decorations.png') no-repeat; width: 1576px; height: 598px; background-position: -1587px -609px; opacity: 0; }
 #truck-decorations.decorations1 { background-position: -1587px -609px; }

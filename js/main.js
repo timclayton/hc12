@@ -612,8 +612,8 @@ window.onload = function() {
 
 		[ // scene 9 - truck 
 			{id:document.getElementById("businessmen"), start: 9.0, end: 9.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:2},
-			{id:document.getElementById("truck-decorations"), start: 9.7, end: 9.8, prefix: "decorations", order: [1,2,3,4,5], repeat:1},
-			{id:document.getElementById("truck-grinch"), start: 9.2, end: 9.8, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1}
+			{id:document.getElementById("truck-decorations"), start: 9.7, end: 9.75, prefix: "decorations", order: [1,2,3,4,5], repeat:1},
+			{id:document.getElementById("truck-grinch"), start: 9.2, end: 9.75, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1}
 			
 			
 		],
