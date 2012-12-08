@@ -304,9 +304,7 @@ window.onload = function() {
 		[  // global
 		
 			{id:document.getElementById("candycane1"), start: 0.01, end: 0.04, x: 60, y: -400, type:"translate"},
-			{id:document.getElementById("snowflakes-mid"), start: 0.09, end: 0.16, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-top"), start: 0.09, end: 0.16, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-bottom"), start: 0.1, end: 0.16, x: 0, y: 2000, type:"translate"}
+			
 		
 		],
 		
@@ -355,9 +353,13 @@ window.onload = function() {
 			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
 			{id:document.getElementById("gate"), start:2.82, end:2.9, x: 0, y:-750, type:"translate"},
 			{id:document.getElementById("gate"), start:2.94, end:2.99, x: 0, y:-300, type:"translate"},
-			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 0, y: -160, type:"translate"},
-			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 0, y: -40, type:"translate"},
-			{id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 0, y: -40, type:"bgShift"},
+			// {id:document.getElementById("snowflakes-mid"), start: 2.6, end: 2.99, x: 0, y: 2000, type:"translate"},
+			// {id:document.getElementById("snowflakes-top"), start: 2.6, end: 2.99, x: 0, y: 2000, type:"translate"},
+			// {id:document.getElementById("snowflakes-bottom"), start: 2.6, end: 2.99, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 30, y: 0, type:"translate"},
+			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 256, y: 0, type:"translate"},
+			{id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 10, y: 0, type:"bgShift"},
+
 		
 		],
 		
