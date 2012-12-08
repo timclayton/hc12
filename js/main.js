@@ -304,9 +304,9 @@ window.onload = function() {
 		[  // global
 		
 			{id:document.getElementById("candycane1"), start: 0.01, end: 0.04, x: 60, y: -400, type:"translate"},
-			{id:document.getElementById("snowflakes-mid"), start: 0.02, end: 0.1, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-top"), start: 0.04, end: 0.11, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-bottom"), start: 0.03, end: 0.12, x: 0, y: 2000, type:"translate"}
+			{id:document.getElementById("snowflakes-mid"), start: 0.09, end: 0.14, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-top"), start: 0.09, end: 0.13, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-bottom"), start: 0.1, end: 0.14, x: 0, y: 2000, type:"translate"}
 		
 		],
 		
@@ -320,7 +320,7 @@ window.onload = function() {
 			{id:document.getElementById("text-christmas"), start: 1.6, end: 1.99, x: 0, y: -100, type:"translate"},
 			{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
 			{id:document.getElementById("s1bg"), start: 1.6, end: 1.99, x: 0, y: -40, type:"bgShift"},
-			{id:document.getElementById("s2bg"), start: 1.7, end: 1.99, x: 0, y: -30, type:"bgShift"}
+			{id:document.getElementById("s2bg"), start: 1.7, end: 1.99, x: 0, y: -10, type:"bgShift"}
 						
 		],
 		
@@ -330,8 +330,10 @@ window.onload = function() {
 			{id:document.getElementById("textbox2"), start: 2.25, end: 2.30, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox1"), start: 2.45, end: 2.5, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox2"), start: 2.45, end: 2.5, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("near-cliff"), start:2.0, end:2.50, x: 50, y: -1800, type:"translate"},
-			{id:document.getElementById("far-cliff"), start:2.0, end:2.5, x: 0, y:-1600, type:"translate"},
+			{id:document.getElementById("near-cliff"), start:2.0, end:2.30, x: 80, y: -700, type:"translate"},
+			{id:document.getElementById("far-cliff"), start:2.0, end:2.3, x: 0, y:-400, type:"translate"},
+			{id:document.getElementById("s2bg"), start:2.0, end:2.3, x: 0, y:-50, type:"bgShift"},
+			{id:document.getElementById("s2bg"), start:2.5, end:2.85, x: 0, y:-50, type:"bgShift"},
 			{id:document.getElementById("near-cliff"), start:2.5, end:2.70, x: 1000, y: -800, type:"translate"},
 			{id:document.getElementById("far-cliff"), start:2.5, end:2.75, x: 900, y:-600, type:"translate"},
 			{id:document.getElementById("ledge"), start:2.15, end:2.3, x: 0, y:-354, type:"translate"},
@@ -422,7 +424,7 @@ window.onload = function() {
 			{id:document.getElementById("garageband"), start: 6.5, end: 6.62, x:0, y: 350, type:"translate"},
 			{id:document.getElementById("garage-bg"), start: 6.5, end: 6.62, x:0, y: 80, type:"bgShift"},
 			{id:document.getElementById("garage-grinch"), start: 6.4, end: 6.55, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("garage-grinch"), start: 6.5, end: 6.62, x:1, y: 300, type:"translate"}
+			{id:document.getElementById("garage-grinch"), start: 6.5, end: 6.62, x:1, y: 300, type:"translate"},
 		], 
 
 		[ //scene 7 - miracle
@@ -434,9 +436,9 @@ window.onload = function() {
 			{id:document.getElementById("miracle-grinch"), start: 7.5, end: 7.6, x:0, y: 140, type:"translate"},
 			{id:document.getElementById("carolers"), start: 7.5, end: 7.6, x:0, y: 150, type:"translate"},
 			{id:document.getElementById("s7bg"), start: 7.5, end: 7.6, x:0, y: 80, type:"bgShift"},
-			{id:document.getElementById("aquariumbg"), start: 7.85, end: 7.99, x:0, y: 95, type:"bgShift"},
-			{id:document.getElementById("aquarium-grinch"), start: 7.85, end: 7.99, x:0, y: 40, type:"translate"},
-			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: 80, type:"translate"}
+			{id:document.getElementById("aquariumbg"), start: 7.85, end: 7.99, x:0, y: -10, type:"bgShift"},
+			{id:document.getElementById("aquarium-grinch"), start: 7.85, end: 7.99, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: -80, type:"translate"}
 		], 
 
 		[ //scene 8 - aquarium
@@ -639,7 +641,7 @@ window.onload = function() {
 		[ // scene 13 - celebration
 			{id:document.getElementById("celebration"), start: 13.0, end: 13.99, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:6},
 			{id:document.getElementById("celebration-light"), start: 13.2, end: 13.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:8},
-			{id:document.getElementById("growing-heart"), start: 13.72, end: 13.95, prefix: "growing-heart", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1}
+			{id:document.getElementById("growing-heart"), start: 13.72, end: 13.88, prefix: "growing-heart", order: [1,2,2,2,2,3,3,3,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1}
 		],
 
 		[ // scene 14

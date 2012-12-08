@@ -132,7 +132,7 @@ audio { display: none; }
 /* ===== Backgrounds ===== */
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left bottom no-repeat fixed; }
-#scene2 .bg { background: #B51428 url('../img/scene2/bg-2.jpg') left top repeat fixed; }
+#scene2 .bg { background: #B51428 url('../img/scene2/bg-repeat.jpg') left top repeat fixed; }
 #scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') left 105% no-repeat fixed; } 
 #scene4 .bg {background:  url('../img/scene4/bg-2.png') left 105% repeat fixed }
 #scene4 .second-bg { background:url('../img/scene4/backroom-3.png') left 105% no-repeat fixed}
@@ -178,8 +178,8 @@ audio { display: none; }
 
 #textbox1 { position: absolute; top: 4.4%; left: 50%; margin-left:  -177px; width: 354px; height: 253px; background: url('../img/scene2/textbox1.png') no-repeat; opacity: 0; }
 #textbox2 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 253px; background: url('../img/scene2/textbox2.png') no-repeat; opacity: 0; }
-#near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; top:0;  }
-#far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0px; top:0; }
+#near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; top:-1000px;  }
+#far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0px; top:-1000px; }
 #ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
 #lights { position: absolute; width: 1400px; height: 900px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-100px; bottom:-900px; opacity: .7;}
 #textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 325px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
@@ -518,7 +518,7 @@ audio { display: none; }
 /* ===== Scene 9 - Truck ===== */
 
 #truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: 0;left:0px; }
-#text-truck { position:absolute; width:314px; height:175px; background:url('../img/scene-truck/text-truck.png') no-repeat; bottom: 119px;left:162px; }
+#text-truck { position:absolute; width:314px; height:175px; background:url('../img/scene-truck/text-truck.png') no-repeat; bottom: 119px;left:162px; opacity: 0; }
 
 #businessmen { position:absolute; width: 638px; height: 480px; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat; opacity: 0; }
 #businessmen.businessmen1 { background-position: -2245px -2445px; }
