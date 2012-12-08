@@ -311,14 +311,13 @@ audio { display: none; }
 
 /* ===== Scene 5 - Drummers ===== */
 
-#clouds-1 { position: absolute; width: 1341px; height: 406px; background: url('../img/scene5/clouds-hi.png') no-repeat 0 0;left:0; bottom: 300px; }
-#monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene5/monument.png') no-repeat 0 0;left:0px; bottom: -550px; /*top: 20px;*/ }
+#clouds-1 { position: absolute; width: 1341px; height: 406px; background: url('../img/scene5/clouds-hi.png') no-repeat 0 0;left:0; bottom: 380px; }
+#monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene5/monument.png') no-repeat 0 0;left:0px; bottom:200px; /*top: 20px;*/ }
 #textbox-scene5 { position: absolute; width: 432px; height: 177px; background: url('../img/scene5/text-5.png') no-repeat 0 0;left: 50%; margin-left:  -177px; top: 30px; z-index: 50; opacity: 0;}
-/*#symbols { position: absolute; width: 1363px; height: 585px; background: url('../img/scene5/symbols.png') no-repeat 0 0; right:10px; bottom: 30px;}*/
 #feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene5/feeling-it.png') no-repeat 0 0; right:320px; bottom: 350px; opacity: 0;}
 #didgeri-do { position: absolute; width: 95px; height: 91px; background: url('../img/scene5/didgeri-do.png') no-repeat 0 0; right:500px; bottom: 270px; opacity: 0;}
 
-#drummers {  position: absolute; bottom: -300px;  right:100px ; background: url('../img/scene5/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
+#drummers {  position: absolute; bottom: 100px;  right:100px ; background: url('../img/scene5/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
 #drummers.drummers1 { width: 825px; height: 442px; background-position: -0px -2265px; }
 #drummers.drummers2 { width: 825px; height: 442px; background-position: -1672px -1812px; }
 #drummers.drummers3 { width: 825px; height: 442px; background-position: -1672px -1359px; }
@@ -347,7 +346,7 @@ audio { display: none; }
 #hippies.hippies8 { width: 1400px; height: 1000px; background-position: -1411px -0px; }
 #hippies.hippies9 { width: 1400px; height: 1000px; background-position: -0px -0px; }
 
-#monument-grinch { position: absolute; width: 560px; height: 878px; bottom: -550px;  left:0 ; background: url('../img/scene5/monument-grinch.png') no-repeat -2855px -889px;  } 
+#monument-grinch { position: absolute; width: 560px; height: 878px; bottom: 200px ;/*bottom: -550px; */ left:0 ; background: url('../img/scene5/monument-grinch.png') no-repeat -2855px -889px;  } 
 #monument-grinch.monument-grinch0 { background-position: -2855px -889px; }
 #monument-grinch.monument-grinch1 { background-position: -2855px -0px; }
 #monument-grinch.monument-grinch2 { background-position: -2284px -1778px; }

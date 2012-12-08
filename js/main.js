@@ -353,9 +353,6 @@ window.onload = function() {
 			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
 			{id:document.getElementById("gate"), start:2.82, end:2.9, x: 0, y:-750, type:"translate"},
 			{id:document.getElementById("gate"), start:2.94, end:2.99, x: 0, y:-300, type:"translate"},
-			// {id:document.getElementById("snowflakes-mid"), start: 2.6, end: 2.99, x: 0, y: 2000, type:"translate"},
-			// {id:document.getElementById("snowflakes-top"), start: 2.6, end: 2.99, x: 0, y: 2000, type:"translate"},
-			// {id:document.getElementById("snowflakes-bottom"), start: 2.6, end: 2.99, x: 0, y: 2000, type:"translate"},
 			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 100, y: 0, type:"translate"},
 			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 104, y: 0, type:"translate"},
 			{id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 4, y: 0, type:"bgShift"},
@@ -399,10 +396,10 @@ window.onload = function() {
 			{id:document.getElementById("second-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
 			{id:document.getElementById("poker-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
 			{id:document.getElementById("monumentbg"), start: 4.85, end: 4.99, x:0, y: -50, type:"bgShift"},
-			{id:document.getElementById("monument"), start: 4.85, end: 4.99, x: 0, y: -550, type:"translate"},
-			{id:document.getElementById("monument-grinch"), start: 4.85, end: 4.99, x: 0, y: -550, type:"translate"},
-			{id:document.getElementById("drummers"), start: 4.85, end: 4.99, x: 0, y: -300, type:"translate"},
-			{id:document.getElementById("clouds-1"), start: 4.85, end: 4.99, x: 0, y: -80, type:"translate"},
+			{id:document.getElementById("monument"), start: 4.85, end: 4.99, x: 0, y: 200, type:"translate"},
+			{id:document.getElementById("monument-grinch"), start: 4.85, end: 4.99, x: 0, y: 200, type:"translate"},
+			{id:document.getElementById("drummers"), start: 4.85, end: 4.99, x: 0, y: 100, type:"translate"},
+			{id:document.getElementById("clouds-1"), start: 4.85, end: 4.99, x: 0, y: 80, type:"translate"},
 			// {id:document.getElementById("hippies"), start: 4.85, end: 4.99, x: 0, y: -500, type:"translate"},
 			
 
@@ -410,7 +407,8 @@ window.onload = function() {
 		],  
 		
 		[ 	//scene 5
-
+			// {id:document.getElementById("monument"), start: 5.0, end: 5.2, x: 0, y: -200, type:"translate"},
+			// {id:document.getElementById("monument-grinch"), start: 5.0, end: 5.2, x: 0, y: -200, type:"translate"},
 			{id:document.getElementById("hippies"), start: 5.0, end: 5.05, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
