@@ -872,9 +872,9 @@ audio { display: none; }
 
 /*=== Scene 14  - Sky ===== */
 
-#curtain { position: absolute; top: -50px; left: 0; width: 1376px; height: 476px; background: url('../img/scene-finale/curtains.png') no-repeat; }
+#curtain { position: absolute; top: -300px; left: 0; width: 1376px; height: 476px; background: url('../img/scene-finale/curtains.png') no-repeat; }
 
-#bells { position: absolute; top: -50px; left: 0; width: 1140px; height: 500px; background: url('../img/scene-finale/bells-sprite.png') no-repeat; background-position: -2282px -2004px; }
+#bells { position: absolute; top: -300px; left: 0; width: 1140px; height: 500px; background: url('../img/scene-finale/bells-sprite.png') no-repeat; background-position: -2282px -2004px; }
 #bells.bells1 { width: 1140px; height: 500px; background-position: -2282px -2004px; }
 #bells.bells2 { width: 1140px; height: 500px; background-position: -2282px -1503px; }
 #bells.bells3 { width: 1140px; height: 500px; background-position: -2282px -1002px; }
