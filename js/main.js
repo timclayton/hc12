@@ -304,9 +304,9 @@ window.onload = function() {
 		[  // global
 		
 			{id:document.getElementById("candycane1"), start: 0.01, end: 0.04, x: 60, y: -400, type:"translate"},
-			{id:document.getElementById("snowflakes-mid"), start: 0.09, end: 0.14, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-top"), start: 0.09, end: 0.13, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("snowflakes-bottom"), start: 0.1, end: 0.14, x: 0, y: 2000, type:"translate"}
+			{id:document.getElementById("snowflakes-mid"), start: 0.09, end: 0.16, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-top"), start: 0.09, end: 0.16, x: 0, y: 2000, type:"translate"},
+			{id:document.getElementById("snowflakes-bottom"), start: 0.1, end: 0.16, x: 0, y: 2000, type:"translate"}
 		
 		],
 		
@@ -320,7 +320,7 @@ window.onload = function() {
 			{id:document.getElementById("text-christmas"), start: 1.6, end: 1.99, x: 0, y: -100, type:"translate"},
 			{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
 			{id:document.getElementById("s1bg"), start: 1.6, end: 1.99, x: 0, y: -40, type:"bgShift"},
-			{id:document.getElementById("s2bg"), start: 1.7, end: 1.99, x: 0, y: -10, type:"bgShift"}
+			{id:document.getElementById("s2bg"), start: 1.65, end: 1.99, x: 0, y: -10, type:"bgShift"}
 						
 		],
 		
@@ -348,11 +348,13 @@ window.onload = function() {
 			{id:document.getElementById("back-row-houses"), start:2.63, end:2.85, x: -3, y:-670, type:"translate"},
 			{id:document.getElementById("front-row-houses"), start:2.73, end:2.85, x: 5, y:-400, type:"translate"},
 			{id:document.getElementById("lawn-ornaments"), start:2.73, end:2.85, x: -4, y:-380, type:"translate"},
-			// {id:document.getElementById("back-row-houses"), start:2.8, end:2.99, x: 0, y:-30, type:"translate"},
-			// {id:document.getElementById("front-row-houses"), start:2.8, end:2.99, x: 0, y:-40, type:"translate"},
-			// {id:document.getElementById("lawn-ornaments"), start:2.8, end:2.99, x: 0, y:-35, type:"translate"},
+			{id:document.getElementById("back-row-houses"), start:2.8, end:2.99, x: 0, y:-30, type:"translate"},
+			{id:document.getElementById("front-row-houses"), start:2.8, end:2.99, x: 0, y:-40, type:"translate"},
+			{id:document.getElementById("lawn-ornaments"), start:2.8, end:2.99, x: 0, y:-35, type:"translate"},
+			{id:document.getElementById("s2bg"), start:2.85, end:2.99, x: 0, y:-50, type:"bgShift"},
 			{id:document.getElementById("lights"), start:2.8, end:2.99, x: 0, y:-20, type:"translate"},
-			{id:document.getElementById("gate"), start:2.82, end:2.9, x: 0, y:-850, type:"translate"},
+			{id:document.getElementById("gate"), start:2.82, end:2.9, x: 0, y:-750, type:"translate"},
+			{id:document.getElementById("gate"), start:2.94, end:2.99, x: 0, y:-300, type:"translate"},
 			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 0, y: -160, type:"translate"},
 			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 0, y: -40, type:"translate"},
 			{id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 0, y: -40, type:"bgShift"},
@@ -567,7 +569,7 @@ window.onload = function() {
 		],
 	
 		[  // scene 2
-			{id:document.getElementById("max"), start: 2.15, end: 2.8, prefix: "max", order: [1,2,3,4,5,6], repeat:10},
+			{id:document.getElementById("max"), start: 2.15, end: 2.7, prefix: "max", order: [1,2,3,4,5,6], repeat:13},
 			{id:document.getElementById("grinch"), start: 2.15, end: 2.8, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9], repeat:6}
 		],
 		
