@@ -181,7 +181,7 @@ audio { display: none; }
 #near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; top:-1200px;  }
 #far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0px; top:-1200px; }
 #ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
-#lights { position: absolute; width: 1400px; height: 600px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-100px; bottom:-600px; opacity: .4;}
+#lights { position: absolute; width: 1400px; height: 600px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-100px; bottom:-600px; opacity: 1;}
 #textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
 #back-row-houses { position: absolute; width: 2225px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: 0px; bottom: -770px; }
 #front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: 0px; bottom: -477px; }
@@ -335,6 +335,17 @@ audio { display: none; }
 #drummers.drummers14 { width: 825px; height: 442px; background-position: -0px -453px; }
 #drummers.drummers15 { width: 825px; height: 442px; background-position: -836px -0px; }
 #drummers.drummers16 { width: 825px; height: 442px; background-position: -0px -0px; }
+
+#hippies { position: absolute;width: 1400px; height: 1000px; bottom: -500px;  left:0 ; background: url('../img/scene5/hippies-sprite.png') no-repeat -2822px -2022px;   }
+#hippies.hippies1 { width: 1400px; height: 1000px; background-position: -2822px -2022px; }
+#hippies.hippies2 { width: 1400px; height: 1000px; background-position: -2822px -1011px; }
+#hippies.hippies3 { width: 1400px; height: 1000px; background-position: -2822px -0px; }
+#hippies.hippies4 { width: 1400px; height: 1000px; background-position: -1411px -2022px; }
+#hippies.hippies5 { width: 1400px; height: 1000px; background-position: -0px -2022px; }
+#hippies.hippies6 { width: 1400px; height: 1000px; background-position: -1411px -1011px; }
+#hippies.hippies7 { width: 1400px; height: 1000px; background-position: -0px -1011px; }
+#hippies.hippies8 { width: 1400px; height: 1000px; background-position: -1411px -0px; }
+#hippies.hippies9 { width: 1400px; height: 1000px; background-position: -0px -0px; }
 
 /* ===== Scene 6 - Garage Band  ===== */
 

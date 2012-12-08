@@ -402,6 +402,7 @@ window.onload = function() {
 			{id:document.getElementById("monument"), start: 4.85, end: 4.99, x: 0, y: -400, type:"translate"},
 			{id:document.getElementById("drummers"), start: 4.85, end: 4.99, x: 0, y: -300, type:"translate"},
 			{id:document.getElementById("clouds-1"), start: 4.85, end: 4.99, x: 0, y: -80, type:"translate"},
+			{id:document.getElementById("hippies"), start: 4.85, end: 4.99, x: 0, y: -500, type:"translate"},
 			
 
 		
@@ -409,7 +410,6 @@ window.onload = function() {
 		
 		[ 	//scene 5
 			
-		  // {id:document.getElementById("drummers"), start: 5., end: 5.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
 			{id:document.getElementById("monument"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
@@ -591,7 +591,8 @@ window.onload = function() {
 		],
 
 		[ //scene 5
-			{id:document.getElementById("drummers"), start: 5.0, end: 5.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:2}
+			{id:document.getElementById("drummers"), start: 5.0, end: 5.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:2},
+			{id:document.getElementById("hippies"), start: 5.0, end: 5.99, prefix: "hippies", order: [1,2,3,4,5,6,7,8], repeat:5}
 		],
 		
 		[ // scene 6
