@@ -213,7 +213,7 @@ audio { display: none; }
 #bunny-2 { position:absolute; background: url('../img/scene3/bunny-2.png') no-repeat 0 0; width: 209px; height: 178px; left: 1182px; bottom:10px; }
 #bunny-big { position:absolute; background: url('../img/scene3/bunny-big.png') no-repeat 0 0; width: 437px; height: 391px; left: 1642px; bottom: -20px; }
 #know-your-memes {  position:absolute; background: url('../img/scene3/know-your-memes.png') no-repeat 0 0; width: 117px; height: 101px; left: 1542px; bottom: 300px; }
-#doorway { position:absolute; background: url('../img/scene3/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; }
+#doorway { position:absolute; background: url('../img/scene3/doorway.png') no-repeat 0 0; width: 253px; height: 706px; /*left: 1172px;*/ left:1022px; bottom: 54px; }
 #couch { position:absolute; background: url('../img/scene3/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; }
 #kitchen-text { position:absolute; background: url('../img/scene3/kitchen-text.png') no-repeat 0 0; width: 354px; height: 253px; left: 50%; margin-left: -177px; bottom:380px; opacity: 0;}
 
@@ -236,7 +236,7 @@ audio { display: none; }
 #ericw.ericw16 { background-position: -402px -0px; }
 #ericw.ericw17 { background-position: -0px -0px; }
 
-#grinch-burbs { position:absolute; left: 1150px; bottom:220px; width: 1446px; height: 616px; background: url('../img/scene3/grinch.png') no-repeat; }
+#grinch-burbs { position:absolute; left: 1017px; bottom:220px; width: 1446px; height: 616px; background: url('../img/scene3/grinch.png') no-repeat; }
 #grinch-burbs.grinch-burbs0 { background: url('../img/scene3/grinch-start.png') no-repeat;  }
 #grinch-burbs.grinch-burbs1 { background-position: -2914px -627px; }
 #grinch-burbs.grinch-burbs2 { background-position: -2914px -0px; }
