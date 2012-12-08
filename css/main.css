@@ -118,7 +118,7 @@ audio { display: none; }
 #scene2  { height:12000px; } /*{ height: 24000px; } */
 #scene3  { height:8000px; } /*{ height: 16000px; } */
 #scene4  { height:5000px; } /*{ height: 10000px; } */
-#scene5  { height:3500px; } /*{ height: 7000px; } */
+#scene5  { height:5000px; } /*{ height: 7000px; } */
 #scene6  { height:5000px; } /*{ height: 10000px; }*/
 #scene7  { height:5000px; } /*{ height: 10000px; }*/
 #scene8  { height:5000px; } /*{ height: 10000px; }*/
@@ -336,7 +336,7 @@ audio { display: none; }
 #drummers.drummers15 { width: 825px; height: 442px; background-position: -836px -0px; }
 #drummers.drummers16 { width: 825px; height: 442px; background-position: -0px -0px; }
 
-#hippies { position: absolute;width: 1400px; height: 1000px; bottom: -500px;  left:0 ; background: url('../img/scene5/hippies-sprite.png') no-repeat -2822px -2022px;   }
+#hippies { position: absolute;width: 1400px; height: 1000px; bottom: 0px;  left:0 ; background: url('../img/scene5/hippies-sprite.png') no-repeat -2822px -2022px; opacity: 0;  }
 #hippies.hippies1 { width: 1400px; height: 1000px; background-position: -2822px -2022px; }
 #hippies.hippies2 { width: 1400px; height: 1000px; background-position: -2822px -1011px; }
 #hippies.hippies3 { width: 1400px; height: 1000px; background-position: -2822px -0px; }
