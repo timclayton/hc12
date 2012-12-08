@@ -398,6 +398,10 @@ window.onload = function() {
 			{id:document.getElementById("bg-inner"), start: 4.75, end: 4.99, x:0, y: -100, type:"translate"},
 			{id:document.getElementById("second-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
 			{id:document.getElementById("poker-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
+			{id:document.getElementById("monumentbg"), start: 4.85, end: 4.99, x:0, y: -50, type:"bgShift"},
+			{id:document.getElementById("monument"), start: 4.85, end: 4.99, x: 0, y: -400, type:"translate"},
+			{id:document.getElementById("drummers"), start: 4.85, end: 4.99, x: 0, y: -300, type:"translate"},
+			{id:document.getElementById("clouds-1"), start: 4.85, end: 4.99, x: 0, y: -80, type:"translate"},
 			
 
 		
@@ -405,12 +409,11 @@ window.onload = function() {
 		
 		[ 	//scene 5
 			
-		  {id:document.getElementById("drummers"), start: 5., end: 5.06, x:1, y: 0, type:"opacity"},
+		  // {id:document.getElementById("drummers"), start: 5., end: 5.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
-			{id:document.getElementById("clouds-2"), start: 5.0, end: 5.99, x: 100, y: 5, type:"translate"},
 			{id:document.getElementById("monument"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
-			{id:document.getElementById("monument-lights"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
+			// {id:document.getElementById("monument-lights"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 5.45, end: 5.5, x:1, y: 0, type:"opacity"},
 	
 		], 
@@ -459,7 +462,7 @@ window.onload = function() {
 			{id:document.getElementById("big-fish"), start: 8.0, end: 8.99, x: -500, y: 20, type:"translate"},
 			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-aquarium"), start: 8.8, end: 8.85, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("shark"), start: 8.65, end: 8.99, x: -3000, y: 0, type:"translate"}
+			{id:document.getElementById("shark"), start: 8.65, end: 8.99, x: 2400, y: 0, type:"translate"}
 		],
 
 		 [ //scene 9 - truck
