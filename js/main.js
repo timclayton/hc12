@@ -356,9 +356,9 @@ window.onload = function() {
 			// {id:document.getElementById("snowflakes-mid"), start: 2.6, end: 2.99, x: 0, y: 2000, type:"translate"},
 			// {id:document.getElementById("snowflakes-top"), start: 2.6, end: 2.99, x: 0, y: 2000, type:"translate"},
 			// {id:document.getElementById("snowflakes-bottom"), start: 2.6, end: 2.99, x: 0, y: 2000, type:"translate"},
-			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 30, y: 0, type:"translate"},
-			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 256, y: 0, type:"translate"},
-			{id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 10, y: 0, type:"bgShift"},
+			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 100, y: 0, type:"translate"},
+			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 104, y: 0, type:"translate"},
+			{id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 4, y: 0, type:"bgShift"},
 
 		
 		],
