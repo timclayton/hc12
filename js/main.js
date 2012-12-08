@@ -58,27 +58,27 @@ window.onload = function() {
 		if ( pos !== 1 ) { document.getElementById("scene" + (pos - 1)).className = "prev"; }
 		stuck = true;
 		
-		// if(document.getElementById("audio" + pos)) {
-		// 	if(document.getElementById("audio" + (pos-1))) {
-		// 		var lastAudio = document.getElementById("audio" + (pos-1));
-		// 			//document.getElementById("audio" + (pos-1)).pause();
+		 if(document.getElementById("audio" + pos)) {
+		 	if(document.getElementById("audio" + (pos-1))) {
+		 		//var lastAudio = document.getElementById("audio" + (pos-1));
+		 			document.getElementById("audio" + (pos-1)).pause();
 
-		// 			var interval = 40; // 200ms interval
+		 			//var interval = 40; // 200ms interval
 
-		// 			var fadeout = setInterval(
-		// 			  function() {
-		// 			    if (lastAudio.volume > 0) {
-		// 			    	console.log(lastAudio.volume);
-		// 			      lastAudio.volume -= 0.1
-		// 			    }
-		// 			    else {
-		// 			      // Stop the setInterval when 0 is reached
-		// 			      clearInterval(fadeout);
-		// 			    }
-		// 			  }, interval);
-		// 	 }
-		// 	document.getElementById("audio" + pos).play();
-		// }
+		 			// var fadeout = setInterval(
+		 			//   function() {
+		 			//     if (lastAudio.volume > 0) {
+		 			//     	console.log(lastAudio.volume);
+		 			//       lastAudio.volume -= 0.1
+		 			//     }
+		 			//     else {
+		 			//       // Stop the setInterval when 0 is reached
+		 			//       clearInterval(fadeout);
+		 			//     }
+		 			//   }, interval);
+		 	 }
+		 	document.getElementById("audio" + pos).play();
+		 }
 
 		
 	}
@@ -668,11 +668,13 @@ window.onload = function() {
 		if ( this.className === "playing" ) {
 			stopScroll();
 			this.className = "paused";
+			document.getElementById("audio" + pos).pause();
 		}
 		else {
 			scrollToEnd();
 			this.className = "playing";
 			play.className = "playing";
+			document.getElementById("audio" + pos).play();
 		}
 	}
 
