@@ -399,7 +399,8 @@ window.onload = function() {
 			{id:document.getElementById("second-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
 			{id:document.getElementById("poker-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
 			{id:document.getElementById("monumentbg"), start: 4.85, end: 4.99, x:0, y: -50, type:"bgShift"},
-			{id:document.getElementById("monument"), start: 4.85, end: 4.99, x: 0, y: -400, type:"translate"},
+			{id:document.getElementById("monument"), start: 4.85, end: 4.99, x: 0, y: -550, type:"translate"},
+			{id:document.getElementById("monument-grinch"), start: 4.85, end: 4.99, x: 0, y: -550, type:"translate"},
 			{id:document.getElementById("drummers"), start: 4.85, end: 4.99, x: 0, y: -300, type:"translate"},
 			{id:document.getElementById("clouds-1"), start: 4.85, end: 4.99, x: 0, y: -80, type:"translate"},
 			// {id:document.getElementById("hippies"), start: 4.85, end: 4.99, x: 0, y: -500, type:"translate"},
@@ -413,9 +414,10 @@ window.onload = function() {
 			{id:document.getElementById("hippies"), start: 5.0, end: 5.05, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
-			{id:document.getElementById("monument"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
-			// {id:document.getElementById("monument-lights"), start: 5.0, end: 5.99, x: 0, y: -150, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 5.45, end: 5.5, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("monument"), start: 5.85, end: 5.99, x: 0, y: -150, type:"translate"},
+			{id:document.getElementById("drummers"), start: 5.85, end: 5.99, x: 0, y: -350, type:"translate"},
+			{id:document.getElementById("hippies"), start: 5.85, end: 5.99, x: 0, y: -250, type:"translate"},
 	
 		], 
 
@@ -593,7 +595,8 @@ window.onload = function() {
 
 		[ //scene 5
 			{id:document.getElementById("drummers"), start: 5.0, end: 5.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:2},
-			{id:document.getElementById("hippies"), start: 5.0, end: 5.99, prefix: "hippies", order: [1,2,3,4,5,6,7,8], repeat:5}
+			{id:document.getElementById("hippies"), start: 5.0, end: 5.99, prefix: "hippies", order: [1,2,3,4,5,6,7,8], repeat:5},
+			{id:document.getElementById("monument-grinch"), start: 5.4, end: 5.8, prefix: "monument-grinch", order: [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0}
 		],
 		
 		[ // scene 6
