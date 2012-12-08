@@ -25,12 +25,35 @@ window.onload = function() {
 					rewind					=  document.getElementById("rewind"),
 					currentScene			= document.getElementById("scene" + pos),
 					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']),
-					transformMaps 		=  new Array();
+					transformMaps 		=  new Array(),
+					transformMaps 		=  new Array(),
+					narration				=  document.getElementById("narration"),
+					narrationSprite		=  [ [0,10], [10,18], [18,20.7], [20.7,25.1], [25.1,30.3], [30.3,33.5], [33.5,36.7], [36.7,39.8], [39.8,42.8], [42.8,45.3], [45.4,47.8], [47.8,50.7], [50.7,54.5], [54.5,64.5], [64.5,77], [77,86.9], [86.9,101.1] ],
+					narrationEnd			=  0;
+					
+	narration.addEventListener('timeupdate', function(e) {
+	
+		if ( narration.currentTime > narrationEnd ) {
+			narration.pause();
+			narration.className = "paused";
+		}
+		
+	}, false);
+	
+	var playNarration = function(sound) {
+	
+		
+		narration.currentTime = sound[0];
+		narrationEnd = sound[1];
+		narration.play();
+		narration.className = "playing";
+		
+	}
 	
 	window.onresize = function() {
 		
 					wh						= window.innerHeight;
-					setBgHeight()
+					setBgHeight();
 		
 	}
 	
@@ -164,6 +187,11 @@ window.onload = function() {
 			
 		}
 		
+		if ( element.audio && animPercent > 0 ) {
+			if ( narration.className != "playing" ) {
+				playNarration(element.audio);
+			}
+		}
 		element.mapX = x1;
 		element.mapY = y1;
 		
@@ -324,7 +352,7 @@ window.onload = function() {
 		
 		[  // scene 2
 
-			{id:document.getElementById("textbox1"), start: 2.05, end: 2.1, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox1"), start: 2.05, end: 2.1, x: 1, y: 0, type:"opacity", audio: narrationSprite[0]},
 			{id:document.getElementById("textbox2"), start: 2.25, end: 2.30, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox1"), start: 2.45, end: 2.5, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox2"), start: 2.45, end: 2.5, x: -1, y: 0, type:"opacity"},
@@ -341,7 +369,7 @@ window.onload = function() {
 			{id:document.getElementById("grinch"), start:2.5, end:2.63, x: 700, y: -500, type:"translate"},
 			{id:document.getElementById("max"), start:2.50, end:2.63, x: 700, y:-500, type:"translate"},
 			{id:document.getElementById("lights"), start:2.6, end:2.8, x: 0, y:-800, type:"translate"},
-			{id:document.getElementById("textbox3"), start: 2.55, end: 2.6, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox3"), start: 2.55, end: 2.6, x: 1, y: 0, type:"opacity", audio: narrationSprite[1]},
 			{id:document.getElementById("textbox3"), start: 2.8, end: 2.85, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("back-row-houses"), start:2.63, end:2.85, x: -3, y:-670, type:"translate"},
 			{id:document.getElementById("front-row-houses"), start:2.73, end:2.85, x: 5, y:-400, type:"translate"},
@@ -367,7 +395,7 @@ window.onload = function() {
 			
 			
 			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("kitchen-text"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("kitchen-text"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity", audio: narrationSprite[3]},
 			{id:document.getElementById("kitchen-text"), start: 3.4, end: 3.45, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("bunny-2"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bunny-big"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
@@ -391,7 +419,7 @@ window.onload = function() {
 			{id:document.getElementById("poker"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("grinch-poker"), start: 4.95, end: 4.99, x:0, y: -20, type:"translate"},
 			{id:document.getElementById("bg-inner"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("poker-text"), start: 4.3, end: 4.35, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("poker-text"), start: 4.3, end: 4.35, x:1, y: 0, type:"opacity", audio: narrationSprite[4]},
 			{id:document.getElementById("poker-text"), start: 4.6, end: 4.65, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("poker"), start: 4.75, end: 4.99, x:0, y: -200, type:"translate"},
 			{id:document.getElementById("grinch-poker"), start: 4.75, end: 4.99, x:0, y: -100, type:"translate"},
@@ -412,7 +440,7 @@ window.onload = function() {
 		[ 	//scene 5
 
 			{id:document.getElementById("hippies"), start: 5.0, end: 5.05, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity", audio: narrationSprite[5]},
 			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 5.45, end: 5.5, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("monument"), start: 5.85, end: 5.99, x: 0, y: -150, type:"translate"},
@@ -426,7 +454,7 @@ window.onload = function() {
 			{id:document.getElementById("garage-exterior"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("garage-decorations"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("garageband"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("textbox-scene6"), start: 6.1, end: 6.2, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox-scene6"), start: 6.1, end: 6.2, x:1, y: 0, type:"opacity", audio: narrationSprite[6]},
 			{id:document.getElementById("garage-interior"), start: 6.5, end: 6.62, x:0, y: 250, type:"translate"},
 			{id:document.getElementById("garage-exterior"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
 			{id:document.getElementById("textbox-scene6"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
@@ -441,7 +469,7 @@ window.onload = function() {
 			// {id:document.getElementById("s7bg"), start: 7.0, end: 7.2, x: 0, y:-30, type:"bgShift"},
 			{id:document.getElementById("carolers"), start: 7.0, end: 7.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-miracle"), start: 7.15, end: 7.20, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-miracle"), start: 7.45, end: 7.55, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-miracle"), start: 7.45, end: 7.55, x:-1, y: 0, type:"opacity", audio: narrationSprite[7]},
 			{id:document.getElementById("flamingo"), start: 7.5, end: 7.6, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("miracle-grinch"), start: 7.5, end: 7.6, x:0, y: 140, type:"translate"},
 			{id:document.getElementById("carolers"), start: 7.5, end: 7.6, x:0, y: 150, type:"translate"},
@@ -463,7 +491,7 @@ window.onload = function() {
 			{id:document.getElementById("little-fish-1"), start: 8.0, end: 8.99, x: -200, y: 0, type:"translate"},
 			{id:document.getElementById("little-fish-2"), start: 8.0, end: 8.99, x: -250, y: 20, type:"translate"},
 			{id:document.getElementById("big-fish"), start: 8.0, end: 8.99, x: -500, y: 20, type:"translate"},
-			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity", audio: narrationSprite[8]},
 			{id:document.getElementById("text-aquarium"), start: 8.8, end: 8.85, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("shark"), start: 8.65, end: 8.99, x: 2400, y: 0, type:"translate"}
 		],
@@ -472,7 +500,7 @@ window.onload = function() {
 			{id:document.getElementById("businessmen"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("truck-grinch"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("truck"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-truck"), start: 9.3, end: 9.4, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-truck"), start: 9.3, end: 9.4, x:1, y: 0, type:"opacity", audio: narrationSprite[9]},
 			{id:document.getElementById("text-truck"), start: 9.55, end: 9.6, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("truck-decorations"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("truck-grinch"), start: 9.6, end: 9.8, x:-1400, y: 0, type:"translate"},
@@ -481,13 +509,13 @@ window.onload = function() {
 
 		 [ //scene 10 - pool
 			{id:document.getElementById("swimmers"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-pool"), start: 10.0, end: 10.05, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-pool"), start: 10.0, end: 10.05, x: 1, y: 0, type:"opacity", audio: narrationSprite[10]},
 			{id:document.getElementById("text-pool"), start: 10.35, end: 10.4, x: -1, y: 0, type:"opacity"}
 		 ],
 
 		 [ //scene 11 
 		 	{id:document.getElementById("stieff"), start: 11.0, end: 11.05, x: 1, y: 0, type:"opacity"},
-		 	{id:document.getElementById("stieff-text"), start: 11.65, end: 11.7, x: 1, y: 0, type:"opacity"},
+		 	{id:document.getElementById("stieff-text"), start: 11.65, end: 11.7, x: 1, y: 0, type:"opacity", audio: narrationSprite[11]},
 			{id:document.getElementById("lights-out"), start: 11.69, end: 11.70, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("grinch-stieff"), start: 11.5, end: 11.51, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("midground"), start: 11.00, end: 11.05, x: 1, y: 0, type:"opacity"},
@@ -514,7 +542,7 @@ window.onload = function() {
 			{id:document.getElementById("audrey"), start: 12.3, end: 12.99, x: 0, y: 1300, type:"translate"},
 		  {id:document.getElementById("matt"), start: 12.3, end: 12.99, x: 0, y: 1300, type:"translate"},
 		  {id:document.getElementById("eric"), start: 12.3, end: 12.99, x: 0, y: 1300, type:"translate"},
-		  {id:document.getElementById("sleeping-grinch"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("sleeping-grinch"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity", audio: narrationSprite[12]},
 		  {id:document.getElementById("sleeping-grinch"), start: 12.25, end: 12.3, x: -1, y: 0, type:"opacity"},
 		  {id:document.getElementById("sleepingbg"), start: 12.0, end: 12.99, x:0, y: 120, type:"bgShift"}
 		 ],
@@ -523,7 +551,7 @@ window.onload = function() {
 		  {id:document.getElementById("globe"), start: 13.0, end: 13.12, x:0, y: -681, type:"translate"},
 		  {id:document.getElementById("celebration"), start: 13.0, end: 13.12, x:0, y: -600, type:"translate"},
 			{id:document.getElementById("celebration"), start: 13.0, end: 13.03, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-celebration"), start: 13.1, end: 13.13, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-celebration"), start: 13.1, end: 13.13, x:1, y: 0, type:"opacity", audio: narrationSprite[13]},
 			{id:document.getElementById("text-celebration"), start: 13.2, end: 13.23, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("celebration-light"), start: 13.15, end: 13.2, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("celebration-light"), start: 13.35, end: 13.39, x:-1, y: 0, type:"opacity"},
@@ -531,7 +559,7 @@ window.onload = function() {
 			{id:document.getElementById("celebration"), start: 13.24, end: 13.29, x:0, y: 650, type:"translate"},
 			{id:document.getElementById("celebrationbg"), start: 13.24, end: 13.29, x:0, y: 70, type:"bgShift"},
 			{id:document.getElementById("celebrationbg"), start: 13.4, end: 13.66, x:0, y: 20, type:"bgShift"},
-			{id:document.getElementById("text-sky-1"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-sky-1"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity", audio: narrationSprite[14]},
 			{id:document.getElementById("text-sky-1"), start: 13.5, end: 13.54, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-sky-2"), start: 13.54, end: 13.57, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-sky-2"), start: 13.63, end: 13.66, x:-1, y: 0, type:"opacity"},
@@ -556,7 +584,10 @@ window.onload = function() {
 			{id:document.getElementById("grinch-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("growing-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"},	
 			{id:document.getElementById("curtain"), start: 13.96, end: 13.999, x:0, y: 300, type:"translate"},
-			{id:document.getElementById("bells"), start: 13.96, end: 13.999, x:0, y: 300, type:"translate"}	
+			{id:document.getElementById("bells"), start: 13.96, end: 13.999, x:0, y: 300, type:"translate"},
+			{id: narration, start: 13.7, end: 13.75, x:1, y: 0, audio: narrationSprite[15]},
+			{id: narration, start: 13.85, end: 13.9, x:1, y: 0, audio: narrationSprite[16]},
+			{id: narration, start: 13.92, end: 13.95, x:1, y: 0, audio: narrationSprite[16]},
 		 ],
 
 		 [ //scene 14 - sky
@@ -677,12 +708,20 @@ window.onload = function() {
 			stopScroll();
 			this.className = "paused";
 			document.getElementById("audio" + pos).pause();
+			if ( narration.className === "playing" ) {
+				narration.pause();
+				narration.className = "paused active"
+			}
 		}
 		else {
 			scrollToEnd();
 			this.className = "playing";
 			play.className = "playing";
 			document.getElementById("audio" + pos).play();
+			if ( narration.className === "paused active" ) {
+				narration.play();
+				narration.className = "playing"
+			}
 		}
 	}
 
