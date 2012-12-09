@@ -124,7 +124,7 @@ audio { display: none; }
 #scene8  { height:5000px; } /*{ height: 10000px; }*/
 #scene9  { height:5000px; } /*{ height: 10000px; }*/
 #scene10 { height:5000px; } /* { height: 10000px; }*/
-#scene11 { height:4000px; } /* { height: 8000px; }*/
+#scene11 { height:5000px; } /* { height: 8000px; }*/
 #scene12 { height:6000px; } /* { height: 12000px; }*/
 #scene13 { height:18000px; } /* { height: 32000px; }*/
 #scene14 { height:10000px; } /* { height: 20000px; }*/
@@ -529,7 +529,7 @@ audio { display: none; }
 #truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: 100px; left:0px; }
 #text-truck { position:absolute; width:314px; height:175px; background:url('../img/scene-truck/text-truck.png') no-repeat; bottom: 119px;left:162px; opacity: 0; }
 
-#businessmen { position:absolute; width: 638px; height: 480px; bottom: 140px; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat -2245px -2445px;  }
+#businessmen { position:absolute; width: 638px; height: 480px; bottom: 140px; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat -2318px -1463px;  }
 #businessmen.businessmen1 { width: 638px; height: 480px; background-position: -2245px -2445px; }
 #businessmen.businessmen2 { width: 638px; height: 480px; background-position: -2260px -1954px; }
 #businessmen.businessmen3 { width: 638px; height: 480px; background-position: -2318px -1463px; }
@@ -677,11 +677,12 @@ audio { display: none; }
 /* ===== Scene 11  ===== */
 
 #stieff-text { position:absolute; width:332px;height:217px; background:url('../img/scene-stieff/stieff-text.png') no-repeat;left: 50%; margin-left:  -177px; bottom:364px; opacity: 0; }
-#foreground {  position:absolute;bottom:0; left:329px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
+#foreground {  position:absolute;bottom:100px; left:329px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
 #lights-out { position:absolute; bottom: 407px; left:0; width:1399px; height:593px; background:url('../img/scene-stieff/lights-out.jpg') no-repeat; opacity: 0; }
-#midground { position:absolute; bottom: 0px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat; opacity: 0;  }
+#midground { position:absolute; bottom: 100px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }
+#bg-placeholder { position:absolute; bottom: -500px; left:0; width:1400px; height:1000px; background:url('../img/scene-stieff/bg.png') no-repeat; }
 
-#fire { position:absolute; bottom: 0; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat;  }
+#fire { position:absolute; bottom: 100px; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat -784px -381px;  }
 #fire.fire1 { background-position: -784px -381px; }
 #fire.fire2 { background-position: -784px -0px; }
 #fire.fire3 { background-position: -392px -381px; }
@@ -689,7 +690,7 @@ audio { display: none; }
 #fire.fire5 { background-position: -392px -0px; }
 #fire.fire6 { background-position: -0px -0px; }
 
-#stieff { position:absolute; bottom: 0; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat; }
+#stieff { position:absolute; bottom: 100px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat -2670px -485px; }
 #stieff.stieff1 { background-position: -2670px -485px; }
 #stieff.stieff2 { background-position: -2670px -0px; }
 #stieff.stieff3 { background-position: -1780px -2425px; }
@@ -729,10 +730,10 @@ audio { display: none; }
 /* ===== Scene 12  ===== */
 
 #beds-back { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-back.png') no-repeat; left: 5px; bottom:154px;  opacity: 0;}
-#beds-mid { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-mid.png') no-repeat; left: 291px; bottom:444px; opacity: 0;}
-#beds-front { position:absolute; width: 1077px; height:1059px; background: url('../img/scene-sleeping/beds-front.png') no-repeat; left: 210px; bottom:50px; opacity: 0;}
+#beds-mid { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-mid.png') no-repeat; left: 291px; bottom:684px; opacity: 0;}
+#beds-front { position:absolute; width: 1077px; height:1059px; background: url('../img/scene-sleeping/beds-front.png') no-repeat; left: 210px; bottom:350px; opacity: 0;}
 
-#audrey { position:absolute; bottom: 182px; left:405px;background: url('../img/scene-sleeping/audrey.png') no-repeat; opacity: 0; }
+#audrey { position:absolute; bottom: 482px; left:405px;background: url('../img/scene-sleeping/audrey.png') no-repeat; opacity: 0; }
 #audrey.audrey1 { width: 457px; height: 287px; background-position: -936px -298px; }
 #audrey.audrey2 { width: 457px; height: 287px; background-position: -936px -0px; }
 #audrey.audrey3 { width: 457px; height: 287px; background-position: -468px -596px; }
@@ -742,7 +743,7 @@ audio { display: none; }
 #audrey.audrey7 { width: 457px; height: 287px; background-position: -468px -0px; }
 #audrey.audrey8 { width: 457px; height: 287px; background-position: -0px -0px; }
 
-#diana { position:absolute; bottom: 890px; left:362px;background: url('../img/scene-sleeping/diana.png') no-repeat; opacity: 0;  }
+#diana { position:absolute; bottom: 1130px; left:362px;background: url('../img/scene-sleeping/diana.png') no-repeat; opacity: 0;  }
 #diana.diana1 { width: 358px; height: 232px; background-position: -738px -0px; }
 #diana.diana2 { width: 358px; height: 232px; background-position: -369px -486px; }
 #diana.diana3 { width: 358px; height: 232px; background-position: -0px -486px; }
@@ -751,7 +752,7 @@ audio { display: none; }
 #diana.diana6 { width: 358px; height: 232px; background-position: -369px -0px; }
 #diana.diana7 { width: 358px; height: 232px; background-position: -0px -0px; }
 
-#eric { position:absolute; bottom: 452px; left:284px;background: url('../img/scene-sleeping/eric.png') no-repeat; opacity: 0; }
+#eric { position:absolute; bottom: 752px; left:284px;background: url('../img/scene-sleeping/eric.png') no-repeat; opacity: 0; }
 #eric.eric1 { width: 408px; height: 333px; background-position: -0px -1032px; }
 #eric.eric2 { width: 408px; height: 333px; background-position: -838px -688px; }
 #eric.eric3 { width: 408px; height: 333px; background-position: -838px -344px; }
@@ -763,7 +764,7 @@ audio { display: none; }
 #eric.eric9 { width: 408px; height: 333px; background-position: -419px -0px; }
 #eric.eric10 { width: 408px; height: 333px; background-position: -0px -0px; }
 
-#erika{ position:absolute; bottom: 494px; left:916px;background: url('../img/scene-sleeping/erika.png') no-repeat; opacity: 0; }
+#erika{ position:absolute; bottom: 734px; left:916px;background: url('../img/scene-sleeping/erika.png') no-repeat; opacity: 0; }
 #erika.erika1 { width: 364px; height: 265px; background-position: -750px -276px; }
 #erika.erika2 { width: 364px; height: 265px; background-position: -750px -0px; }
 #erika.erika3 { width: 364px; height: 265px; background-position: -375px -552px; }
@@ -792,7 +793,7 @@ audio { display: none; }
 #katie.katie6 { width: 330px; height: 231px; background-position: -341px -0px; }
 #katie.katie7 { width: 330px; height: 231px; background-position: -0px -0px; }
 
-#matt {  position:absolute; bottom: 801px; left:799px;background: url('../img/scene-sleeping/matt.png') no-repeat; opacity: 0; }
+#matt {  position:absolute; bottom: 1097px; left:799px;background: url('../img/scene-sleeping/matt.png') no-repeat; opacity: 0; }
 #matt.matt1 { width: 396px; height: 275px; background-position: -814px -286px; }
 #matt.matt2 { width: 396px; height: 275px; background-position: -814px -0px; }
 #matt.matt3 { width: 396px; height: 275px; background-position: -407px -572px; }
@@ -817,7 +818,7 @@ audio { display: none; }
 
 /* ===== Scene 13 - Celebration ===== */
 #globe { position:absolute; width:1707px;height:681px;background: url('../img/scene-celebration/globe.png') no-repeat; bottom: -681px; left: 0px; }
-#text-celebration { position:absolute; width:315px;height:357px;background: url('../img/scene-celebration/text-celebration.png') no-repeat; bottom: 0; left: 50px; }
+#text-celebration { position:absolute; width:315px;height:357px;background: url('../img/scene-celebration/text-celebration.png') no-repeat; bottom: 0; left: 50px; opacity:0;}
 
 #celebration { position:absolute; bottom: -600px; left:300px;background: url('../img/scene-celebration/celebration-sprite.png') no-repeat; opacity: 0; }
 #celebration.celebration1 { width: 903px; height: 673px; background-position: -1828px -684px; }
