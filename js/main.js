@@ -494,13 +494,16 @@ window.onload = function() {
 			{id:document.getElementById("big-fish"), start: 8.0, end: 8.99, x: -500, y: 20, type:"translate"},
 			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity", audio: narrationSprite[8]},
 			{id:document.getElementById("text-aquarium"), start: 8.8, end: 8.85, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("shark"), start: 8.65, end: 8.99, x: 2400, y: 0, type:"translate"}
+			{id:document.getElementById("shark"), start: 8.65, end: 8.99, x: 2400, y: 0, type:"translate"},
+			{id:document.getElementById("businessmen"), start: 8.9, end: 8.99, x:0, y: 140, type:"translate"},
+			{id:document.getElementById("truck-grinch"), start: 8.9, end: 8.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("truck"), start: 8.9, end: 8.99, x:0, y: 100, type:"translate"},
 		],
 
 		 [ //scene 9 - truck
-			{id:document.getElementById("businessmen"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("truck-grinch"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("truck"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
+			// {id:document.getElementById("businessmen"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
+			// {id:document.getElementById("truck-grinch"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
+			// {id:document.getElementById("truck"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-truck"), start: 9.3, end: 9.4, x:1, y: 0, type:"opacity", audio: narrationSprite[9]},
 			{id:document.getElementById("text-truck"), start: 9.55, end: 9.6, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("truck-decorations"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
