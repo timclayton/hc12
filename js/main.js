@@ -533,6 +533,8 @@ window.onload = function() {
 
 		 [ //scene 11 - pool
 			{id:document.getElementById("swimmers"), start: 11.0, end: 11.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("back-splash"), start: 11.0, end: 11.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("front-splash"), start: 11.0, end: 11.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-pool"), start: 11.0, end: 11.05, x: 1, y: 0, type:"opacity", audio: narrationSprite[10]},
 			{id:document.getElementById("text-pool"), start: 11.35, end: 11.4, x: -1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("grinch-stieff"), start: 11.9, end: 11.99, x:0, y: 200, type:"translate"},

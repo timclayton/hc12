@@ -601,8 +601,8 @@ audio { display: none; }
 /* ===== Scene 11 - Pool ===== */
 
 #text-pool { position:absolute; width:333px;height:177px; background:url('../img/scene-pool/text-pool.png') no-repeat;left: 50%; margin-left:  -177px; bottom: 450px; z-index: 50; opacity: 0; }
-#back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; bottom: 164px;left:640px;  }
-#front-splash { position:absolute; width:1147px; height:385px; background:url('../img/scene-pool/front-splash.png') no-repeat; bottom: 0;left:144px;  }
+#back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; bottom: 164px;left:640px; opacity:0;  }
+#front-splash { position:absolute; width:1147px; height:385px; background:url('../img/scene-pool/front-splash.png') no-repeat; bottom: 0;left:144px; opacity:0; }
 
 
 #phelps { position:absolute;background: url('../img/scene-pool/phelps-sprite.png') no-repeat; left:100px; bottom:400px; }
