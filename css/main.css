@@ -133,7 +133,7 @@ audio { display: none; }
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left bottom no-repeat fixed; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-repeat.jpg') left top repeat fixed; }
-#scene3 .bg { background: #0754C4 url('../img/scene-transition/bg.jpg') left 150% repeat fixed; }
+#scene3 .bg { background: #0754C4 url('../img/scene-transition/bg.jpg') left bottom repeat fixed; }
 #scene4 .bg { background: #B51428 url('../img/scene4/bg.jpg') left bottom no-repeat fixed; } 
 #scene5 .bg {background:  url('../img/scene5/bg-2.png') left bottom repeat fixed }
 #scene5 .second-bg { background:url('../img/scene5/backroom-3.png') left 105% no-repeat fixed}
@@ -215,7 +215,7 @@ audio { display: none; }
 #back-snow {position:absolute; background: url('../img/scene-transition/back-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:300px; opacity:0;  }
 #front-snow { position:absolute; background: url('../img/scene-transition/front-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:300px; opacity:0; }
 #text-transition { position:absolute; background: url('../img/scene-transition/text-transition.png') no-repeat 0 0; width: 354px; height: 215px; left: 200px; bottom:90px; opacity: 0;}
-#houses { position:absolute; background: url('../img/scene-transition/houses.png') no-repeat 0 0; width: 1400px; height: 683px; left: 0; bottom:300pxs; }
+#houses { position:absolute; background: url('../img/scene-transition/houses.png') no-repeat 0 0; width: 1400px; height: 683px; left: 0; /*bottom:300px;*/ bottom:0; }
 #grinch-transition { position:absolute; background: url('../img/scene-transition/grinch-transition.png') no-repeat -1500px -0px; width: 739px;height: 380px; left: 396px; bottom:0;}
 #grinch-transition.grinch-transition1 {width: 739px;height: 380px;background-position: -1500px -0px;}
 #grinch-transition.grinch-transition2 {width: 739px;height: 380px;background-position: -750px -1173px;}
@@ -229,15 +229,15 @@ audio { display: none; }
 
 /* ===== Scene 4 ===== */
 
-#bg-test { position:absolute; background: url('../img/scene4/bg.jpg') no-repeat 0 0; width:2866px; height:1000px; bottom: -100px; left: 0px; }
+#bg-test { position:absolute; background: url('../img/scene4/bg.jpg') no-repeat 0 0; width:2866px; height:1000px; /*bottom: -100px;*/ left: 0px; }
 #bunny-2 { position:absolute; background: url('../img/scene4/bunny-2.png') no-repeat 0 0; width: 209px; height: 178px; left: 1182px; bottom:10px; }
 #bunny-big { position:absolute; background: url('../img/scene4/bunny-big.png') no-repeat 0 0; width: 437px; height: 391px; left: 1642px; bottom: -20px; }
 #know-your-memes {  position:absolute; background: url('../img/scene4/know-your-memes.png') no-repeat 0 0; width: 117px; height: 101px; left: 1542px; bottom: 300px; }
-#doorway { position:absolute; background: url('../img/scene4/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; opacity:0; }
-#couch { position:absolute; background: url('../img/scene4/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; opacity:0;}
+/*#doorway { position:absolute; background: url('../img/scene4/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; opacity:0; }
+#couch { position:absolute; background: url('../img/scene4/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; opacity:0;}*/
 #kitchen-text { position:absolute; background: url('../img/scene4/kitchen-text.png') no-repeat 0 0; width: 354px; height: 253px; left: 50%; margin-left: -177px; bottom:380px; opacity: 0;}
 
-#ericw { position: absolute; bottom: 60px; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene4/eric-pancakes-sprite.png') no-repeat  -804px -1796px; }
+#ericw { position: absolute; /*bottom: 60px;*/ bottom:0; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene4/eric-pancakes-sprite.png') no-repeat  -804px -1796px;  opacity:0;}
 #ericw.ericw1 { background-position: -804px -1796px; }
 #ericw.ericw2 { background-position: -402px -1796px; }
 #ericw.ericw3 { background-position: -0px -1796px; }
@@ -275,7 +275,7 @@ audio { display: none; }
 /* ===== Scene 5 ===== */
 
 
-#poker { position: absolute; bottom: -80px; right: 12%; background: url('../img/scene5/poker-sprite.png') no-repeat; background-position: -0px -3260px; /*opacity: 0;*/ }
+#poker { position: absolute; bottom: -80px; right: 12%; background: url('../img/scene5/poker-sprite.png') no-repeat; background-position: -0px -3260px; opacity: 0; }
 #poker.poker1 { width: 1208px; height: 524px; background-position: -3657px -1070px; }
 #poker.poker2 { width: 1208px; height: 524px; background-position: -0px -1605px; }
 #poker.poker3 { width: 1208px; height: 524px; background-position: -0px -1070px; }

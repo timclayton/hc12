@@ -212,12 +212,12 @@ window.onload = function() {
 	}
 	
 	var scrollToEnd = function() {
-        autoScroll = setInterval(scrollIncrement, 30);
+        autoScroll = setInterval(scrollIncrement, 20);
     }
 	
 	var scrollIncrement = function() {
 		if ( s >= d - wh ) { stopScroll() }
-		else { window.scrollBy(0,15) }
+		else { window.scrollBy(0,10) }
 	}
 	
 	var stopScroll = function() {
@@ -377,15 +377,15 @@ window.onload = function() {
 			{id:document.getElementById("back-row-houses"), start:2.63, end:2.83, x: 0, y:-670, type:"translate"},
 			{id:document.getElementById("front-row-houses"), start:2.73, end:2.83, x: 0, y:-400, type:"translate"},
 			{id:document.getElementById("lawn-ornaments"), start:2.73, end:2.83, x: 0, y:-380, type:"translate"},
-			{id:document.getElementById("back-row-houses"), start:2.92, end:2.99, x: 0, y:-30, type:"translate"},
-			{id:document.getElementById("front-row-houses"), start:2.92, end:2.99, x: 0, y:-40, type:"translate"},
-			{id:document.getElementById("lawn-ornaments"), start:2.92, end:2.99, x: 0, y:-35, type:"translate"},
+			// {id:document.getElementById("back-row-houses"), start:2.92, end:2.99, x: 0, y:-30, type:"translate"},
+			// {id:document.getElementById("front-row-houses"), start:2.92, end:2.99, x: 0, y:-40, type:"translate"},
+			// {id:document.getElementById("lawn-ornaments"), start:2.92, end:2.99, x: 0, y:-35, type:"translate"},
 			{id:document.getElementById("gate"), start:2.85, end:2.9, x: 0, y:-750, type:"translate"},
-			{id:document.getElementById("s2bg"), start:2.92, end:2.99, x: 0, y:-20, type:"bgShift"},
-			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-50, type:"translate"},
-			{id:document.getElementById("gate"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
-			{id:document.getElementById("houses"), start:2.92, end:2.99, x: 0, y:300, type:"translate"},
-			{id:document.getElementById("s3bg"), start:2.88, end:2.99, x: 0, y:50, type:"bgShift"},
+			// {id:document.getElementById("s2bg"), start:2.92, end:2.99, x: 0, y:-20, type:"bgShift"},
+			// {id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-50, type:"translate"},
+			// {id:document.getElementById("gate"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
+			// {id:document.getElementById("houses"), start:2.92, end:2.99, x: 0, y:300, type:"translate"},
+			// {id:document.getElementById("s3bg"), start:2.88, end:2.99, x: 0, y:50, type:"bgShift"},
 
 		
 		],
@@ -398,47 +398,48 @@ window.onload = function() {
 			{id:document.getElementById("text-transition"), start: 3.7, end: 3.75, x: -1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("back-snow"), start:3.0, end:3.99, x: 0, y:300, type:"translate"},
 			{id:document.getElementById("front-snow"), start:3.0, end:3.99, x: 0, y:150, type:"translate"},
-			{id:document.getElementById("houses"), start:3.92, end:3.99, x: 0, y:300, type:"translate"},
-			{id:document.getElementById("s3bg"), start:3.92, end:3.99, x: 0, y:50, type:"bgShift"},
-			{id:document.getElementById("ericw"), start: 3.92, end: 3.99, x: 0, y:60, type:"translate"},
-			{id:document.getElementById("bg-test"), start: 3.92, end: 3.99, x: 0, y: -100, type:"translate"},
+			// {id:document.getElementById("houses"), start:3.92, end:3.99, x: 0, y:300, type:"translate"},
+			// {id:document.getElementById("s3bg"), start:3.92, end:3.99, x: 0, y:50, type:"bgShift"},
+			// {id:document.getElementById("ericw"), start: 3.92, end: 3.99, x: 0, y:60, type:"translate"},
+			// {id:document.getElementById("bg-test"), start: 3.92, end: 3.99, x: 0, y: -100, type:"translate"},
 		],
 		
 		[  // scene 4
 			
-			
+			{id:document.getElementById("ericw"), start: 4.0, end: 4.05, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("ericw"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("kitchen-text"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity", audio: narrationSprite[3]},
-			{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
+			// {id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
+			// {id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("kitchen-text"), start: 4.4, end: 4.45, x: -1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("bunny-2"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bunny-big"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("know-your-memes"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("doorway"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("couch"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			// {id:document.getElementById("doorway"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			// {id:document.getElementById("couch"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("grinch-burbs"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bg-test"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("poker"), start: 4.85, end: 4.99, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("grinch-poker"), start: 4.80, end: 4.99, x:0, y: -20, type:"translate"},
-			{id:document.getElementById("bg-inner"), start: 4.85, end: 4.99, x:0, y: -20, type:"translate"},
-			{id:document.getElementById("second-bg"), start: 4.85, end: 4.99, x:0, y: -20, type:"bgShift"},
-			{id:document.getElementById("poker-bg"), start: 4.85, end: 4.99, x:0, y: -30, type:"bgShift"}
+			// {id:document.getElementById("poker"), start: 4.85, end: 4.99, x:0, y: -40, type:"translate"},
+			// {id:document.getElementById("grinch-poker"), start: 4.80, end: 4.99, x:0, y: -20, type:"translate"},
+			// {id:document.getElementById("bg-inner"), start: 4.85, end: 4.99, x:0, y: -20, type:"translate"},
+			// {id:document.getElementById("second-bg"), start: 4.85, end: 4.99, x:0, y: -20, type:"bgShift"},
+			// {id:document.getElementById("poker-bg"), start: 4.85, end: 4.99, x:0, y: -30, type:"bgShift"}
 		
 		], 
 		
 		[  // scene 5
 			
-			{id:document.getElementById("poker"), start: 5.95, end: 5.99, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("grinch-poker"), start: 5.95, end: 5.99, x:0, y: -20, type:"translate"},
-			{id:document.getElementById("bg-inner"), start: 5.95, end: 5.99, x:0, y: -40, type:"translate"},
+			// {id:document.getElementById("poker"), start: 5.95, end: 5.99, x:0, y: -40, type:"translate"},
+			// {id:document.getElementById("grinch-poker"), start: 5.95, end: 5.99, x:0, y: -20, type:"translate"},
+			// {id:document.getElementById("bg-inner"), start: 5.95, end: 5.99, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("poker"), start: 5.00, end: 5.05, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("poker-text"), start: 5.3, end: 5.35, x:1, y: 0, type:"opacity", audio: narrationSprite[4]},
 			{id:document.getElementById("poker-text"), start: 5.6, end: 5.65, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("poker"), start: 5.75, end: 5.99, x:0, y: -200, type:"translate"},
-			{id:document.getElementById("grinch-poker"), start: 5.75, end: 5.99, x:0, y: -100, type:"translate"},
-			{id:document.getElementById("bg-inner"), start: 5.75, end: 5.99, x:0, y: -100, type:"translate"},
-			{id:document.getElementById("second-bg"), start: 5.75, end: 5.99, x:0, y: -100, type:"bgShift"},
-			{id:document.getElementById("poker-bg"), start: 5.75, end: 5.99, x:0, y: -100, type:"bgShift"},
+			// {id:document.getElementById("poker"), start: 5.75, end: 5.99, x:0, y: -200, type:"translate"},
+			// {id:document.getElementById("grinch-poker"), start: 5.75, end: 5.99, x:0, y: -100, type:"translate"},
+			// {id:document.getElementById("bg-inner"), start: 5.75, end: 5.99, x:0, y: -100, type:"translate"},
+			// {id:document.getElementById("second-bg"), start: 5.75, end: 5.99, x:0, y: -100, type:"bgShift"},
+			// {id:document.getElementById("poker-bg"), start: 5.75, end: 5.99, x:0, y: -100, type:"bgShift"},
 			{id:document.getElementById("monumentbg"), start: 5.85, end: 5.99, x:0, y: -50, type:"bgShift"},
 			{id:document.getElementById("monument"), start: 5.85, end: 5.99, x: 0, y: 200, type:"translate"},
 			{id:document.getElementById("monument-grinch"), start: 5.85, end: 5.99, x: 0, y: 200, type:"translate"},
