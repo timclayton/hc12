@@ -511,7 +511,7 @@ window.onload = function() {
 			{id:document.getElementById("big-fish"), start: 9.0, end: 9.99, x: -500, y: 20, type:"translate"},
 			{id:document.getElementById("text-aquarium"), start: 9.4, end: 9.5, x: 1, y: 0, type:"opacity", audio: narrationSprite[8]},
 			{id:document.getElementById("text-aquarium"), start: 9.8, end: 9.85, x: -1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("shark"), start: 9.65, end: 9.99, x: 2400, y: 0, type:"translate"},
+			{id:document.getElementById("shark"), start: 9.65, end: 9.99, x: -2400, y: 0, type:"translate"},
 			{id:document.getElementById("aquariumbg"), start: 9.85, end: 9.99, x:0, y: 50, type:"bgShift"},
 			{id:document.getElementById("aquarium-people"), start: 9.85, end: 9.99, x:0, y: 50, type:"translate"},
 			{id:document.getElementById("businessmen"), start: 9.9, end: 9.99, x:0, y: 140, type:"translate"},
