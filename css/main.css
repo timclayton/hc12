@@ -299,7 +299,7 @@ audio { display: none; }
 #grinch-poker.grinch-poker14 { width: 1400px; height: 1000px; background-position: -1411px -0px; }
 #grinch-poker.grinch-poker15 { width: 1400px; height: 1000px; background-position: -0px -0px; }
 
-#smoke { position:absolute; width: 69px; height: 176px; bottom:124px; right:307px; background: url('../img/scene4/smoke.png') no-repeat; opacity: 0;}
+#smoke { position:absolute; width: 69px; height: 176px; bottom:124px; right:307px; background: url('../img/scene4/smoke.png') no-repeat; }
 #smoke.smoke1 { width: 69px; height: 176px; background-position: -160px -187px; }
 #smoke.smoke2 { width: 69px; height: 176px; background-position: -80px -187px; }
 #smoke.smoke3 { width: 69px; height: 176px; background-position: -0px -187px; }

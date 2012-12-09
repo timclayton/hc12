@@ -404,7 +404,6 @@ window.onload = function() {
 			{id:document.getElementById("doorway"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("couch"), start: 3.4, end: 3.6, x: -950, y: 0, type:"translate"},
 			{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-
 			{id:document.getElementById("bg-test"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("poker"), start: 3.85, end: 3.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("grinch-poker"), start: 3.80, end: 3.99, x:0, y: -20, type:"translate"},
@@ -432,8 +431,6 @@ window.onload = function() {
 			{id:document.getElementById("monument-grinch"), start: 4.85, end: 4.99, x: 0, y: 200, type:"translate"},
 			{id:document.getElementById("drummers"), start: 4.85, end: 4.99, x: 0, y: 100, type:"translate"},
 			{id:document.getElementById("clouds-1"), start: 4.85, end: 4.99, x: 0, y: 80, type:"translate"},
-			// {id:document.getElementById("hippies"), start: 4.85, end: 4.99, x: 0, y: -500, type:"translate"},
-			
 
 		
 		],  
