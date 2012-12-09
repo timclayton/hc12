@@ -524,17 +524,18 @@ window.onload = function() {
 		 ],
 
 		 [ //scene 11 
-		 	// {id:document.getElementById("stieff"), start: 11.0, end: 11.05, x: 1, y: 0, type:"opacity"},
+		 	
 		 	{id:document.getElementById("stieff-text"), start: 11.65, end: 11.7, x: 1, y: 0, type:"opacity", audio: narrationSprite[11]},
 			{id:document.getElementById("lights-out"), start: 11.69, end: 11.70, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("grinch-stieff"), start: 11.5, end: 11.51, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("midground"), start: 11.00, end: 11.05, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("grinch-stieff"), start: 10.9, end: 10.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("stieff"), start: 10.9, end: 10.99, x:0, y: 100, type:"translate"},
+			// {id:document.getElementById("midground"), start: 11.00, end: 11.05, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("grinch-stieff"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("stieff"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("fire"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("midground"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("foreground"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("s11bg"), start: 11.9, end: 11.99, x:0, y: 50, type:"bgShift"}
+			{id:document.getElementById("s11bg"), start: 11.9, end: 11.99, x:0, y: 50, type:"bgShift"},
+			{id:document.getElementById("sleepingbg"), start: 12.0, end: 12.99, x:0, y: 90, type:"bgShift"}
 		 ],
 
 		 [ //scene 12 - sleeping
@@ -564,6 +565,7 @@ window.onload = function() {
 		 ],
 
 		 [ //scene 13 - celebration 
+		  {id:document.getElementById("celebrationbg"), start: 13.0, end: 13.12, x:0, y: 90, type:"bgShift"},
 		  {id:document.getElementById("globe"), start: 13.0, end: 13.12, x:0, y: -681, type:"translate"},
 		  {id:document.getElementById("celebration"), start: 13.0, end: 13.12, x:0, y: -600, type:"translate"},
 			{id:document.getElementById("celebration"), start: 13.0, end: 13.03, x:1, y: 0, type:"opacity"},
