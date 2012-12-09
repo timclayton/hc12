@@ -384,13 +384,18 @@ window.onload = function() {
 			{id:document.getElementById("s2bg"), start:2.92, end:2.99, x: 0, y:-20, type:"bgShift"},
 			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-50, type:"translate"},
 			{id:document.getElementById("gate"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
-			
+			{id:document.getElementById("houses"), start:2.92, end:2.99, x: 0, y:300, type:"translate"},
+			{id:document.getElementById("s3bg"), start:2.88, end:2.99, x: 0, y:50, type:"bgShift"},
 
 		
 		],
 
 		[ //scene 3
 
+			{id:document.getElementById("text-transition"), start: 3.3, end: 3.35, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-transition"), start: 3.7, end: 3.75, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("houses"), start:3.92, end:3.99, x: 0, y:300, type:"translate"},
+			{id:document.getElementById("s3bg"), start:3.92, end:3.99, x: 0, y:50, type:"bgShift"},
 			{id:document.getElementById("ericw"), start: 3.92, end: 3.99, x: 0, y:60, type:"translate"},
 			{id:document.getElementById("bg-test"), start: 3.92, end: 3.99, x: 0, y: -100, type:"translate"},
 		],
@@ -640,7 +645,7 @@ window.onload = function() {
 		],
 		 
 		[ //scene 3
-
+			{id:document.getElementById("grinch-transition"), start: 3.0, end: 3.99, prefix: "grinch-transition", order: [1,2,3,4,5,6,7,8,9], repeat:4}
 		],
 		
 		[  // scene 4		

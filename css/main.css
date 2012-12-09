@@ -116,7 +116,7 @@ audio { display: none; }
 
 #scene1  { height:1500px; } 
 #scene2  { height:12000px; }
-#scene3  {  height:5000px; } 
+#scene3  {  height:4000px; } 
 #scene4  { height:8000px; } 
 #scene5  { height:5000px; } 
 #scene6  { height:5000px; } 
@@ -133,7 +133,7 @@ audio { display: none; }
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left bottom no-repeat fixed; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-repeat.jpg') left top repeat fixed; }
-#scene3 .bg { background: #0754C4 url('../img/scene-transition/bg.jpg') left top repeat fixed; }
+#scene3 .bg { background: #0754C4 url('../img/scene-transition/bg.jpg') left 150% repeat fixed; }
 #scene4 .bg { background: #B51428 url('../img/scene4/bg.jpg') left bottom no-repeat fixed; } 
 #scene5 .bg {background:  url('../img/scene5/bg-2.png') left bottom repeat fixed }
 #scene5 .second-bg { background:url('../img/scene5/backroom-3.png') left 105% no-repeat fixed}
@@ -211,6 +211,19 @@ audio { display: none; }
 
 
 /* ===== Scene 3 -Transition ===== */
+
+#text-transition { position:absolute; background: url('../img/scene-transition/text-transition.png') no-repeat 0 0; width: 354px; height: 215px; left: 200px; bottom:90px; opacity: 0;}
+#houses { position:absolute; background: url('../img/scene-transition/houses.png') no-repeat 0 0; width: 1400px; height: 683px; left: 0; bottom:300px; }
+#grinch-transition { position:absolute; background: url('../img/scene-transition/grinch-transition.png') no-repeat -1500px -0px; width: 739px;height: 380px; left: 396px; bottom:0;}
+#grinch-transition.grinch-transition1 {width: 739px;height: 380px;background-position: -1500px -0px;}
+#grinch-transition.grinch-transition2 {width: 739px;height: 380px;background-position: -750px -1173px;}
+#grinch-transition.grinch-transition3 {width: 739px;height: 380px;background-position: -0px -1173px;}
+#grinch-transition.grinch-transition4 {width: 739px;height: 380px;background-position: -750px -782px;}
+#grinch-transition.grinch-transition5 {width: 739px;height: 380px;background-position: -0px -782px;}
+#grinch-transition.grinch-transition6 {width: 739px;height: 380px;background-position: -750px -391px;}
+#grinch-transition.grinch-transition7 {width: 739px;height: 380px;background-position: -0px -391px;}
+#grinch-transition.grinch-transition8 {width: 739px;height: 380px;background-position: -750px -0px;}
+#grinch-transition.grinch-transition9 {width: 739px;height: 380px;background-position: -0px -0px;}
 
 /* ===== Scene 4 ===== */
 
