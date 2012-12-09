@@ -139,7 +139,7 @@ audio { display: none; }
 #scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; }
 #scene6 .bg { background:  #017CD5 url('../img/scene-garageband/bg.jpg') left bottom no-repeat fixed; }
 #scene7 .bg { background: #000 url('../img/scene-miracle/bg.jpg') left 100% repeat fixed; }
-#scene8 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left bottom no-repeat fixed;}
+#scene8 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left 150% no-repeat fixed;}
 #scene9 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left 150% no-repeat fixed; }
 #scene10 .bg { background:  #B6D5EA url('../img/scene-pool/bg-2.jpg') left bottom no-repeat fixed;}
 #scene11 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left 150% repeat fixed;}
@@ -492,7 +492,7 @@ audio { display: none; }
 #text-aquarium { position:absolute; width:505px;height:177px; background:url('../img/scene-aquarium/text-aquarium.png') no-repeat;left: 50%; margin-left:  -252px; top: 50px; z-index: 50; opacity: 0; }
 #shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
 
-#aquarium-people { position:absolute; width:960px; height:492px; background: url('../img/scene-aquarium/aquarium-sprite-lo.png') no-repeat -1960px -503px; bottom: -80px; right: 100px;/*opacity: 0;*/  }
+#aquarium-people { position:absolute; width:960px; height:492px; background: url('../img/scene-aquarium/aquarium-sprite-lo.png') no-repeat -1960px -503px; bottom: 80px; right: 100px;/*opacity: 0;*/  }
 #aquarium-people.aqua1 { background-position: -1960px -503px; }
 #aquarium-people.aqua2 { background-position: -1960px -0px; }
 #aquarium-people.aqua3 { background-position: -980px -1509px; }
@@ -504,23 +504,24 @@ audio { display: none; }
 #aquarium-people.aqua9 { background-position: -980px -0px; }
 #aquarium-people.aqua0 { background-position: -0px -0px; }
 
-#aquarium-grinch { position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch.png') no-repeat -2822px -1098px; bottom: -40px; left:0; /*opacity: 0;*/   }
-#aquarium-grinch.aquarium-grinch0 { background-position: -2822px -1098px; }
-#aquarium-grinch.aquarium-grinch1 { background-position: -2822px -549px; }
-#aquarium-grinch.aquarium-grinch2 { background-position: -2822px -0px; }
-#aquarium-grinch.aquarium-grinch3 { background-position: -1411px -2745px; }
-#aquarium-grinch.aquarium-grinch4 { background-position: -0px -2745px; }
-#aquarium-grinch.aquarium-grinch5 { background-position: -1411px -2196px; }
-#aquarium-grinch.aquarium-grinch6 { background-position: -0px -2196px; }
-#aquarium-grinch.aquarium-grinch7 { background-position: -1411px -1647px; }
-#aquarium-grinch.aquarium-grinch8 { background-position: -0px -1647px; }
-#aquarium-grinch.aquarium-grinch9 { background-position: -1411px -1098px; }
-#aquarium-grinch.aquarium-grinch10 { background-position: -0px -1098px; }
-#aquarium-grinch.aquarium-grinch11 { background-position: -1411px -549px; }
-#aquarium-grinch.aquarium-grinch12 { background-position: -0px -549px; }
-#aquarium-grinch.aquarium-grinch13 { background-position: -1411px -0px; }
-#aquarium-grinch.aquarium-grinch14 { background-position: -0px -0px; }
-#aquarium-grinch.aquarium-grinch15 { background: url('../img/scene-aquarium/aquarium-grinch-last.png') no-repeat; }
+
+#aquarium-grinch {  position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch-hi.png') no-repeat -2822px -1098px; bottom: 40px; left:0; }
+#aquarium-grinch.aquarium-grinch0 {width: 1400px;height: 538px;background-position: -2822px -1098px;}
+#aquarium-grinch.aquarium-grinch1 {width: 1400px;height: 538px;background-position: -2822px -549px;}
+#aquarium-grinch.aquarium-grinch2 {width: 1400px;height: 538px;background-position: -2822px -0px;}
+#aquarium-grinch.aquarium-grinch3 {width: 1400px;height: 538px;background-position: -1411px -2745px;}
+#aquarium-grinch.aquarium-grinch4 {width: 1400px;height: 538px;background-position: -0px -2745px;}
+#aquarium-grinch.aquarium-grinch5 {width: 1400px;height: 538px;background-position: -1411px -2196px;}
+#aquarium-grinch.aquarium-grinch6 {width: 1400px;height: 538px;background-position: -0px -2196px;}
+#aquarium-grinch.aquarium-grinch7 {width: 1400px;height: 538px;background-position: -1411px -1647px;}
+#aquarium-grinch.aquarium-grinch8 {width: 1400px;height: 538px;background-position: -0px -1647px;}
+#aquarium-grinch.aquarium-grinch9 {width: 1400px;height: 538px;background-position: -1411px -1098px;}
+#aquarium-grinch.aquarium-grinch10 {width: 1400px;height: 538px;background-position: -0px -1098px;}
+#aquarium-grinch.aquarium-grinch11 {width: 1400px;height: 538px;background-position: -1411px -549px;}
+#aquarium-grinch.aquarium-grinch12 {width: 1400px;height: 538px;background-position: -0px -549px;}
+#aquarium-grinch.aquarium-grinch13 {width: 1400px;height: 538px;background-position: -1411px -0px;}
+#aquarium-grinch.aquarium-grinch14 {width: 1400px;height: 538px;background-position: -0px -0px;}
+#aquarium-grinch.aquarium-grinch15 {width: 1400px;height: 538px;background: none;}
 
 
 
@@ -711,7 +712,7 @@ audio { display: none; }
 #stieff.stieff19 { background-position: -890px -0px; }
 #stieff.stieff20 { background-position: -0px -0px; }
 
-#grinch-stieff { position:absolute; bottom: 200px; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat; opacity: 0;  }
+#grinch-stieff { position:absolute; bottom: 200px; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat;   }
 #grinch-stieff.grinch-stieff1 { background-position: -0px -1770px; }
 #grinch-stieff.grinch-stieff2 { background-position: -1473px -1180px; }
 #grinch-stieff.grinch-stieff3 { background-position: -1473px -590px; }

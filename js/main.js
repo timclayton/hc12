@@ -349,8 +349,8 @@ window.onload = function() {
 			{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
 			{id:document.getElementById("s1bg"), start: 1.6, end: 1.99, x: 0, y: -40, type:"bgShift"},
 			{id:document.getElementById("s2bg"), start: 1.65, end: 1.99, x: 0, y: -10, type:"bgShift"},
-			{id:document.getElementById("near-cliff"), start:1.5, end:1.99, x: 0, y: 200, type:"translate"},
-			{id:document.getElementById("far-cliff"), start:1.5, end:1.99, x: 0, y:100, type:"translate"}
+			{id:document.getElementById("near-cliff"), start:1.5, end:1.99, x: 0, y: 100, type:"translate"},
+			{id:document.getElementById("far-cliff"), start:1.5, end:1.99, x: 0, y:50, type:"translate"}
 						
 		],
 		
@@ -476,9 +476,12 @@ window.onload = function() {
 			{id:document.getElementById("s7bg"), start: 7.5, end: 7.6, x:0, y: 80, type:"bgShift"},
 			{id:document.getElementById("carolers"), start: 7.9, end: 7.99, x:0, y: 80, type:"translate"},
 			{id:document.getElementById("flamingo"), start: 7.9, end: 7.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("aquariumbg"), start: 7.85, end: 7.99, x:0, y: -10, type:"bgShift"},
-			{id:document.getElementById("aquarium-grinch"), start: 7.85, end: 7.99, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: -80, type:"translate"}
+			{id:document.getElementById("aquariumbg"), start: 7.85, end: 7.99, x:0, y: 50, type:"bgShift"},
+			{id:document.getElementById("aquarium-grinch"), start: 7.85, end: 7.99, x:0, y: 40, type:"translate"},
+			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: 80, type:"translate"},
+			{id:document.getElementById("bubbles-1"), start:7.85, end: 7.99, x: 0, y: 30, type:"translate"},
+			{id:document.getElementById("bubbles-2"), start: 7.85, end: 7.99, x: 0, y: 50, type:"translate"},
+			{id:document.getElementById("bubbles-3"), start: 7.85, end: 7.99, x: 0, y: 50, type:"translate"},
 		], 
 
 		[ //scene 8 - aquarium
@@ -496,6 +499,8 @@ window.onload = function() {
 			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity", audio: narrationSprite[8]},
 			{id:document.getElementById("text-aquarium"), start: 8.8, end: 8.85, x: -1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("shark"), start: 8.65, end: 8.99, x: 2400, y: 0, type:"translate"},
+			{id:document.getElementById("aquariumbg"), start: 8.85, end: 8.99, x:0, y: 50, type:"bgShift"},
+			{id:document.getElementById("aquarium-people"), start: 8.85, end: 8.99, x:0, y: 50, type:"translate"},
 			{id:document.getElementById("businessmen"), start: 8.9, end: 8.99, x:0, y: 140, type:"translate"},
 			{id:document.getElementById("truck-grinch"), start: 8.9, end: 8.99, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("truck"), start: 8.9, end: 8.99, x:0, y: 100, type:"translate"},
@@ -517,6 +522,7 @@ window.onload = function() {
 			{id:document.getElementById("swimmers"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-pool"), start: 10.0, end: 10.05, x: 1, y: 0, type:"opacity", audio: narrationSprite[10]},
 			{id:document.getElementById("text-pool"), start: 10.35, end: 10.4, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("grinch-stieff"), start: 10.9, end: 10.99, x:0, y: 200, type:"translate"},
 			{id:document.getElementById("stieff"), start: 10.9, end: 10.99, x:0, y: 200, type:"translate"},
 			{id:document.getElementById("fire"), start: 10.9, end: 10.99, x:0, y: 200, type:"translate"},
 			{id:document.getElementById("midground"), start: 10.9, end: 10.99, x:0, y: 200, type:"translate"},
@@ -528,8 +534,6 @@ window.onload = function() {
 		 	
 		 	{id:document.getElementById("stieff-text"), start: 11.65, end: 11.7, x: 1, y: 0, type:"opacity", audio: narrationSprite[11]},
 			{id:document.getElementById("lights-out"), start: 11.69, end: 11.70, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("grinch-stieff"), start: 11.5, end: 11.51, x: 1, y: 0, type:"opacity"},
-			// {id:document.getElementById("midground"), start: 11.00, end: 11.05, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("grinch-stieff"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("stieff"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("fire"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
@@ -662,7 +666,7 @@ window.onload = function() {
 		
 		[ // scene 8 - aquarium
 			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
-			{id:document.getElementById("aquarium-grinch"), start: 8.3, end: 8.65, prefix: "aquarium-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1}
+			{id:document.getElementById("aquarium-grinch"), start: 8.3, end: 8.65, prefix: "aquarium-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1}
 			
 		],
 
