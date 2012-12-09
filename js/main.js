@@ -42,7 +42,6 @@ window.onload = function() {
 	
 	var playNarration = function(sound) {
 	
-		
 		narration.currentTime = sound[0];
 		narrationEnd = sound[1];
 		narration.play();
@@ -188,7 +187,7 @@ window.onload = function() {
 		}
 		
 		if ( element.audio && animPercent > 0 ) {
-			if ( narration.className != "playing" ) {
+			if ( narration.className === "paused" ) {
 				playNarration(element.audio);
 			}
 		}
@@ -749,12 +748,15 @@ window.onload = function() {
 	}
 
 	fastforward.onclick = function () {
+		if ( narration.className === "playing" ) {
+			narration.pause();
+			narration.className = "paused ff";
+		}
 		playToggle.click();
 		pos += 1;
-		stickScene();
 		window.scrollTo(0, scenes[pos-1].start);
 		playToggle.click();
-
+		narration.className = "paused";
 	}
 
 	rewind.onclick = function () {
