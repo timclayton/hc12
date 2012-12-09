@@ -133,12 +133,12 @@ audio { display: none; }
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left bottom no-repeat fixed; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-repeat.jpg') left top repeat fixed; }
-#scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') -10% bottom no-repeat fixed; } 
+#scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') -4% bottom no-repeat fixed; } 
 #scene4 .bg {background:  url('../img/scene4/bg-2.png') left 105% repeat fixed }
 #scene4 .second-bg { background:url('../img/scene4/backroom-3.png') left 105% no-repeat fixed}
 #scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; }
 #scene6 .bg { background:  #017CD5 url('../img/scene-garageband/bg.jpg') left bottom no-repeat fixed; }
-#scene7 .bg { background: #000 url('../img/scene-miracle/bg.jpg') left bottom no-repeat fixed; }
+#scene7 .bg { background: #000 url('../img/scene-miracle/bg.jpg') left 100% repeat fixed; }
 #scene8 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left bottom no-repeat fixed;}
 #scene9 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left bottom no-repeat fixed; }
 #scene10 .bg { background:  #B6D5EA url('../img/scene-pool/bg-2.jpg') left bottom no-repeat fixed;}
@@ -431,9 +431,9 @@ audio { display: none; }
 /* ===== Scene 7 - Miracle 34th ===== */
 
 #text-miracle { position: absolute; bottom: 350px; right: 600px; width: 332px; height: 217px; background: url('../img/scene-miracle/text-miracle.png') no-repeat; opacity: 0; }
-#flamingo { position:absolute;width:350px; height:605px; bottom: -30px; left: -20px; background: url('../img/scene-miracle/flamingo.png') no-repeat;  }
+#flamingo { position:absolute;width:350px; height:605px; bottom: 70px; left: -20px; background: url('../img/scene-miracle/flamingo.png') no-repeat;  }
 
-#carolers { position:absolute; width: 963px; height: 575px; background: url('../img/scene-miracle/carolers-sprite.png') no-repeat; bottom: 0; left: 200px;opacity: 0; }
+#carolers { position:absolute; width: 963px; height: 575px; background: url('../img/scene-miracle/carolers-sprite.png') no-repeat -974px -3516px; bottom: 90px; left: 200px; }
 #carolers.carolers1 { background-position: -974px -3516px; }
 #carolers.carolers2 { background-position: -0px -3516px; }
 #carolers.carolers3 { background-position: -2922px -2930px; }
@@ -461,7 +461,7 @@ audio { display: none; }
 #carolers.carolers25 { background-position: -974px -0px; }
 #carolers.carolers26 { background-position: -0px -0px; }
 
-#miracle-grinch { position:absolute; width: 1400px; height: 600px;background: url('../img/scene-miracle/miracle-grinch.png') no-repeat; bottom: 400px; left: 0px;}
+#miracle-grinch { position:absolute; width: 1400px; height: 600px;background: url('../img/scene-miracle/miracle-grinch.png') no-repeat -0px -3666px; bottom: 400px; left: 0px; opacity:0;}
 #miracle-grinch.miracle-grinch1 {  background-position: -0px -3666px; }
 #miracle-grinch.miracle-grinch2 {  background-position: -2822px -3055px; }
 #miracle-grinch.miracle-grinch3 {  background-position: -2822px -2444px; }

@@ -437,8 +437,6 @@ window.onload = function() {
 		],  
 		
 		[ 	//scene 5
-			// {id:document.getElementById("monument"), start: 5.0, end: 5.2, x: 0, y: -200, type:"translate"},
-			// {id:document.getElementById("monument-grinch"), start: 5.0, end: 5.2, x: 0, y: -200, type:"translate"},
 			{id:document.getElementById("hippies"), start: 5.0, end: 5.05, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity", audio: narrationSprite[5]},
 			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
@@ -463,17 +461,21 @@ window.onload = function() {
 			{id:document.getElementById("garage-bg"), start: 6.5, end: 6.62, x:0, y: 80, type:"bgShift"},
 			{id:document.getElementById("garage-grinch"), start: 6.4, end: 6.55, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("garage-grinch"), start: 6.5, end: 6.62, x:1, y: 300, type:"translate"},
+			{id:document.getElementById("carolers"), start: 6.9, end: 6.99, x:0, y: 90, type:"translate"},
+			{id:document.getElementById("flamingo"), start: 6.9, end: 6.99, x:0, y: 100, type:"translate"},
+			
 		], 
 
 		[ //scene 7 - miracle
-			// {id:document.getElementById("s7bg"), start: 7.0, end: 7.2, x: 0, y:-30, type:"bgShift"},
-			{id:document.getElementById("carolers"), start: 7.0, end: 7.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("miracle-grinch"), start: 7.0, end: 7.05, x: 1, y:0, type:"opacity"},
 			{id:document.getElementById("text-miracle"), start: 7.15, end: 7.20, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-miracle"), start: 7.45, end: 7.55, x:-1, y: 0, type:"opacity", audio: narrationSprite[7]},
 			{id:document.getElementById("flamingo"), start: 7.5, end: 7.6, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("miracle-grinch"), start: 7.5, end: 7.6, x:0, y: 140, type:"translate"},
 			{id:document.getElementById("carolers"), start: 7.5, end: 7.6, x:0, y: 150, type:"translate"},
 			{id:document.getElementById("s7bg"), start: 7.5, end: 7.6, x:0, y: 80, type:"bgShift"},
+			{id:document.getElementById("carolers"), start: 7.9, end: 7.99, x:0, y: 80, type:"translate"},
+			{id:document.getElementById("flamingo"), start: 7.9, end: 7.99, x:0, y: 100, type:"translate"},
 			{id:document.getElementById("aquariumbg"), start: 7.85, end: 7.99, x:0, y: -10, type:"bgShift"},
 			{id:document.getElementById("aquarium-grinch"), start: 7.85, end: 7.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: -80, type:"translate"}
