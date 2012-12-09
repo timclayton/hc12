@@ -570,7 +570,7 @@ window.onload = function() {
 		 ],
 
 		 [ //scene 13 - celebration 
-		  {id:document.getElementById("celebrationbg"), start: 13.0, end: 13.12, x:0, y: 90, type:"bgShift"},
+		  {id:document.getElementById("celebrationbg"), start: 13.0, end: 13.12, x:0, y: 20, type:"bgShift"},
 		  {id:document.getElementById("globe"), start: 13.0, end: 13.12, x:0, y: -681, type:"translate"},
 		  {id:document.getElementById("celebration"), start: 13.0, end: 13.12, x:0, y: -600, type:"translate"},
 			{id:document.getElementById("celebration"), start: 13.0, end: 13.03, x:1, y: 0, type:"opacity"},
@@ -580,7 +580,7 @@ window.onload = function() {
 			{id:document.getElementById("celebration-light"), start: 13.35, end: 13.39, x:-1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("globe"), start: 13.24, end: 13.29, x:0, y: 681, type:"translate"},
 			{id:document.getElementById("celebration"), start: 13.24, end: 13.29, x:0, y: 650, type:"translate"},
-			{id:document.getElementById("celebrationbg"), start: 13.24, end: 13.29, x:0, y: 70, type:"bgShift"},
+			{id:document.getElementById("celebrationbg"), start: 13.24, end: 13.29, x:0, y: 50, type:"bgShift"},
 			{id:document.getElementById("celebrationbg"), start: 13.4, end: 13.66, x:0, y: 20, type:"bgShift"},
 			{id:document.getElementById("text-sky-1"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity", audio: narrationSprite[14]},
 			{id:document.getElementById("text-sky-1"), start: 13.5, end: 13.54, x:-1.1, y: 0, type:"opacity"},
