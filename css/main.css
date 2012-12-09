@@ -140,9 +140,9 @@ audio { display: none; }
 #scene6 .bg { background:  #017CD5 url('../img/scene-garageband/bg.jpg') left bottom no-repeat fixed; }
 #scene7 .bg { background: #000 url('../img/scene-miracle/bg.jpg') left 100% repeat fixed; }
 #scene8 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left bottom no-repeat fixed;}
-#scene9 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left bottom no-repeat fixed; }
+#scene9 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left 150% no-repeat fixed; }
 #scene10 .bg { background:  #B6D5EA url('../img/scene-pool/bg-2.jpg') left bottom no-repeat fixed;}
-#scene11 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left bottom repeat fixed;}
+#scene11 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left 150% repeat fixed;}
 #scene12 .bg { background:  #B51428 url('../img/scene-sleeping/bg.jpg') left bottom repeat fixed;}
 #scene13 .bg { background:  #B51428 url('../img/scene-celebration/bg.jpg') left bottom repeat fixed; }
 #scene14 .bg { background:  #B51428 url('../img/scene-finale/bg.jpg') left bottom repeat fixed; }
@@ -677,12 +677,11 @@ audio { display: none; }
 /* ===== Scene 11  ===== */
 
 #stieff-text { position:absolute; width:332px;height:217px; background:url('../img/scene-stieff/stieff-text.png') no-repeat;left: 50%; margin-left:  -177px; bottom:364px; opacity: 0; }
-#foreground {  position:absolute;bottom:100px; left:329px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
+#foreground {  position:absolute;bottom:200px; left:329px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
 #lights-out { position:absolute; bottom: 407px; left:0; width:1399px; height:593px; background:url('../img/scene-stieff/lights-out.jpg') no-repeat; opacity: 0; }
-#midground { position:absolute; bottom: 100px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }
-#bg-placeholder { position:absolute; bottom: -500px; left:0; width:1400px; height:1000px; background:url('../img/scene-stieff/bg.png') no-repeat; }
+#midground { position:absolute; bottom: 200px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }
 
-#fire { position:absolute; bottom: 100px; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat -784px -381px;  }
+#fire { position:absolute; bottom: 200px; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat -784px -381px;  }
 #fire.fire1 { background-position: -784px -381px; }
 #fire.fire2 { background-position: -784px -0px; }
 #fire.fire3 { background-position: -392px -381px; }
@@ -690,7 +689,7 @@ audio { display: none; }
 #fire.fire5 { background-position: -392px -0px; }
 #fire.fire6 { background-position: -0px -0px; }
 
-#stieff { position:absolute; bottom: 100px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat -2670px -485px; }
+#stieff { position:absolute; bottom: 200px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat -2670px -485px; }
 #stieff.stieff1 { background-position: -2670px -485px; }
 #stieff.stieff2 { background-position: -2670px -0px; }
 #stieff.stieff3 { background-position: -1780px -2425px; }
@@ -712,7 +711,7 @@ audio { display: none; }
 #stieff.stieff19 { background-position: -890px -0px; }
 #stieff.stieff20 { background-position: -0px -0px; }
 
-#grinch-stieff { position:absolute; bottom: 0; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat; opacity: 0;  }
+#grinch-stieff { position:absolute; bottom: 200px; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat; opacity: 0;  }
 #grinch-stieff.grinch-stieff1 { background-position: -0px -1770px; }
 #grinch-stieff.grinch-stieff2 { background-position: -1473px -1180px; }
 #grinch-stieff.grinch-stieff3 { background-position: -1473px -590px; }
