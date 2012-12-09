@@ -133,8 +133,8 @@ audio { display: none; }
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left bottom no-repeat fixed; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-repeat.jpg') left top repeat fixed; }
-#scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') -4% bottom no-repeat fixed; } 
-#scene4 .bg {background:  url('../img/scene4/bg-2.png') left 105% repeat fixed }
+#scene3 .bg { background: #B51428 url('../img/scene3/bg.jpg') left bottom no-repeat fixed; } 
+#scene4 .bg {background:  url('../img/scene4/bg-2.png') left bottom repeat fixed }
 #scene4 .second-bg { background:url('../img/scene4/backroom-3.png') left 105% no-repeat fixed}
 #scene5 .bg { background:  #B51428 url('../img/scene5/bg.jpg') left bottom repeat fixed; }
 #scene6 .bg { background:  #017CD5 url('../img/scene-garageband/bg.jpg') left bottom no-repeat fixed; }
@@ -209,15 +209,15 @@ audio { display: none; }
 #max.max6 { background-position: 0 -1205px; }
 /* ===== Scene 3 ===== */
 
-#bg-test { position:absolute; background: url('../img/scene3/bg.jpg') no-repeat 0 0; width:2866px; height:1000px; bottom: 0px; left: -256px; } 
+#bg-test { position:absolute; background: url('../img/scene3/bg.jpg') no-repeat 0 0; width:2866px; height:1000px; bottom: -100px; left: 0px; }
 #bunny-2 { position:absolute; background: url('../img/scene3/bunny-2.png') no-repeat 0 0; width: 209px; height: 178px; left: 1182px; bottom:10px; }
 #bunny-big { position:absolute; background: url('../img/scene3/bunny-big.png') no-repeat 0 0; width: 437px; height: 391px; left: 1642px; bottom: -20px; }
 #know-your-memes {  position:absolute; background: url('../img/scene3/know-your-memes.png') no-repeat 0 0; width: 117px; height: 101px; left: 1542px; bottom: 300px; }
-#doorway { position:absolute; background: url('../img/scene3/doorway.png') no-repeat 0 0; width: 253px; height: 706px; /*left: 1172px;*/ left:1022px; bottom: 54px; }
-#couch { position:absolute; background: url('../img/scene3/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; }
+#doorway { position:absolute; background: url('../img/scene3/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; opacity:0; }
+#couch { position:absolute; background: url('../img/scene3/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; opacity:0;}
 #kitchen-text { position:absolute; background: url('../img/scene3/kitchen-text.png') no-repeat 0 0; width: 354px; height: 253px; left: 50%; margin-left: -177px; bottom:380px; opacity: 0;}
 
-#ericw { position: absolute; bottom: 0; left: 25%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene3/eric-pancakes-sprite.png') no-repeat  -804px -1796px; }
+#ericw { position: absolute; bottom: 60px; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene3/eric-pancakes-sprite.png') no-repeat  -804px -1796px; }
 #ericw.ericw1 { background-position: -804px -1796px; }
 #ericw.ericw2 { background-position: -402px -1796px; }
 #ericw.ericw3 { background-position: -0px -1796px; }
@@ -236,7 +236,7 @@ audio { display: none; }
 #ericw.ericw16 { background-position: -402px -0px; }
 #ericw.ericw17 { background-position: -0px -0px; }
 
-#grinch-burbs { position:absolute; left: 1017px; bottom:220px; width: 1446px; height: 616px; background: url('../img/scene3/grinch.png') no-repeat; }
+#grinch-burbs { position:absolute; left: 1172px; bottom:220px; width: 1446px; height: 616px; background: url('../img/scene3/grinch.png') no-repeat; }
 #grinch-burbs.grinch-burbs0 { background: url('../img/scene3/grinch-start.png') no-repeat;  }
 #grinch-burbs.grinch-burbs1 { background-position: -2914px -627px; }
 #grinch-burbs.grinch-burbs2 { background-position: -2914px -0px; }

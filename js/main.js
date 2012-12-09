@@ -379,13 +379,13 @@ window.onload = function() {
 			{id:document.getElementById("back-row-houses"), start:2.8, end:2.99, x: 0, y:-30, type:"translate"},
 			{id:document.getElementById("front-row-houses"), start:2.8, end:2.99, x: 0, y:-40, type:"translate"},
 			{id:document.getElementById("lawn-ornaments"), start:2.8, end:2.99, x: 0, y:-35, type:"translate"},
-			{id:document.getElementById("s2bg"), start:2.92, end:2.99, x: 0, y:-50, type:"bgShift"},
-			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
 			{id:document.getElementById("gate"), start:2.82, end:2.9, x: 0, y:-750, type:"translate"},
-			{id:document.getElementById("gate"), start:2.94, end:2.99, x: 0, y:-300, type:"translate"},
-			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 100, y: 0, type:"translate"},
-			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 104, y: 0, type:"translate"},
-			{id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 4, y: 0, type:"bgShift"},
+			{id:document.getElementById("s2bg"), start:2.92, end:2.99, x: 0, y:-50, type:"bgShift"},
+			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-100, type:"translate"},
+			{id:document.getElementById("gate"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
+			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 0, y:60, type:"translate"},
+			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 0, y: -100, type:"translate"},
+			// {id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 0, y: 0, type:"bgShift"},
 
 		
 		],
@@ -395,6 +395,8 @@ window.onload = function() {
 			
 			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("kitchen-text"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity", audio: narrationSprite[3]},
+			{id:document.getElementById("doorway"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("couch"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("kitchen-text"), start: 3.4, end: 3.45, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("bunny-2"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bunny-big"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
@@ -402,7 +404,7 @@ window.onload = function() {
 			{id:document.getElementById("doorway"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("couch"), start: 3.4, end: 3.6, x: -950, y: 0, type:"translate"},
 			{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			// {id:document.getElementById("bg-test"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
+
 			{id:document.getElementById("bg-test"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("poker"), start: 3.85, end: 3.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("grinch-poker"), start: 3.80, end: 3.99, x:0, y: -20, type:"translate"},
