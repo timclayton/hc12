@@ -638,7 +638,7 @@ window.onload = function() {
 		],
 		
 		[ // scene 7
-			{id:document.getElementById("carolers"), start: 7.0, end: 7.99, prefix: "carolers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:2},
+			{id:document.getElementById("carolers"), start: 7.0, end: 7.99, prefix: "carolers", order: [1,2,3,,2,1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:1},
 			{id:document.getElementById("miracle-grinch"), start: 7.5, end: 7.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:1}	
 		],
 		
