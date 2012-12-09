@@ -384,236 +384,241 @@ window.onload = function() {
 			{id:document.getElementById("s2bg"), start:2.92, end:2.99, x: 0, y:-20, type:"bgShift"},
 			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-50, type:"translate"},
 			{id:document.getElementById("gate"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
-			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 0, y:60, type:"translate"},
-			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 0, y: -100, type:"translate"},
+			
 
 		
 		],
+
+		[ //scene 3
+
+			{id:document.getElementById("ericw"), start: 3.92, end: 3.99, x: 0, y:60, type:"translate"},
+			{id:document.getElementById("bg-test"), start: 3.92, end: 3.99, x: 0, y: -100, type:"translate"},
+		],
 		
-		[  // scene 3
+		[  // scene 4
 			
 			
-			{id:document.getElementById("ericw"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("kitchen-text"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity", audio: narrationSprite[3]},
-			{id:document.getElementById("doorway"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("couch"), start: 3.1, end: 3.15, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("kitchen-text"), start: 3.4, end: 3.45, x: -1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("bunny-2"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("bunny-big"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("know-your-memes"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("doorway"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("couch"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("grinch-burbs"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("bg-test"), start: 3.4, end: 3.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("poker"), start: 3.85, end: 3.99, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("grinch-poker"), start: 3.80, end: 3.99, x:0, y: -20, type:"translate"},
-			{id:document.getElementById("bg-inner"), start: 3.85, end: 3.99, x:0, y: -20, type:"translate"},
-			{id:document.getElementById("second-bg"), start: 3.85, end: 3.99, x:0, y: -20, type:"bgShift"},
-			{id:document.getElementById("poker-bg"), start: 3.85, end: 3.99, x:0, y: -30, type:"bgShift"}
+			{id:document.getElementById("ericw"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("kitchen-text"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity", audio: narrationSprite[3]},
+			{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("kitchen-text"), start: 4.4, end: 4.45, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("bunny-2"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("bunny-big"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("know-your-memes"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("doorway"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("couch"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("grinch-burbs"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("bg-test"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("poker"), start: 4.85, end: 4.99, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("grinch-poker"), start: 4.80, end: 4.99, x:0, y: -20, type:"translate"},
+			{id:document.getElementById("bg-inner"), start: 4.85, end: 4.99, x:0, y: -20, type:"translate"},
+			{id:document.getElementById("second-bg"), start: 4.85, end: 4.99, x:0, y: -20, type:"bgShift"},
+			{id:document.getElementById("poker-bg"), start: 4.85, end: 4.99, x:0, y: -30, type:"bgShift"}
 		
 		], 
 		
-		[  // scene 4
-			// {id:document.getElementById("smoke"), start: 3.0, end: 3.99, x:1, y: 0, type:"opacity"},
+		[  // scene 5
 			
-			{id:document.getElementById("poker"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("grinch-poker"), start: 4.95, end: 4.99, x:0, y: -20, type:"translate"},
-			{id:document.getElementById("bg-inner"), start: 4.95, end: 4.99, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("poker-text"), start: 4.3, end: 4.35, x:1, y: 0, type:"opacity", audio: narrationSprite[4]},
-			{id:document.getElementById("poker-text"), start: 4.6, end: 4.65, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("poker"), start: 4.75, end: 4.99, x:0, y: -200, type:"translate"},
-			{id:document.getElementById("grinch-poker"), start: 4.75, end: 4.99, x:0, y: -100, type:"translate"},
-			{id:document.getElementById("bg-inner"), start: 4.75, end: 4.99, x:0, y: -100, type:"translate"},
-			{id:document.getElementById("second-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
-			{id:document.getElementById("poker-bg"), start: 4.75, end: 4.99, x:0, y: -100, type:"bgShift"},
-			{id:document.getElementById("monumentbg"), start: 4.85, end: 4.99, x:0, y: -50, type:"bgShift"},
-			{id:document.getElementById("monument"), start: 4.85, end: 4.99, x: 0, y: 200, type:"translate"},
-			{id:document.getElementById("monument-grinch"), start: 4.85, end: 4.99, x: 0, y: 200, type:"translate"},
-			{id:document.getElementById("drummers"), start: 4.85, end: 4.99, x: 0, y: 100, type:"translate"},
-			{id:document.getElementById("clouds-1"), start: 4.85, end: 4.99, x: 0, y: 80, type:"translate"},
+			{id:document.getElementById("poker"), start: 5.95, end: 5.99, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("grinch-poker"), start: 5.95, end: 5.99, x:0, y: -20, type:"translate"},
+			{id:document.getElementById("bg-inner"), start: 5.95, end: 5.99, x:0, y: -40, type:"translate"},
+			{id:document.getElementById("poker-text"), start: 5.3, end: 5.35, x:1, y: 0, type:"opacity", audio: narrationSprite[4]},
+			{id:document.getElementById("poker-text"), start: 5.6, end: 5.65, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("poker"), start: 5.75, end: 5.99, x:0, y: -200, type:"translate"},
+			{id:document.getElementById("grinch-poker"), start: 5.75, end: 5.99, x:0, y: -100, type:"translate"},
+			{id:document.getElementById("bg-inner"), start: 5.75, end: 5.99, x:0, y: -100, type:"translate"},
+			{id:document.getElementById("second-bg"), start: 5.75, end: 5.99, x:0, y: -100, type:"bgShift"},
+			{id:document.getElementById("poker-bg"), start: 5.75, end: 5.99, x:0, y: -100, type:"bgShift"},
+			{id:document.getElementById("monumentbg"), start: 5.85, end: 5.99, x:0, y: -50, type:"bgShift"},
+			{id:document.getElementById("monument"), start: 5.85, end: 5.99, x: 0, y: 200, type:"translate"},
+			{id:document.getElementById("monument-grinch"), start: 5.85, end: 5.99, x: 0, y: 200, type:"translate"},
+			{id:document.getElementById("drummers"), start: 5.85, end: 5.99, x: 0, y: 100, type:"translate"},
+			{id:document.getElementById("clouds-1"), start: 5.85, end: 5.99, x: 0, y: 80, type:"translate"},
 
 		
 		],  
 		
-		[ 	//scene 5
-			{id:document.getElementById("hippies"), start: 5.0, end: 5.05, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("textbox-scene5"), start: 5.2, end: 5.4, x: 1, y: 0, type:"opacity", audio: narrationSprite[5]},
-			{id:document.getElementById("clouds-1"), start: 5.0, end: 5.99, x: 300, y: 20, type:"translate"},
-			{id:document.getElementById("feeling-it"), start: 5.45, end: 5.5, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("monument"), start: 5.85, end: 5.99, x: 0, y: -150, type:"translate"},
-			{id:document.getElementById("drummers"), start: 5.85, end: 5.99, x: 0, y: -350, type:"translate"},
-			{id:document.getElementById("hippies"), start: 5.85, end: 5.99, x: 0, y: -250, type:"translate"},
+		[ 	//scene 6
+			{id:document.getElementById("hippies"), start: 6.0, end: 6.05, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox-scene5"), start: 6.2, end: 6.4, x: 1, y: 0, type:"opacity", audio: narrationSprite[5]},
+			{id:document.getElementById("clouds-1"), start: 6.0, end: 6.99, x: 300, y: 20, type:"translate"},
+			{id:document.getElementById("feeling-it"), start: 6.45, end: 6.5, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("monument"), start: 6.85, end: 6.99, x: 0, y: -150, type:"translate"},
+			{id:document.getElementById("drummers"), start: 6.85, end: 6.99, x: 0, y: -350, type:"translate"},
+			{id:document.getElementById("hippies"), start: 6.85, end: 6.99, x: 0, y: -250, type:"translate"},
 	
 		], 
 
-		[ //scene 6
-			{id:document.getElementById("garage-interior"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("garage-exterior"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("garage-decorations"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("garageband"), start: 6, end: 6.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("textbox-scene6"), start: 6.1, end: 6.2, x:1, y: 0, type:"opacity", audio: narrationSprite[6]},
-			{id:document.getElementById("garage-interior"), start: 6.5, end: 6.62, x:0, y: 250, type:"translate"},
-			{id:document.getElementById("garage-exterior"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
-			{id:document.getElementById("textbox-scene6"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
-			{id:document.getElementById("garage-decorations"), start: 6.5, end: 6.62, x:0, y: 300, type:"translate"},
-			{id:document.getElementById("garageband"), start: 6.5, end: 6.62, x:0, y: 350, type:"translate"},
-			{id:document.getElementById("garage-bg"), start: 6.5, end: 6.62, x:0, y: 80, type:"bgShift"},
-			{id:document.getElementById("garage-grinch"), start: 6.4, end: 6.55, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("garage-grinch"), start: 6.5, end: 6.62, x:1, y: 300, type:"translate"},
-			{id:document.getElementById("carolers"), start: 6.9, end: 6.99, x:0, y: 90, type:"translate"},
-			{id:document.getElementById("flamingo"), start: 6.9, end: 6.99, x:0, y: 100, type:"translate"},
+		[ //scene 7
+
+			{id:document.getElementById("garage-interior"), start: 7, end: 7.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garage-exterior"), start: 7, end: 7.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garage-decorations"), start: 7, end: 7.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garageband"), start: 7, end: 7.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox-scene6"), start: 7.1, end: 7.2, x:1, y: 0, type:"opacity", audio: narrationSprite[6]},
+			{id:document.getElementById("garage-interior"), start: 7.5, end: 7.62, x:0, y: 250, type:"translate"},
+			{id:document.getElementById("garage-exterior"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("textbox-scene6"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("garageband"), start: 7.5, end: 7.62, x:0, y: 350, type:"translate"},
+			{id:document.getElementById("garage-bg"), start: 7.5, end: 7.62, x:0, y: 80, type:"bgShift"},
+			{id:document.getElementById("garage-grinch"), start: 7.4, end: 7.55, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.62, x:1, y: 300, type:"translate"},
+			{id:document.getElementById("carolers"), start: 7.9, end: 7.99, x:0, y: 90, type:"translate"},
+			{id:document.getElementById("flamingo"), start: 7.9, end: 7.99, x:0, y: 100, type:"translate"},
 			
 		], 
 
-		[ //scene 7 - miracle
-			{id:document.getElementById("miracle-grinch"), start: 7.0, end: 7.05, x: 1, y:0, type:"opacity"},
-			{id:document.getElementById("text-miracle"), start: 7.15, end: 7.20, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-miracle"), start: 7.45, end: 7.55, x:-1.1, y: 0, type:"opacity", audio: narrationSprite[7]},
-			{id:document.getElementById("flamingo"), start: 7.5, end: 7.6, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("miracle-grinch"), start: 7.5, end: 7.6, x:0, y: 140, type:"translate"},
-			{id:document.getElementById("carolers"), start: 7.5, end: 7.6, x:0, y: 150, type:"translate"},
-			{id:document.getElementById("s7bg"), start: 7.5, end: 7.6, x:0, y: 80, type:"bgShift"},
-			{id:document.getElementById("carolers"), start: 7.9, end: 7.99, x:0, y: 80, type:"translate"},
-			{id:document.getElementById("flamingo"), start: 7.9, end: 7.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("aquariumbg"), start: 7.85, end: 7.99, x:0, y: 50, type:"bgShift"},
-			{id:document.getElementById("aquarium-grinch"), start: 7.85, end: 7.99, x:0, y: 40, type:"translate"},
-			{id:document.getElementById("aquarium-people"), start: 7.85, end: 7.99, x:0, y: 80, type:"translate"},
-			{id:document.getElementById("bubbles-1"), start:7.85, end: 7.99, x: 0, y: 30, type:"translate"},
-			{id:document.getElementById("bubbles-2"), start: 7.85, end: 7.99, x: 0, y: 50, type:"translate"},
-			{id:document.getElementById("bubbles-3"), start: 7.85, end: 7.99, x: 0, y: 50, type:"translate"},
+		[ //scene 8 - miracle
+
+			{id:document.getElementById("miracle-grinch"), start: 8.0, end: 8.05, x: 1, y:0, type:"opacity"},
+			{id:document.getElementById("text-miracle"), start: 8.15, end: 8.20, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-miracle"), start: 8.45, end: 8.55, x:-1.1, y: 0, type:"opacity", audio: narrationSprite[7]},
+			{id:document.getElementById("flamingo"), start: 8.5, end: 8.6, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("miracle-grinch"), start: 8.5, end: 8.6, x:0, y: 140, type:"translate"},
+			{id:document.getElementById("carolers"), start: 8.5, end: 8.6, x:0, y: 150, type:"translate"},
+			{id:document.getElementById("s8bg"), start: 8.5, end: 8.6, x:0, y: 80, type:"bgShift"},
+			{id:document.getElementById("carolers"), start: 8.9, end: 8.99, x:0, y: 80, type:"translate"},
+			{id:document.getElementById("flamingo"), start: 8.9, end: 8.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("aquariumbg"), start: 8.85, end: 8.99, x:0, y: 50, type:"bgShift"},
+			{id:document.getElementById("aquarium-grinch"), start: 8.85, end: 8.99, x:0, y: 40, type:"translate"},
+			{id:document.getElementById("aquarium-people"), start: 8.85, end: 8.99, x:0, y: 80, type:"translate"},
+			{id:document.getElementById("bubbles-1"), start:8.85, end: 8.99, x: 0, y: 30, type:"translate"},
+			{id:document.getElementById("bubbles-2"), start: 8.85, end: 8.99, x: 0, y: 50, type:"translate"},
+			{id:document.getElementById("bubbles-3"), start: 8.85, end: 8.99, x: 0, y: 50, type:"translate"},
 		], 
 
-		[ //scene 8 - aquarium
-			// {id:document.getElementById("aquarium-grinch"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
-			// {id:document.getElementById("aquarium-people"), start: 8.0, end: 8.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("bubbles-1"), start: 8.0, end: 8.99, x: 0, y: -300, type:"translate"},
-			{id:document.getElementById("bubbles-2"), start: 8.0, end: 8.99, x: 0, y: -350, type:"translate"},
-			{id:document.getElementById("bubbles-3"), start: 8.0, end: 8.99, x: 0, y:-500, type:"translate"},
-			{id:document.getElementById("little-fish-1"), start: 8.0, end: 8.06, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("little-fish-2"), start: 8.0, end: 8.06, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("big-fish"), start: 8.0, end: 8.06, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("little-fish-1"), start: 8.0, end: 8.99, x: -200, y: 0, type:"translate"},
-			{id:document.getElementById("little-fish-2"), start: 8.0, end: 8.99, x: -250, y: 20, type:"translate"},
-			{id:document.getElementById("big-fish"), start: 8.0, end: 8.99, x: -500, y: 20, type:"translate"},
-			{id:document.getElementById("text-aquarium"), start: 8.4, end: 8.5, x: 1, y: 0, type:"opacity", audio: narrationSprite[8]},
-			{id:document.getElementById("text-aquarium"), start: 8.8, end: 8.85, x: -1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("shark"), start: 8.65, end: 8.99, x: 2400, y: 0, type:"translate"},
-			{id:document.getElementById("aquariumbg"), start: 8.85, end: 8.99, x:0, y: 50, type:"bgShift"},
-			{id:document.getElementById("aquarium-people"), start: 8.85, end: 8.99, x:0, y: 50, type:"translate"},
-			{id:document.getElementById("businessmen"), start: 8.9, end: 8.99, x:0, y: 140, type:"translate"},
-			{id:document.getElementById("truck-grinch"), start: 8.9, end: 8.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("truck"), start: 8.9, end: 8.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("s9bg"), start: 8.9, end: 8.99, x:0, y: 50, type:"bgShift"},
+		[ //scene 9 - aquarium
+			
+			{id:document.getElementById("bubbles-1"), start: 9.0, end: 9.99, x: 0, y: -300, type:"translate"},
+			{id:document.getElementById("bubbles-2"), start: 9.0, end: 9.99, x: 0, y: -350, type:"translate"},
+			{id:document.getElementById("bubbles-3"), start: 9.0, end: 9.99, x: 0, y:-500, type:"translate"},
+			{id:document.getElementById("little-fish-1"), start: 9.0, end: 9.06, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("little-fish-2"), start: 9.0, end: 9.06, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("big-fish"), start: 9.0, end: 9.06, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("little-fish-1"), start: 9.0, end: 9.99, x: -200, y: 0, type:"translate"},
+			{id:document.getElementById("little-fish-2"), start: 9.0, end: 9.99, x: -250, y: 20, type:"translate"},
+			{id:document.getElementById("big-fish"), start: 9.0, end: 9.99, x: -500, y: 20, type:"translate"},
+			{id:document.getElementById("text-aquarium"), start: 9.4, end: 9.5, x: 1, y: 0, type:"opacity", audio: narrationSprite[8]},
+			{id:document.getElementById("text-aquarium"), start: 9.8, end: 9.85, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("shark"), start: 9.65, end: 9.99, x: 2400, y: 0, type:"translate"},
+			{id:document.getElementById("aquariumbg"), start: 9.85, end: 9.99, x:0, y: 50, type:"bgShift"},
+			{id:document.getElementById("aquarium-people"), start: 9.85, end: 9.99, x:0, y: 50, type:"translate"},
+			{id:document.getElementById("businessmen"), start: 9.9, end: 9.99, x:0, y: 140, type:"translate"},
+			{id:document.getElementById("truck-grinch"), start: 9.9, end: 9.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("truck"), start: 9.9, end: 9.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("s10bg"), start: 9.9, end: 9.99, x:0, y: 50, type:"bgShift"},
 		],
 
-		 [ //scene 9 - truck
-			{id:document.getElementById("text-truck"), start: 9.3, end: 9.4, x:1, y: 0, type:"opacity", audio: narrationSprite[9]},
-			{id:document.getElementById("text-truck"), start: 9.55, end: 9.6, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("truck-decorations"), start: 9.0, end: 9.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("truck-grinch"), start: 9.6, end: 9.8, x:-1400, y: 0, type:"translate"},
-			{id:document.getElementById("truck"), start: 9.6, end: 9.8, x:-1400, y: 0, type:"translate"},
-			{id:document.getElementById("businessmen"), start: 9.85, end: 9.99, x:0, y: 140, type:"translate"},
-			{id:document.getElementById("truck"), start: 9.85, end: 9.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("s9bg"), start: 9.85, end: 9.99, x:0, y: 50, type:"bgShift"},
+		 [ //scene 10 - truck
+			{id:document.getElementById("text-truck"), start: 10.3, end: 10.4, x:1, y: 0, type:"opacity", audio: narrationSprite[9]},
+			{id:document.getElementById("text-truck"), start: 10.55, end: 10.6, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("truck-decorations"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("truck-grinch"), start: 10.6, end: 10.8, x:-1400, y: 0, type:"translate"},
+			{id:document.getElementById("truck"), start: 10.6, end: 10.8, x:-1400, y: 0, type:"translate"},
+			{id:document.getElementById("businessmen"), start: 10.85, end: 10.99, x:0, y: 140, type:"translate"},
+			{id:document.getElementById("truck"), start: 10.85, end: 10.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("s10bg"), start: 10.85, end: 10.99, x:0, y: 50, type:"bgShift"},
 		 ],
 
-		 [ //scene 10 - pool
-			{id:document.getElementById("swimmers"), start: 10.0, end: 10.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-pool"), start: 10.0, end: 10.05, x: 1, y: 0, type:"opacity", audio: narrationSprite[10]},
-			{id:document.getElementById("text-pool"), start: 10.35, end: 10.4, x: -1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("grinch-stieff"), start: 10.9, end: 10.99, x:0, y: 200, type:"translate"},
-			{id:document.getElementById("stieff"), start: 10.9, end: 10.99, x:0, y: 200, type:"translate"},
-			{id:document.getElementById("fire"), start: 10.9, end: 10.99, x:0, y: 200, type:"translate"},
-			{id:document.getElementById("midground"), start: 10.9, end: 10.99, x:0, y: 200, type:"translate"},
-			{id:document.getElementById("foreground"), start: 10.9, end: 10.99, x:0, y: 200, type:"translate"},
+		 [ //scene 11 - pool
+			{id:document.getElementById("swimmers"), start: 11.0, end: 11.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-pool"), start: 11.0, end: 11.05, x: 1, y: 0, type:"opacity", audio: narrationSprite[10]},
+			{id:document.getElementById("text-pool"), start: 11.35, end: 11.4, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("grinch-stieff"), start: 11.9, end: 11.99, x:0, y: 200, type:"translate"},
+			{id:document.getElementById("stieff"), start: 11.9, end: 11.99, x:0, y: 200, type:"translate"},
+			{id:document.getElementById("fire"), start: 11.9, end: 11.99, x:0, y: 200, type:"translate"},
+			{id:document.getElementById("midground"), start: 11.9, end: 11.99, x:0, y: 200, type:"translate"},
+			{id:document.getElementById("foreground"), start: 11.9, end: 11.99, x:0, y: 200, type:"translate"},
 			// {id:document.getElementById("s11bg"), start: 10.9, end: 10.99, x:0, y: 50, type:"bgShift"}
 		 ],
 
-		 [ //scene 11 
+		 [ //scene 12
 		 	
-		 	{id:document.getElementById("stieff-text"), start: 11.65, end: 11.7, x: 1, y: 0, type:"opacity", audio: narrationSprite[11]},
-			{id:document.getElementById("lights-out"), start: 11.69, end: 11.70, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("grinch-stieff"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("stieff"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("fire"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("midground"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("foreground"), start: 11.9, end: 11.99, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("s11bg"), start: 11.9, end: 11.99, x:0, y: 50, type:"bgShift"},
+		 	{id:document.getElementById("stieff-text"), start: 12.65, end: 12.7, x: 1, y: 0, type:"opacity", audio: narrationSprite[11]},
+			{id:document.getElementById("lights-out"), start: 12.69, end: 12.70, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("grinch-stieff"), start: 12.9, end: 12.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("stieff"), start: 12.9, end: 12.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("fire"), start: 12.9, end: 12.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("midground"), start: 12.9, end: 12.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("foreground"), start: 12.9, end: 12.99, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("s12bg"), start: 12.9, end: 12.99, x:0, y: 50, type:"bgShift"},
 			{id:document.getElementById("sleepingbg"), start: 12.0, end: 12.99, x:0, y: 90, type:"bgShift"}
 		 ],
 
-		 [ //scene 12 - sleeping
-		 {id:document.getElementById("beds-back"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-		 {id:document.getElementById("beds-mid"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-		 {id:document.getElementById("beds-front"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-		  {id:document.getElementById("audrey"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-		  {id:document.getElementById("matt"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-		  {id:document.getElementById("diana"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-		  {id:document.getElementById("eric"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-		  {id:document.getElementById("julia"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-		  {id:document.getElementById("katie"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-		  {id:document.getElementById("erika"), start: 12.3, end: 12.35, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("beds-back"), start: 12.1, end: 12.99, x:0, y: 1000, type:"translate"},
-			{id:document.getElementById("julia"), start: 12.1, end: 12.99, x: 0, y: 1000, type:"translate"},
-		  {id:document.getElementById("katie"), start: 12.1, end: 12.99, x: 0, y: 1000, type:"translate"},
-			{id:document.getElementById("beds-mid"), start: 12.2, end: 12.99, x:0, y: 1200, type:"translate"},
-			{id:document.getElementById("diana"), start: 12.2, end: 12.99, x: 0, y: 1200, type:"translate"},
-			{id:document.getElementById("erika"), start: 12.2, end: 12.99, x: 0, y: 1200, type:"translate"},
-			{id:document.getElementById("beds-front"), start: 12.3, end: 12.99, x:0, y: 1300, type:"translate"},
-			{id:document.getElementById("audrey"), start: 12.3, end: 12.99, x: 0, y: 1300, type:"translate"},
-		  {id:document.getElementById("matt"), start: 12.3, end: 12.99, x: 0, y: 1300, type:"translate"},
-		  {id:document.getElementById("eric"), start: 12.3, end: 12.99, x: 0, y: 1300, type:"translate"},
-		  {id:document.getElementById("sleeping-grinch"), start: 12.0, end: 12.05, x: 1, y: 0, type:"opacity", audio: narrationSprite[12]},
-		  {id:document.getElementById("sleeping-grinch"), start: 12.95, end: 12.99, x: -1.1, y: 0, type:"opacity"},
-		  {id:document.getElementById("sleepingbg"), start: 12.0, end: 12.99, x:0, y: 120, type:"bgShift"}
+		 [ //scene 13 - sleeping
+		 {id:document.getElementById("beds-back"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		 {id:document.getElementById("beds-mid"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		 {id:document.getElementById("beds-front"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("audrey"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("matt"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("diana"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("eric"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("julia"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("katie"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		  {id:document.getElementById("erika"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("beds-back"), start: 13.1, end: 13.99, x:0, y: 1000, type:"translate"},
+			{id:document.getElementById("julia"), start: 13.1, end: 13.99, x: 0, y: 1000, type:"translate"},
+		  {id:document.getElementById("katie"), start: 13.1, end: 13.99, x: 0, y: 1000, type:"translate"},
+			{id:document.getElementById("beds-mid"), start: 13.2, end: 13.99, x:0, y: 1200, type:"translate"},
+			{id:document.getElementById("diana"), start: 13.2, end: 13.99, x: 0, y: 1200, type:"translate"},
+			{id:document.getElementById("erika"), start: 13.2, end: 13.99, x: 0, y: 1200, type:"translate"},
+			{id:document.getElementById("beds-front"), start: 13.3, end: 13.99, x:0, y: 1300, type:"translate"},
+			{id:document.getElementById("audrey"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
+		  {id:document.getElementById("matt"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
+		  {id:document.getElementById("eric"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
+		  {id:document.getElementById("sleeping-grinch"), start: 13.0, end: 13.05, x: 1, y: 0, type:"opacity", audio: narrationSprite[12]},
+		  {id:document.getElementById("sleeping-grinch"), start: 13.95, end: 13.99, x: -1.1, y: 0, type:"opacity"},
+		  {id:document.getElementById("sleepingbg"), start: 13.0, end: 13.99, x:0, y: 120, type:"bgShift"}
 		 ],
 
-		 [ //scene 13 - celebration 
-		  {id:document.getElementById("celebrationbg"), start: 13.0, end: 13.12, x:0, y: 20, type:"bgShift"},
-		  {id:document.getElementById("globe"), start: 13.0, end: 13.12, x:0, y: -681, type:"translate"},
-		  {id:document.getElementById("celebration"), start: 13.0, end: 13.12, x:0, y: -600, type:"translate"},
-			{id:document.getElementById("celebration"), start: 13.0, end: 13.03, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-celebration"), start: 13.1, end: 13.13, x:1, y: 0, type:"opacity", audio: narrationSprite[13]},
-			{id:document.getElementById("text-celebration"), start: 13.2, end: 13.23, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("celebration-light"), start: 13.15, end: 13.2, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("celebration-light"), start: 13.35, end: 13.39, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("globe"), start: 13.24, end: 13.29, x:0, y: 681, type:"translate"},
-			{id:document.getElementById("celebration"), start: 13.24, end: 13.29, x:0, y: 650, type:"translate"},
-			{id:document.getElementById("celebrationbg"), start: 13.24, end: 13.29, x:0, y: 50, type:"bgShift"},
-			{id:document.getElementById("celebrationbg"), start: 13.4, end: 13.66, x:0, y: 20, type:"bgShift"},
-			{id:document.getElementById("text-sky-1"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity", audio: narrationSprite[14]},
-			{id:document.getElementById("text-sky-1"), start: 13.5, end: 13.54, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-sky-2"), start: 13.54, end: 13.57, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-sky-2"), start: 13.63, end: 13.66, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-large"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-large"), start: 13.5, end: 13.54, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-large"), start: 13.4, end: 13.99, x:0, y: -250, type:"translate"},
-			{id:document.getElementById("questions-medium"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-medium"), start: 13.5, end: 13.54, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-medium"), start: 13.4, end: 13.99, x:0, y: -150, type:"translate"},
-			{id:document.getElementById("questions-small"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-small"), start: 13.5, end: 13.54, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-small"), start: 13.4, end: 13.99, x:0, y: -50, type:"translate"},
-			{id:document.getElementById("hearts-large"), start: 13.54, end: 13.57, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-large"), start: 13.63, end: 13.66, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-large"), start: 13.4, end: 13.99, x:0, y: -250, type:"translate"},
-			{id:document.getElementById("hearts-medium"), start: 13.54, end: 13.57, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-medium"), start: 13.63, end: 13.66, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-medium"), start: 13.4, end: 13.99, x:0, y: -150, type:"translate"},
-			{id:document.getElementById("hearts-small"), start: 13.54, end: 13.57, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-small"), start: 13.63, end: 13.66, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-small"), start: 13.4, end: 13.99, x:0, y: -50, type:"translate"},
-			{id:document.getElementById("grinch-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("growing-heart"), start: 13.66, end: 13.7, x:1, y: 0, type:"opacity"},	
-			{id:document.getElementById("curtain"), start: 13.96, end: 13.999, x:0, y: 300, type:"translate"},
-			{id:document.getElementById("bells"), start: 13.96, end: 13.999, x:0, y: 300, type:"translate"},
-			{id: narration, start: 13.7, end: 13.75, x:1, y: 0, audio: narrationSprite[15]},
-			{id: narration, start: 13.85, end: 13.9, x:1, y: 0, audio: narrationSprite[16]},
-			{id: narration, start: 13.92, end: 13.95, x:1, y: 0, audio: narrationSprite[16]},
+		 [ //scene 14 - celebration 
+		  {id:document.getElementById("celebrationbg"), start: 14.0, end: 14.12, x:0, y: 20, type:"bgShift"},
+		  {id:document.getElementById("globe"), start: 14.0, end: 14.12, x:0, y: -681, type:"translate"},
+		  {id:document.getElementById("celebration"), start: 14.0, end: 14.12, x:0, y: -600, type:"translate"},
+			{id:document.getElementById("celebration"), start: 14.0, end: 14.03, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-celebration"), start: 14.1, end: 14.13, x:1, y: 0, type:"opacity", audio: narrationSprite[13]},
+			{id:document.getElementById("text-celebration"), start: 14.2, end: 14.23, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("celebration-light"), start: 14.15, end: 14.2, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("celebration-light"), start: 14.35, end: 14.39, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("globe"), start: 14.24, end: 14.29, x:0, y: 681, type:"translate"},
+			{id:document.getElementById("celebration"), start: 14.24, end: 14.29, x:0, y: 650, type:"translate"},
+			{id:document.getElementById("celebrationbg"), start: 14.24, end: 14.29, x:0, y: 50, type:"bgShift"},
+			{id:document.getElementById("celebrationbg"), start: 14.4, end: 14.66, x:0, y: 20, type:"bgShift"},
+			{id:document.getElementById("text-sky-1"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity", audio: narrationSprite[14]},
+			{id:document.getElementById("text-sky-1"), start: 14.5, end: 14.54, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-sky-2"), start: 14.54, end: 14.57, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("text-sky-2"), start: 14.63, end: 14.66, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-large"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-large"), start: 14.5, end: 14.54, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-large"), start: 14.4, end: 14.99, x:0, y: -250, type:"translate"},
+			{id:document.getElementById("questions-medium"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-medium"), start: 14.5, end: 14.54, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-medium"), start: 14.4, end: 14.99, x:0, y: -150, type:"translate"},
+			{id:document.getElementById("questions-small"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-small"), start: 14.5, end: 14.54, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("questions-small"), start: 14.4, end: 14.99, x:0, y: -50, type:"translate"},
+			{id:document.getElementById("hearts-large"), start: 14.54, end: 14.57, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-large"), start: 14.63, end: 14.66, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-large"), start: 14.4, end: 14.99, x:0, y: -250, type:"translate"},
+			{id:document.getElementById("hearts-medium"), start: 14.54, end: 14.57, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-medium"), start: 14.63, end: 14.66, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-medium"), start: 14.4, end: 14.99, x:0, y: -150, type:"translate"},
+			{id:document.getElementById("hearts-small"), start: 14.54, end: 14.57, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-small"), start: 14.63, end: 14.66, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-small"), start: 14.4, end: 14.99, x:0, y: -50, type:"translate"},
+			{id:document.getElementById("grinch-heart"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("growing-heart"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},	
+			{id:document.getElementById("curtain"), start: 14.96, end: 14.999, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("bells"), start: 14.96, end: 14.999, x:0, y: 300, type:"translate"},
+			{id: narration, start: 14.7, end: 14.75, x:1, y: 0, audio: narrationSprite[15]},
+			{id: narration, start: 14.85, end: 14.9, x:1, y: 0, audio: narrationSprite[16]},
+			{id: narration, start: 14.92, end: 14.95, x:1, y: 0, audio: narrationSprite[16]},
 		 ],
 
 		 [ //scene 14 - sky
-			{id:document.getElementById("tbg"), start: 14, end: 14.05, x:1, y: 0, type:"opacity"}
+			{id:document.getElementById("tbg"), start: 15, end: 15.05, x:1, y: 0, type:"opacity"}
 		 ]
 	]
 	
@@ -633,85 +638,89 @@ window.onload = function() {
 			{id:document.getElementById("max"), start: 2.15, end: 2.7, prefix: "max", order: [1,2,3,4,5,6], repeat:18},
 			{id:document.getElementById("grinch"), start: 2.15, end: 2.8, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9], repeat:6}
 		],
-		
-		[  // scene 3		
-			{id:document.getElementById("ericw"), start: 3.05, end: 3.5, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:3},
-			{id:document.getElementById("grinch-burbs"), start: 3.61, end: 3.85, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
+		 
+		[ //scene 3
+
 		],
 		
-		[ // scene 4			
-			{id:document.getElementById("smoke"), start: 4, end: 4.99, prefix: "smoke", order: [1,2,3,4,5,6,7,8], repeat:10},
-			{id:document.getElementById("poker"), start: 4, end: 4.9, prefix: "poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:3},
-			{id:document.getElementById("grinch-poker"), start: 4.5, end: 4.9, prefix: "grinch-poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1},
+		[  // scene 4		
+			{id:document.getElementById("ericw"), start: 4.05, end: 4.5, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:3},
+			{id:document.getElementById("grinch-burbs"), start: 4.61, end: 4.85, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
+		],
+		
+		[ // scene 5			
+			{id:document.getElementById("smoke"), start: 5, end: 5.99, prefix: "smoke", order: [1,2,3,4,5,6,7,8], repeat:10},
+			{id:document.getElementById("poker"), start: 5, end: 5.9, prefix: "poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:3},
+			{id:document.getElementById("grinch-poker"), start: 5.5, end: 5.9, prefix: "grinch-poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1},
 			
 		],
 
 		[ //scene 5
-			{id:document.getElementById("drummers"), start: 5.0, end: 5.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:2},
-			{id:document.getElementById("hippies"), start: 5.0, end: 5.99, prefix: "hippies", order: [1,2,3,4,5,6,7,8], repeat:5},
-			{id:document.getElementById("monument-grinch"), start: 5.4, end: 5.8, prefix: "monument-grinch", order: [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0}
+			{id:document.getElementById("drummers"), start: 6.0, end: 6.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:2},
+			{id:document.getElementById("hippies"), start: 6.0, end: 6.99, prefix: "hippies", order: [1,2,3,4,5,6,7,8], repeat:5},
+			{id:document.getElementById("monument-grinch"), start: 6.4, end: 6.8, prefix: "monument-grinch", order: [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0}
 		],
 		
 		[ // scene 6
-			{id:document.getElementById("garageband"), start: 6, end: 6.9, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:2},	
-			{id:document.getElementById("garage-grinch"), start: 6.5, end: 6.9, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1},
-			{id:document.getElementById("garage-decorations"), start: 6.5, end: 6.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13], repeat:1}	
+			{id:document.getElementById("garageband"), start: 7, end: 7.9, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:2},	
+			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.9, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1},
+			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13], repeat:1}	
 		],
 		
 		[ // scene 7
-			{id:document.getElementById("carolers"), start: 7.0, end: 7.99, prefix: "carolers", order: [1,2,3,,2,1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:1},
-			{id:document.getElementById("miracle-grinch"), start: 7.5, end: 7.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:1}	
+			{id:document.getElementById("carolers"), start: 8.0, end: 8.99, prefix: "carolers", order: [1,2,3,,2,1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:1},
+			{id:document.getElementById("miracle-grinch"), start: 8.5, end: 8.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:1}	
 		],
 		
 		[ // scene 8 - aquarium
-			{id:document.getElementById("aquarium-people"), start: 8.0, end: 8.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
-			{id:document.getElementById("aquarium-grinch"), start: 8.3, end: 8.65, prefix: "aquarium-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1}
+			{id:document.getElementById("aquarium-people"), start: 9.0, end: 9.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
+			{id:document.getElementById("aquarium-grinch"), start: 9.3, end: 9.65, prefix: "aquarium-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1}
 			
 		],
 
 		
 
 		[ // scene 9 - truck 
-			{id:document.getElementById("businessmen"), start: 9.0, end: 9.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:2},
-			{id:document.getElementById("truck-decorations"), start: 9.7, end: 9.75, prefix: "decorations", order: [1,2,3,4,5], repeat:1},
-			{id:document.getElementById("truck-grinch"), start: 9.2, end: 9.75, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1}
+			{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:2},
+			{id:document.getElementById("truck-decorations"), start: 10.7, end: 10.75, prefix: "decorations", order: [1,2,3,4,5], repeat:1},
+			{id:document.getElementById("truck-grinch"), start: 10.2, end: 10.75, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1}
 			
 			
 		],
 
 		[ // scene 10 - pool
-			{id:document.getElementById("phelps"), start: 10.3, end: 10.7, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
-			{id:document.getElementById("swimmers"), start: 10.0, end: 10.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2},
-			{id:document.getElementById("pool-grinch"), start: 10.6, end: 10.8, prefix: "pool-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1}
+			{id:document.getElementById("phelps"), start: 11.3, end: 11.7, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
+			{id:document.getElementById("swimmers"), start: 11.0, end: 11.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2},
+			{id:document.getElementById("pool-grinch"), start: 11.6, end: 11.8, prefix: "pool-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1}
 			
 		],
 
 		[ // scene 11
-			{id:document.getElementById("fire"), start: 11.0, end: 11.99, prefix: "fire", order: [1,2,3,4,5,6], repeat:10},
-			{id:document.getElementById("stieff"), start: 11.0, end: 11.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:3},
-			{id:document.getElementById("grinch-stieff"), start: 11.5, end: 11.85, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
+			{id:document.getElementById("fire"), start: 12.0, end: 12.99, prefix: "fire", order: [1,2,3,4,5,6], repeat:10},
+			{id:document.getElementById("stieff"), start: 12.0, end: 12.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:3},
+			{id:document.getElementById("grinch-stieff"), start: 12.5, end: 12.85, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
 		],
 
 		[ // scene 12 - sleeping
-			{id:document.getElementById("audrey"), start: 12.3, end: 12.99, prefix: "audrey", order: [1,2,3,4,5,6,7,8], repeat:3},
-			{id:document.getElementById("diana"), start: 12.3, end: 12.99, prefix: "diana", order: [1,2,3,4,5,6,7], repeat:3},
-			{id:document.getElementById("eric"), start: 12.3, end: 12.99, prefix: "eric", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
-			{id:document.getElementById("erika"), start: 12.3, end: 12.99, prefix: "erika", order: [1,2,3,4,5,6,7,8], repeat:3},
-			{id:document.getElementById("julia"), start: 12.2, end: 12.99, prefix: "julia", order: [1,2,3,4,5,6,7,8], repeat:3},
-			{id:document.getElementById("katie"), start: 12.2, end: 12.99, prefix: "katie", order: [1,2,3,4,5,6,7], repeat:3},
-			{id:document.getElementById("matt"), start: 12.3, end: 12.99, prefix: "matt", order: [1,2,3,4,5,6,7], repeat:3},
-			{id:document.getElementById("sleeping-grinch"), start: 12.05, end: 12.99, prefix: "sleeping-grinch", order: [1,2,3,4,5,6,7,8,9,10,11], repeat:5},
+			{id:document.getElementById("audrey"), start: 13.3, end: 13.99, prefix: "audrey", order: [1,2,3,4,5,6,7,8], repeat:3},
+			{id:document.getElementById("diana"), start: 13.3, end: 13.99, prefix: "diana", order: [1,2,3,4,5,6,7], repeat:3},
+			{id:document.getElementById("eric"), start: 13.3, end: 13.99, prefix: "eric", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
+			{id:document.getElementById("erika"), start: 13.3, end: 13.99, prefix: "erika", order: [1,2,3,4,5,6,7,8], repeat:3},
+			{id:document.getElementById("julia"), start: 13.2, end: 13.99, prefix: "julia", order: [1,2,3,4,5,6,7,8], repeat:3},
+			{id:document.getElementById("katie"), start: 13.2, end: 13.99, prefix: "katie", order: [1,2,3,4,5,6,7], repeat:3},
+			{id:document.getElementById("matt"), start: 13.3, end: 13.99, prefix: "matt", order: [1,2,3,4,5,6,7], repeat:3},
+			{id:document.getElementById("sleeping-grinch"), start: 13.05, end: 13.99, prefix: "sleeping-grinch", order: [1,2,3,4,5,6,7,8,9,10,11], repeat:5},
 		],
 
 		[ // scene 13 - celebration
-			{id:document.getElementById("celebration"), start: 13.0, end: 13.99, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:6},
-			{id:document.getElementById("celebration-light"), start: 13.2, end: 13.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:8},
-			{id:document.getElementById("growing-heart"), start: 13.66, end: 13.94, prefix: "growing-heart", order: [1,2,2,2,2,3,3,3,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1}
+			{id:document.getElementById("celebration"), start: 14.0, end: 14.99, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:6},
+			{id:document.getElementById("celebration-light"), start: 14.2, end: 14.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:8},
+			{id:document.getElementById("growing-heart"), start: 14.66, end: 14.94, prefix: "growing-heart", order: [1,2,2,2,2,3,3,3,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1}
 		],
 
 		[ // scene 14
-			{id:document.getElementById("bells"), start: 14, end: 14.99, prefix: "bells", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:12},
-			{id:document.getElementById("tbg"), start: 14, end: 14.99, prefix: "tbg", order: [1,2,3,4,5,6,7,8,9], repeat:12}
+			{id:document.getElementById("bells"), start: 15, end: 15.99, prefix: "bells", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:12},
+			{id:document.getElementById("tbg"), start: 15, end: 15.99, prefix: "tbg", order: [1,2,3,4,5,6,7,8,9], repeat:12}
 		]
 	
 	]
