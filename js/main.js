@@ -392,8 +392,12 @@ window.onload = function() {
 
 		[ //scene 3
 
+			{id:document.getElementById("back-snow"), start: 3.0, end: 3.05, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("front-snow"), start: 3.0, end: 3.05, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-transition"), start: 3.3, end: 3.35, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("text-transition"), start: 3.7, end: 3.75, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("back-snow"), start:3.0, end:3.99, x: 0, y:300, type:"translate"},
+			{id:document.getElementById("front-snow"), start:3.0, end:3.99, x: 0, y:150, type:"translate"},
 			{id:document.getElementById("houses"), start:3.92, end:3.99, x: 0, y:300, type:"translate"},
 			{id:document.getElementById("s3bg"), start:3.92, end:3.99, x: 0, y:50, type:"bgShift"},
 			{id:document.getElementById("ericw"), start: 3.92, end: 3.99, x: 0, y:60, type:"translate"},

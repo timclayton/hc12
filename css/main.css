@@ -212,8 +212,10 @@ audio { display: none; }
 
 /* ===== Scene 3 -Transition ===== */
 
+#back-snow {position:absolute; background: url('../img/scene-transition/back-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:300px; opacity:0;  }
+#front-snow { position:absolute; background: url('../img/scene-transition/front-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:300px; opacity:0; }
 #text-transition { position:absolute; background: url('../img/scene-transition/text-transition.png') no-repeat 0 0; width: 354px; height: 215px; left: 200px; bottom:90px; opacity: 0;}
-#houses { position:absolute; background: url('../img/scene-transition/houses.png') no-repeat 0 0; width: 1400px; height: 683px; left: 0; bottom:300px; }
+#houses { position:absolute; background: url('../img/scene-transition/houses.png') no-repeat 0 0; width: 1400px; height: 683px; left: 0; bottom:300pxs; }
 #grinch-transition { position:absolute; background: url('../img/scene-transition/grinch-transition.png') no-repeat -1500px -0px; width: 739px;height: 380px; left: 396px; bottom:0;}
 #grinch-transition.grinch-transition1 {width: 739px;height: 380px;background-position: -1500px -0px;}
 #grinch-transition.grinch-transition2 {width: 739px;height: 380px;background-position: -750px -1173px;}
