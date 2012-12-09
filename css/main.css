@@ -126,7 +126,7 @@ audio { display: none; }
 #scene10 { height:5000px; } /* { height: 10000px; }*/
 #scene11 { height:5000px; } /* { height: 8000px; }*/
 #scene12 { height:6000px; } /* { height: 12000px; }*/
-#scene13 { height:18000px; } /* { height: 32000px; }*/
+#scene13 { height:22000px; } /* { height: 32000px; }*/
 #scene14 { height:10000px; } /* { height: 20000px; }*/
 
 /* ===== Backgrounds ===== */
@@ -844,8 +844,8 @@ audio { display: none; }
 #questions-large {position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/questions-large.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-medium {position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px;background-image: url('../img/scene-sky/questions-medium.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/questions-small.png'); background-repeat: no-repeat; opacity: 0; }
-#text-sky-1 { position:absolute; width: 354px; height: 253px; background-position: -924px -328px;background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat:  no-repeat; left: 50%; margin-left:  -177px; top: 30px; z-index: 50; opacity: 0;}
-#text-sky-2 { position:absolute; width: 353px; height: 317px; background-position: -924px -0px; background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat:  no-repeat;left: 50%; margin-left:  -177px; top: 10px; z-index: 50; opacity: 0;}
+#text-sky-1 { position:absolute; width: 354px; height: 253px; background-position: -924px -328px;background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat:  no-repeat; left: 50%; margin-left:  -177px; bottom: 250px; z-index: 50; opacity: 0;}
+#text-sky-2 { position:absolute; width: 353px; height: 317px; background-position: -924px -0px; background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat:  no-repeat;left: 50%; margin-left:  -177px; bottom: 250px; z-index: 50; opacity: 0;}
 
 #grinch-heart { position:absolute; left: 189px; bottom: 0px; width:1082px;height:1000px; background: url('../img/scene-celebration/grinch-heart.png') no-repeat; opacity: 0;  }
 #growing-heart { position:absolute; left: 378px; bottom: 264px; background: url('../img/scene-celebration/grinch-heart-sprite.png') no-repeat; opacity: 0; }

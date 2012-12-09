@@ -571,19 +571,19 @@ window.onload = function() {
 			{id:document.getElementById("text-sky-2"), start: 13.63, end: 13.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-large"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-large"), start: 13.5, end: 13.54, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-large"), start: 13.4, end: 13.99, x:0, y: -150, type:"translate"},
+			{id:document.getElementById("questions-large"), start: 13.4, end: 13.99, x:0, y: -250, type:"translate"},
 			{id:document.getElementById("questions-medium"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-medium"), start: 13.5, end: 13.54, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-medium"), start: 13.4, end: 13.99, x:0, y: -100, type:"translate"},
+			{id:document.getElementById("questions-medium"), start: 13.4, end: 13.99, x:0, y: -150, type:"translate"},
 			{id:document.getElementById("questions-small"), start: 13.4, end: 13.44, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-small"), start: 13.5, end: 13.54, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-small"), start: 13.4, end: 13.99, x:0, y: -50, type:"translate"},
 			{id:document.getElementById("hearts-large"), start: 13.54, end: 13.57, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-large"), start: 13.63, end: 13.66, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-large"), start: 13.4, end: 13.99, x:0, y: -150, type:"translate"},
+			{id:document.getElementById("hearts-large"), start: 13.4, end: 13.99, x:0, y: -250, type:"translate"},
 			{id:document.getElementById("hearts-medium"), start: 13.54, end: 13.57, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-medium"), start: 13.63, end: 13.66, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-medium"), start: 13.4, end: 13.99, x:0, y: -100, type:"translate"},
+			{id:document.getElementById("hearts-medium"), start: 13.4, end: 13.99, x:0, y: -150, type:"translate"},
 			{id:document.getElementById("hearts-small"), start: 13.54, end: 13.57, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 13.63, end: 13.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 13.4, end: 13.99, x:0, y: -50, type:"translate"},
@@ -690,7 +690,7 @@ window.onload = function() {
 		[ // scene 13 - celebration
 			{id:document.getElementById("celebration"), start: 13.0, end: 13.99, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:6},
 			{id:document.getElementById("celebration-light"), start: 13.2, end: 13.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:8},
-			{id:document.getElementById("growing-heart"), start: 13.72, end: 13.88, prefix: "growing-heart", order: [1,2,2,2,2,3,3,3,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1}
+			{id:document.getElementById("growing-heart"), start: 13.66, end: 13.94, prefix: "growing-heart", order: [1,2,2,2,2,3,3,3,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1}
 		],
 
 		[ // scene 14
