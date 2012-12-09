@@ -178,8 +178,8 @@ audio { display: none; }
 
 #textbox1 { position: absolute; top: 4.4%; left: 50%; margin-left:  -177px; width: 354px; height: 253px; background: url('../img/scene2/textbox1.png') no-repeat; opacity: 0; }
 #textbox2 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 253px; background: url('../img/scene2/textbox2.png') no-repeat; opacity: 0; }
-#near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; top:-1200px;  }
-#far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0px; top:-1200px; }
+#near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; /*top:-1200px;*/ bottom:-1300px; }
+#far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0px; /*top:-1200px;*/ bottom:-1300px; }
 #ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
 #lights { position: absolute; width: 1400px; height: 600px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-100px; bottom:-600px; opacity: 1;}
 #textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }

@@ -348,7 +348,9 @@ window.onload = function() {
 			{id:document.getElementById("text-christmas"), start: 1.6, end: 1.99, x: 0, y: -100, type:"translate"},
 			{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
 			{id:document.getElementById("s1bg"), start: 1.6, end: 1.99, x: 0, y: -40, type:"bgShift"},
-			{id:document.getElementById("s2bg"), start: 1.65, end: 1.99, x: 0, y: -10, type:"bgShift"}
+			{id:document.getElementById("s2bg"), start: 1.65, end: 1.99, x: 0, y: -10, type:"bgShift"},
+			{id:document.getElementById("near-cliff"), start:1.5, end:1.99, x: 0, y: 200, type:"translate"},
+			{id:document.getElementById("far-cliff"), start:1.5, end:1.99, x: 0, y:100, type:"translate"}
 						
 		],
 		
@@ -376,16 +378,15 @@ window.onload = function() {
 			{id:document.getElementById("back-row-houses"), start:2.63, end:2.83, x: 0, y:-670, type:"translate"},
 			{id:document.getElementById("front-row-houses"), start:2.73, end:2.83, x: 0, y:-400, type:"translate"},
 			{id:document.getElementById("lawn-ornaments"), start:2.73, end:2.83, x: 0, y:-380, type:"translate"},
-			{id:document.getElementById("back-row-houses"), start:2.8, end:2.99, x: 0, y:-30, type:"translate"},
-			{id:document.getElementById("front-row-houses"), start:2.8, end:2.99, x: 0, y:-40, type:"translate"},
-			{id:document.getElementById("lawn-ornaments"), start:2.8, end:2.99, x: 0, y:-35, type:"translate"},
+			{id:document.getElementById("back-row-houses"), start:2.92, end:2.99, x: 0, y:-30, type:"translate"},
+			{id:document.getElementById("front-row-houses"), start:2.92, end:2.99, x: 0, y:-40, type:"translate"},
+			{id:document.getElementById("lawn-ornaments"), start:2.92, end:2.99, x: 0, y:-35, type:"translate"},
 			{id:document.getElementById("gate"), start:2.85, end:2.9, x: 0, y:-750, type:"translate"},
-			{id:document.getElementById("s2bg"), start:2.92, end:2.99, x: 0, y:-50, type:"bgShift"},
-			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-100, type:"translate"},
+			{id:document.getElementById("s2bg"), start:2.92, end:2.99, x: 0, y:-20, type:"bgShift"},
+			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-50, type:"translate"},
 			{id:document.getElementById("gate"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
 			{id:document.getElementById("ericw"), start: 2.92, end: 2.99, x: 0, y:60, type:"translate"},
 			{id:document.getElementById("bg-test"), start: 2.92, end: 2.99, x: 0, y: -100, type:"translate"},
-			// {id:document.getElementById("s3bg"), start: 2.92, end: 2.99, x: 0, y: 0, type:"bgShift"},
 
 		
 		],
