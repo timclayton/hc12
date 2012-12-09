@@ -114,20 +114,20 @@ audio { display: none; }
 
 /* ===== Scenes ===== */
 
-#scene1  { height:1500px; } /*{ height: 3000px; }*/
-#scene2  { height:12000px; } /*{ height: 24000px; } */
-#scene3  { height:8000px; } /*{ height: 16000px; } */
-#scene4  { height:5000px; } /*{ height: 10000px; } */
-#scene5  { height:5000px; } /*{ height: 7000px; } */
-#scene6  { height:5000px; } /*{ height: 10000px; }*/
-#scene7  { height:5000px; } /*{ height: 10000px; }*/
-#scene8  { height:5000px; } /*{ height: 10000px; }*/
-#scene9  { height:5000px; } /*{ height: 10000px; }*/
-#scene10 { height:5000px; } /* { height: 10000px; }*/
-#scene11 { height:5000px; } /* { height: 8000px; }*/
-#scene12 { height:6000px; } /* { height: 12000px; }*/
-#scene13 { height:22000px; } /* { height: 32000px; }*/
-#scene14 { height:10000px; } /* { height: 20000px; }*/
+#scene1  { height:1500px; } 
+#scene2  { height:12000px; }
+#scene3  { height:8000px; } 
+#scene4  { height:5000px; } 
+#scene5  { height:5000px; } 
+#scene6  { height:5000px; } 
+#scene7  { height:5000px; } 
+#scene8  { height:5000px; } 
+#scene9  { height:6000px; } 
+#scene10 { height:6500px; } 
+#scene11 { height:6000px; } 
+#scene12 { height:6000px; } 
+#scene13 { height:22000px; }
+#scene14 { height:10000px; }
 
 /* ===== Backgrounds ===== */
 
@@ -142,7 +142,7 @@ audio { display: none; }
 #scene8 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left 150% no-repeat fixed;}
 #scene9 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left 150% no-repeat fixed; }
 #scene10 .bg { background:  #B6D5EA url('../img/scene-pool/bg-2.jpg') left bottom no-repeat fixed;}
-#scene11 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left 150% repeat fixed;}
+#scene11 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left bottom repeat fixed;}
 #scene12 .bg { background:  #B51428 url('../img/scene-sleeping/bg.jpg') left bottom repeat fixed;}
 #scene13 .bg { background:  #B51428 url('../img/scene-celebration/bg.jpg') left bottom repeat fixed; }
 #scene14 .bg { background:  #B51428 url('../img/scene-finale/bg.jpg') left bottom repeat fixed; }
