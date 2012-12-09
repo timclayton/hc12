@@ -23,7 +23,7 @@ window.onload = function() {
 					playToggle			=  document.getElementById("play-toggle"),
 					fastforward			=  document.getElementById("fastforward"),
 					rewind					=  document.getElementById("rewind"),
-					currentScene			= document.getElementById("scene" + pos),
+					currentScene			=  document.getElementById("scene" + pos),
 					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']),
 					transformMaps 		=  new Array(),
 					transformMaps 		=  new Array(),
@@ -77,8 +77,8 @@ window.onload = function() {
 	
 	var stickScene = function() {  //  Adds proper class to current/prev scenes
 
-		document.getElementById("scene" + pos).className = "active";	
-		if ( pos !== 1 ) { document.getElementById("scene" + (pos - 1)).className = "prev"; }
+		sections[pos - 1].className = "active";	
+		if ( pos !== 1 ) { sections[pos - 2].className = "prev"; }
 		stuck = true;
 		
 		 if(document.getElementById("audio" + pos)) {
@@ -273,7 +273,9 @@ window.onload = function() {
 					height = parseInt(item.clientHeight),
 					end = start + height,
 					c = item.className;
+					id = item.id
 					newScene = new Object({
+						id: id,
 						scene: i + 1,
 						height: height,
 						start: start,
