@@ -142,6 +142,7 @@ window.onload = function() {
 	window.onresize = function() {
 		
 					wh						= window.innerHeight;
+					setBgHeight();
 		
 	}
 	
@@ -372,6 +373,16 @@ window.onload = function() {
 		}
 	
 	}
+	
+	var setBgHeight = function () {
+
+	 	background =  document.getElementsByClassName('bg');
+	 	
+	 	 for (var i = 0; i < background.length; i++) {
+	 	 	background[i].style.height = wh + 'px';
+	 	 }
+		 
+	 }
 
 	var resetTransforms = function(x) {
 	
@@ -468,7 +479,7 @@ window.onload = function() {
 			{id:sections[2], start: 3.2, end: 3.35, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[2], start: 3.9, end: 3.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
 
-
+			
 		],
 		
 		[  // scene 4	
@@ -837,5 +848,6 @@ window.onload = function() {
 	}
 	
 	stickScene();  //  Apply fixed positioning to first scene
+	setBgHeight(); 
 	
 }
