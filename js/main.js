@@ -20,6 +20,7 @@ window.onload = function() {
 					body						=  document.querySelector("body");
 					sections 				=  document.querySelectorAll("section");
 					scenes 				=  new Array(),
+					musicFiles			=  document.querySelectorAll(".music");
 					play						=  document.getElementById("play"),
 					playToggle			=  document.getElementById("play-toggle"),
 					fastforward			=  document.getElementById("fastforward"),
@@ -30,6 +31,7 @@ window.onload = function() {
 					narration				=  document.getElementById("narration"),
 					narrationSprite		=  [ [0,10], [10,18], [18,20.7], [20.7,25.1], [25.1,30.3], [30.3,33.5], [33.5,36.7], [36.7,39.8], [39.8,42.8], [42.8,45.3], [45.4,47.8], [47.8,50.7], [50.7,54.5], [54.5,64.5], [64.5,77], [77,86.9], [86.9,101.1] ],
 					narrationEnd			=  0;
+
 					
 	narration.addEventListener('timeupdate', function(e) {
 	
@@ -39,6 +41,67 @@ window.onload = function() {
 		}
 		
 	}, false);
+	
+	var fadeInAudio = function(file) {
+	
+		file.volume = 0;
+		file.play();
+			
+		var vol = 0;
+		var fadeInterval = setInterval(function() {
+		
+			if ( vol < 1 ) {
+				vol += 0.05;
+				file.volume = vol.toFixed(2);
+			} 
+			
+			else {
+				clearInterval(fadeInterval);
+			}
+			
+		}, 100);
+	
+	}
+	
+	var fadeOutAudio = function(file) {
+	
+		if ( file.volume == 1 ) {
+			
+			var vol = 1;
+			var fadeInterval = setInterval(function() {
+			
+				if ( vol > 0 ) {
+					vol -= 0.05;
+					file.volume = vol.toFixed(2);
+				} 
+				
+				else {
+					clearInterval(fadeInterval);
+					file.pause();
+					file.currentTime = 0;
+				}
+				
+			}, 100);
+			
+		}
+	
+	}
+	
+	var toggleMusic = function(file) {
+		
+		if ( musicFiles[file].paused ) {
+		
+			fadeInAudio(musicFiles[file]);
+		
+		}
+		
+		else {
+		
+			fadeOutAudio(musicFiles[file]);
+		
+		}
+		
+	}
 	
 	var playNarration = function(sound) {
 	
@@ -52,7 +115,6 @@ window.onload = function() {
 	window.onresize = function() {
 		
 					wh						= window.innerHeight;
-					setBgHeight();
 		
 	}
 	
@@ -80,8 +142,8 @@ window.onload = function() {
 		if ( pos !== 1 ) { sections[pos - 2].className = "prev"; }
 		stuck = true;
 		
-		 if(document.getElementById("audio" + pos)) {
-		 	if(document.getElementById("audio" + (pos-1))) {
+		 if ( document.getElementById("audio" + pos).length ) {
+		 	if ( document.getElementById("audio" + (pos-1)) ) {
 		 		//var lastAudio = document.getElementById("audio" + (pos-1));
 		 			document.getElementById("audio" + (pos-1)).pause();
 
@@ -288,18 +350,6 @@ window.onload = function() {
 	
 	}
 
-	 var setBgHeight = function () {
-
-
-	 	background =  document.getElementsByClassName('bg');
-	 	
-	 	 for (var i = 0; i < background.length; i++) {
-	 	 	background[i].style.height = wh + 'px';
-	 	 };
-	 }
-
-
-	
 	var resetTransforms = function(x) {
 	
 		var pushBack = function(element, index, array) {
@@ -351,7 +401,7 @@ window.onload = function() {
 		],
 		
 		[  // scene 2
-			{id:document.getElementById("scene2"), start: 2.2, end: 2.28, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("scene2"), start: 2.1, end: 2.16, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox1"), start: 2.02, end: 2.08, x: 1, y: 0, type:"opacity", audio: narrationSprite[0]},
 			{id:document.getElementById("textbox2"), start: 2.17, end: 2.21, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox1"), start: 2.4, end: 2.44, x: -1.1, y: 0, type:"opacity"},
@@ -783,6 +833,5 @@ window.onload = function() {
 	}
 	
 	stickScene();  //  Apply fixed positioning to first scene
-	setBgHeight(); 
 	
 }
