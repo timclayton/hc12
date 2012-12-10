@@ -17,7 +17,8 @@ window.onload = function() {
 					gPercent				=  s / (d-wh),	
 					pos 						=	Math.floor( sPercent ),  //  calculated position					
 					stuck,
-					sections 				=  document.getElementsByTagName("section");
+					body						=  document.querySelector("body");
+					sections 				=  document.querySelectorAll("section");
 					scenes 				=  new Array(),
 					play						=  document.getElementById("play"),
 					playToggle			=  document.getElementById("play-toggle"),
@@ -25,7 +26,6 @@ window.onload = function() {
 					rewind					=  document.getElementById("rewind"),
 					currentScene			=  document.getElementById("scene" + pos),
 					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']),
-					transformMaps 		=  new Array(),
 					transformMaps 		=  new Array(),
 					narration				=  document.getElementById("narration"),
 					narrationSprite		=  [ [0,10], [10,18], [18,20.7], [20.7,25.1], [25.1,30.3], [30.3,33.5], [33.5,36.7], [36.7,39.8], [39.8,42.8], [42.8,45.3], [45.4,47.8], [47.8,50.7], [50.7,54.5], [54.5,64.5], [64.5,77], [77,86.9], [86.9,101.1] ],
@@ -232,15 +232,16 @@ window.onload = function() {
 				mapNumber;
 		
 		var assignMap = function(element) {
-			var el = element.id.outerHTML;
+			var 	el = element.id.outerHTML,
+					opacity = element.fade === "out" ? 1 : 0;
 			
 			if ( elements.indexOf(el) < 0 ) {
 				elements.push(el);
 				var map = new Object({
 					translate: [0,0],
-					opacity: 0, 
 					size: [0,0], 
-					bgShift: [0,0]
+					bgShift: [0,0],
+					opacity: opacity
 				});
 				transformMaps.push(map);
 				mapNumber = transformMaps.length - 1;
@@ -333,7 +334,6 @@ window.onload = function() {
 		[  // global
 		
 			{id:document.getElementById("candycane1"), start: 0.01, end: 0.04, x: 60, y: -400, type:"translate"},
-			
 		
 		],
 		
@@ -346,19 +346,16 @@ window.onload = function() {
 			{id:document.getElementById("text-stole"), start: 1.6, end: 1.99, x: 0, y: -80, type:"translate"},
 			{id:document.getElementById("text-christmas"), start: 1.6, end: 1.99, x: 0, y: -100, type:"translate"},
 			{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
-			{id:document.getElementById("s1bg"), start: 1.6, end: 1.99, x: 0, y: -40, type:"bgShift"},
-			{id:document.getElementById("s2bg"), start: 1.65, end: 1.99, x: 0, y: -10, type:"bgShift"},
-			{id:document.getElementById("near-cliff"), start:1.5, end:1.99, x: 0, y: 100, type:"translate"},
-			{id:document.getElementById("far-cliff"), start:1.5, end:1.99, x: 0, y:50, type:"translate"}
+			{id:sections[0], start: 1.6, end: 1.99, x: -1.1, y: 0, type:"opacity", fade: "out"}
 						
 		],
 		
 		[  // scene 2
-
-			{id:document.getElementById("textbox1"), start: 2.05, end: 2.1, x: 1, y: 0, type:"opacity", audio: narrationSprite[0]},
-			{id:document.getElementById("textbox2"), start: 2.25, end: 2.30, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("textbox1"), start: 2.45, end: 2.5, x: -1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("textbox2"), start: 2.45, end: 2.5, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("scene2"), start: 2.2, end: 2.28, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox1"), start: 2.02, end: 2.08, x: 1, y: 0, type:"opacity", audio: narrationSprite[0]},
+			{id:document.getElementById("textbox2"), start: 2.17, end: 2.21, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox1"), start: 2.4, end: 2.44, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox2"), start: 2.4, end: 2.44, x: -1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("near-cliff"), start:2.0, end:2.30, x: 80, y: -700, type:"translate"},
 			{id:document.getElementById("far-cliff"), start:2.0, end:2.3, x: 0, y:-400, type:"translate"},
 			{id:document.getElementById("s2bg"), start:2.0, end:2.3, x: 0, y:-50, type:"bgShift"},
@@ -382,36 +379,25 @@ window.onload = function() {
 			{id:document.getElementById("lawn-ornaments"), start:2.92, end:2.99, x: 0, y:-35, type:"translate"},
 			{id:document.getElementById("gate"), start:2.85, end:2.9, x: 0, y:-750, type:"translate"},
 			{id:document.getElementById("s2bg"), start:2.92, end:2.99, x: 0, y:-20, type:"bgShift"},
-			{id:document.getElementById("lights"), start:2.92, end:2.99, x: 0, y:-50, type:"translate"},
-			{id:document.getElementById("gate"), start:2.92, end:2.99, x: 0, y:-300, type:"translate"},
-			{id:document.getElementById("houses"), start:2.92, end:2.99, x: 0, y:300, type:"translate"},
-			{id:document.getElementById("s3bg"), start:2.88, end:2.99, x: 0, y:50, type:"bgShift"},
-
-		
+			{id:document.getElementById("scene2"), start:2.9, end:2.99, x: -1, y: 0, type:"opacity", fade: "out"}	
 		],
 
 		[ //scene 3
-
-			{id:document.getElementById("back-snow"), start: 3.0, end: 3.05, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("front-snow"), start: 3.0, end: 3.05, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-transition"), start: 3.3, end: 3.35, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("text-transition"), start: 3.7, end: 3.75, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("scene3"), start: 3.2, end: 3.28, x: 1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox4"), start: 3.05, end: 3.15, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox4"), start: 3.5, end: 3.55, x: -1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("back-snow"), start:3.0, end:3.99, x: 0, y:300, type:"translate"},
 			{id:document.getElementById("front-snow"), start:3.0, end:3.99, x: 0, y:150, type:"translate"},
-			{id:document.getElementById("houses"), start:3.92, end:3.99, x: 0, y:300, type:"translate"},
-			{id:document.getElementById("s3bg"), start:3.92, end:3.99, x: 0, y:50, type:"bgShift"},
-			{id:document.getElementById("ericw"), start: 3.92, end: 3.99, x: 0, y:60, type:"translate"},
-			{id:document.getElementById("bg-test"), start: 3.92, end: 3.99, x: 0, y: -100, type:"translate"},
+			{id:document.getElementById("houses"), start:3.92, end:3.99, x: 0, y:300, type:"translate"}
 		],
 		
-		[  // scene 4
-			
-			
+		[  // scene 4	
+			{id:document.getElementById("scene4"), start: 4.2, end: 4.28, x: 1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("ericw"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("kitchen-text"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity", audio: narrationSprite[3]},
+			{id:document.getElementById("textbox5"), start: 4.01, end: 4.1, x: 1, y: 0, type:"opacity", audio: narrationSprite[3]},
 			{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("kitchen-text"), start: 4.4, end: 4.45, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("textbox5"), start: 4.4, end: 4.45, x: -1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("bunny-2"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bunny-big"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("know-your-memes"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
@@ -462,12 +448,11 @@ window.onload = function() {
 		[ //scene 7
 
 			{id:document.getElementById("garage-interior"), start: 7, end: 7.06, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("garage-exterior"), start: 7, end: 7.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("garage-decorations"), start: 7, end: 7.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("garageband"), start: 7, end: 7.06, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox-scene6"), start: 7.1, end: 7.2, x:1, y: 0, type:"opacity", audio: narrationSprite[6]},
 			{id:document.getElementById("garage-interior"), start: 7.5, end: 7.62, x:0, y: 250, type:"translate"},
-			{id:document.getElementById("garage-exterior"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("garage-exterior"), start: 7.5, end: 7.62, x:0, y: 20, type:"bgShift"},
 			{id:document.getElementById("textbox-scene6"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
 			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
 			{id:document.getElementById("garageband"), start: 7.5, end: 7.62, x:0, y: 350, type:"translate"},
@@ -645,45 +630,52 @@ window.onload = function() {
 	
 		[  // scene 2
 			{id:document.getElementById("max"), start: 2.15, end: 2.7, prefix: "max", order: [1,2,3,4,5,6], repeat:18},
-			{id:document.getElementById("grinch"), start: 2.15, end: 2.8, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9], repeat:6}
+			{id:document.getElementById("grinch"), start: 2.15, end: 2.8, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9], repeat:6},
+			{id:body, start: 2.5, end: 2.6, prefix: "color", order: [1,2], repeat:1}
 		],
 		 
 		[ //scene 3
-			{id:document.getElementById("grinch-transition"), start: 3.0, end: 3.99, prefix: "grinch-transition", order: [1,2,3,4,5,6,7,8,9], repeat:4}
+			{id:document.getElementById("grinch-transition"), start: 3.0, end: 3.99, prefix: "grinch-transition", order: [1,2,3,4,5,6,7,8,9], repeat:4},
+			{id:body, start: 3.5, end: 3.6, prefix: "color", order: [2,3], repeat:1}
 		],
 		
 		[  // scene 4		
 			{id:document.getElementById("ericw"), start: 4.05, end: 4.5, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:3},
-			{id:document.getElementById("grinch-burbs"), start: 4.61, end: 4.85, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
+			{id:document.getElementById("grinch-burbs"), start: 4.61, end: 4.85, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
+			{id:body, start: 4.5, end: 4.6, prefix: "color", order: [3,4], repeat:1}
 		],
 		
 		[ // scene 5			
 			{id:document.getElementById("smoke"), start: 5, end: 5.99, prefix: "smoke", order: [1,2,3,4,5,6,7,8], repeat:10},
 			{id:document.getElementById("poker"), start: 5, end: 5.9, prefix: "poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:3},
 			{id:document.getElementById("grinch-poker"), start: 5.5, end: 5.9, prefix: "grinch-poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1},
-			
+			{id:body, start: 5.5, end: 5.6, prefix: "color", order: [4,5], repeat:1}	
 		],
 
 		[ //scene 5
 			{id:document.getElementById("drummers"), start: 6.0, end: 6.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:2},
 			{id:document.getElementById("hippies"), start: 6.0, end: 6.99, prefix: "hippies", order: [1,2,3,4,5,6,7,8], repeat:5},
-			{id:document.getElementById("monument-grinch"), start: 6.4, end: 6.8, prefix: "monument-grinch", order: [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0}
+			{id:document.getElementById("monument-grinch"), start: 6.4, end: 6.8, prefix: "monument-grinch", order: [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0},
+			{id:body, start: 6.5, end: 6.6, prefix: "color", order: [5,6], repeat:1}
 		],
 		
 		[ // scene 6
 			{id:document.getElementById("garageband"), start: 7, end: 7.9, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:2},	
 			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.9, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1},
-			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13], repeat:1}	
+			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13], repeat:1},
+			{id:body, start: 7.5, end: 7.6, prefix: "color", order: [6,7], repeat:1}
 		],
 		
 		[ // scene 7
 			{id:document.getElementById("carolers"), start: 8.0, end: 8.99, prefix: "carolers", order: [1,2,3,,2,1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:1},
-			{id:document.getElementById("miracle-grinch"), start: 8.5, end: 8.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:1}	
+			{id:document.getElementById("miracle-grinch"), start: 8.5, end: 8.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:1},
+			{id:body, start: 8.5, end: 8.6, prefix: "color", order: [7,8], repeat:1}	
 		],
 		
 		[ // scene 8 - aquarium
 			{id:document.getElementById("aquarium-people"), start: 9.0, end: 9.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
-			{id:document.getElementById("aquarium-grinch"), start: 9.3, end: 9.65, prefix: "aquarium-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1}
+			{id:document.getElementById("aquarium-grinch"), start: 9.3, end: 9.65, prefix: "aquarium-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1},
+			{id:body, start: 9.5, end: 9.6, prefix: "color", order: [8,9], repeat:1}
 			
 		],
 
@@ -692,22 +684,23 @@ window.onload = function() {
 		[ // scene 9 - truck 
 			{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:2},
 			{id:document.getElementById("truck-decorations"), start: 10.7, end: 10.75, prefix: "decorations", order: [1,2,3,4,5], repeat:1},
-			{id:document.getElementById("truck-grinch"), start: 10.2, end: 10.75, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1}
-			
-			
+			{id:document.getElementById("truck-grinch"), start: 10.2, end: 10.75, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
+			{id:body, start: 10.5, end: 10.6, prefix: "color", order: [9,10], repeat:1}
 		],
 
 		[ // scene 10 - pool
 			{id:document.getElementById("phelps"), start: 11.3, end: 11.7, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
 			{id:document.getElementById("swimmers"), start: 11.0, end: 11.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2},
-			{id:document.getElementById("pool-grinch"), start: 11.6, end: 11.8, prefix: "pool-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1}
+			{id:document.getElementById("pool-grinch"), start: 11.6, end: 11.8, prefix: "pool-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1},
+			{id:body, start: 11.5, end: 11.6, prefix: "color", order: [10,11], repeat:1}
 			
 		],
 
 		[ // scene 11
 			{id:document.getElementById("fire"), start: 12.0, end: 12.99, prefix: "fire", order: [1,2,3,4,5,6], repeat:10},
 			{id:document.getElementById("stieff"), start: 12.0, end: 12.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:3},
-			{id:document.getElementById("grinch-stieff"), start: 12.5, end: 12.85, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1}
+			{id:document.getElementById("grinch-stieff"), start: 12.5, end: 12.85, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
+			{id:body, start: 12.5, end: 12.6, prefix: "color", order: [11,12], repeat:1}
 		],
 
 		[ // scene 12 - sleeping
@@ -719,17 +712,20 @@ window.onload = function() {
 			{id:document.getElementById("katie"), start: 13.2, end: 13.99, prefix: "katie", order: [1,2,3,4,5,6,7], repeat:3},
 			{id:document.getElementById("matt"), start: 13.3, end: 13.99, prefix: "matt", order: [1,2,3,4,5,6,7], repeat:3},
 			{id:document.getElementById("sleeping-grinch"), start: 13.05, end: 13.99, prefix: "sleeping-grinch", order: [1,2,3,4,5,6,7,8,9,10,11], repeat:5},
+			{id:body, start: 13.5, end: 13.6, prefix: "color", order: [12,13], repeat:1}
 		],
 
 		[ // scene 13 - celebration
 			{id:document.getElementById("celebration"), start: 14.0, end: 14.99, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:6},
 			{id:document.getElementById("celebration-light"), start: 14.2, end: 14.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:8},
-			{id:document.getElementById("growing-heart"), start: 14.66, end: 14.94, prefix: "growing-heart", order: [1,2,2,2,2,3,3,3,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1}
+			{id:document.getElementById("growing-heart"), start: 14.66, end: 14.94, prefix: "growing-heart", order: [1,2,2,2,2,3,3,3,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1},
+			{id:body, start: 14.5, end: 14.6, prefix: "color", order: [13,14], repeat:1}
 		],
 
 		[ // scene 14
 			{id:document.getElementById("bells"), start: 15, end: 15.99, prefix: "bells", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:12},
-			{id:document.getElementById("tbg"), start: 15, end: 15.99, prefix: "tbg", order: [1,2,3,4,5,6,7,8,9], repeat:12}
+			{id:document.getElementById("tbg"), start: 15, end: 15.99, prefix: "tbg", order: [1,2,3,4,5,6,7,8,9], repeat:12},
+			{id:body, start: 15.5, end: 15.6, prefix: "color", order: [14,15], repeat:1}
 		]
 	
 	]

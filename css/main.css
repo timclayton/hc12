@@ -21,6 +21,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+	background: #347BCB;
 }
 
 /*
@@ -100,10 +101,10 @@ textarea {
 #play-toggle.playing { background-position: -30px 0px; }
 #rewind { display: block; position: fixed; width:30px; height: 35px; background: url(../img/global/controls.png) no-repeat 0px top; top:20px; right:80px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em;  cursor: pointer;}
 #fastforward { display: block; position: fixed; width:30px; height: 35px; background: url(../img/global/controls.png) no-repeat -58px top; top:20px; right:20px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em; cursor: pointer;}
-
+.textbox-center { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; }
 
 section { position: relative; }
-.bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 60; overflow:hidden;}
+.bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow:hidden;}
 
 .prev .bg { position: fixed; bottom: 0; z-index: 20; }
 .active .bg { position: fixed; z-index: 40; }
@@ -112,23 +113,41 @@ div.animation { position: relative; margin: 2% 10%; width: 1050px; height: 100%;
 
 audio { display: none; }
 
+/* ===== Body Colors ===== */
+
+.color1 { background-color: #347BCB;; }
+.color2 { background-color: #B5C7EE; }
+.color3 { background-color: #648578; }
+.color4 { background-color: #057038; }
+.color5 { background-color: #0090FF; }
+.color6 { background-color: #F5A800; }
+.color7 { background-color: #FBFFDF; }
+.color8 { background-color: #1B2388; }
+.color9 { background-color: #50B2BB; }
+.color10 { background-color: #50B2BB; }
+.color11 { background-color: #E5E5D4; }
+.color12 { background-color: #000000; }
+.color13 { background-color: #6299F0; }
+.color14 { background-color: #7C7C15; }
+
 /* ===== Scenes ===== */
 
 #scene1  { height:1500px; } 
-#scene2  { height:12000px; }
-#scene3  {  height:4000px; } 
-#scene4  { height:8000px; } 
-#scene5  { height:5000px; } 
-#scene6  { height:5000px; } 
-#scene7  { height:5000px; } 
-#scene8  { height:5000px; } 
-#scene9  { height:5000px; } 
-#scene10 { height:6000px; } 
-#scene11 { height:6500px; } 
-#scene12 { height:6000px; } 
-#scene13 { height:6000px;  }
-#scene14 { height:22000px; }
-#scene15 { height:10000px; }
+#scene2  { height:12000px; opacity: 0; }
+#scene3  { height:4000px; opacity: 0; } 
+#scene4  { height:8000px; opacity: 0; } 
+#scene5  { height:5000px; opacity: 0; } 
+#scene6  { height:5000px; opacity: 0; } 
+#scene7  { height:5000px; opacity: 0; } 
+#scene8  { height:5000px; opacity: 0; } 
+#scene9  { height:5000px; opacity: 0; } 
+#scene10 { height:6000px; opacity: 0; } 
+#scene11 { height:6500px; opacity: 0; } 
+#scene12 { height:6000px; opacity: 0; } 
+#scene13 { height:6000px; opacity: 0;  }
+#scene14 { height:22000px; opacity: 0; }
+#scene15 { height:10000px; opacity: 0; }
+
 /* ===== Backgrounds ===== */
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left bottom no-repeat fixed; }
@@ -177,13 +196,13 @@ audio { display: none; }
 
 /* ===== Scene 2 ===== */
 
-#textbox1 { position: absolute; top: 4.4%; left: 50%; margin-left:  -177px; width: 354px; height: 253px; background: url('../img/scene2/textbox1.png') no-repeat; opacity: 0; }
-#textbox2 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 253px; background: url('../img/scene2/textbox2.png') no-repeat; opacity: 0; }
+#textbox1 { background-image: url('../img/scene2/textbox1.png'); }
+#textbox2 { background-image: url('../img/scene2/textbox2.png'); }
 #near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; /*top:-1200px;*/ bottom:-1300px; }
 #far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0px; /*top:-1200px;*/ bottom:-1300px; }
 #ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
 #lights { position: absolute; width: 1400px; height: 600px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-100px; bottom:-600px; opacity: 1;}
-#textbox3 { position: absolute; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
+#textbox3 { position: fixed; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
 #back-row-houses { position: absolute; width: 2225px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: 0px; bottom: -770px; }
 #front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: 0px; bottom: -477px; }
 #lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -140px; bottom: -380px; }
@@ -214,7 +233,7 @@ audio { display: none; }
 
 #back-snow {position:absolute; background: url('../img/scene-transition/back-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:300px; opacity:0;  }
 #front-snow { position:absolute; background: url('../img/scene-transition/front-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:300px; opacity:0; }
-#text-transition { position:absolute; background: url('../img/scene-transition/text-transition.png') no-repeat 0 0; width: 354px; height: 215px; left: 200px; bottom:90px; opacity: 0;}
+#textbox4 { background-image: url('../img/scene-transition/text-transition.png'); }
 #houses { position:absolute; background: url('../img/scene-transition/houses.png') no-repeat 0 0; width: 1400px; height: 683px; left: 0; bottom:300pxs; }
 #grinch-transition { position:absolute; background: url('../img/scene-transition/grinch-transition.png') no-repeat -1500px -0px; width: 739px;height: 380px; left: 396px; bottom:0;}
 #grinch-transition.grinch-transition1 {width: 739px;height: 380px;background-position: -1500px -0px;}
@@ -229,15 +248,15 @@ audio { display: none; }
 
 /* ===== Scene 4 ===== */
 
-#bg-test { position:absolute; background: url('../img/scene4/bg.jpg') no-repeat 0 0; width:2866px; height:1000px; bottom: -100px; left: 0px; }
+#bg-test { position:absolute; background: url('../img/scene4/bg.jpg') no-repeat 0 0; width:2866px; height:1000px; bottom: 0; left: 0px; }
 #bunny-2 { position:absolute; background: url('../img/scene4/bunny-2.png') no-repeat 0 0; width: 209px; height: 178px; left: 1182px; bottom:10px; }
 #bunny-big { position:absolute; background: url('../img/scene4/bunny-big.png') no-repeat 0 0; width: 437px; height: 391px; left: 1642px; bottom: -20px; }
 #know-your-memes {  position:absolute; background: url('../img/scene4/know-your-memes.png') no-repeat 0 0; width: 117px; height: 101px; left: 1542px; bottom: 300px; }
 #doorway { position:absolute; background: url('../img/scene4/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; opacity:0; }
 #couch { position:absolute; background: url('../img/scene4/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; opacity:0;}
-#kitchen-text { position:absolute; background: url('../img/scene4/kitchen-text.png') no-repeat 0 0; width: 354px; height: 253px; left: 50%; margin-left: -177px; bottom:380px; opacity: 0;}
+#textbox5 { background-image: url('../img/scene4/kitchen-text.png'); }
 
-#ericw { position: absolute; bottom: 60px; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene4/eric-pancakes-sprite.png') no-repeat  -804px -1796px; }
+#ericw { position: absolute; bottom: 0; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene4/eric-pancakes-sprite.png') no-repeat  -804px -1796px; }
 #ericw.ericw1 { background-position: -804px -1796px; }
 #ericw.ericw2 { background-position: -402px -1796px; }
 #ericw.ericw3 { background-position: -0px -1796px; }
