@@ -21,36 +21,76 @@ window.onload = function() {
 					sections 				=  document.querySelectorAll("section");
 					scenes 				=  new Array(),
 					musicFiles			=  document.querySelectorAll(".music");
+					narrationFiles		=  document.querySelectorAll(".narration"),
 					play						=  document.getElementById("play"),
 					playToggle			=  document.getElementById("play-toggle"),
 					fastforward			=  document.getElementById("fastforward"),
 					rewind					=  document.getElementById("rewind"),
 					currentScene			=  document.getElementById("scene" + pos),
 					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']),
-					transformMaps 		=  new Array(),
-					narration				=  document.getElementById("narration"),
-					narrationSprite		=  [ [0,10], [10,18], [18,20.7], [20.7,25.1], [25.1,30.3], [30.3,33.5], [33.5,36.7], [36.7,39.8], [39.8,42.8], [42.8,45.3], [45.4,47.8], [47.8,50.7], [50.7,54.5], [54.5,64.5], [64.5,77], [77,86.9], [86.9,101.1] ],
-					narrationEnd			=  0;
-
+					transformMaps 		=  new Array();
 					
-	narration.addEventListener('timeupdate', function(e) {
+	var pauseAudio = function() {
 	
-		if ( narration.currentTime > narrationEnd ) {
-			narration.pause();
-			narration.className = "paused";
+		for ( i = 0; i < musicFiles.length; i++ ) {
+	
+			if ( !musicFiles[i].paused ) {
+			
+				musicFiles[i].pause();
+				musicFiles[i].className = "music paused-in-progress";
+			
+			}
+		
 		}
 		
-	}, false);
+		for ( i = 0; i < narrationFiles.length; i++ ) {
 	
-	var fadeInAudio = function(file) {
+			if ( !narrationFiles[i].paused ) {
+			
+				narrationFiles[i].pause();
+				narrationFiles[i].className = "narration paused-in-progress";
+			
+			}
+		
+		}
 	
+	}
+					
+	var restartAudio = function() {
+	
+		for ( i = 0; i < musicFiles.length; i++ ) {
+	
+			if ( musicFiles[i].className === "music paused-in-progress" ) {
+			
+				musicFiles[i].play();
+				musicFiles[i].className = "music";
+			
+			}
+		
+		}
+		
+		for ( i = 0; i < narrationFiles.length; i++ ) {
+	
+			if ( narrationFiles[i].className === "narration paused-in-progress" ) {
+			
+				narrationFiles[i].play();
+				narrationFiles[i].className = "narration";
+			
+			}
+		
+		}
+	
+	}	
+	
+	var fadeInAudio = function(file, fadeTo, fadeSpeed) {
+		
 		file.volume = 0;
 		file.play();
 			
 		var vol = 0;
 		var fadeInterval = setInterval(function() {
 		
-			if ( vol < 1 ) {
+			if ( vol < fadeTo ) {
 				vol += 0.05;
 				file.volume = vol.toFixed(2);
 			} 
@@ -59,13 +99,13 @@ window.onload = function() {
 				clearInterval(fadeInterval);
 			}
 			
-		}, 100);
+		}, fadeSpeed);
 	
 	}
 	
-	var fadeOutAudio = function(file) {
+	var fadeOutAudio = function(file, fadeTo, fadeSpeed) {
 	
-		if ( file.volume == 1 ) {
+		if ( file.volume > 0 ) {
 			
 			var vol = 1;
 			var fadeInterval = setInterval(function() {
@@ -81,34 +121,21 @@ window.onload = function() {
 					file.currentTime = 0;
 				}
 				
-			}, 100);
+			}, fadeSpeed);
 			
 		}
 	
 	}
 	
-	var toggleMusic = function(file) {
+	var toggleAudio = function(file, fadeTo, fadeSpeed) {
 		
-		if ( musicFiles[file].paused ) {
-		
-			fadeInAudio(musicFiles[file]);
-		
+		if ( file.paused ) {
+			fadeInAudio(file, fadeTo, fadeSpeed);
 		}
 		
 		else {
-		
-			fadeOutAudio(musicFiles[file]);
-		
+			fadeOutAudio(file, fadeTo, fadeSpeed);
 		}
-		
-	}
-	
-	var playNarration = function(sound) {
-	
-		narration.currentTime = sound[0];
-		narrationEnd = sound[1];
-		narration.play();
-		narration.className = "playing";
 		
 	}
 	
@@ -141,29 +168,6 @@ window.onload = function() {
 		sections[pos - 1].className = "active";	
 		if ( pos !== 1 ) { sections[pos - 2].className = "prev"; }
 		stuck = true;
-		
-		 if ( document.getElementById("audio" + pos).length ) {
-		 	if ( document.getElementById("audio" + (pos-1)) ) {
-		 		//var lastAudio = document.getElementById("audio" + (pos-1));
-		 			document.getElementById("audio" + (pos-1)).pause();
-
-		 			//var interval = 40; // 200ms interval
-
-		 			// var fadeout = setInterval(
-		 			//   function() {
-		 			//     if (lastAudio.volume > 0) {
-		 			//     	console.log(lastAudio.volume);
-		 			//       lastAudio.volume -= 0.1
-		 			//     }
-		 			//     else {
-		 			//       // Stop the setInterval when 0 is reached
-		 			//       clearInterval(fadeout);
-		 			//     }
-		 			//   }, interval);
-		 	 }
-		 	document.getElementById("audio" + pos).play();
-		 }
-
 		
 	}
 	
@@ -248,17 +252,36 @@ window.onload = function() {
 			
 		}
 		
-		if ( element.audio && animPercent > 0 ) {
-			if ( narration.className === "paused" ) {
-				playNarration(element.audio);
+		else if ( element.type === "narration" && animPercent > 0 ) {
+		
+			if ( !element.triggered ) {
+				element.id.play();
+				element.triggered = true;
 			}
+		
 		}
+		
+		else if ( element.type === "music" && animPercent > 0 ) {
+		
+			if ( !element.triggered ) {
+				toggleAudio(element.id, element.x, 100);
+				element.triggered = true;
+			}
+		
+		}
+		
 		element.mapX = x1;
 		element.mapY = y1;
 		
 		if ( animPercent === 1 ) {
+		
+			if ( element.triggered ) {
+				element.triggered = false;
+			}
+			
 			array.splice(index, 1);
 			completedTransforms[pos].push(element);
+			
 		}
 			
 	}
@@ -428,7 +451,13 @@ window.onload = function() {
 			{id:document.getElementById("lawn-ornaments"), start:2.73, end:2.83, x: 0, y:-380, type:"translate"},
 			
 			{id:sections[1], start: 2.1, end: 2.16, x: 1, y: 0, type:"opacity", fade: "in"},
-			{id:sections[1], start: 2.9, end: 2.99, x: -1.1, y: 0, type:"opacity", fade: "out"}
+			{id:sections[1], start: 2.9, end: 2.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[0], start: 2.01, end: 2.2, x: 1, y: 0, type:"narration"}, // For type narration or music, x controls where volume goes to
+			{id:narrationFiles[1], start: 2.55, end: 2.6, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[2], start: 2.33, end: 2.6, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[2], start: 2.9, end: 2.99, x: 0.5, y: 0, type:"music"} // on second call of same music file, fadeout is triggered
 		],
 
 		[ //scene 3
@@ -771,29 +800,17 @@ window.onload = function() {
 		if ( this.className === "playing" ) {
 			stopScroll();
 			this.className = "paused";
-			document.getElementById("audio" + pos).pause();
-			if ( narration.className === "playing" ) {
-				narration.pause();
-				narration.className = "paused active"
-			}
+			pauseAudio();
 		}
 		else {
 			scrollToEnd();
 			this.className = "playing";
 			play.className = "playing";
-			document.getElementById("audio" + pos).play();
-			if ( narration.className === "paused active" ) {
-				narration.play();
-				narration.className = "playing"
-			}
+			restartAudio();
 		}
 	}
 
 	fastforward.onclick = function () {
-		if ( narration.className === "playing" ) {
-			narration.pause();
-			narration.className = "paused ff";
-		}
 		playToggle.click();
 		pos += 1;
 		window.scrollTo(0, scenes[pos-1].start);
