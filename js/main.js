@@ -386,13 +386,11 @@ window.onload = function() {
 			{id:document.getElementById("scene3"), start: 3.2, end: 3.28, x: 1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox4"), start: 3.05, end: 3.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("textbox4"), start: 3.5, end: 3.55, x: -1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("back-snow"), start:3.0, end:3.99, x: 0, y:300, type:"translate"},
-			{id:document.getElementById("front-snow"), start:3.0, end:3.99, x: 0, y:150, type:"translate"},
 			{id:document.getElementById("houses"), start:3.92, end:3.99, x: 0, y:300, type:"translate"}
 		],
 		
 		[  // scene 4	
-			{id:document.getElementById("scene4"), start: 4.2, end: 4.28, x: 1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("scene4"), start: 4.2, end: 4.28, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("ericw"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("textbox5"), start: 4.01, end: 4.1, x: 1, y: 0, type:"opacity", audio: narrationSprite[3]},
 			{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
@@ -405,38 +403,31 @@ window.onload = function() {
 			{id:document.getElementById("couch"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("grinch-burbs"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bg-test"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("poker"), start: 4.85, end: 4.99, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("grinch-poker"), start: 4.80, end: 4.99, x:0, y: -20, type:"translate"},
-			{id:document.getElementById("bg-inner"), start: 4.85, end: 4.99, x:0, y: -20, type:"translate"},
-			{id:document.getElementById("second-bg"), start: 4.85, end: 4.99, x:0, y: -20, type:"bgShift"},
-			{id:document.getElementById("poker-bg"), start: 4.85, end: 4.99, x:0, y: -30, type:"bgShift"}
-		
+			{id:document.getElementById("scene4"), start: 4.78, end: 4.95, x: -1.1, y: 0, type:"opacity"}
 		], 
 		
 		[  // scene 5
-			
+			{id:document.getElementById("scene5"), start: 5.2, end: 5.28, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("poker"), start: 5.95, end: 5.99, x:0, y: -40, type:"translate"},
 			{id:document.getElementById("grinch-poker"), start: 5.95, end: 5.99, x:0, y: -20, type:"translate"},
 			{id:document.getElementById("bg-inner"), start: 5.95, end: 5.99, x:0, y: -40, type:"translate"},
-			{id:document.getElementById("poker-text"), start: 5.3, end: 5.35, x:1, y: 0, type:"opacity", audio: narrationSprite[4]},
-			{id:document.getElementById("poker-text"), start: 5.6, end: 5.65, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("poker"), start: 5.75, end: 5.99, x:0, y: -200, type:"translate"},
-			{id:document.getElementById("grinch-poker"), start: 5.75, end: 5.99, x:0, y: -100, type:"translate"},
-			{id:document.getElementById("bg-inner"), start: 5.75, end: 5.99, x:0, y: -100, type:"translate"},
-			{id:document.getElementById("second-bg"), start: 5.75, end: 5.99, x:0, y: -100, type:"bgShift"},
-			{id:document.getElementById("poker-bg"), start: 5.75, end: 5.99, x:0, y: -100, type:"bgShift"},
+			{id:document.getElementById("textbox6"), start: 5, end: 5.1, x:1, y: 0, type:"opacity", audio: narrationSprite[4]},
+			{id:document.getElementById("textbox6"), start: 5.3, end: 5.4, x:-1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("scene5"), start: 5.78, end: 5.95, x: -1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("monumentbg"), start: 5.85, end: 5.99, x:0, y: -50, type:"bgShift"},
 			{id:document.getElementById("monument"), start: 5.85, end: 5.99, x: 0, y: 200, type:"translate"},
 			{id:document.getElementById("monument-grinch"), start: 5.85, end: 5.99, x: 0, y: 200, type:"translate"},
 			{id:document.getElementById("drummers"), start: 5.85, end: 5.99, x: 0, y: 100, type:"translate"},
-			{id:document.getElementById("clouds-1"), start: 5.85, end: 5.99, x: 0, y: 80, type:"translate"},
+			{id:document.getElementById("clouds-1"), start: 5.85, end: 5.99, x: 0, y: 80, type:"translate"}
 
 		
 		],  
 		
 		[ 	//scene 6
+			{id:document.getElementById("scene6"), start: 6.2, end: 6.28, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("hippies"), start: 6.0, end: 6.05, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("textbox-scene5"), start: 6.2, end: 6.4, x: 1, y: 0, type:"opacity", audio: narrationSprite[5]},
+			{id:document.getElementById("textbox7"), start: 6, end: 6.1, x: 1, y: 0, type:"opacity", audio: narrationSprite[5]},
+			{id:document.getElementById("textbox7"), start: 6.4, end: 6.5, x: -1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("clouds-1"), start: 6.0, end: 6.99, x: 300, y: 20, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 6.45, end: 6.5, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("monument"), start: 6.85, end: 6.99, x: 0, y: -150, type:"translate"},

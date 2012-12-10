@@ -318,10 +318,10 @@ audio { display: none; }
 #poker.poker21 { width: 1208px; height: 524px; background-position: -1219px -1070px; }
 
 #dog { position: absolute; bottom: 0; right: 30px; width: 352px; height: 230px; background: url('../img/scene5/dog.png'); }
-#bg-inner { z-index:0; bottom:-40px; }
-#poker-text { position: absolute; bottom: 430px; left: 390px; width: 354px; height: 253px; background: url('../img/scene5/poker-text.png'); opacity: 0;}
+#bg-inner { z-index:0; bottom:0; }
+#textbox6 { background-image: url('../img/scene5/poker-text.png'); }
 
-#grinch-poker { position:absolute; width: 1400px; height: 1000px; bottom:105%; left:0px; background: url('../img/scene5/grinch-poker-2b.jpg') no-repeat; }
+#grinch-poker { position:absolute; width: 1400px; height: 1000px; bottom:0; left:0; background: url('../img/scene5/grinch-poker-2b.jpg') no-repeat; }
 #grinch-poker.grinch-poker1 { width: 1400px; height: 1000px; background-position: -4233px -2022px; }
 #grinch-poker.grinch-poker2 { width: 1400px; height: 1000px; background-position: -4233px -1011px; }
 #grinch-poker.grinch-poker3 { width: 1400px; height: 1000px; background-position: -4233px -0px; }
@@ -352,7 +352,7 @@ audio { display: none; }
 
 #clouds-1 { position: absolute; width: 1341px; height: 406px; background: url('../img/scene6/clouds-hi.png') no-repeat 0 0;left:0; bottom: 380px; }
 #monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene6/monument.png') no-repeat 0 0;left:0px; bottom:200px; /*top: 20px;*/ }
-#textbox-scene5 { position: absolute; width: 432px; height: 177px; background: url('../img/scene6/text-5.png') no-repeat 0 0;left: 50%; margin-left:  -177px; top: 30px; z-index: 50; opacity: 0;}
+#textbox7 { background-image: url('../img/scene6/text-5.png'); }
 #feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene6/feeling-it.png') no-repeat 0 0; right:320px; bottom: 350px; opacity: 0;}
 #didgeri-do { position: absolute; width: 95px; height: 91px; background: url('../img/scene6/didgeri-do.png') no-repeat 0 0; right:500px; bottom: 270px; opacity: 0;}
 
