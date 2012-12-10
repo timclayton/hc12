@@ -125,8 +125,8 @@ audio { display: none; }
 .color8 { background-color: #1B2388; }
 .color9 { background-color: #50B2BB; }
 .color10 { background-color: #50B2BB; }
-.color11 { background-color: #E5E5D4; }
-.color12 { background-color: #000000; }
+.color11 { background-color: #000000 }  /* #E5E5D4; */
+.color12 { background-color: #0053A2; }
 .color13 { background-color: #6299F0; }
 .color14 { background-color: #7C7C15; }
 
@@ -152,20 +152,20 @@ audio { display: none; }
 
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left bottom no-repeat fixed; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-repeat.jpg') left top repeat fixed; }
-#scene3 .bg { background: #0754C4 url('../img/scene-transition/bg.jpg') left 150% repeat fixed; }
+#scene3 .bg { background: #0754C4 url('../img/scene-transition/bg.jpg') left bottom no-repeat fixed; }
 #scene4 .bg { background: #B51428 url('../img/scene4/bg.jpg') left bottom no-repeat fixed; } 
-#scene5 .bg {background:  url('../img/scene5/bg-2.png') left bottom repeat fixed }
-#scene5 .second-bg { background:url('../img/scene5/backroom-3.png') left 105% no-repeat fixed}
-#scene6 .bg { background:  #B51428 url('../img/scene6/bg.jpg') left bottom repeat fixed; }
+#scene5 .bg {background:  url('../img/scene5/bg-2.png') left bottom no-repeat fixed }
+#scene5 .second-bg { background:url('../img/scene5/backroom-3.png') left bottom no-repeat fixed}
+#scene6 .bg { background:  #B51428 url('../img/scene6/bg.jpg') left bottom no-repeat fixed; }
 #scene7 .bg { background:  #017CD5 url('../img/scene-garageband/bg.jpg') left bottom no-repeat fixed; }
-#scene8 .bg { background: #000 url('../img/scene-miracle/bg.jpg') left 100% repeat fixed; }
-#scene9 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left 150% no-repeat fixed;}
-#scene10 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left 150% no-repeat fixed; }
+#scene8 .bg { background: #000 url('../img/scene-miracle/bg.jpg') left bottom no-repeat fixed; }
+#scene9 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left bottom no-repeat fixed;}
+#scene10 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left bottom no-repeat fixed; }
 #scene11 .bg { background:  #B6D5EA url('../img/scene-pool/bg-2.jpg') left bottom no-repeat fixed;}
-#scene12 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left bottom repeat fixed;}
+#scene12 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left bottom no-repeat fixed;}
 #scene13 .bg { background:  #B51428 url('../img/scene-sleeping/bg.jpg') left bottom repeat fixed;}
-#scene14 .bg { background:  #B51428 url('../img/scene-celebration/bg.jpg') left bottom repeat fixed; }
-#scene15 .bg { background:  #B51428 url('../img/scene-finale/bg.jpg') left bottom repeat fixed; }
+#scene14 .bg { background:  #B51428 url('../img/scene-celebration/bg.jpg') left bottom no-repeat fixed; }
+#scene15 .bg { background:  #B51428 url('../img/scene-finale/bg.jpg') left bottom no-repeat fixed; }
 
 .prev div { display: none; }
 .next div { display: none; }
@@ -196,13 +196,13 @@ audio { display: none; }
 
 /* ===== Scene 2 ===== */
 
-#textbox1 { background-image: url('../img/scene2/textbox1.png'); }
-#textbox2 { background-image: url('../img/scene2/textbox2.png'); }
+#s2t1 { background-image: url('../img/scene2/textbox1.png'); }
+#s2t2 { background-image: url('../img/scene2/textbox2.png'); }
 #near-cliff  { position:absolute; height: 3187px; width: 588px; background: url('../img/scene2/near-cliff.png') no-repeat  0; right:0; /*top:-1200px;*/ bottom:-1300px; }
 #far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0px; /*top:-1200px;*/ bottom:-1300px; }
 #ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
 #lights { position: absolute; width: 1400px; height: 600px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:-100px; bottom:-600px; opacity: 1;}
-#textbox3 { position: fixed; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
+#s2t3 { position: fixed; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
 #back-row-houses { position: absolute; width: 2225px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: 0px; bottom: -770px; }
 #front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: 0px; bottom: -477px; }
 #lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -140px; bottom: -380px; }
@@ -233,7 +233,7 @@ audio { display: none; }
 
 #back-snow {position:absolute; background: url('../img/scene-transition/back-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:0; opacity:0;  }
 #front-snow { position:absolute; background: url('../img/scene-transition/front-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:0; opacity:0; }
-#textbox4 { background-image: url('../img/scene-transition/text-transition.png'); }
+#s3t1 { background-image: url('../img/scene-transition/text-transition.png'); }
 #houses { position:absolute; background: url('../img/scene-transition/houses.png') no-repeat 0 0; width: 1400px; height: 683px; left: 0; bottom:0; }
 #grinch-transition { position:absolute; background: url('../img/scene-transition/grinch-transition.png') no-repeat -1500px -0px; width: 739px;height: 380px; left: 396px; bottom:0;}
 #grinch-transition.grinch-transition1 {width: 739px;height: 380px;background-position: -1500px -0px;}
@@ -254,7 +254,7 @@ audio { display: none; }
 #know-your-memes {  position:absolute; background: url('../img/scene4/know-your-memes.png') no-repeat 0 0; width: 117px; height: 101px; left: 1542px; bottom: 300px; }
 #doorway { position:absolute; background: url('../img/scene4/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; opacity:0; }
 #couch { position:absolute; background: url('../img/scene4/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; opacity:0;}
-#textbox5 { background-image: url('../img/scene4/kitchen-text.png'); }
+#s4t1 { background-image: url('../img/scene4/kitchen-text.png'); }
 
 #ericw { position: absolute; bottom: 0; left: 35%; margin-left:  -215px; width: 391px; height: 887px; background: url('../img/scene4/eric-pancakes-sprite.png') no-repeat  -804px -1796px; }
 #ericw.ericw1 { background-position: -804px -1796px; }
@@ -319,7 +319,7 @@ audio { display: none; }
 
 #dog { position: absolute; bottom: 0; right: 30px; width: 352px; height: 230px; background: url('../img/scene5/dog.png'); }
 #bg-inner { z-index:0; bottom:0; }
-#textbox6 { background-image: url('../img/scene5/poker-text.png'); }
+#s5t1 { background-image: url('../img/scene5/poker-text.png'); }
 
 #grinch-poker { position:absolute; width: 1400px; height: 1000px; bottom:0; left:0; background: url('../img/scene5/grinch-poker-2b.jpg') no-repeat; }
 #grinch-poker.grinch-poker1 { width: 1400px; height: 1000px; background-position: -4233px -2022px; }
@@ -351,12 +351,11 @@ audio { display: none; }
 /* ===== Scene 6 - Drummers ===== */
 
 #clouds-1 { position: absolute; width: 1341px; height: 406px; background: url('../img/scene6/clouds-hi.png') no-repeat 0 0;left:0; bottom: 380px; }
-#monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene6/monument.png') no-repeat 0 0;left:0px; bottom:200px; /*top: 20px;*/ }
-#textbox7 { background-image: url('../img/scene6/text-5.png'); }
+#monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene6/monument.png') no-repeat 0 0; left:0px; /*bottom:200px;*/ bottom:0;}
+#s6t1 { background-image: url('../img/scene6/text-5.png'); }
 #feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene6/feeling-it.png') no-repeat 0 0; right:320px; bottom: 350px; opacity: 0;}
-#didgeri-do { position: absolute; width: 95px; height: 91px; background: url('../img/scene6/didgeri-do.png') no-repeat 0 0; right:500px; bottom: 270px; opacity: 0;}
 
-#drummers {  position: absolute; bottom: 100px;  right:100px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
+#drummers {  position: absolute; bottom: 0;  right:100px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
 #drummers.drummers1 { width: 825px; height: 442px; background-position: -0px -2265px; }
 #drummers.drummers2 { width: 825px; height: 442px; background-position: -1672px -1812px; }
 #drummers.drummers3 { width: 825px; height: 442px; background-position: -1672px -1359px; }
@@ -374,7 +373,7 @@ audio { display: none; }
 #drummers.drummers15 { width: 825px; height: 442px; background-position: -836px -0px; }
 #drummers.drummers16 { width: 825px; height: 442px; background-position: -0px -0px; }
 
-#hippies { position: absolute;width: 1400px; height: 1000px; bottom: 0px;  left:0 ; background: url('../img/scene6/hippies-sprite.png') no-repeat -2822px -2022px; opacity: 0;  }
+#hippies { position: absolute;width: 1400px; height: 1000px; bottom: 0px;  left:0 ; background: url('../img/scene6/hippies-sprite.png') no-repeat -2822px -2022px; }
 #hippies.hippies1 { width: 1400px; height: 1000px; background-position: -2822px -2022px; }
 #hippies.hippies2 { width: 1400px; height: 1000px; background-position: -2822px -1011px; }
 #hippies.hippies3 { width: 1400px; height: 1000px; background-position: -2822px -0px; }
@@ -385,7 +384,7 @@ audio { display: none; }
 #hippies.hippies8 { width: 1400px; height: 1000px; background-position: -1411px -0px; }
 #hippies.hippies9 { width: 1400px; height: 1000px; background-position: -0px -0px; }
 
-#monument-grinch { position: absolute; width: 560px; height: 878px; bottom: 200px ;/*bottom: -550px; */ left:0 ; background: url('../img/scene6/monument-grinch.png') no-repeat -2855px -889px;  } 
+#monument-grinch { position: absolute; width: 560px; height: 878px;/* bottom: 200px ;*/ bottom:0; left:0 ; background: url('../img/scene6/monument-grinch.png') no-repeat -2855px -889px;  } 
 #monument-grinch.monument-grinch0 { background-position: -2855px -889px; }
 #monument-grinch.monument-grinch1 { background-position: -2855px -0px; }
 #monument-grinch.monument-grinch2 { background-position: -2284px -1778px; }
@@ -408,7 +407,7 @@ audio { display: none; }
 
 #garage-exterior { position: absolute; bottom: 0; right: 0; width: 1400px; height: 853px; background: url('../img/scene-garageband/garage-exterior.png') no-repeat; }
 #garage-interior { position: absolute; bottom: 92px; right: 358px; width: 628px; height: 505px; background: url('../img/scene-garageband/garage-interior.jpg') no-repeat; }
-#textbox-scene6 { position: absolute; bottom: 550px; right: 600px; width: 354px; height: 176px; background: url('../img/scene-garageband/text.png') no-repeat; opacity: 0; }
+#s7t1 { background-image: url('../img/scene-garageband/text.png'); }
 
 #garageband { position: absolute; bottom: 0; right: 12%; width: 788px; height: 485px; background: url('../img/scene-garageband/garageband-sprite.png') no-repeat; background-position: -0px -3113px; }
 #garageband.garageband1 { width: 788px; height: 485px; right: 14%; background-position: -0px -3113px; }
@@ -469,10 +468,10 @@ audio { display: none; }
 
 /* ===== Scene 8 - Miracle 34th ===== */
 
-#text-miracle { position: absolute; bottom: 350px; right: 600px; width: 332px; height: 217px; background: url('../img/scene-miracle/text-miracle.png') no-repeat; opacity: 0; }
-#flamingo { position:absolute;width:350px; height:605px; bottom: 70px; left: -20px; background: url('../img/scene-miracle/flamingo.png') no-repeat;  }
+#s8t1 {  background-image: url('../img/scene-miracle/text-miracle.png'); }
+#flamingo { position:absolute;width:350px; height:605px; bottom: 0; left: -20px; background: url('../img/scene-miracle/flamingo.png') no-repeat;  }
 
-#carolers { position:absolute; width: 963px; height: 575px; background: url('../img/scene-miracle/carolers-sprite.png') no-repeat -974px -3516px; bottom: 90px; left: 200px; }
+#carolers { position:absolute; width: 963px; height: 575px; background: url('../img/scene-miracle/carolers-sprite.png') no-repeat -974px -3516px; bottom: 0; left: 200px; }
 #carolers.carolers1 { background-position: -974px -3516px; }
 #carolers.carolers2 { background-position: -0px -3516px; }
 #carolers.carolers3 { background-position: -2922px -2930px; }
@@ -500,7 +499,7 @@ audio { display: none; }
 #carolers.carolers25 { background-position: -974px -0px; }
 #carolers.carolers26 { background-position: -0px -0px; }
 
-#miracle-grinch { position:absolute; width: 1400px; height: 600px;background: url('../img/scene-miracle/miracle-grinch.png') no-repeat -0px -3666px; bottom: 400px; left: 0px; opacity:0;}
+#miracle-grinch { position:absolute; width: 1400px; height: 600px;background: url('../img/scene-miracle/miracle-grinch.png') no-repeat -0px -3666px; bottom: 400px; left: 0px; }
 #miracle-grinch.miracle-grinch1 {  background-position: -0px -3666px; }
 #miracle-grinch.miracle-grinch2 {  background-position: -2822px -3055px; }
 #miracle-grinch.miracle-grinch3 {  background-position: -2822px -2444px; }
@@ -526,13 +525,13 @@ audio { display: none; }
 #bubbles-1 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 0px;left:-200px;}
 #bubbles-2 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 460px;left:-100px;}
 #bubbles-3 { position:absolute; width:844px; height:648px; background:url('../img/scene-aquarium/bubbles-1.png') no-repeat; top: 800px;left:-420px;}
-#big-fish { position:absolute; width:542px; height:289px; background:url('../img/scene-aquarium/big-fish.png') no-repeat; top:450px; right:200px; opacity: 0;}
-#little-fish-1 { position:absolute; width:352px;height:297px; background:url('../img/scene-aquarium/little-fish-9.png') no-repeat; top:150px; right:200px; opacity: 0;  }
-#little-fish-2 { position:absolute; width:480px;height:307px; background:url('../img/scene-aquarium/little-fish-18.png') no-repeat; top:50px; left:200px; opacity: 0;}
-#text-aquarium { position:absolute; width:505px;height:177px; background:url('../img/scene-aquarium/text-aquarium.png') no-repeat;left: 50%; margin-left:  -252px; top: 50px; z-index: 50; opacity: 0; }
+#big-fish { position:absolute; width:542px; height:289px; background:url('../img/scene-aquarium/big-fish.png') no-repeat; top:450px; right:200px; }
+#little-fish-1 { position:absolute; width:352px;height:297px; background:url('../img/scene-aquarium/little-fish-9.png') no-repeat; top:150px; right:200px; }
+#little-fish-2 { position:absolute; width:480px;height:307px; background:url('../img/scene-aquarium/little-fish-18.png') no-repeat; top:50px; left:200px; }
+#s9t1 { background-image:url('../img/scene-aquarium/text-aquarium.png'); }
 #shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
 
-#aquarium-people { position:absolute; width:960px; height:492px; background: url('../img/scene-aquarium/aquarium-sprite-lo.png') no-repeat -1960px -503px; bottom: 80px; right: 100px;/*opacity: 0;*/  }
+#aquarium-people { position:absolute; width:960px; height:492px; background: url('../img/scene-aquarium/aquarium-sprite-lo.png') no-repeat -1960px -503px; bottom: 0; right: 100px;  }
 #aquarium-people.aqua1 { background-position: -1960px -503px; }
 #aquarium-people.aqua2 { background-position: -1960px -0px; }
 #aquarium-people.aqua3 { background-position: -980px -1509px; }
@@ -545,7 +544,7 @@ audio { display: none; }
 #aquarium-people.aqua0 { background-position: -0px -0px; }
 
 
-#aquarium-grinch {  position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch-hi.png') no-repeat -2822px -1098px; bottom: 40px; left:0; }
+#aquarium-grinch {  position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch-hi.png') no-repeat -2822px -1098px; bottom:0; left:0; }
 #aquarium-grinch.aquarium-grinch0 {width: 1400px;height: 538px;background-position: -2822px -1098px;}
 #aquarium-grinch.aquarium-grinch1 {width: 1400px;height: 538px;background-position: -2822px -549px;}
 #aquarium-grinch.aquarium-grinch2 {width: 1400px;height: 538px;background-position: -2822px -0px;}
@@ -567,10 +566,10 @@ audio { display: none; }
 
 /* ===== Scene 10 - Truck ===== */
 
-#truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: 100px; left:0px; }
-#text-truck { position:absolute; width:314px; height:175px; background:url('../img/scene-truck/text-truck.png') no-repeat; bottom: 119px;left:162px; opacity: 0; }
+#truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: 0; left:0px; }
+#s10t1 { background-image:url('../img/scene-truck/text-truck.png'); }
 
-#businessmen { position:absolute; width: 638px; height: 480px; bottom: 140px; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat -2318px -1463px;  }
+#businessmen { position:absolute; width: 638px; height: 480px; bottom: 0; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat -2318px -1463px;  }
 #businessmen.businessmen1 { width: 638px; height: 480px; background-position: -2245px -2445px; }
 #businessmen.businessmen2 { width: 638px; height: 480px; background-position: -2260px -1954px; }
 #businessmen.businessmen3 { width: 638px; height: 480px; background-position: -2318px -1463px; }
@@ -591,14 +590,14 @@ audio { display: none; }
 #businessmen.businessmen19 { width: 760px; height: 568px; background-position: -1579px -0px; }
 #businessmen.businessmen20 { width: 797px; height: 499px; background-position: -1579px -579px; }
 
-#truck-decorations { position:absolute; bottom: 58px; left:0px;background: url('../img/scene-truck/decorations.png') no-repeat; width: 1576px; height: 598px; background-position: -1587px -609px; opacity: 0; }
+#truck-decorations { position:absolute; bottom: 58px; left:0px;background: url('../img/scene-truck/decorations.png') no-repeat; width: 1576px; height: 598px; background-position: -1587px -609px;}
 #truck-decorations.decorations1 { background-position: -1587px -609px; }
 #truck-decorations.decorations2 { background-position: -1587px -0px; }
 #truck-decorations.decorations3 { background-position: -0px -1218px; }
 #truck-decorations.decorations4 { background-position: -0px -609px; }
 #truck-decorations.decorations5 { background-position: -0px -0px; }
 
-#truck-grinch { position:absolute; bottom: 354px; left:98px;background: url('../img/scene-truck/truck-grinch.png') no-repeat; width: 372px; height: 242px; background-position: -1149px -253px; }
+#truck-grinch { position:absolute; bottom: 254px; left:98px;background: url('../img/scene-truck/truck-grinch.png') no-repeat; width: 372px; height: 242px; background-position: -1149px -253px; }
 #truck-grinch.truck-grinch1 { background-position: -1149px -253px; }
 #truck-grinch.truck-grinch2 { background-position: -1149px -0px; }
 #truck-grinch.truck-grinch3 { background-position: -766px -1012px; }
@@ -619,7 +618,7 @@ audio { display: none; }
 
 /* ===== Scene 11 - Pool ===== */
 
-#text-pool { position:absolute; width:333px;height:177px; background:url('../img/scene-pool/text-pool.png') no-repeat;left: 50%; margin-left:  -177px; bottom: 450px; z-index: 50; opacity: 0; }
+#s11t1 { background-image:url('../img/scene-pool/text-pool.png'); }
 #back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; bottom: 164px;left:640px;  }
 #front-splash { position:absolute; width:1147px; height:385px; background:url('../img/scene-pool/front-splash.png') no-repeat; bottom: 0;left:144px;  }
 
@@ -666,7 +665,7 @@ audio { display: none; }
 #phelps.phelps42 { bottom: 450px; left:1334px;  width: 89px; height: 66px; background-position: -197px -1368px;}
 
 
-#swimmers { position:absolute; bottom: 0; left:485px; background: url('../img/scene-pool/swimmers.png') no-repeat; opacity: 0;  }
+#swimmers { position:absolute; bottom: 0; left:485px; background: url('../img/scene-pool/swimmers.png') no-repeat; }
 #swimmers.swimmers1 { width: 546px; height: 363px; background-position: -2339px -404px; }
 #swimmers.swimmers2 { width: 546px; height: 393px; background-position: -2339px -0px; }
 #swimmers.swimmers3 { width: 555px; height: 397px; background-position: -1751px -1771px; }
@@ -717,12 +716,12 @@ audio { display: none; }
 
 /* ===== Scene 12  ===== */
 
-#stieff-text { position:absolute; width:332px;height:217px; background:url('../img/scene-stieff/stieff-text.png') no-repeat;left: 50%; margin-left:  -177px; bottom:364px; opacity: 0; }
-#foreground {  position:absolute;bottom:200px; left:329px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
+#s12t1 { background-image:url('../img/scene-stieff/stieff-text.png'); }
+#foreground {  position:absolute;bottom:0px; left:329px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
 #lights-out { position:absolute; bottom: 407px; left:0; width:1399px; height:593px; background:url('../img/scene-stieff/lights-out.jpg') no-repeat; opacity: 0; }
-#midground { position:absolute; bottom: 200px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }
+#midground { position:absolute; bottom: 0; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }
 
-#fire { position:absolute; bottom: 200px; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat -784px -381px;  }
+#fire { position:absolute; bottom: 0; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat -784px -381px;  }
 #fire.fire1 { background-position: -784px -381px; }
 #fire.fire2 { background-position: -784px -0px; }
 #fire.fire3 { background-position: -392px -381px; }
@@ -730,7 +729,7 @@ audio { display: none; }
 #fire.fire5 { background-position: -392px -0px; }
 #fire.fire6 { background-position: -0px -0px; }
 
-#stieff { position:absolute; bottom: 200px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat -2670px -485px; }
+#stieff { position:absolute; bottom: 0; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat -2670px -485px; }
 #stieff.stieff1 { background-position: -2670px -485px; }
 #stieff.stieff2 { background-position: -2670px -0px; }
 #stieff.stieff3 { background-position: -1780px -2425px; }
@@ -752,7 +751,7 @@ audio { display: none; }
 #stieff.stieff19 { background-position: -890px -0px; }
 #stieff.stieff20 { background-position: -0px -0px; }
 
-#grinch-stieff { position:absolute; bottom: 200px; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat;   }
+#grinch-stieff { position:absolute; bottom: 0; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat;   }
 #grinch-stieff.grinch-stieff1 { background-position: -0px -1770px; }
 #grinch-stieff.grinch-stieff2 { background-position: -1473px -1180px; }
 #grinch-stieff.grinch-stieff3 { background-position: -1473px -590px; }
@@ -858,7 +857,7 @@ audio { display: none; }
 
 /* ===== Scene 14 - Celebration ===== */
 #globe { position:absolute; width:1707px;height:681px;background: url('../img/scene-celebration/globe.png') no-repeat; bottom: -681px; left: 0px; }
-#text-celebration { position:absolute; width:315px;height:357px;background: url('../img/scene-celebration/text-celebration.png') no-repeat; bottom: 0; left: 50px; opacity:0;}
+#s14t1 { background-image: url('../img/scene-celebration/text-celebration.png'); }
 
 #celebration { position:absolute; bottom: -600px; left:300px;background: url('../img/scene-celebration/celebration-sprite.png') no-repeat; opacity: 0; }
 #celebration.celebration1 { width: 903px; height: 673px; background-position: -1828px -684px; }
@@ -877,15 +876,14 @@ audio { display: none; }
 #celebration-light.celebration-light4 { width: 631px; height: 587px; background-position: -642px -0px; }
 #celebration-light.celebration-light5 { width: 631px; height: 587px; background-position: -0px -0px; }
 
-/*.sky { position:absolute;background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat: no-repeat; }*/
 #hearts-large { position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/hearts-large.png'); background-repeat: no-repeat; opacity: 0; }
 #hearts-medium { position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px; background-image: url('../img/scene-sky/hearts-medium.png'); background-repeat: no-repeat; opacity: 0;}
 #hearts-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/hearts-small.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-large {position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/questions-large.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-medium {position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px;background-image: url('../img/scene-sky/questions-medium.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/questions-small.png'); background-repeat: no-repeat; opacity: 0; }
-#text-sky-1 { position:absolute; width: 354px; height: 253px; background-position: -924px -328px;background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat:  no-repeat; left: 50%; margin-left:  -177px; bottom: 250px; z-index: 50; opacity: 0;}
-#text-sky-2 { position:absolute; width: 353px; height: 317px; background-position: -924px -0px; background-image: url('../img/scene-sky/sky-sprite.png'); background-repeat:  no-repeat;left: 50%; margin-left:  -177px; bottom: 250px; z-index: 50; opacity: 0;}
+#s14t2 { background-image: url('../img/scene-sky/sky-sprite.png'); }
+#s14t3 { background-image: url('../img/scene-sky/sky-sprite.png'); }
 
 #grinch-heart { position:absolute; left: 189px; bottom: 0px; width:1082px;height:1000px; background: url('../img/scene-celebration/grinch-heart.png') no-repeat; opacity: 0;  }
 #growing-heart { position:absolute; left: 378px; bottom: 264px; background: url('../img/scene-celebration/grinch-heart-sprite.png') no-repeat; opacity: 0; }
@@ -947,9 +945,6 @@ audio { display: none; }
 
 #candycane1 { position: fixed; top: 21%; right: 19%; width: 287px; height: 198px; background: url('../img/global/candycane.png') no-repeat; z-index: 200; }
 #candycane2 { position: absolute; top: px; left: px; width: px; height: px; background: url('../img/scene1/sprite.png') no-repeat -px -px; }
-#snowflakes-mid { position: fixed; top: -800px; left:200px; width: 842px; height: 798px; background: url('../img/global/snowflakes-mid.png') no-repeat; z-index: 200; } 
-#snowflakes-top { position: fixed; top: -1000px;  width: 1342px; height: 964px; background: url('../img/global/snowflakes-top.png') no-repeat; z-index: 200; } 
-#snowflakes-bottom { position: fixed; top: -1200px;  width: 1342px; height: 964px; background: url('../img/global/snowflakes-bottom.png') no-repeat; z-index: 200; } 
 
 
 /* ==========================================================================
