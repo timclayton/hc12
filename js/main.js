@@ -769,7 +769,7 @@ window.onload = function() {
 		
 		[ // scene 5			
 			{id:document.getElementById("smoke"), start: 5, end: 5.99, prefix: "smoke", order: [1,2,3,4,5,6,7,8], repeat:10},
-			{id:document.getElementById("poker"), start: 5, end: 5.9, prefix: "poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:3},
+			{id:document.getElementById("poker"), start: 5.28, end: 5.9, prefix: "poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:2},
 			{id:document.getElementById("grinch-poker"), start: 5.5, end: 5.9, prefix: "grinch-poker", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1},
 			{id:body, start: 5.5, end: 5.6, prefix: "color", order: [4,5], repeat:1}	
 		],
