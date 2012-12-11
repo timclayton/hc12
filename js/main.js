@@ -473,6 +473,8 @@ window.onload = function() {
 			
 			{id:document.getElementById("s3t1"), start: 3.05, end: 3.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("s3t1"), start: 3.5, end: 3.55, x: -1.1, y: 0, type:"opacity"},
+			{id:document.getElementById("front-snow"), start: 3.1, end: 3.99, x: 0, y: 30, type:"translate"},
+			{id:document.getElementById("back-snow"), start: 3.1, end: 3.99, x: 0, y: 150, type:"translate"},
 
 			{id:sections[2], start: 3.2, end: 3.35, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[2], start: 3.95, end: 3.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
