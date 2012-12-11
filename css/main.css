@@ -154,7 +154,7 @@ audio { display: none; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-repeat.jpg') left top repeat fixed; }
 #scene3 .bg { background: #0754C4 url('../img/scene-transition/bg.jpg') left bottom no-repeat fixed; }
 #scene4 .bg { background:  #7F8082 url('../img/scene4/bg.jpg') left bottom no-repeat fixed; } 
-#scene5 .bg {background:  url('../img/scene5/bg-2.png') left bottom no-repeat fixed }
+#scene5 .bg {background:  url('../img/scene5/warehome-bg.png') left bottom no-repeat fixed }
 #scene5 .second-bg { background:url('../img/scene5/backroom-3.png') left bottom no-repeat fixed}
 #scene6 .bg { background:  #017CD5 url('../img/scene6/bg.jpg') left bottom no-repeat fixed; }
 #scene7 .bg { background:  #017CD5 url('../img/scene-garageband/bg.jpg') left bottom no-repeat fixed; }
