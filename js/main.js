@@ -280,8 +280,8 @@ window.onload = function() {
 				element.triggered = false;
 			}
 			
-			array.splice(index, 1);
-			completedTransforms[pos].push(element);
+			//array.splice(index, 1);
+			//completedTransforms[pos].push(element);
 			
 		}
 			
@@ -725,8 +725,7 @@ window.onload = function() {
 			{id:narrationFiles[13], start: 14.01, end: 14.2, x: 1, y: 0, type:"narration"},
 			{id:narrationFiles[14], start: 14.4, end: 14.45, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[12], start: 14.2, end: 14.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[12], start: 14.8, end: 14.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[12], start: 14.2, end: 14.4, x: 0.5, y: 0, type:"music"}
 	
 		 ],
 
