@@ -460,6 +460,7 @@ window.onload = function() {
 			{id:document.getElementById("back-row-houses"), start:2.63, end:2.83, x: 0, y:-670, type:"translate"},
 			{id:document.getElementById("front-row-houses"), start:2.73, end:2.83, x: 0, y:-400, type:"translate"},
 			{id:document.getElementById("lawn-ornaments"), start:2.73, end:2.83, x: 0, y:-380, type:"translate"},
+			{id:document.getElementById("gate"), start:2.87, end:2.92, x: 0, y:-870, type:"translate"},
 			
 			{id:sections[1], start: 2.1, end: 2.16, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[1], start: 2.95, end: 2.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
