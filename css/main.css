@@ -133,20 +133,20 @@ audio { display: none; }
 /* ===== Scenes ===== */
 
 #scene1  { height:1500px; } 
-#scene2  { height:12000px; opacity: 0; }
-#scene3  { height:4000px; opacity: 0; } 
-#scene4  { height:8000px; opacity: 0; } 
-#scene5  { height:5000px; opacity: 0; } 
-#scene6  { height:5000px; opacity: 0; } 
-#scene7  { height:5000px; opacity: 0; } 
-#scene8  { height:5000px; opacity: 0; } 
-#scene9  { height:5000px; opacity: 0; } 
-#scene10 { height:6000px; opacity: 0; } 
-#scene11 { height:6500px; opacity: 0; } 
-#scene12 { height:6000px; opacity: 0; } 
-#scene13 { height:6000px; opacity: 0;  }
-#scene14 { height:22000px; opacity: 0; }
-#scene15 { height:10000px; opacity: 0; }
+#scene2  { height:12000px; opacity: 0; } /* cliffs/honville */
+#scene3  { height:4000px; opacity: 0; }  /* transition*/
+#scene4  { height:8000px; opacity: 0; } /* cliffs/honville */
+#scene5  { height:7000px; opacity: 0; } /* poker add time */ 
+#scene6  { height:7500px; opacity: 0; } /* cliffs/honville */
+#scene7  { height:7000px; opacity: 0; } /* cliffs/honville */
+#scene8  { height:7000px; opacity: 0; } /* cliffs/honville */
+#scene9  { height:6000px; opacity: 0; } /* cliffs/honville */
+#scene10 { height:7500px; opacity: 0; } /* cliffs/honville */
+#scene11 { height:9500px; opacity: 0; } /* cliffs/honville */
+#scene12 { height:6000px; opacity: 0; } /* cliffs/honville */
+#scene13 { height:6000px; opacity: 0;  } /* cliffs/honville */
+#scene14 { height:22000px; opacity: 0; } /* cliffs/honville */
+#scene15 { height:10000px; opacity: 0; } /* cliffs/honville */
 
 /* ===== Backgrounds ===== */
 
