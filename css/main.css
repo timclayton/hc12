@@ -153,19 +153,19 @@ audio { display: none; }
 #scene1 .bg { background: #B51428 url('../img/scene1/bg.jpg') left bottom no-repeat fixed; }
 #scene2 .bg { background: #B51428 url('../img/scene2/bg-repeat.jpg') left top repeat fixed; }
 #scene3 .bg { background: #0754C4 url('../img/scene-transition/bg.jpg') left bottom no-repeat fixed; }
-#scene4 .bg { background: #B51428 url('../img/scene4/bg.jpg') left bottom no-repeat fixed; } 
+#scene4 .bg { background:  #7F8082 url('../img/scene4/bg.jpg') left bottom no-repeat fixed; } 
 #scene5 .bg {background:  url('../img/scene5/bg-2.png') left bottom no-repeat fixed }
 #scene5 .second-bg { background:url('../img/scene5/backroom-3.png') left bottom no-repeat fixed}
-#scene6 .bg { background:  #B51428 url('../img/scene6/bg.jpg') left bottom no-repeat fixed; }
+#scene6 .bg { background:  #017CD5 url('../img/scene6/bg.jpg') left bottom no-repeat fixed; }
 #scene7 .bg { background:  #017CD5 url('../img/scene-garageband/bg.jpg') left bottom no-repeat fixed; }
 #scene8 .bg { background: #000 url('../img/scene-miracle/bg.jpg') left bottom no-repeat fixed; }
 #scene9 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left bottom no-repeat fixed;}
 #scene10 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left bottom no-repeat fixed; }
 #scene11 .bg { background:  #B6D5EA url('../img/scene-pool/bg-2.jpg') left bottom no-repeat fixed;}
-#scene12 .bg { background:  #B51428 url('../img/scene-stieff/bg.jpg') left bottom no-repeat fixed;}
-#scene13 .bg { background:  #B51428 url('../img/scene-sleeping/bg.jpg') left bottom repeat fixed;}
-#scene14 .bg { background:  #B51428 url('../img/scene-celebration/bg.jpg') left bottom no-repeat fixed; }
-#scene15 .bg { background:  #B51428 url('../img/scene-finale/bg.jpg') left bottom no-repeat fixed; }
+#scene12 .bg { background:  #26291D url('../img/scene-stieff/bg.jpg') left bottom no-repeat fixed;}
+#scene13 .bg { background:  #263383 url('../img/scene-sleeping/bg.jpg') left bottom no-repeat fixed;}
+#scene14 .bg { background:  #BFF4FD url('../img/scene-celebration/bg.jpg') left bottom no-repeat fixed; }
+#scene15 .bg { background:  #1F64E9 url('../img/scene-finale/bg.jpg') left bottom no-repeat fixed; }
 
 .prev div { display: none; }
 .next div { display: none; }
