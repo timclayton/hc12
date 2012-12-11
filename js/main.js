@@ -462,7 +462,7 @@ window.onload = function() {
 			{id:document.getElementById("lawn-ornaments"), start:2.73, end:2.83, x: 0, y:-380, type:"translate"},
 			
 			{id:sections[1], start: 2.1, end: 2.16, x: 1, y: 0, type:"opacity", fade: "in"},
-			{id:sections[1], start: 2.9, end: 2.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			{id:sections[1], start: 2.95, end: 2.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
 			
 			{id:narrationFiles[0], start: 2.01, end: 2.2, x: 1, y: 0, type:"narration"}, // For type narration or music, x controls where volume goes to
 			{id:narrationFiles[1], start: 2.55, end: 2.6, x: 1, y: 0, type:"narration"}
@@ -475,12 +475,12 @@ window.onload = function() {
 			{id:document.getElementById("s3t1"), start: 3.5, end: 3.55, x: -1.1, y: 0, type:"opacity"},
 
 			{id:sections[2], start: 3.2, end: 3.35, x: 1, y: 0, type:"opacity", fade: "in"},
-			{id:sections[2], start: 3.9, end: 3.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			{id:sections[2], start: 3.95, end: 3.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
 
 			{id:narrationFiles[2], start: 3.01, end: 3.2, x: 1, y: 0, type:"narration"}, 
 			
 			{id:musicFiles[1], start: 3.2, end: 3.6, x: 0.4, y: 0, type:"music"}, // on second call of same music file, fadeout is triggered
-			{id:musicFiles[1], start: 3.8, end: 3.99, x: 0.4, y: 0, type:"music"} 
+			{id:musicFiles[1], start: 3.95, end: 3.99, x: 0.4, y: 0, type:"music"} 
 		],
 		
 		[  // scene 4	
@@ -499,12 +499,12 @@ window.onload = function() {
 			{id:document.getElementById("bg-test"), start: 4.4, end: 4.6, x: -1000, y: 0, type:"translate"},
 
 			{id:sections[3], start: 4.2, end: 4.28, x: 1, y: 0, type:"opacity", fade: "in"},
-			{id:sections[3], start: 4.9, end: 4.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			{id:sections[3], start: 4.95, end: 4.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
 
 			{id:narrationFiles[3], start: 4.01, end: 4.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[2], start: 4.2, end: 4.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[2], start: 4.8, end: 4.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[2], start: 4.95, end: 4.99, x: 0.5, y: 0, type:"music"} 
 		], 
 		
 		[  // scene 5
