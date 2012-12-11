@@ -564,10 +564,10 @@ window.onload = function() {
 
 			{id:document.getElementById("s8t1"), start: 8.0, end: 8.10, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s8t1"), start: 8.2, end: 8.28, x:-1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("flamingo"), start: 8.5, end: 8.6, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("miracle-grinch"), start: 8.5, end: 8.6, x:0, y: 140, type:"translate"},
-			{id:document.getElementById("carolers"), start: 8.5, end: 8.6, x:0, y: 150, type:"translate"},
-			{id:document.getElementById("s8bg"), start: 8.5, end: 8.6, x:0, y: 80, type:"bgShift"},
+			{id:document.getElementById("flamingo"), start: 8.4, end: 8.65, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("miracle-grinch"), start: 8.4, end: 8.65, x:0, y: 140, type:"translate"},
+			{id:document.getElementById("carolers"), start: 8.4, end: 8.65, x:0, y: 150, type:"translate"},
+			{id:document.getElementById("s8bg"), start: 8.4, end: 8.65, x:0, y: 80, type:"bgShift"},
 
 			{id:sections[7], start: 8.2, end: 8.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[7], start: 8.9, end: 8.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
@@ -586,7 +586,7 @@ window.onload = function() {
 			{id:document.getElementById("little-fish-1"), start: 9.0, end: 9.99, x: -200, y: 0, type:"translate"},
 			{id:document.getElementById("little-fish-2"), start: 9.0, end: 9.99, x: -250, y: 20, type:"translate"},
 			{id:document.getElementById("big-fish"), start: 9.0, end: 9.99, x: -500, y: 20, type:"translate"},
-			{id:document.getElementById("shark"), start: 9.65, end: 9.99, x: 2400, y: 0, type:"translate"},
+			{id:document.getElementById("shark"), start: 9.65, end: 9.99, x: -2400, y: 0, type:"translate"},
 
 			{id:sections[8], start: 9.2, end: 9.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[8], start: 9.9, end: 9.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
@@ -789,7 +789,7 @@ window.onload = function() {
 		
 		[ // scene 7
 			{id:document.getElementById("carolers"), start: 8.0, end: 8.99, prefix: "carolers", order: [1,2,3,,2,1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:1},
-			{id:document.getElementById("miracle-grinch"), start: 8.5, end: 8.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], repeat:1},
+			{id:document.getElementById("miracle-grinch"), start: 8.68, end: 8.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12], repeat:1},
 			{id:body, start: 8.5, end: 8.6, prefix: "color", order: [7,8], repeat:1}	
 		],
 		
