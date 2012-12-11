@@ -448,6 +448,8 @@ audio { display: none; }
 #garage-grinch.grinch14 { background-position: -2802px -0px; }
 #garage-grinch.grinch15 { background-position: -1401px -0px; }
 #garage-grinch.grinch16 { background-position: -0px -0px; }
+#garage-grinch.grinch17 { background: none; }
+
 
 #garage-decorations { position: absolute; bottom: 581px; right: 207px; background: url('../img/scene-garageband/decorations-sprite.png') no-repeat; width: 1125px; height: 325px; background-position: -1126px -1630px; }
 #garage-decorations.decorations1 { background-position: -1126px -1630px; }
