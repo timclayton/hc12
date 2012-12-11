@@ -280,8 +280,8 @@ window.onload = function() {
 				element.triggered = false;
 			}
 			
-			//array.splice(index, 1);
-			//completedTransforms[pos].push(element);
+			array.splice(index, 1);
+			completedTransforms[pos].push(element);
 			
 		}
 			
