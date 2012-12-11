@@ -107,7 +107,7 @@ window.onload = function() {
 	
 		if ( file.volume > 0 ) {
 			
-			var vol = 1;
+			var vol = file.volume;
 			var fadeInterval = setInterval(function() {
 			
 				if ( vol > 0 ) {
@@ -465,10 +465,8 @@ window.onload = function() {
 			{id:sections[1], start: 2.9, end: 2.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
 			
 			{id:narrationFiles[0], start: 2.01, end: 2.2, x: 1, y: 0, type:"narration"}, // For type narration or music, x controls where volume goes to
-			{id:narrationFiles[1], start: 2.55, end: 2.6, x: 1, y: 0, type:"narration"},
+			{id:narrationFiles[1], start: 2.55, end: 2.6, x: 1, y: 0, type:"narration"}
 			
-			{id:musicFiles[2], start: 2.33, end: 2.6, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[2], start: 2.9, end: 2.99, x: 0.5, y: 0, type:"music"} // on second call of same music file, fadeout is triggered
 		],
 
 		[ //scene 3
@@ -479,7 +477,10 @@ window.onload = function() {
 			{id:sections[2], start: 3.2, end: 3.35, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[2], start: 3.9, end: 3.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
 
+			{id:narrationFiles[2], start: 3.01, end: 3.2, x: 1, y: 0, type:"narration"}, 
 			
+			{id:musicFiles[1], start: 3.2, end: 3.6, x: 0.4, y: 0, type:"music"}, // on second call of same music file, fadeout is triggered
+			{id:musicFiles[1], start: 3.8, end: 3.99, x: 0.4, y: 0, type:"music"} 
 		],
 		
 		[  // scene 4	
@@ -500,7 +501,10 @@ window.onload = function() {
 			{id:sections[3], start: 4.2, end: 4.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[3], start: 4.9, end: 4.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
 
-
+			{id:narrationFiles[3], start: 4.01, end: 4.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[2], start: 4.2, end: 4.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[2], start: 4.8, end: 4.99, x: 0.5, y: 0, type:"music"} 
 		], 
 		
 		[  // scene 5
@@ -511,8 +515,10 @@ window.onload = function() {
 			{id:sections[4], start: 5.2, end: 5.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[4], start: 5.9, end: 5.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
 
-
-		
+			{id:narrationFiles[4], start: 5.01, end: 5.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[3], start: 5.2, end: 5.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[3], start: 5.8, end: 5.99, x: 0.5, y: 0, type:"music"} 
 		],  
 		
 		[ 	//scene 6
@@ -522,18 +528,22 @@ window.onload = function() {
 			{id:document.getElementById("clouds-1"), start: 6.0, end: 6.99, x: 300, y: 20, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 6.45, end: 6.5, x:1, y: 0, type:"opacity"},
 			
-
 			{id:sections[5], start: 6.2, end: 6.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[5], start: 6.9, end: 6.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[5], start: 6.01, end: 6.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[4], start: 6.2, end: 6.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[4], start: 6.8, end: 6.99, x: 0.5, y: 0, type:"music"} 
 	
 		], 
 
 		[ //scene 7
 
-			{id:document.getElementById("s7t1"), start: 7, end: 7.1, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("s7t1"), start: 7, end: 7.1, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s7t1"), start: 7.2, end: 7.28, x:-1.1, y: 0, type:"opacity"},
 			{id:document.getElementById("garage-interior"), start: 7.5, end: 7.62, x:0, y: 250, type:"translate"},
-			{id:document.getElementById("garage-exterior"), start: 7.5, end: 7.62, x:0, y: 20, type:"bgShift"},
+			{id:document.getElementById("garage-exterior"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
 			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
 			{id:document.getElementById("garageband"), start: 7.5, end: 7.62, x:0, y: 350, type:"translate"},
 			{id:document.getElementById("garage-bg"), start: 7.5, end: 7.62, x:0, y: 80, type:"bgShift"},
@@ -542,6 +552,11 @@ window.onload = function() {
 
 			{id:sections[6], start: 7.2, end: 7.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[6], start: 7.9, end: 7.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[6], start: 7.01, end: 7.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[5], start: 7.2, end: 7.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[5], start: 7.8, end: 7.99, x: 0.5, y: 0, type:"music"} 
 			
 		], 
 
@@ -556,6 +571,12 @@ window.onload = function() {
 
 			{id:sections[7], start: 8.2, end: 8.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[7], start: 8.9, end: 8.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[7], start: 8.01, end: 8.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[6], start: 8.2, end: 8.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[6], start: 8.8, end: 8.99, x: 0.5, y: 0, type:"music"} 
+			
 		], 
 
 		[ //scene 9 - aquarium
@@ -569,6 +590,11 @@ window.onload = function() {
 
 			{id:sections[8], start: 9.2, end: 9.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[8], start: 9.9, end: 9.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[8], start: 9.01, end: 9.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[7], start: 9.2, end: 9.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[7], start: 9.8, end: 9.99, x: 0.5, y: 0, type:"music"} 
 		],
 
 		 [ //scene 10 - truck
@@ -579,6 +605,11 @@ window.onload = function() {
 
 			{id:sections[9], start: 10.2, end: 10.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[9], start: 10.9, end: 10.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[9], start: 10.01, end: 10.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[8], start: 10.2, end: 10.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[8], start: 10.8, end: 10.99, x: 0.5, y: 0, type:"music"} 
 		 ],
 
 		 [ //scene 11 - pool
@@ -589,6 +620,11 @@ window.onload = function() {
 
 			{id:sections[10], start: 11.2, end: 11.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[10], start: 11.9, end: 11.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[10], start: 11.01, end: 11.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[9], start: 11.2, end: 11.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[9], start: 11.8, end: 11.99, x: 0.5, y: 0, type:"music"} 
 			
 		 ],
 
@@ -601,6 +637,12 @@ window.onload = function() {
 
 			{id:sections[11], start: 12.2, end: 12.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[11], start: 12.9, end: 12.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[11], start: 12.01, end: 12.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[10], start: 12.2, end: 12.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[10], start: 12.8, end: 12.99, x: 0.5, y: 0, type:"music"} 
+			
 		 ],
 
 		 [ //scene 13 - sleeping
@@ -629,6 +671,11 @@ window.onload = function() {
 
 		  	{id:sections[12], start: 13.2, end: 13.28, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[12], start: 13.9, end: 13.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[12], start: 13.01, end: 13.2, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[11], start: 13.2, end: 13.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[11], start: 13.8, end: 13.99, x: 0.5, y: 0, type:"music"} 
 		 ],
 
 		 [ //scene 14 - celebration 
@@ -673,6 +720,12 @@ window.onload = function() {
 
 			{id:sections[13], start: 14.1, end: 14.18, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[13], start: 14.9, end: 14.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:narrationFiles[13], start: 14.01, end: 14.2, x: 1, y: 0, type:"narration"},
+			{id:narrationFiles[14], start: 14.4, end: 14.45, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[12], start: 14.2, end: 14.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[12], start: 14.8, end: 14.99, x: 0.5, y: 0, type:"music"} 
 	
 		 ],
 
@@ -684,7 +737,7 @@ window.onload = function() {
 		 ]
 	]
 	
-	var completedTransforms = [ [],[],[],[],[],[],[],[],[],[],[],[],[],[],[] ];
+	var completedTransforms = [ [],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[] ];
 	
 	var classShifts = [  // First array holds global class shifts, following are per scene
 	
