@@ -491,18 +491,18 @@ window.onload = function() {
 		
 		[  // scene 4	
 			
-			{id:document.getElementById("ericw"), start: 4.4, end: 4.52, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("ericw"), start: 4.48, end: 4.6, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("s4t1"), start: 4.01, end: 4.1, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("s4t1"), start: 4.4, end: 4.45, x: -1.1, y: 0, type:"opacity"},
-			{id:document.getElementById("memes"), start: 4.4, end: 4.52, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("doorway"), start: 4.4, end: 4.52, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("couch"), start: 4.4, end: 4.52, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("grinch-burbs"), start: 4.4, end: 4.52, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("bg-test"), start: 4.4, end: 4.52, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("memes"), start: 4.48, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("doorway"), start: 4.48, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("couch"), start: 4.48, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("grinch-burbs"), start: 4.48, end: 4.6, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("bg-test"), start: 4.48, end: 4.6, x: -1000, y: 0, type:"translate"},
 
-			{id:sections[3], start: 4.2, end: 4.28, x: 1, y: 0, type:"opacity", fade: "in"},
+			{id:sections[3], start: 4.2, end: 4.26, x: 1, y: 0, type:"opacity", fade: "in"},
 			{id:sections[3], start: 4.95, end: 4.99, x: -1.1, y: 0, type:"opacity", fade: "out"},
 
 			{id:narrationFiles[3], start: 4.01, end: 4.2, x: 1, y: 0, type:"narration"},
@@ -764,7 +764,7 @@ window.onload = function() {
 		],
 		
 		[  // scene 4		
-			{id:document.getElementById("ericw"), start: 4.05, end: 4.5, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:3},
+			{id:document.getElementById("ericw"), start: 4.05, end: 4.65, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:4},
 			{id:document.getElementById("grinch-burbs"), start: 4.61, end: 4.85, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
 			{id:body, start: 4.5, end: 4.6, prefix: "color", order: [3,4], repeat:1}
 		],
