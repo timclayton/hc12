@@ -573,7 +573,7 @@ window.onload = function() {
 			{id:document.getElementById("garage-interior"), start: 7.5, end: 7.99, x:0, y: 250, type:"translate"},
 			{id:document.getElementById("garage-exterior"), start: 7.5, end: 7.99, x:0, y: 300, type:"translate"},
 			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.99, x:0, y: 300, type:"translate"},
-			{id:document.getElementById("garageband"), start: 7.5, end: 7.99, x:0, y: 350, type:"translate"},
+			{id:document.getElementById("garageband"), start: 7.5, end: 7.99, x:0, y: 380, type:"translate"},
 			{id:document.getElementById("garage-bg"), start: 7.5, end: 7.99, x:0, y: 80, type:"bgShift"},
 			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.58, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.99, x:1, y: 300, type:"translate"},
@@ -592,10 +592,10 @@ window.onload = function() {
 
 			{id:document.getElementById("s8t1"), start: 8.0, end: 8.10, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s8t1"), start: 8.2, end: 8.28, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("flamingo"), start: 8.4, end: 8.65, x:0, y: 100, type:"translate"},
-			{id:document.getElementById("miracle-grinch"), start: 8.4, end: 8.65, x:0, y: 140, type:"translate"},
-			{id:document.getElementById("carolers"), start: 8.4, end: 8.65, x:0, y: 150, type:"translate"},
-			{id:document.getElementById("s8bg"), start: 8.4, end: 8.65, x:0, y: 80, type:"bgShift"},
+			{id:document.getElementById("flamingo"), start: 8.55, end: 8.7, x:0, y: 100, type:"translate"},
+			{id:document.getElementById("miracle-grinch"), start: 8.55, end: 8.7, x:0, y: 140, type:"translate"},
+			{id:document.getElementById("carolers"), start: 8.55, end: 8.7, x:0, y: 150, type:"translate"},
+			{id:document.getElementById("s8bg"), start: 8.55, end: 8.7, x:0, y: 80, type:"bgShift"},
 
 			{id:sections[7], start: 8.2, end: 8.28, x: 1, y: 0, type:"opacity"},
 			{id:sections[7], start: 8.9, end: 8.99, x: -1, y: 0, type:"opacity"},
@@ -603,7 +603,7 @@ window.onload = function() {
 			{id:narrationFiles[7], start: 8.01, end: 8.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[6], start: 8.2, end: 8.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[6], start: 8.8, end: 8.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[6], start: 8.95, end: 8.99, x: 0.5, y: 0, type:"music"} 
 			
 		], 
 
@@ -611,6 +611,10 @@ window.onload = function() {
 
 			{id:document.getElementById("s9t1"), start: 9.0, end: 9.1, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("s9t1"), start: 9.2, end: 9.28, x: -1, y: 0, type:"opacity"},
+			{id:document.getElementById("bubbles-1"), start: 9.0, end: 9.99, x: -200, y: 0, type:"translate"},
+			{id:document.getElementById("bubbles-2"), start: 9.0, end: 9.99, x: -250, y: 0, type:"translate"},
+			{id:document.getElementById("bubbles-3"), start: 9.0, end: 9.99, x: -300, y: 0, type:"translate"},
+
 			{id:document.getElementById("little-fish-1"), start: 9.0, end: 9.99, x: -200, y: 0, type:"translate"},
 			{id:document.getElementById("little-fish-2"), start: 9.0, end: 9.99, x: -250, y: 20, type:"translate"},
 			{id:document.getElementById("big-fish"), start: 9.0, end: 9.99, x: -500, y: 20, type:"translate"},
@@ -677,27 +681,27 @@ window.onload = function() {
 		 	{id:document.getElementById("beds-back"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
 		 	{id:document.getElementById("beds-mid"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
 		 	{id:document.getElementById("beds-front"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-		  	{id:document.getElementById("audrey"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-		  	{id:document.getElementById("matt"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-		  	{id:document.getElementById("diana"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-		  	{id:document.getElementById("eric"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-		  	{id:document.getElementById("julia"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-		  	{id:document.getElementById("katie"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-		  	{id:document.getElementById("erika"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("audrey"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("matt"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("diana"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("eric"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("julia"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("katie"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("erika"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("beds-back"), start: 13.1, end: 13.99, x:0, y: 1000, type:"translate"},
 			{id:document.getElementById("julia"), start: 13.1, end: 13.99, x: 0, y: 1000, type:"translate"},
-		  	{id:document.getElementById("katie"), start: 13.1, end: 13.99, x: 0, y: 1000, type:"translate"},
+		  {id:document.getElementById("katie"), start: 13.1, end: 13.99, x: 0, y: 1000, type:"translate"},
 			{id:document.getElementById("beds-mid"), start: 13.2, end: 13.99, x:0, y: 1200, type:"translate"},
 			{id:document.getElementById("diana"), start: 13.2, end: 13.99, x: 0, y: 1200, type:"translate"},
 			{id:document.getElementById("erika"), start: 13.2, end: 13.99, x: 0, y: 1200, type:"translate"},
 			{id:document.getElementById("beds-front"), start: 13.3, end: 13.99, x:0, y: 1300, type:"translate"},
 			{id:document.getElementById("audrey"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
-		  	{id:document.getElementById("matt"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
-		  	{id:document.getElementById("eric"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
-		  	{id:document.getElementById("sleeping-grinch"), start: 13.0, end: 13.05, x: 1, y: 0, type:"opacity"},
-		  	{id:document.getElementById("sleepingbg"), start: 13.0, end: 13.99, x:0, y: 120, type:"bgShift"},
+	  	{id:document.getElementById("matt"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
+	  	{id:document.getElementById("eric"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
+	  	{id:document.getElementById("sleeping-grinch"), start: 13.0, end: 13.05, x: 1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("sleepingbg"), start: 13.0, end: 13.99, x:0, y: 120, type:"bgShift"},
 
-		  	{id:sections[12], start: 13.2, end: 13.28, x: 1, y: 0, type:"opacity"},
+		  {id:sections[12], start: 13.2, end: 13.28, x: 1, y: 0, type:"opacity"},
 			{id:sections[12], start: 13.9, end: 13.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[12], start: 13.01, end: 13.2, x: 1, y: 0, type:"narration"},
@@ -813,7 +817,7 @@ window.onload = function() {
 		],
 		
 		[ // scene 7
-			{id:document.getElementById("carolers"), start: 8.0, end: 8.99, prefix: "carolers", order: [1,2,3,,2,1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:1},
+			{id:document.getElementById("carolers"), start: 8.0, end: 8.99, prefix: "carolers", order: [1,2,3,,2,1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,,1,2,3,2,1,2,3,2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:1},
 			{id:document.getElementById("miracle-grinch"), start: 8.68, end: 8.9, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12], repeat:1},
 			{id:body, start: 8.5, end: 8.6, prefix: "color", order: [7,8], repeat:1}	
 		],

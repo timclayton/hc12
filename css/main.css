@@ -149,7 +149,7 @@ audio { display: none; }
 #scene5  { height:7000px; opacity: 0; } /* poker add time */ 
 #scene6  { height:7500px; opacity: 0; } /* cliffs/honville */
 #scene7  { height:9000px; opacity: 0; } /* cliffs/honville */
-#scene8  { height:7000px; opacity: 0; } /* cliffs/honville */
+#scene8  { height:11000px; opacity: 0; } /* cliffs/honville */
 #scene9  { height:6000px; opacity: 0; } /* cliffs/honville */
 #scene10 { height:7500px; opacity: 0; } /* cliffs/honville */
 #scene11 { height:9500px; opacity: 0; } /* cliffs/honville */
@@ -792,11 +792,11 @@ audio { display: none; }
 
 /* ===== Scene 13  ===== */
 
-#beds-back { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-back.png') no-repeat; left: 5px; bottom:154px;  opacity: 0;}
-#beds-mid { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-mid.png') no-repeat; left: 291px; bottom:684px; opacity: 0;}
-#beds-front { position:absolute; width: 1077px; height:1059px; background: url('../img/scene-sleeping/beds-front.png') no-repeat; left: 210px; bottom:350px; opacity: 0;}
+#beds-back { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-back.png') no-repeat; left: 5px; bottom:254px;  opacity: 0;}
+#beds-mid { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-mid.png') no-repeat; left: 291px; bottom:884px; opacity: 0;}
+#beds-front { position:absolute; width: 1077px; height:1059px; background: url('../img/scene-sleeping/beds-front.png') no-repeat; left: 210px; bottom:550px; opacity: 0;}
 
-#audrey { position:absolute; bottom: 482px; left:405px;background: url('../img/scene-sleeping/audrey.png') no-repeat; opacity: 0; }
+#audrey { position:absolute; bottom: 682px; left:405px;background: url('../img/scene-sleeping/audrey.png') no-repeat; opacity: 0; }
 #audrey.audrey1 { width: 457px; height: 287px; background-position: -936px -298px; }
 #audrey.audrey2 { width: 457px; height: 287px; background-position: -936px -0px; }
 #audrey.audrey3 { width: 457px; height: 287px; background-position: -468px -596px; }
@@ -806,7 +806,7 @@ audio { display: none; }
 #audrey.audrey7 { width: 457px; height: 287px; background-position: -468px -0px; }
 #audrey.audrey8 { width: 457px; height: 287px; background-position: -0px -0px; }
 
-#diana { position:absolute; bottom: 1130px; left:362px;background: url('../img/scene-sleeping/diana.png') no-repeat; opacity: 0;  }
+#diana { position:absolute; bottom: 1330px; left:362px;background: url('../img/scene-sleeping/diana.png') no-repeat; opacity: 0;  }
 #diana.diana1 { width: 358px; height: 232px; background-position: -738px -0px; }
 #diana.diana2 { width: 358px; height: 232px; background-position: -369px -486px; }
 #diana.diana3 { width: 358px; height: 232px; background-position: -0px -486px; }
@@ -815,7 +815,7 @@ audio { display: none; }
 #diana.diana6 { width: 358px; height: 232px; background-position: -369px -0px; }
 #diana.diana7 { width: 358px; height: 232px; background-position: -0px -0px; }
 
-#eric { position:absolute; bottom: 752px; left:284px;background: url('../img/scene-sleeping/eric.png') no-repeat; opacity: 0; }
+#eric { position:absolute; bottom: 952px; left:284px;background: url('../img/scene-sleeping/eric.png') no-repeat; opacity: 0; }
 #eric.eric1 { width: 408px; height: 333px; background-position: -0px -1032px; }
 #eric.eric2 { width: 408px; height: 333px; background-position: -838px -688px; }
 #eric.eric3 { width: 408px; height: 333px; background-position: -838px -344px; }
@@ -827,7 +827,7 @@ audio { display: none; }
 #eric.eric9 { width: 408px; height: 333px; background-position: -419px -0px; }
 #eric.eric10 { width: 408px; height: 333px; background-position: -0px -0px; }
 
-#erika{ position:absolute; bottom: 734px; left:916px;background: url('../img/scene-sleeping/erika.png') no-repeat; opacity: 0; }
+#erika{ position:absolute; bottom: 934px; left:916px;background: url('../img/scene-sleeping/erika.png') no-repeat; opacity: 0; }
 #erika.erika1 { width: 364px; height: 265px; background-position: -750px -276px; }
 #erika.erika2 { width: 364px; height: 265px; background-position: -750px -0px; }
 #erika.erika3 { width: 364px; height: 265px; background-position: -375px -552px; }
@@ -837,7 +837,7 @@ audio { display: none; }
 #erika.erika7 { width: 364px; height: 265px; background-position: -375px -0px; }
 #erika.erika8 { width: 364px; height: 265px; background-position: -0px -0px; }
 
-#julia { position:absolute; bottom: 230px; left:970px;background: url('../img/scene-sleeping/julia.png') no-repeat; opacity: 0;  }
+#julia { position:absolute; bottom: 330px; left:970px;background: url('../img/scene-sleeping/julia.png') no-repeat; opacity: 0;  }
 #julia.julia1 { width: 328px; height: 235px; background-position: -678px -246px; }
 #julia.julia2 { width: 328px; height: 235px; background-position: -678px -0px; }
 #julia.julia3 { width: 328px; height: 235px; background-position: -339px -492px; }
@@ -847,7 +847,7 @@ audio { display: none; }
 #julia.julia7 { width: 328px; height: 235px; background-position: -339px -0px; }
 #julia.julia8 { width: 328px; height: 235px; background-position: -0px -0px; }
 
-#katie { position:absolute; bottom: 650px; left:40px;background: url('../img/scene-sleeping/katie.png') no-repeat; opacity: 0; }
+#katie { position:absolute; bottom: 750px; left:40px;background: url('../img/scene-sleeping/katie.png') no-repeat; opacity: 0; }
 #katie.katie1 { width: 330px; height: 231px; background-position: -682px -0px; }
 #katie.katie2 { width: 330px; height: 231px; background-position: -341px -484px; }
 #katie.katie3 { width: 330px; height: 231px; background-position: -0px -484px; }
@@ -856,7 +856,7 @@ audio { display: none; }
 #katie.katie6 { width: 330px; height: 231px; background-position: -341px -0px; }
 #katie.katie7 { width: 330px; height: 231px; background-position: -0px -0px; }
 
-#matt {  position:absolute; bottom: 1097px; left:799px;background: url('../img/scene-sleeping/matt.png') no-repeat; opacity: 0; }
+#matt {  position:absolute; bottom: 1297px; left:799px;background: url('../img/scene-sleeping/matt.png') no-repeat; opacity: 0; }
 #matt.matt1 { width: 396px; height: 275px; background-position: -814px -286px; }
 #matt.matt2 { width: 396px; height: 275px; background-position: -814px -0px; }
 #matt.matt3 { width: 396px; height: 275px; background-position: -407px -572px; }
