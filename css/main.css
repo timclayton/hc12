@@ -97,15 +97,22 @@ textarea {
 #preload { display:block; background: #B51428 url('../img/scene1/bg.jpg')  no-repeat 50% 50%;  width: 100%; height:1200px;  z-index:-1;}
 #preload p { font-family:Helvetica, Arial, sans-serif; font-weight: bold; font-size: 28px; color: #580000; margin:0 auto; }
 #preload p.preload-2 { color:#FFF; font-size: 20px; }
-#percent-text { color:#CCFF33; font-size: 23px; background: url('../img/global/preload-percent.png') no-repeat; width: 88px; height:35px; display:inline-block; }
+#percent-text { color:#CCFF33; font-size: 23px; background: #000; border-radius: 14px; padding: 5px 10px; display:inline-block; }
 
 #maincontent { display:none; }
-   
-#play-toggle { display: block; position: fixed; width:30px; height: 35px; background: url(../img/global/controls.png) no-repeat -30px top; top:20px; right:50px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em; cursor: pointer;}
-#play-toggle.paused { background-position: -30px -35px; }
-#play-toggle.playing { background-position: -30px 0px; }
-#rewind { display: block; position: fixed; width:30px; height: 35px; background: url(../img/global/controls.png) no-repeat 0px top; top:20px; right:80px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em;  cursor: pointer;}
-#fastforward { display: block; position: fixed; width:30px; height: 35px; background: url(../img/global/controls.png) no-repeat -58px top; top:20px; right:20px; z-index: 50; text-indent: -9999px; line-height: 0; font-size: 0em; cursor: pointer;}
+
+.controls { position: fixed; padding: 5px; background: #000; border-radius: 5px; top:20px; right:20px; z-index: 50; }
+#play-toggle, #rewind, #fastforward, #audio-toggle, #info-toggle { position: relative; display: inline-block; height: 24px; background: url(../img/global/controls.png) no-repeat; text-indent: -9999px; cursor: pointer; }
+#play-toggle.paused { width: 15px; background-position: -176px 0; }
+#play-toggle.playing { width: 12px; background-position: -24px 0; }
+#play-toggle.restart { width: 20px; background-position: -43px 0; }
+#rewind { width: 15px; background-position: 0 0; }
+#fastforward { width: 15px; background-position: -70px 0; }
+#audio-toggle.audio-on { width: 18px; background-position: -116px 0; }
+#audio-toggle.audio-off { width: 20px; background-position: -92px 0; }
+#info-toggle { width: 12px; background-position: -140px 0; }
+#info-toggle:hover { background-position: -159px 0; }
+
 .textbox-center { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; }
 
 section { position: relative; }

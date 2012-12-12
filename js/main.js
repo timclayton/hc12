@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-	 
 		var totalImages = 131;
 		var count = 0; //number of images loaded
 		var images = [];
@@ -10,7 +9,7 @@ $(document).ready(function(){
 		function updateImageDisplay() {
 			count++;
 		    var displayContainer = document.getElementById('percent-text');
-		    var percent = (count/totalImages)*100 + "%";
+		    var percent = Math.floor( (count/totalImages) * 100 ) + "%";
 		    displayContainer.innerHTML = percent; 
 
 		    // if(percent == 100) { showMainContent(); }
@@ -43,7 +42,14 @@ $(document).ready(function(){
 
 
 window.onload = function() {
-	
+
+	var showMainContent = function() {
+		document.getElementById("maincontent").style.display = "block";
+		document.getElementById("preload").style.display = "none";
+	}
+
+	showMainContent();
+
 	function getsupportedprop(proparray){
 		var root=document.documentElement //reference root element of document
 		for (var i=0; i<proparray.length; i++){ //loop through possible properties
@@ -58,8 +64,7 @@ window.onload = function() {
 					wh						=  window.innerHeight, 
 					sPercent				=  1,
 					gPercent				=  s / (d-wh),	
-					pos 						=	Math.floor( sPercent ),  //  calculated position					
-					stuck,
+					pos 						=	Math.floor( sPercent ),  //  calculated position,
 					body						=  document.querySelector("body");
 					sections 				=  document.querySelectorAll("section");
 					scenes 				=  new Array(),
@@ -72,10 +77,25 @@ window.onload = function() {
 					currentScene			=  document.getElementById("scene" + pos),
 					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']),
 					transformMaps 		=  new Array();
-
-	var showMainContent = function() {
-		document.getElementById("maincontent").style.display = "block";
-		document.getElementById("preload").style.display = "none";
+					
+	window.onresize = function() {
+		
+					wh						= window.innerHeight;
+					setBgHeight();
+		
+	}
+	
+	window.onscroll = function() {
+					s 							= 	window.pageYOffset;  //  get scrollTop value
+					gPercent				=  s / (d-wh),	// global percent value
+					pos 						=	Math.floor( sPercent );  //  calculated position
+					
+		scenes.forEach(setPos, this);
+		transforms[0].forEach(transform, this);
+		transforms[pos].forEach(transform, this);
+		classShifts[0].forEach(shiftClass, this);
+		classShifts[pos].forEach(shiftClass, this);
+		
 	}
 					
 	var pauseAudio = function() {
@@ -83,10 +103,8 @@ window.onload = function() {
 		for ( i = 0; i < musicFiles.length; i++ ) {
 	
 			if ( !musicFiles[i].paused ) {
-			
 				musicFiles[i].pause();
 				musicFiles[i].className = "music paused-in-progress";
-			
 			}
 		
 		}
@@ -94,10 +112,8 @@ window.onload = function() {
 		for ( i = 0; i < narrationFiles.length; i++ ) {
 	
 			if ( !narrationFiles[i].paused ) {
-			
 				narrationFiles[i].pause();
 				narrationFiles[i].className = "narration paused-in-progress";
-			
 			}
 		
 		}
@@ -109,10 +125,8 @@ window.onload = function() {
 		for ( i = 0; i < musicFiles.length; i++ ) {
 	
 			if ( musicFiles[i].className === "music paused-in-progress" ) {
-			
 				musicFiles[i].play();
 				musicFiles[i].className = "music";
-			
 			}
 		
 		}
@@ -120,10 +134,8 @@ window.onload = function() {
 		for ( i = 0; i < narrationFiles.length; i++ ) {
 	
 			if ( narrationFiles[i].className === "narration paused-in-progress" ) {
-			
 				narrationFiles[i].play();
 				narrationFiles[i].className = "narration";
-			
 			}
 		
 		}
@@ -187,32 +199,6 @@ window.onload = function() {
 		
 	}
 	
-	window.onresize = function() {
-		
-					wh						= window.innerHeight;
-					setBgHeight();
-		
-	}
-	
-	window.onscroll = function() {
-					s 							= 	window.pageYOffset;  //  get scrollTop value
-					gPercent				=  s / (d-wh),	// global percent value
-					pos 						=	Math.floor( sPercent ),  //  calculated position
-					next 						= 	Math.floor( ((s + wh) / (scenes[pos-1].end) + pos) );  //  next - is greater when fixed/absolute positioning changes occur
-		var		prev						=  pos - 1;  //  scene prior to current
-					
-
-
-		scenes.forEach(setPos, this);
-		transforms[0].forEach(transform, this);
-		transforms[pos].forEach(transform, this);
-		classShifts[0].forEach(shiftClass, this);
-		classShifts[pos].forEach(shiftClass, this);
-		
-	}
-	
-	
-	
 	var duplicate = function(element) {
 		if ( element.repeat > 1 ) {  //  If the element loops, duplicate the order 
 			var order = element.order
@@ -234,10 +220,6 @@ window.onload = function() {
 	var calcSum = function(a,b) {
 		return a + b;
 	}
-	
-	//var calcOpacity = function(a) {
-		//return a < 1 && a > 0 ? a : Math.min(a);
-	//}
 	
 	var setPos = function(element) {
 	
@@ -935,7 +917,7 @@ window.onload = function() {
 		}
 	}
 
-	setBgHeight(); 
-	showMainContent();
+	setBgHeight();
+	
 	
 }
