@@ -623,7 +623,7 @@ window.onload = function() {
 		 	{id:document.getElementById("s12t1"), start: 12.0, end: 12.1, x: 1, y: 0, type:"opacity"},
 		 	{id:document.getElementById("s12t1"), start: 12.2, end: 12.28, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("lights-out"), start: 12.69, end: 12.70, x: 1, y: 0, type:"opacity"},
-			{id:document.getElementById("sleepingbg"), start: 12.0, end: 12.99, x:0, y: 90, type:"bgShift"},
+			//{id:document.getElementById("sleepingbg"), start: 12.0, end: 12.99, x:0, y: 90, type:"bgShift"},
 
 			{id:sections[11], start: 12.2, end: 12.28, x: 1, y: 0, type:"opacity"},
 			{id:sections[11], start: 12.9, end: 12.99, x: -1, y: 0, type:"opacity"},
@@ -721,12 +721,10 @@ window.onload = function() {
 		 [ //scene 14 - sky
 			{id:document.getElementById("tbg"), start: 15, end: 15.05, x:1, y: 0, type:"opacity"},
 
-			{id:sections[14], start: 14.1, end: 14.18, x: 1, y: 0, type:"opacity", fade: "in"},
+			{id:sections[14], start: 15.1, end: 15.18, x: 1, y: 0, type:"opacity"}
 			
 		 ]
 	]
-	
-	var completedTransforms = [ [],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[] ];
 	
 	var classShifts = [  // First array holds global class shifts, following are per scene
 	
