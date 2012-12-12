@@ -13,7 +13,7 @@ $(document).ready(function(){
 		    var percent = (count/totalImages)*100 + "%";
 		    displayContainer.innerHTML = percent; 
 
-		    if(percent == 100) { showMainContent(); }
+		    // if(percent == 100) { showMainContent(); }
 		}
 		
 
@@ -32,7 +32,7 @@ $(document).ready(function(){
     			image.src = urlArray[i];
     			images.push(image);
 		    	images[i].onload = function () { updateImageDisplay();  }
-		    	images[i].onerror= function(){ //imageloadpost() }
+		    	images[i].onerror= function(){  }//imageloadpost() }
 
 			}
     	}
