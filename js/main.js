@@ -1,6 +1,49 @@
+$(document).ready(function(){
+
+	 
+		var totalImages = 131;
+		var count = 0; //number of images loaded
+		var images = [];
+		var urlArray = [];
+		
+		
+		function updateImageDisplay() {
+			count++;
+		    var displayContainer = document.getElementById('percent-text');
+		    var percent = (count/totalImages)*100 + "%";
+		    displayContainer.innerHTML = percent; 
+
+		    if(percent == 100) { showMainContent(); }
+		}
+		
+
+	 	function countImages() {
+
+    		$('#maincontent').find('div').each(function(){
+    			
+    			if($(this).css('background-image') != 'none') {
+    				var url = $(this).css('background-image').replace(/^url\("?([^\"\))]+)"?\)$/i, '$1'); ;
+    				urlArray.push(url);
+    			}
+    		});
+
+    		for(var i=0;i<urlArray.length;i++) {
+    			var image = new Image();
+    			image.src = urlArray[i];
+    			images.push(image);
+		    	images[i].onload = function () { updateImageDisplay();  }
+		    	images[i].onerror= function(){ //imageloadpost() }
+
+			}
+    	}
+
+	countImages();
+	
+});
+
 
 window.onload = function() {
-
+	
 	function getsupportedprop(proparray){
 		var root=document.documentElement //reference root element of document
 		for (var i=0; i<proparray.length; i++){ //loop through possible properties
@@ -29,6 +72,11 @@ window.onload = function() {
 					currentScene			=  document.getElementById("scene" + pos),
 					csstransform 		=  getsupportedprop(['transform', 'MozTransform', 'WebkitTransform', 'msTransform', 'OTransform']),
 					transformMaps 		=  new Array();
+
+	var showMainContent = function() {
+		document.getElementById("maincontent").style.display = "block";
+		document.getElementById("preload").style.display = "none";
+	}
 					
 	var pauseAudio = function() {
 	
@@ -890,5 +938,6 @@ window.onload = function() {
 	}
 
 	setBgHeight(); 
+	showMainContent();
 	
 }
