@@ -95,7 +95,7 @@ textarea {
    ========================================================================== */
 
 #preload { position: absolute; display:block; background: #B51428 url('../img/scene1/bg.jpg')  no-repeat 50% 50%;  width: 100%; height:100%;  z-index:-1;}
-#preload p { font-family:Helvetica, Arial, sans-serif; font-weight: bold; font-size: 28px; color: #580000; margin:10% auto; text-align:center; }
+#preload p { font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-weight: bold; font-size: 28px; color: #580000; margin:10% auto; text-align:center; }
 #preload p.preload-2 { color:#FFF; font-size: 20px; }
 #percent-text { color:#CCFF33; font-size: 23px; background: #000; border-radius: 14px; padding: 5px 10px; display:inline-block; }
 
@@ -148,7 +148,7 @@ audio { display: none; }
 #scene4  { height:8000px; opacity: 0; } /* cliffs/honville */
 #scene5  { height:7000px; opacity: 0; } /* poker add time */ 
 #scene6  { height:7500px; opacity: 0; } /* cliffs/honville */
-#scene7  { height:7000px; opacity: 0; } /* cliffs/honville */
+#scene7  { height:9000px; opacity: 0; } /* cliffs/honville */
 #scene8  { height:7000px; opacity: 0; } /* cliffs/honville */
 #scene9  { height:6000px; opacity: 0; } /* cliffs/honville */
 #scene10 { height:7500px; opacity: 0; } /* cliffs/honville */
@@ -359,11 +359,11 @@ audio { display: none; }
 /* ===== Scene 6 - Drummers ===== */
 
 #clouds-1 { position: absolute; width: 1341px; height: 406px; background: url('../img/scene6/clouds-hi.png') no-repeat 0 0;left:0; bottom: 380px; }
-#monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene6/monument.png') no-repeat 0 0; left:0px; /*bottom:200px;*/ bottom:0;}
+#monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene6/monument.png') no-repeat 0 0; left:0px; bottom: -400px;}
 #s6t1 { background-image: url('../img/scene6/text-5.png'); }
 #feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene6/feeling-it.png') no-repeat 0 0; right:320px; bottom: 350px; opacity: 0;}
 
-#drummers {  position: absolute; bottom: 0;  right:-10px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
+#drummers {  position: absolute; bottom: -100px;  right:-10px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
 #drummers.drummers1 { width: 825px; height: 442px; background-position: -0px -2265px; }
 #drummers.drummers2 { width: 825px; height: 442px; background-position: -1672px -1812px; }
 #drummers.drummers3 { width: 825px; height: 442px; background-position: -1672px -1359px; }
@@ -381,7 +381,7 @@ audio { display: none; }
 #drummers.drummers15 { width: 825px; height: 442px; background-position: -836px -0px; }
 #drummers.drummers16 { width: 825px; height: 442px; background-position: -0px -0px; }
 
-#hippies { position: absolute;width: 1400px; height: 1000px; bottom: 0px;  left:0 ; background: url('../img/scene6/hippies-sprite.png') no-repeat -2822px -2022px; }
+#hippies { position: absolute;width: 1400px; height: 1000px; bottom: -50px;  left:0 ; background: url('../img/scene6/hippies-sprite.png') no-repeat -2822px -2022px; }
 #hippies.hippies1 { width: 1400px; height: 1000px; background-position: -2822px -2022px; }
 #hippies.hippies2 { width: 1400px; height: 1000px; background-position: -2822px -1011px; }
 #hippies.hippies3 { width: 1400px; height: 1000px; background-position: -2822px -0px; }
@@ -392,7 +392,7 @@ audio { display: none; }
 #hippies.hippies8 { width: 1400px; height: 1000px; background-position: -1411px -0px; }
 #hippies.hippies9 { width: 1400px; height: 1000px; background-position: -0px -0px; }
 
-#monument-grinch { position: absolute; width: 560px; height: 878px;/* bottom: 200px ;*/ bottom:0; left:0 ; background: url('../img/scene6/monument-grinch.png') no-repeat -2855px -889px;  } 
+#monument-grinch { position: absolute; width: 560px; height: 878px; bottom: -400px;left:0 ; background: url('../img/scene6/monument-grinch.png') no-repeat -2855px -889px;  } 
 #monument-grinch.monument-grinch0 { background-position: -2855px -889px; }
 #monument-grinch.monument-grinch1 { background-position: -2855px -0px; }
 #monument-grinch.monument-grinch2 { background-position: -2284px -1778px; }

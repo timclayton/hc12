@@ -551,6 +551,10 @@ window.onload = function() {
 			{id:document.getElementById("s6t1"), start: 6.4, end: 6.5, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("clouds-1"), start: 6.0, end: 6.99, x: 300, y: 20, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 6.45, end: 6.5, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("drummers"), start: 6.2, end: 6.4, x: 0, y: -100, type:"translate"},
+			{id:document.getElementById("hippies"), start: 6.2, end: 6.4, x: 0, y: -50, type:"translate"},
+			{id:document.getElementById("monument-grinch"), start: 6.2, end: 6.4, x: 0, y: -400, type:"translate"},
+			{id:document.getElementById("monument"), start: 6.2, end: 6.4, x: 0, y: -400, type:"translate"},
 			
 			{id:sections[5], start: 6.2, end: 6.28, x: 1, y: 0, type:"opacity"},
 			{id:sections[5], start: 6.9, end: 6.99, x: -1, y: 0, type:"opacity"},
@@ -566,21 +570,21 @@ window.onload = function() {
 
 			{id:document.getElementById("s7t1"), start: 7, end: 7.1, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s7t1"), start: 7.2, end: 7.28, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("garage-interior"), start: 7.5, end: 7.62, x:0, y: 250, type:"translate"},
-			{id:document.getElementById("garage-exterior"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
-			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.62, x:0, y: 300, type:"translate"},
-			{id:document.getElementById("garageband"), start: 7.5, end: 7.62, x:0, y: 350, type:"translate"},
-			{id:document.getElementById("garage-bg"), start: 7.5, end: 7.62, x:0, y: 80, type:"bgShift"},
-			{id:document.getElementById("garage-grinch"), start: 7.4, end: 7.55, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.62, x:1, y: 300, type:"translate"},
+			{id:document.getElementById("garage-interior"), start: 7.5, end: 7.99, x:0, y: 250, type:"translate"},
+			{id:document.getElementById("garage-exterior"), start: 7.5, end: 7.99, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.99, x:0, y: 300, type:"translate"},
+			{id:document.getElementById("garageband"), start: 7.5, end: 7.99, x:0, y: 350, type:"translate"},
+			{id:document.getElementById("garage-bg"), start: 7.5, end: 7.99, x:0, y: 80, type:"bgShift"},
+			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.58, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.99, x:1, y: 300, type:"translate"},
 
 			{id:sections[6], start: 7.2, end: 7.28, x: 1, y: 0, type:"opacity"},
-			{id:sections[6], start: 7.9, end: 7.99, x: -1, y: 0, type:"opacity"},
+			{id:sections[6], start: 7.95, end: 7.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[6], start: 7.01, end: 7.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[5], start: 7.2, end: 7.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[5], start: 7.8, end: 7.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[5], start: 7.95, end: 7.99, x: 0.5, y: 0, type:"music"} 
 			
 		], 
 
@@ -802,8 +806,8 @@ window.onload = function() {
 		],
 		
 		[ // scene 6
-			{id:document.getElementById("garageband"), start: 7, end: 7.9, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:2},	
-			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.91, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:1},
+			{id:document.getElementById("garageband"), start: 7, end: 7.95, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:4},	
+			{id:document.getElementById("garage-grinch"), start: 7.58, end: 7.88, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:1},
 			{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13], repeat:1},
 			{id:body, start: 7.5, end: 7.6, prefix: "color", order: [6,7], repeat:1}
 		],
