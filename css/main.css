@@ -363,7 +363,7 @@ audio { display: none; }
 #s6t1 { background-image: url('../img/scene6/text-5.png'); }
 #feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene6/feeling-it.png') no-repeat 0 0; right:320px; bottom: 350px; opacity: 0;}
 
-#drummers {  position: absolute; bottom: 0;  right:10px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
+#drummers {  position: absolute; bottom: 0;  right:-10px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
 #drummers.drummers1 { width: 825px; height: 442px; background-position: -0px -2265px; }
 #drummers.drummers2 { width: 825px; height: 442px; background-position: -1672px -1812px; }
 #drummers.drummers3 { width: 825px; height: 442px; background-position: -1672px -1359px; }
