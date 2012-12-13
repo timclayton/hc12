@@ -107,7 +107,7 @@ textarea {
 #play-toggle.paused { width: 16px; margin: 0 6px 0 9px; background-position: -142px 0; }
 #play-toggle.paused:hover { background-position: -142px -30px; }
 #play-toggle.playing { width: 16px; margin: 0 6px 0 9px; background-position: -27px 0; }
-#play-toggle.restart { width: 20px; margin: 0 5px 0 6px; background-position: -43px 0; }
+#play-toggle.restart { width: 20px; margin: 0 5px 0 6px; background-position: -163px 0; }
 #rewind { width: 15px; background-position: 0 0; }
 #rewind.rewind-enabled:hover { background-position: 0 -30px; }
 #rewind.rewind-disabled { background-position: 0 -58px; cursor: default; }
@@ -146,7 +146,7 @@ audio { display: none; }
 .color8 { background-color: #1B2388; }
 .color9 { background-color: #E5E6D2; }
 .color10 { background-color: #50B2BB; }
-.color11 { background-color: #000000 }  /* #E5E5D4; */
+.color11 { background-color: #000000 }  /* #E5E5D4; */
 .color12 { background-color: #0053A2; }
 .color13 { background-color: #6299F0; }
 .color14 { background-color: #7C7C15; }
@@ -154,20 +154,20 @@ audio { display: none; }
 /* ===== Scenes ===== */
 
 #scene1  { height:1500px; } 
-#scene2  { height:12000px; opacity: 0; } /* cliffs/honville */
+#scene2  { height:12000px; opacity: 0; } /* cliffs/honville */
 #scene3  { height:4000px; opacity: 0; }  /* transition*/
-#scene4  { height:8000px; opacity: 0; } /* burbs */
-#scene5  { height:7000px; opacity: 0; } /* poker */ 
-#scene6  { height:8500px; opacity: 0; } /* monument */
-#scene7  { height:9000px; opacity: 0; } /* garageband */
+#scene4  { height:8000px; opacity: 0; } /* burbs */
+#scene5  { height:7000px; opacity: 0; } /* poker */ 
+#scene6  { height:8500px; opacity: 0; } /* monument */
+#scene7  { height:9000px; opacity: 0; } /* garageband */
 #scene8  { height:11000px; opacity: 0; } /*  miracle */
-#scene9  { height:7500px; opacity: 0; } /* aquarium */
-#scene10 { height:9500px; opacity: 0; } /* truck */
-#scene11 { height:11500px; opacity: 0; } /* pool */
-#scene12 { height:6000px; opacity: 0; } /* stieff */
-#scene13 { height:12000px; opacity: 0;  } /* sleeping */
-#scene14 { height:25000px; opacity: 0; } /* celebration */
-#scene15 { height:10000px; opacity: 0; } /* finale */
+#scene9  { height:7500px; opacity: 0; } /* aquarium */
+#scene10 { height:9500px; opacity: 0; } /* truck */
+#scene11 { height:11500px; opacity: 0; } /* pool */
+#scene12 { height:6000px; opacity: 0; } /* stieff */
+#scene13 { height:12000px; opacity: 0;  } /* sleeping */
+#scene14 { height:25000px; opacity: 0; } /* celebration */
+#scene15 { height:10000px; opacity: 0; } /* finale */
 
 /* ===== Backgrounds ===== */
 
