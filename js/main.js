@@ -768,21 +768,19 @@ window.onload = function() {
 			{id:document.getElementById("hearts-small"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 14.4, end: 14.99, x:0, y: -50, type:"translate"},
 			// {id:document.getElementById("grinch-heart"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("growing-heart"), start: 14.9, end: 14.91, x:1, y: 0, type:"opacity"},	
+			{id:document.getElementById("growing-heart"), start: 14.85, end: 14.88, x:1, y: 0, type:"opacity"},	
 			{id:document.getElementById("s14t4"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s14t4"), start: 14.75, end: 14.8, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("s14t5"), start: 14.8, end: 14.84, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("s14t5"), start: 14.88, end: 14.92, x:-1, y: 0, type:"opacity"},
-			
-			
+			{id:document.getElementById("s14t5"), start: 14.78, end: 14.82, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("s14t5"), start: 14.84, end: 14.87, x:-1, y: 0, type:"opacity"},
 			
 
 			{id:sections[13], start: 14.06, end: 14.1, x: 1, y: 0, type:"opacity"},
-			{id:sections[13], start: 14.98, end: 14.99, x: -1, y: 0, type:"opacity"},
+			{id:sections[13], start: 14.96, end: 14.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[13], start: 14.01, end: 14.2, x: 1, y: 0, type:"narration"},
 			{id:narrationFiles[14], start: 14.4, end: 14.42, x: 1, y: 0, type:"narration"},
-			{id:narrationFiles[15], start: 14.8, end: 14.82, x: 1, y: 0, type:"narration"},
+			{id:narrationFiles[15], start: 14.66, end: 14.68, x: 1, y: 0, type:"narration"},
 			
 			
 			{id:musicFiles[12], start: 14.0, end: 14.1, x: 0.5, y: 0, type:"music"},
@@ -793,9 +791,9 @@ window.onload = function() {
 		 [ //scene 14 - finale
 			{id:document.getElementById("tbg"), start: 15, end: 15.05, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s15t1"), start: 15.0, end: 15.05, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("s15t1"), start: 15.15, end: 15.2, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("s15t1"), start: 15.15, end: 15.3, x:-1, y: 0, type:"opacity"},
 			
-			{id:sections[14], start: 15.1, end: 15.18, x: 1, y: 0, type:"opacity"},
+			{id:sections[14], start: 15.25, end: 15.3, x: 1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[16], start: 15.0, end: 15.01, x: 1, y: 0, type:"narration"},
 
@@ -903,7 +901,7 @@ window.onload = function() {
 		[ // scene 13 - celebration
 			{id:document.getElementById("celebration"), start: 14.0, end: 14.5, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:6},
 			{id:document.getElementById("celebration-light"), start: 14.2, end: 14.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:8},
-			{id:document.getElementById("growing-heart"), start: 14.91, end: 14.98, prefix: "growing-heart", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
+			{id:document.getElementById("growing-heart"), start: 14.88, end: 14.95, prefix: "growing-heart", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
 			{id:body, start: 14.5, end: 14.6, prefix: "color", order: [13,14], repeat:1}
 		],
 
