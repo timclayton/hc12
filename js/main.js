@@ -678,16 +678,7 @@ window.onload = function() {
 		 ],
 
 		 [ //scene 13 - sleeping
-		 	{id:document.getElementById("beds-back"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-		 	{id:document.getElementById("beds-mid"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-		 	{id:document.getElementById("beds-front"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-	  	{id:document.getElementById("audrey"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-	  	{id:document.getElementById("matt"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-	  	{id:document.getElementById("diana"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-	  	{id:document.getElementById("eric"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-	  	{id:document.getElementById("julia"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-	  	{id:document.getElementById("katie"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
-	  	{id:document.getElementById("erika"), start: 13.3, end: 13.35, x: 1, y: 0, type:"opacity"},
+		 	
 			{id:document.getElementById("beds-back"), start: 13.1, end: 13.99, x:0, y: 1000, type:"translate"},
 			{id:document.getElementById("julia"), start: 13.1, end: 13.99, x: 0, y: 1000, type:"translate"},
 		  {id:document.getElementById("katie"), start: 13.1, end: 13.99, x: 0, y: 1000, type:"translate"},
@@ -699,7 +690,10 @@ window.onload = function() {
 	  	{id:document.getElementById("matt"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
 	  	{id:document.getElementById("eric"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
 	  	{id:document.getElementById("sleeping-grinch"), start: 13.0, end: 13.05, x: 1, y: 0, type:"opacity"},
-	  	{id:document.getElementById("sleepingbg"), start: 13.0, end: 13.99, x:0, y: 120, type:"bgShift"},
+	  	{id:document.getElementById("sleeping-grinch"), start: 13.2, end: 13.3, x: -1.1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("sleepingbg"), start: 13.0, end: 13.99, x:0, y: 100, type:"bgShift"},
+	  	{id:document.getElementById("sleepingbg2"), start: 13.0, end: 13.99, x:0, y: 100, type:"bgShift"},
+	  	{id:document.getElementById("sleepingbg2"), start: 13.3, end: 13.8, x:1, y: 0, type:"opacity"},
 
 		  {id:sections[12], start: 13.2, end: 13.28, x: 1, y: 0, type:"opacity"},
 			{id:sections[12], start: 13.9, end: 13.99, x: -1, y: 0, type:"opacity"},
