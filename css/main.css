@@ -163,7 +163,7 @@ audio { display: none; }
 #scene11 { height:11500px; opacity: 0; } /* pool */
 #scene12 { height:6000px; opacity: 0; } /* stieff */
 #scene13 { height:12000px; opacity: 0;  } /* sleeping */
-#scene14 { height:22000px; opacity: 0; } /* celebration */
+#scene14 { height:25000px; opacity: 0; } /* celebration */
 #scene15 { height:10000px; opacity: 0; } /* finale */
 
 /* ===== Backgrounds ===== */
@@ -927,28 +927,24 @@ audio { display: none; }
 #s14t5 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-4.png'); }
 
 
-
-#grinch-heart { position:absolute; left: 189px; bottom: 0px; width:1082px;height:1000px; background: url('../img/scene-celebration/grinch-heart.png') no-repeat; opacity: 0;  }
-#growing-heart { position:absolute; left: 378px; bottom: 264px; background: url('../img/scene-celebration/grinch-heart-sprite.png') no-repeat; opacity: 0; }
-#growing-heart.growing-heart1 { width: 1020px; height: 503px; background-position: -3093px -0px; }
-#growing-heart.growing-heart2 { width: 1020px; height: 503px; background-position: -2062px -1028px; }
-#growing-heart.growing-heart3 { width: 1020px; height: 503px; background-position: -1031px -1028px; }
-#growing-heart.growing-heart4 { width: 1020px; height: 503px; background-position: -0px -1028px; }
-#growing-heart.growing-heart5 { width: 1020px; height: 503px; background-position: -2062px -514px; }
-#growing-heart.growing-heart6 { width: 1020px; height: 503px; background-position: -1031px -514px; }
-#growing-heart.growing-heart7 { width: 1020px; height: 503px; background-position: -0px -514px; }
-#growing-heart.growing-heart8 { width: 1020px; height: 503px; background-position: -2062px -0px; }
-#growing-heart.growing-heart9 { width: 1020px; height: 503px; background-position: -1031px -0px; }
-#growing-heart.growing-heart10 { width: 1020px; height: 503px; background-position: -2062px -2570px; }
-#growing-heart.growing-heart11 { width: 1020px; height: 503px; background-position: -1031px -2570px; }
-#growing-heart.growing-heart12 { width: 1020px; height: 503px; background-position: -0px -2570px; }
-#growing-heart.growing-heart13 { width: 1020px; height: 503px; background-position: -2062px -2056px; }
-#growing-heart.growing-heart14 { width: 1020px; height: 503px; background-position: -1031px -2056px; }
-#growing-heart.growing-heart15 { width: 1020px; height: 503px; background-position: -0px -2056px; }
-#growing-heart.growing-heart16 { width: 1020px; height: 503px; background-position: -2062px -1542px; }
-#growing-heart.growing-heart17 { width: 1020px; height: 503px; background-position: -1031px -1542px; }
-#growing-heart.growing-heart18 { width: 1020px; height: 503px; background-position: -0px -1542px; }
-#growing-heart.growing-heart19 { width: 1020px; height: 503px; background-position: -0px -0px; }
+#growing-heart { position:absolute; left: 0; bottom: 0px; width:1082px;height:1000px; background: url('../img/scene-celebration/grinch-heart.png') no-repeat; opacity: 0;  }
+#growing-heart.growing-heart1 { width: 1400px; height: 1000px; background-position: -0px -4044px;}
+#growing-heart.growing-heart2 { width: 1400px; height: 1000px; background-position: -1411px -2022px;}
+#growing-heart.growing-heart3 { width: 1400px; height: 1000px; background-position: -0px -2022px;}
+#growing-heart.growing-heart4 { width: 1400px; height: 1000px; background-position: -2822px -1011px;}
+#growing-heart.growing-heart5 { width: 1400px; height: 1000px; background-position: -1411px -1011px;}
+#growing-heart.growing-heart6 { width: 1400px; height: 1000px; background-position: -0px -1011px;}
+#growing-heart.growing-heart7 { width: 1400px; height: 1000px; background-position: -2822px -0px;}
+#growing-heart.growing-heart8 { width: 1400px; height: 1000px; background-position: -1411px -0px;}
+#growing-heart.growing-heart9 { width: 1400px; height: 1000px; background-position: -0px -0px;}
+#growing-heart.growing-heart10 { width: 1400px; height: 1000px; background-position: -4233px -3033px;}
+#growing-heart.growing-heart11 { width: 1400px; height: 1000px; background-position: -4233px -2022px;}
+#growing-heart.growing-heart12 { width: 1400px; height: 1000px; background-position: -4233px -1011px;}
+#growing-heart.growing-heart13 { width: 1400px; height: 1000px; background-position: -4233px -0px;}
+#growing-heart.growing-heart14 { width: 1400px; height: 1000px; background-position: -2822px -3033px;}
+#growing-heart.growing-heart15 { width: 1400px; height: 1000px; background-position: -1411px -3033px;}
+#growing-heart.growing-heart16 { width: 1400px; height: 1000px; background-position: -0px -3033px;}
+#growing-heart.growing-heart17 { width: 1400px; height: 1000px; background-position: -2822px -2022px;}
 
 
 
