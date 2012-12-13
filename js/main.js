@@ -476,13 +476,14 @@ window.onload = function() {
 			{id:document.getElementById("back-row-houses"), start:2.68, end:2.88, x: 0, y:-670, type:"translate"},
 			{id:document.getElementById("front-row-houses"), start:2.7, end:2.88, x: 0, y:-400, type:"translate"},
 			{id:document.getElementById("lawn-ornaments"), start:2.73, end:2.88, x: 0, y:-380, type:"translate"},
-			{id:document.getElementById("back-row-houses"), start:2.88, end:2.96, x: 0, y:-80, type:"translate"},
-			{id:document.getElementById("front-row-houses"), start:2.88, end:2.96, x: 0, y:-80, type:"translate"},
-			{id:document.getElementById("lawn-ornaments"), start:2.88, end:2.96, x: 0, y:-80, type:"translate"},
-			{id:document.getElementById("gate"), start:2.9, end:2.97, x: 0, y:-870, type:"translate"},
+			{id:document.getElementById("back-row-houses"), start:2.88, end:2.98, x: 0, y:-80, type:"translate"},
+			{id:document.getElementById("front-row-houses"), start:2.88, end:2.98, x: 0, y:-80, type:"translate"},
+			{id:document.getElementById("lawn-ornaments"), start:2.88, end:2.98, x: 0, y:-80, type:"translate"},
+			{id:document.getElementById("lights"), start:2.88, end:2.98, x: 0, y:-50, type:"translate"},
+			{id:document.getElementById("gate"), start:2.9, end:2.98, x: 0, y:-870, type:"translate"},
 			
 			{id:sections[1], start: 2.1, end: 2.16, x: 1, y: 0, type:"opacity"},
-			{id:sections[1], start: 2.95, end: 2.99, x: -1, y: 0, type:"opacity"},
+			{id:sections[1], start: 2.93, end: 2.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[0], start: 2.01, end: 2.2, x: 1, y: 0, type:"narration"}, // For type narration or music, x controls where volume goes to
 			{id:narrationFiles[1], start: 2.55, end: 2.6, x: 1, y: 0, type:"narration"}
