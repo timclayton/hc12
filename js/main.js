@@ -362,8 +362,7 @@ window.onload = function() {
     }
 	
 	var scrollIncrement = function() {
-		if ( s >= d - wh ) { stopScroll() }
-		else { window.scrollBy(0,15) }
+		s < d - wh ? window.scrollBy(0,15) : stopScroll();
 	}
 	
 	var stopScroll = function() {
