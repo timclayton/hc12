@@ -155,7 +155,7 @@ audio { display: none; }
 #scene3  { height:4000px; opacity: 0; }  /* transition*/
 #scene4  { height:8000px; opacity: 0; } /* cliffs/honville */
 #scene5  { height:7000px; opacity: 0; } /* poker add time */ 
-#scene6  { height:7500px; opacity: 0; } /* cliffs/honville */
+#scene6  { height:8500px; opacity: 0; } /* cliffs/honville */
 #scene7  { height:9000px; opacity: 0; } /* cliffs/honville */
 #scene8  { height:11000px; opacity: 0; } /* cliffs/honville */
 #scene9  { height:6000px; opacity: 0; } /* cliffs/honville */
@@ -372,7 +372,7 @@ audio { display: none; }
 #s6t1 { background-image: url('../img/scene6/text-5.png'); }
 #feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene6/feeling-it.png') no-repeat 0 0; right:320px; bottom: 350px; opacity: 0;}
 
-#drummers {  position: absolute; bottom: -100px;  right:-10px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
+#drummers {  position: absolute; bottom: -400px;  right:-10px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
 #drummers.drummers1 { width: 825px; height: 442px; background-position: -0px -2265px; }
 #drummers.drummers2 { width: 825px; height: 442px; background-position: -1672px -1812px; }
 #drummers.drummers3 { width: 825px; height: 442px; background-position: -1672px -1359px; }
@@ -390,16 +390,29 @@ audio { display: none; }
 #drummers.drummers15 { width: 825px; height: 442px; background-position: -836px -0px; }
 #drummers.drummers16 { width: 825px; height: 442px; background-position: -0px -0px; }
 
-#hippies { position: absolute;width: 1400px; height: 1000px; bottom: -50px;  left:0 ; background: url('../img/scene6/hippies-sprite.png') no-repeat -2822px -2022px; }
-#hippies.hippies1 { width: 1400px; height: 1000px; background-position: -2822px -2022px; }
-#hippies.hippies2 { width: 1400px; height: 1000px; background-position: -2822px -1011px; }
-#hippies.hippies3 { width: 1400px; height: 1000px; background-position: -2822px -0px; }
-#hippies.hippies4 { width: 1400px; height: 1000px; background-position: -1411px -2022px; }
-#hippies.hippies5 { width: 1400px; height: 1000px; background-position: -0px -2022px; }
-#hippies.hippies6 { width: 1400px; height: 1000px; background-position: -1411px -1011px; }
-#hippies.hippies7 { width: 1400px; height: 1000px; background-position: -0px -1011px; }
-#hippies.hippies8 { width: 1400px; height: 1000px; background-position: -1411px -0px; }
-#hippies.hippies9 { width: 1400px; height: 1000px; background-position: -0px -0px; }
+
+#hippies { position: absolute; width: 480px; height: 422px; bottom: -400px;  left:390px; background: url('../img/scene6/hippies.png') no-repeat -982px -866px;  }
+#hippies.hippies1 { width: 480px; height: 422px; background-position: -982px -866px;}
+#hippies.hippies2 { width: 480px; height: 422px; background-position: -982px -433px;}
+#hippies.hippies3 { width: 480px; height: 422px; background-position: -982px -0px;}
+#hippies.hippies4 { width: 480px; height: 422px; background-position: -491px -866px;}
+#hippies.hippies5 { width: 480px; height: 422px; background-position: -0px -866px;}
+#hippies.hippies6 { width: 480px; height: 422px; background-position: -491px -433px;}
+#hippies.hippies7 { width: 480px; height: 422px; background-position: -0px -433px;}
+
+#symbols { position: absolute; width: 1283px; height: 678px; bottom: 100px;  left:340px; background: url('../img/scene6/symbols.png') no-repeat -2588px -0px; }
+#symbols.symbols1 {width: 1283px; height: 678px; background-position: -2588px -0px;}
+#symbols.symbols2 {width: 1283px; height: 678px; background-position: -1294px -2067px;}
+#symbols.symbols3 {width: 1283px; height: 678px; background-position: -0px -2067px;}
+#symbols.symbols4 {width: 1283px; height: 678px; background-position: -1294px -1378px;}
+#symbols.symbols5 {width: 1283px; height: 678px; background-position: -0px -1378px;}
+#symbols.symbols6 {width: 1283px; height: 678px; background-position: -1294px -689px;}
+#symbols.symbols7 {width: 1283px; height: 678px; background-position: -0px -689px;}
+#symbols.symbols8 {width: 1283px; height: 678px; background-position: -1294px -0px;}
+#symbols.symbols9 {width: 1283px; height: 678px; background-position: -0px -0px;}
+
+
+
 
 #monument-grinch { position: absolute; width: 560px; height: 878px; bottom: -400px;left:0 ; background: url('../img/scene6/monument-grinch.png') no-repeat -2855px -889px;  } 
 #monument-grinch.monument-grinch0 { background-position: -2855px -889px; }
