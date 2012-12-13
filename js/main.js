@@ -11,8 +11,7 @@ $(document).ready(function(){
 		    var displayContainer = document.getElementById('percent-text');
 		    var percent = Math.floor( (count/totalImages) * 100 ) + "%";
 		    displayContainer.innerHTML = percent; 
-
-		    // if(percent == 100) { showMainContent(); }
+			
 		}
 		
 
@@ -37,6 +36,14 @@ $(document).ready(function(){
     	}
 
 	countImages();
+	
+	$("#info-toggle").click(function() {
+		$("#info-box").toggle();
+	});
+	
+	$("section").click(function() {
+		$("#info-box").hide();
+	})
 	
 });
 
@@ -68,10 +75,14 @@ window.onload = function() {
 					body						=  document.querySelector("body");
 					sections 				=  document.querySelectorAll("section");
 					scenes 				=  new Array(),
-					musicFiles			=  document.querySelectorAll(".music");
+					musicFiles			=  document.querySelectorAll(".music"),
+					musicVol				=  .5,
 					narrationFiles		=  document.querySelectorAll(".narration"),
+					narrationVol			=  1,
+					audioDisabled		=  false,
 					play						=  document.getElementById("play"),
 					playToggle			=  document.getElementById("play-toggle"),
+					audioToggle			=  document.getElementById("audio-toggle"),
 					fastforward			=  document.getElementById("fastforward"),
 					rewind					=  document.getElementById("rewind"),
 					currentScene			=  document.getElementById("scene" + pos),
@@ -81,7 +92,7 @@ window.onload = function() {
 	window.onresize = function() {
 		
 					wh						= window.innerHeight;
-					setBgHeight();
+					//setBgHeight();
 		
 	}
 	
@@ -142,7 +153,7 @@ window.onload = function() {
 	
 	}	
 	
-	var fadeInAudio = function(file, fadeTo, fadeSpeed) {
+	var fadeInAudio = function(file, fadeSpeed) {
 		
 		file.volume = 0;
 		file.play();
@@ -150,7 +161,7 @@ window.onload = function() {
 		var vol = 0;
 		var fadeInterval = setInterval(function() {
 		
-			if ( vol < fadeTo ) {
+			if ( vol < musicVol ) {
 				vol += 0.05;
 				file.volume = vol.toFixed(2);
 			} 
@@ -163,7 +174,7 @@ window.onload = function() {
 	
 	}
 	
-	var fadeOutAudio = function(file, fadeTo, fadeSpeed) {
+	var fadeOutAudio = function(file, fadeSpeed) {
 	
 		if ( file.volume > 0 ) {
 			
@@ -275,22 +286,31 @@ window.onload = function() {
 		
 		else if ( playToggle.className === "playing" ) {
 		
-			if ( element.type === "narration" && animPercent > 0 ) {
+			if ( element.type === "narration" && animPercent > 0 && animPercent < 1 ) {
 			
 				if ( !element.triggered ) {
+					element.id.volume = narrationVol;
 					element.id.play();
 					element.triggered = true;
 				}
 			
 			}
 			
-			else if ( element.type === "music" && animPercent > 0 ) {
+			else if ( element.type === "music" && animPercent > 0 && animPercent < 1 ) {
 			
 				if ( !element.triggered ) {
-					toggleAudio(element.id, element.x, 100);
+					toggleAudio(element.id, 100);
 					element.triggered = true;
 				}
 			
+			}
+			
+			if ( animPercent === 1 || animPercent === 0 ) {
+				element.triggered = false;
+			}
+			
+			if ( audioDisabled ) {
+				element.id.pause();
 			}
 		
 		}
@@ -394,39 +414,6 @@ window.onload = function() {
 			start = end;
 		}
 	
-	}
-	
-	var setBgHeight = function () {
-
-	 	background =  document.getElementsByClassName('bg');
-	 	
-	 	 for (var i = 0; i < background.length; i++) {
-	 	 	background[i].style.height = wh + 'px';
-	 	 }
-		 
-	 }
-
-	var resetTransforms = function(x) {
-	
-		var zero = function(element) {
-		
-			element.mapX = 0;
-			element.mapY = 0;
-			element.id.removeAttribute("style");
-			
-			transformMaps[element.map].translate = [0,0];
-			transformMaps[element.map].opacity = 0;
-			transformMaps[element.map].size = [0,0];
-			transformMaps[element.map].bgShift = [0,0];
-		
-		}
-		
-		for ( i = x - 1; i <= x; i++ ) {
-			
-			transforms[i].forEach(zero, this);
-			
-		}
-		
 	}
 	
 	var transforms = [	// First array holds global transforms, following are per scene
@@ -888,32 +875,56 @@ window.onload = function() {
 		if ( this.className === "playing" ) {
 			stopScroll();
 			this.className = "paused";
+			body.style.overflowY = "scroll";
 			pauseAudio();
 		}
 		else {
 			scrollToEnd();
 			this.className = "playing";
 			play.className = "playing";
+			body.style.overflowY = "hidden";
 			restartAudio();
 		}
 	}
 
 	fastforward.onclick = function () {
-		playToggle.click();
-		pos += 1;
-		window.scrollTo(0, scenes[pos-1].start);
-		playToggle.click();
-		narration.className = "paused";
+		var x = pos;
+		audioDisabled = true;
+		window.scrollTo(0, scenes[x].start);
+		transforms[x].forEach(transform, this);
+		audioDisabled = false;
+		
 	}
 
 	rewind.onclick = function () {
-		playToggle.click();
 		var x = pos;
+		audioDisabled = true;
 		window.scrollTo(0,  scenes[x-2].start);
-		document.getElementById("scene" + x).className = "";
-		resetTransforms(pos);
-		document.getElementById("scene" + (x-1)).className = "active";
-		playToggle.click();
+		transforms[x].forEach(transform, this);
+		audioDisabled = false;
+	}
+	
+	audioToggle.onclick = function() {
+	
+		if ( audioToggle.className === "audio-on" ) {
+			musicVol = 0;
+			narrationVol = 0;
+			audioToggle.className = "audio-off";
+		}
+		else {
+			musicVol = 0.5;
+			narrationVol = 1;
+			audioToggle.className = "audio-on";
+		}
+		
+		for ( i = 0; i < musicFiles.length; i++ ) {
+			musicFiles[i].volume = musicVol;
+		}
+		
+		for ( i = 0; i < narrationFiles.length; i++ ) {
+			narrationFiles[i].volume = narrationVol;
+		}
+		
 	}
 	
 	play.onclick = function() {
@@ -923,8 +934,5 @@ window.onload = function() {
 			playToggle.className = "playing";
 		}
 	}
-
-	setBgHeight();
-	
 	
 }
