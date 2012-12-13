@@ -928,6 +928,7 @@ audio { display: none; }
 #s14t3 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-2.png'); }
 #s14t4 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-3.png'); }
 #s14t5 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-4.png'); }
+#s15t1 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-5.png'); }
 
 
 #growing-heart { position:absolute; left: 0; bottom: 0px; width:1082px;height:1000px; background: url('../img/scene-celebration/grinch-heart.png') no-repeat; opacity: 0;  }
