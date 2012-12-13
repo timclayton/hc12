@@ -672,7 +672,13 @@ window.onload = function() {
 
 		 	{id:document.getElementById("s11t1"), start: 11.0, end: 11.1, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("s11t1"), start: 11.2, end: 11.28, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("swimmers"), start: 11.0, end: 11.06, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("swimmers"), start: 11.26, end: 11.3, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("divers"), start: 11.23, end: 11.26, x:0, y: 1800, type:"translate"},
+			{id:document.getElementById("front-splash"), start: 11.25, end: 11.27, x:0, y: -385, type:"translate"},
+			{id:document.getElementById("back-splash"), start: 11.25, end: 11.27, x:0, y: -437, type:"translate"},
+			{id:document.getElementById("front-splash"), start: 11.27, end: 11.28, x:0, y: 20, type:"translate"},
+			{id:document.getElementById("back-splash"), start: 11.27, end: 11.28, x:0, y: 37, type:"translate"},
+			{id:document.getElementById("swimmers"), start: 11.27, end: 11.31, x:0, y: -400, type:"translate"},
 
 			{id:sections[10], start: 11.15, end: 11.25, x: 1, y: 0, type:"opacity"},
 			{id:sections[10], start: 11.95, end: 11.99, x: -1, y: 0, type:"opacity"},
@@ -751,7 +757,7 @@ window.onload = function() {
 			{id:document.getElementById("s14t3"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-large"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-large"), start: 14.5, end: 14.54, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-large"), start: 14.4, end: 14.99, x:0, y: -650, type:"translate"},
+			{id:document.getElementById("questions-large"), start: 14.4, end: 14.99, x:0, y: -950, type:"translate"},
 			{id:document.getElementById("questions-medium"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-medium"), start: 14.5, end: 14.54, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-medium"), start: 14.4, end: 14.99, x:0, y: -300, type:"translate"},
@@ -760,7 +766,7 @@ window.onload = function() {
 			{id:document.getElementById("questions-small"), start: 14.4, end: 14.99, x:0, y: -50, type:"translate"},
 			{id:document.getElementById("hearts-large"), start: 14.54, end: 14.57, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-large"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-large"), start: 14.4, end: 14.99, x:0, y: -650, type:"translate"},
+			{id:document.getElementById("hearts-large"), start: 14.4, end: 14.99, x:0, y: -950, type:"translate"},
 			{id:document.getElementById("hearts-medium"), start: 14.54, end: 14.58, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-medium"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-medium"), start: 14.4, end: 14.99, x:0, y: -300, type:"translate"},
@@ -796,6 +802,9 @@ window.onload = function() {
 			{id:sections[14], start: 15.25, end: 15.3, x: 1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[16], start: 15.0, end: 15.01, x: 1, y: 0, type:"narration"},
+
+			{id:musicFiles[13], start: 15.0, end: 15.1, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[13], start: 15.97, end: 15.99, x: 0, y: 0, type:"music"}
 
 
 		 ]
