@@ -213,7 +213,7 @@ audio { display: none; }
 #far-cliff { position: absolute; height:3169px; width: 745px; background: url('../img/scene2/far-cliff.png') no-repeat 0 0; right: 0px; /*top:-1200px;*/ bottom:-1300px; }
 #ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
 #lights { position: absolute; width: 1400px; height: 600px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:0; bottom:-600px; opacity: 1;}
-#s2t3 { position: fixed; top: 4.4%; left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
+#s2t3 {  left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
 #back-row-houses { position: absolute; width: 2225px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: 0px; bottom: -770px; }
 #front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: 0px; bottom: -477px; }
 #lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -140px; bottom: -380px; }
