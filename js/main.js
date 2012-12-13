@@ -690,10 +690,10 @@ window.onload = function() {
 	  	{id:document.getElementById("matt"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
 	  	{id:document.getElementById("eric"), start: 13.3, end: 13.99, x: 0, y: 1300, type:"translate"},
 	  	{id:document.getElementById("sleeping-grinch"), start: 13.0, end: 13.05, x: 1, y: 0, type:"opacity"},
-	  	{id:document.getElementById("sleeping-grinch"), start: 13.2, end: 13.3, x: -1.1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("sleeping-grinch"), start: 13.25, end: 13.35, x: -1.1, y: 0, type:"opacity"},
 	  	{id:document.getElementById("sleepingbg"), start: 13.0, end: 13.99, x:0, y: 100, type:"bgShift"},
 	  	{id:document.getElementById("sleepingbg2"), start: 13.0, end: 13.99, x:0, y: 100, type:"bgShift"},
-	  	{id:document.getElementById("sleepingbg2"), start: 13.3, end: 13.8, x:1, y: 0, type:"opacity"},
+	  	{id:document.getElementById("sleepingbg2"), start: 13.7, end: 13.85, x:1, y: 0, type:"opacity"},
 
 		  {id:sections[12], start: 13.2, end: 13.28, x: 1, y: 0, type:"opacity"},
 			{id:sections[12], start: 13.9, end: 13.99, x: -1, y: 0, type:"opacity"},
@@ -855,7 +855,7 @@ window.onload = function() {
 			{id:document.getElementById("julia"), start: 13.2, end: 13.99, prefix: "julia", order: [1,2,3,4,5,6,7,8], repeat:3},
 			{id:document.getElementById("katie"), start: 13.2, end: 13.99, prefix: "katie", order: [1,2,3,4,5,6,7], repeat:3},
 			{id:document.getElementById("matt"), start: 13.3, end: 13.99, prefix: "matt", order: [1,2,3,4,5,6,7], repeat:3},
-			{id:document.getElementById("sleeping-grinch"), start: 13.05, end: 13.99, prefix: "sleeping-grinch", order: [1,2,3,4,5,6,7,8,9,10,11], repeat:5},
+			{id:document.getElementById("sleeping-grinch"), start: 13.05, end: 13.99, prefix: "sleeping-grinch", order: [1,2,3,4,5,6,7,8,9,10,11], repeat:8},
 			{id:body, start: 13.5, end: 13.6, prefix: "color", order: [12,13], repeat:1}
 		],
 
