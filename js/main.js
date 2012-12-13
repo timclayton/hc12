@@ -520,7 +520,7 @@ window.onload = function() {
 			{id:narrationFiles[2], start: 3.01, end: 3.2, x: 1, y: 0, type:"narration"}, 
 			
 			{id:musicFiles[1], start: 3.2, end: 3.6, x: 0.4, y: 0, type:"music"}, // on second call of same music file, fadeout is triggered
-			{id:musicFiles[1], start: 3.95, end: 3.99, x: 0.4, y: 0, type:"music"} 
+			{id:musicFiles[1], start: 3.95, end: 3.99, x: 0, y: 0, type:"music"} 
 		],
 		
 		[  // scene 4	
@@ -542,7 +542,7 @@ window.onload = function() {
 			{id:narrationFiles[3], start: 4.01, end: 4.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[2], start: 4.1, end: 4.3, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[2], start: 4.95, end: 4.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[2], start: 4.95, end: 4.99, x: 0, y: 0, type:"music"} 
 		], 
 		
 		[  // scene 5
@@ -560,7 +560,7 @@ window.onload = function() {
 			{id:narrationFiles[4], start: 5.01, end: 5.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[3], start: 5.1, end: 5.3, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[3], start: 5.95, end: 5.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[3], start: 5.95, end: 5.99, x: 0, y: 0, type:"music"} 
 		],  
 		
 		[ 	//scene 6
@@ -582,7 +582,7 @@ window.onload = function() {
 			{id:narrationFiles[5], start: 6.01, end: 6.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[4], start: 6.1, end: 6.3, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[4], start: 6.95, end: 6.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[4], start: 6.95, end: 6.99, x: 0, y: 0, type:"music"} 
 	
 		], 
 
@@ -604,7 +604,7 @@ window.onload = function() {
 			{id:narrationFiles[6], start: 7.01, end: 7.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[5], start: 7.2, end: 7.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[5], start: 7.95, end: 7.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[5], start: 7.95, end: 7.99, x: 0, y: 0, type:"music"} 
 			
 		], 
 
@@ -623,7 +623,7 @@ window.onload = function() {
 			{id:narrationFiles[7], start: 8.01, end: 8.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[6], start: 8.08, end: 8.3, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[6], start: 8.95, end: 8.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[6], start: 8.95, end: 8.99, x: 0, y: 0, type:"music"} 
 			
 		], 
 
@@ -646,7 +646,7 @@ window.onload = function() {
 			{id:narrationFiles[8], start: 9.01, end: 9.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[7], start: 9.1, end: 9.3, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[7], start: 9.9, end: 9.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[7], start: 9.9, end: 9.99, x: 0, y: 0, type:"music"} 
 		],
 
 		 [ //scene 10 - truck
@@ -665,7 +665,7 @@ window.onload = function() {
 			{id:narrationFiles[9], start: 10.01, end: 10.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[8], start: 10.1, end: 10.3, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[8], start: 10.95, end: 10.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[8], start: 10.95, end: 10.99, x: 0, y: 0, type:"music"} 
 		 ],
 
 		 [ //scene 11 - pool
@@ -680,7 +680,7 @@ window.onload = function() {
 			{id:narrationFiles[10], start: 11.01, end: 11.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[9], start: 11.1, end: 11.3, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[9], start: 11.95, end: 11.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[9], start: 11.95, end: 11.99, x: 0, y: 0, type:"music"} 
 			
 		 ],
 
@@ -700,7 +700,7 @@ window.onload = function() {
 			{id:narrationFiles[11], start: 12.01, end: 12.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[10], start: 12.1, end: 12.3, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[10], start: 12.95, end: 12.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[10], start: 12.95, end: 12.99, x: 0, y: 0, type:"music"} 
 			
 		 ],
 
@@ -728,7 +728,7 @@ window.onload = function() {
 			{id:narrationFiles[12], start: 13.01, end: 13.2, x: 1, y: 0, type:"narration"},
 			
 			{id:musicFiles[11], start: 13.2, end: 13.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[11], start: 13.8, end: 13.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[11], start: 13.8, end: 13.99, x: 0, y: 0, type:"music"} 
 		 ],
 
 		 [ //scene 14 - celebration 
@@ -781,7 +781,8 @@ window.onload = function() {
 			{id:narrationFiles[13], start: 14.01, end: 14.2, x: 1, y: 0, type:"narration"},
 			{id:narrationFiles[14], start: 14.4, end: 14.45, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[12], start: 14.1, end: 14.3, x: 0.5, y: 0, type:"music"}
+			{id:musicFiles[12], start: 14.1, end: 14.3, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[12], start: 14.97, end: 14.3, x: 0, y: 0, type:"music"}
 	
 		 ],
 
