@@ -770,7 +770,9 @@ window.onload = function() {
 			// {id:document.getElementById("grinch-heart"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("growing-heart"), start: 14.9, end: 14.91, x:1, y: 0, type:"opacity"},	
 			{id:document.getElementById("s14t4"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("s14t4"), start: 14.76, end: 14.8, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("s14t4"), start: 14.75, end: 14.8, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("s14t5"), start: 14.8, end: 14.84, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("s14t5"), start: 14.88, end: 14.92, x:-1, y: 0, type:"opacity"},
 			
 			
 			
@@ -779,19 +781,25 @@ window.onload = function() {
 			{id:sections[13], start: 14.98, end: 14.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[13], start: 14.01, end: 14.2, x: 1, y: 0, type:"narration"},
-			{id:narrationFiles[14], start: 14.4, end: 14.45, x: 1, y: 0, type:"narration"},
+			{id:narrationFiles[14], start: 14.4, end: 14.42, x: 1, y: 0, type:"narration"},
+			{id:narrationFiles[15], start: 14.54, end: 14.57, x: 1, y: 0, type:"narration"},
+			{id:narrationFiles[16], start: 14.66, end: 14.67, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[12], start: 14.1, end: 14.3, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[12], start: 14.97, end: 14.3, x: 0, y: 0, type:"music"}
+			{id:musicFiles[12], start: 14.0, end: 14.1, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[12], start: 14.97, end: 14.99, x: 0, y: 0, type:"music"}
 	
 		 ],
 
-		 [ //scene 14 - sky
+		 [ //scene 14 - finale
 			{id:document.getElementById("tbg"), start: 15, end: 15.05, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("s14t5"), start: 15.0, end: 15.05, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("s14t5"), start: 15.15, end: 15.2, x:-1, y: 0, type:"opacity"},
-			{id:sections[14], start: 15.1, end: 15.18, x: 1, y: 0, type:"opacity"}
+			{id:document.getElementById("s15t1"), start: 15.0, end: 15.05, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("s15t1"), start: 15.15, end: 15.2, x:-1, y: 0, type:"opacity"},
 			
+			{id:sections[14], start: 15.1, end: 15.18, x: 1, y: 0, type:"opacity"},
+			
+			//{id:narrationFiles[17], start: 15.0, end: 15.1, x: 1, y: 0, type:"narration"},
+
+
 		 ]
 	]
 	
