@@ -80,7 +80,9 @@ window.onload = function() {
 					narrationFiles		=  document.querySelectorAll(".narration"),
 					narrationVol			=  1,
 					audioDisabled		=  false,
+					audioReset			=  false,
 					play						=  document.getElementById("play"),
+					playing					=  false,
 					playToggle			=  document.getElementById("play-toggle"),
 					audioToggle			=  document.getElementById("audio-toggle"),
 					fastforward			=  document.getElementById("fastforward"),
@@ -107,15 +109,43 @@ window.onload = function() {
 		classShifts[0].forEach(shiftClass, this);
 		classShifts[pos].forEach(shiftClass, this);
 		
+		if ( !playing && !audioReset ) {
+			resetAudio();
+			audioReset = true;
+		}
+		
+	}
+	
+	var resetAudio = function() {
+	
+		var stopSceneAudio = function(element) {
+	
+			if ( element.type === "music" ) {
+				element.id.pause();
+				element.id.currentTime = 0;
+				element.id.className = "music";
+			}
+			else if ( element.type === "narration" ) {
+				element.id.pause();
+				element.id.currentTime = 0;
+				element.id.className = "narration";
+			}
+		
+		}
+		
+		for ( i = 0; i < sections.length; i++ ) {
+			transforms[i].forEach(stopSceneAudio, this);
+		}
+	
 	}
 					
-	var pauseAudio = function() {
+	var pauseAllAudio = function(inProgress) {
 	
 		for ( i = 0; i < musicFiles.length; i++ ) {
 	
 			if ( !musicFiles[i].paused ) {
 				musicFiles[i].pause();
-				musicFiles[i].className = "music paused-in-progress";
+				musicFiles[i].className = inProgress ?  "music paused-in-progress" : "music";
 			}
 		
 		}
@@ -124,7 +154,7 @@ window.onload = function() {
 	
 			if ( !narrationFiles[i].paused ) {
 				narrationFiles[i].pause();
-				narrationFiles[i].className = "narration paused-in-progress";
+				narrationFiles[i].className = inProgress ? "narration paused-in-progress" : "narration";
 			}
 		
 		}
@@ -153,7 +183,7 @@ window.onload = function() {
 	
 	}	
 	
-	var fadeInAudio = function(file, fadeSpeed) {
+	var fadeInAudio = function(file, fadeTo, fadeSpeed) {
 		
 		file.volume = 0;
 		file.play();
@@ -174,7 +204,7 @@ window.onload = function() {
 	
 	}
 	
-	var fadeOutAudio = function(file, fadeSpeed) {
+	var fadeOutAudio = function(file, fadeTo, fadeSpeed) {
 	
 		if ( file.volume > 0 ) {
 			
@@ -200,7 +230,7 @@ window.onload = function() {
 	
 	var toggleAudio = function(file, fadeTo, fadeSpeed) {
 		
-		if ( file.paused ) {
+		if ( fadeTo > 0 ) {
 			fadeInAudio(file, fadeTo, fadeSpeed);
 		}
 		
@@ -299,7 +329,7 @@ window.onload = function() {
 			else if ( element.type === "music" && animPercent > 0 && animPercent < 1 ) {
 			
 				if ( !element.triggered ) {
-					toggleAudio(element.id, 100);
+					toggleAudio(element.id, element.x, 100);
 					element.triggered = true;
 				}
 			
@@ -885,14 +915,17 @@ window.onload = function() {
 	window.scrollTo(0,0);
 
 	playToggle.onclick = function() {
-		if ( this.className === "playing" ) {
+		if ( playing ) {
 			stopScroll();
 			this.className = "paused";
 			body.style.overflowY = "scroll";
-			pauseAudio();
+			pauseAllAudio(true);
+			playing = false;
+			audioReset = false;
 		}
 		else {
 			scrollToEnd();
+			playing = true;
 			this.className = "playing";
 			play.className = "playing";
 			body.style.overflowY = "hidden";
@@ -904,7 +937,8 @@ window.onload = function() {
 		var x = pos;
 		audioDisabled = true;
 		window.scrollTo(0, scenes[x].start);
-		transforms[x].forEach(transform, this);
+		transforms[x - 1].forEach(transform, this);
+		resetAudio();
 		audioDisabled = false;
 		
 	}
@@ -914,6 +948,7 @@ window.onload = function() {
 		audioDisabled = true;
 		window.scrollTo(0,  scenes[x-2].start);
 		transforms[x].forEach(transform, this);
+		resetAudio();
 		audioDisabled = false;
 	}
 	
