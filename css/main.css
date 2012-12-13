@@ -141,7 +141,7 @@ audio { display: none; }
 .color6 { background-color: #F5A800; }
 .color7 { background-color: #FBFFDF; }
 .color8 { background-color: #1B2388; }
-.color9 { background-color: #50B2BB; }
+.color9 { background-color: #D8E1D2; }
 .color10 { background-color: #50B2BB; }
 .color11 { background-color: #000000 }  /* #E5E5D4; */
 .color12 { background-color: #0053A2; }
@@ -158,7 +158,7 @@ audio { display: none; }
 #scene6  { height:8500px; opacity: 0; } /* cliffs/honville */
 #scene7  { height:9000px; opacity: 0; } /* cliffs/honville */
 #scene8  { height:11000px; opacity: 0; } /* cliffs/honville */
-#scene9  { height:6000px; opacity: 0; } /* cliffs/honville */
+#scene9  { height:7500px; opacity: 0; } /* cliffs/honville */
 #scene10 { height:7500px; opacity: 0; } /* cliffs/honville */
 #scene11 { height:9500px; opacity: 0; } /* cliffs/honville */
 #scene12 { height:6000px; opacity: 0; } /* cliffs/honville */
@@ -590,23 +590,23 @@ audio { display: none; }
 #aquarium-people.aqua0 { background-position: -0px -0px; }
 
 
-#aquarium-grinch {  position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch-hi.png') no-repeat -2822px -1098px; bottom:0; left:0; }
-#aquarium-grinch.aquarium-grinch0 {width: 1400px;height: 538px;background-position: -2822px -1098px;}
-#aquarium-grinch.aquarium-grinch1 {width: 1400px;height: 538px;background-position: -2822px -549px;}
-#aquarium-grinch.aquarium-grinch2 {width: 1400px;height: 538px;background-position: -2822px -0px;}
-#aquarium-grinch.aquarium-grinch3 {width: 1400px;height: 538px;background-position: -1411px -2745px;}
-#aquarium-grinch.aquarium-grinch4 {width: 1400px;height: 538px;background-position: -0px -2745px;}
-#aquarium-grinch.aquarium-grinch5 {width: 1400px;height: 538px;background-position: -1411px -2196px;}
-#aquarium-grinch.aquarium-grinch6 {width: 1400px;height: 538px;background-position: -0px -2196px;}
-#aquarium-grinch.aquarium-grinch7 {width: 1400px;height: 538px;background-position: -1411px -1647px;}
-#aquarium-grinch.aquarium-grinch8 {width: 1400px;height: 538px;background-position: -0px -1647px;}
-#aquarium-grinch.aquarium-grinch9 {width: 1400px;height: 538px;background-position: -1411px -1098px;}
-#aquarium-grinch.aquarium-grinch10 {width: 1400px;height: 538px;background-position: -0px -1098px;}
-#aquarium-grinch.aquarium-grinch11 {width: 1400px;height: 538px;background-position: -1411px -549px;}
-#aquarium-grinch.aquarium-grinch12 {width: 1400px;height: 538px;background-position: -0px -549px;}
-#aquarium-grinch.aquarium-grinch13 {width: 1400px;height: 538px;background-position: -1411px -0px;}
-#aquarium-grinch.aquarium-grinch14 {width: 1400px;height: 538px;background-position: -0px -0px;}
-#aquarium-grinch.aquarium-grinch15 {width: 1400px;height: 538px;background: none;}
+#aquarium-grinch { position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch.png') no-repeat -2822px -1092px; bottom:0; left:0;  }
+#aquarium-grinch.aquarium-grinch0 {width: 1400px; height: 535px; background-position: -2822px -1092px;}
+#aquarium-grinch.aquarium-grinch1 {width: 1400px; height: 535px; background-position: -2822px -546px;}
+#aquarium-grinch.aquarium-grinch2 {width: 1400px; height: 535px; background-position: -2822px -0px;}
+#aquarium-grinch.aquarium-grinch3 {width: 1400px; height: 535px; background-position: -1411px -2730px;}
+#aquarium-grinch.aquarium-grinch4 {width: 1400px; height: 535px; background-position: -0px -2730px;}
+#aquarium-grinch.aquarium-grinch5 {width: 1400px; height: 535px; background-position: -1411px -2184px;}
+#aquarium-grinch.aquarium-grinch6 {width: 1400px; height: 535px; background-position: -0px -2184px;}
+#aquarium-grinch.aquarium-grinch7 {width: 1400px; height: 535px; background-position: -1411px -1638px;}
+#aquarium-grinch.aquarium-grinch8 {width: 1400px; height: 535px; background-position: -0px -1638px;}
+#aquarium-grinch.aquarium-grinch9 {width: 1400px; height: 535px; background-position: -1411px -1092px;}
+#aquarium-grinch.aquarium-grinch10 {width: 1400px; height: 535px; background-position: -0px -1092px;}
+#aquarium-grinch.aquarium-grinch11 {width: 1400px; height: 535px; background-position: -1411px -546px;}
+#aquarium-grinch.aquarium-grinch12 {width: 1400px; height: 535px; background-position: -0px -546px;}
+#aquarium-grinch.aquarium-grinch13 {width: 1400px; height: 535px; background-position: -1411px -0px;}
+#aquarium-grinch.aquarium-grinch14 {width: 1400px; height: 535px; background-position: -0px -0px;}
+#aquarium-grinch.aquarium-grinch15 {background: none;}
 
 
 

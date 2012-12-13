@@ -615,8 +615,8 @@ window.onload = function() {
 			
 			{id:narrationFiles[8], start: 9.01, end: 9.2, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[7], start: 9.2, end: 9.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[7], start: 9.8, end: 9.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[7], start: 9.1, end: 9.3, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[7], start: 9.9, end: 9.99, x: 0.5, y: 0, type:"music"} 
 		],
 
 		 [ //scene 10 - truck
@@ -808,8 +808,8 @@ window.onload = function() {
 		],
 		
 		[ // scene 8 - aquarium
-			{id:document.getElementById("aquarium-people"), start: 9.0, end: 9.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
-			{id:document.getElementById("aquarium-grinch"), start: 9.3, end: 9.65, prefix: "aquarium-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1},
+			{id:document.getElementById("aquarium-people"), start: 9.0, end: 9.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:4},
+			{id:document.getElementById("aquarium-grinch"), start: 9.6, end: 9.8, prefix: "aquarium-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1},
 			{id:body, start: 9.5, end: 9.6, prefix: "color", order: [8,9], repeat:1}
 			
 		],
