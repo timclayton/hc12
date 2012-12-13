@@ -756,11 +756,11 @@ audio { display: none; }
 /* ===== Scene 12  ===== */
 
 #s12t1 { background-image:url('../img/scene-stieff/stieff-text.png'); }
-#foreground {  position:absolute;bottom:0px; left:329px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
+#foreground {  position:absolute;bottom:-400px; left:569px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
 #lights-out { position:absolute; bottom: 407px; left:0; width:1399px; height:593px; background:url('../img/scene-stieff/lights-out.jpg') no-repeat; opacity: 0; }
-#midground { position:absolute; bottom: 0; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }
+#midground { position:absolute; bottom: 0px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }
 
-#fire { position:absolute; bottom: 0; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat -784px -381px;  }
+#fire { position:absolute; bottom: -400px; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat -784px -381px;  }
 #fire.fire1 { background-position: -784px -381px; }
 #fire.fire2 { background-position: -784px -0px; }
 #fire.fire3 { background-position: -392px -381px; }
@@ -768,7 +768,7 @@ audio { display: none; }
 #fire.fire5 { background-position: -392px -0px; }
 #fire.fire6 { background-position: -0px -0px; }
 
-#stieff { position:absolute; bottom: 0; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat -2670px -485px; }
+#stieff { position:absolute; bottom: -400px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat -2670px -485px; }
 #stieff.stieff1 { background-position: -2670px -485px; }
 #stieff.stieff2 { background-position: -2670px -0px; }
 #stieff.stieff3 { background-position: -1780px -2425px; }
@@ -790,7 +790,7 @@ audio { display: none; }
 #stieff.stieff19 { background-position: -890px -0px; }
 #stieff.stieff20 { background-position: -0px -0px; }
 
-#grinch-stieff { position:absolute; bottom: 0; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat;   }
+#grinch-stieff { position:absolute; bottom: -400px; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat;   }
 #grinch-stieff.grinch-stieff1 { background-position: -0px -1770px; }
 #grinch-stieff.grinch-stieff2 { background-position: -1473px -1180px; }
 #grinch-stieff.grinch-stieff3 { background-position: -1473px -590px; }
@@ -921,8 +921,12 @@ audio { display: none; }
 #questions-large {position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/questions-large.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-medium {position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px;background-image: url('../img/scene-sky/questions-medium.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/questions-small.png'); background-repeat: no-repeat; opacity: 0; }
-#s14t2 { background-image: url('../img/scene-sky/sky-sprite.png'); }
-#s14t3 { background-image: url('../img/scene-sky/sky-sprite.png'); }
+#s14t2 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-1.png'); }
+#s14t3 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-2.png'); }
+#s14t4 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-3.png'); }
+#s14t5 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-4.png'); }
+
+
 
 #grinch-heart { position:absolute; left: 189px; bottom: 0px; width:1082px;height:1000px; background: url('../img/scene-celebration/grinch-heart.png') no-repeat; opacity: 0;  }
 #growing-heart { position:absolute; left: 378px; bottom: 264px; background: url('../img/scene-celebration/grinch-heart-sprite.png') no-repeat; opacity: 0; }

@@ -659,15 +659,18 @@ window.onload = function() {
 		 	{id:document.getElementById("s12t1"), start: 12.0, end: 12.1, x: 1, y: 0, type:"opacity"},
 		 	{id:document.getElementById("s12t1"), start: 12.2, end: 12.28, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("lights-out"), start: 12.69, end: 12.70, x: 1, y: 0, type:"opacity"},
-			//{id:document.getElementById("sleepingbg"), start: 12.0, end: 12.99, x:0, y: 90, type:"bgShift"},
+			{id:document.getElementById("grinch-stieff"), start: 12.2, end: 12.28, x: 0, y: -400, type:"translate"},
+			{id:document.getElementById("stieff"), start: 12.2, end: 12.28, x: 0, y: -400, type:"translate"},
+			{id:document.getElementById("fire"), start: 12.2, end: 12.28, x: 0, y: -400, type:"translate"},
+			{id:document.getElementById("foreground"), start: 12.2, end: 12.28, x: 0, y: -400, type:"translate"},
 
 			{id:sections[11], start: 12.2, end: 12.28, x: 1, y: 0, type:"opacity"},
-			{id:sections[11], start: 12.9, end: 12.99, x: -1, y: 0, type:"opacity"},
+			{id:sections[11], start: 12.95, end: 12.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[11], start: 12.01, end: 12.2, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[10], start: 12.2, end: 12.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[10], start: 12.8, end: 12.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[10], start: 12.1, end: 12.3, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[10], start: 12.95, end: 12.99, x: 0.5, y: 0, type:"music"} 
 			
 		 ],
 
@@ -718,24 +721,28 @@ window.onload = function() {
 			{id:document.getElementById("s14t3"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-large"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-large"), start: 14.5, end: 14.54, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-large"), start: 14.4, end: 14.99, x:0, y: -250, type:"translate"},
+			{id:document.getElementById("questions-large"), start: 14.4, end: 14.99, x:0, y: -650, type:"translate"},
 			{id:document.getElementById("questions-medium"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-medium"), start: 14.5, end: 14.54, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("questions-medium"), start: 14.4, end: 14.99, x:0, y: -150, type:"translate"},
+			{id:document.getElementById("questions-medium"), start: 14.4, end: 14.99, x:0, y: -300, type:"translate"},
 			{id:document.getElementById("questions-small"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-small"), start: 14.5, end: 14.54, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("questions-small"), start: 14.4, end: 14.99, x:0, y: -50, type:"translate"},
 			{id:document.getElementById("hearts-large"), start: 14.54, end: 14.57, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-large"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-large"), start: 14.4, end: 14.99, x:0, y: -250, type:"translate"},
-			{id:document.getElementById("hearts-medium"), start: 14.54, end: 14.57, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-large"), start: 14.4, end: 14.99, x:0, y: -650, type:"translate"},
+			{id:document.getElementById("hearts-medium"), start: 14.54, end: 14.58, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-medium"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("hearts-medium"), start: 14.4, end: 14.99, x:0, y: -150, type:"translate"},
-			{id:document.getElementById("hearts-small"), start: 14.54, end: 14.57, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("hearts-medium"), start: 14.4, end: 14.99, x:0, y: -300, type:"translate"},
+			{id:document.getElementById("hearts-small"), start: 14.54, end: 14.58, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 14.4, end: 14.99, x:0, y: -50, type:"translate"},
 			{id:document.getElementById("grinch-heart"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("growing-heart"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},	
+			{id:document.getElementById("s14t4"), start: 14.7, end: 14.74, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("s14t4"), start: 14.8, end: 14.84, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("s14t5"), start: 14.82, end: 14.84, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("s14t5"), start: 14.9, end: 14.94, x:-1, y: 0, type:"opacity"},
 			
 
 			{id:sections[13], start: 14.1, end: 14.18, x: 1, y: 0, type:"opacity"},
@@ -744,7 +751,7 @@ window.onload = function() {
 			{id:narrationFiles[13], start: 14.01, end: 14.2, x: 1, y: 0, type:"narration"},
 			{id:narrationFiles[14], start: 14.4, end: 14.45, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[12], start: 14.2, end: 14.4, x: 0.5, y: 0, type:"music"}
+			{id:musicFiles[12], start: 14.1, end: 14.3, x: 0.5, y: 0, type:"music"}
 	
 		 ],
 
@@ -836,7 +843,7 @@ window.onload = function() {
 
 		[ // scene 11
 			{id:document.getElementById("fire"), start: 12.0, end: 12.99, prefix: "fire", order: [1,2,3,4,5,6], repeat:10},
-			{id:document.getElementById("stieff"), start: 12.0, end: 12.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:3},
+			{id:document.getElementById("stieff"), start: 12.0, end: 12.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:5},
 			{id:document.getElementById("grinch-stieff"), start: 12.5, end: 12.85, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
 			{id:body, start: 12.5, end: 12.6, prefix: "color", order: [11,12], repeat:1}
 		],
@@ -856,7 +863,7 @@ window.onload = function() {
 		[ // scene 13 - celebration
 			{id:document.getElementById("celebration"), start: 14.0, end: 14.99, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:6},
 			{id:document.getElementById("celebration-light"), start: 14.2, end: 14.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:8},
-			{id:document.getElementById("growing-heart"), start: 14.66, end: 14.94, prefix: "growing-heart", order: [1,2,2,2,2,3,3,3,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1},
+			{id:document.getElementById("growing-heart"), start: 14.94, end: 14.99, prefix: "growing-heart", order: [1,2,2,2,2,3,3,3,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,18,19,19,19], repeat:1},
 			{id:body, start: 14.5, end: 14.6, prefix: "color", order: [13,14], repeat:1}
 		],
 
