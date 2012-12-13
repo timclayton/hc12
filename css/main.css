@@ -108,9 +108,11 @@ textarea {
 #play-toggle.playing { width: 16px; margin: 0 6px 0 9px; background-position: -27px 0; }
 #play-toggle.restart { width: 20px; margin: 0 5px 0 6px; background-position: -43px 0; }
 #rewind { width: 15px; background-position: 0 0; }
-#rewind:hover { background-position: 0 -30px; }
+#rewind.rewind-enabled:hover { background-position: 0 -30px; }
+#rewind.rewind-disabled { background-position: 0 -58px; cursor: default; }
 #fastforward { width: 15px; margin-right: 4px; background-position: -52px 0; }
-#fastforward:hover { background-position: -52px -30px; }
+#fastforward.fastforward-enabled:hover { background-position: -52px -30px; }
+#fastforward.fastforward-disabled { background-position: -52px -58px; cursor: default; }
 #audio-toggle.audio-off { width: 39px; margin-right: 5px; background-position: -188px 0; }
 #audio-toggle.audio-off:hover { background-position: -188px -30px; }
 #audio-toggle.audio-on { width: 39px; margin-right: 5px; background-position: -74px 0; }

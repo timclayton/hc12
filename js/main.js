@@ -919,6 +919,8 @@ window.onload = function() {
 		if ( playing ) {
 			stopScroll();
 			this.className = "paused";
+			fastforward.className = "fastforward-disabled";
+			rewind.className = "rewind-disabled";
 			body.style.overflowY = "scroll";
 			pauseAllAudio(true);
 			playing = false;
@@ -928,6 +930,8 @@ window.onload = function() {
 			scrollToEnd();
 			playing = true;
 			this.className = "playing";
+			fastforward.className = "fastforward-enabled";
+			rewind.className = "rewind-enabled";
 			play.className = "playing";
 			body.style.overflowY = "hidden";
 			restartAudio();
@@ -935,22 +939,25 @@ window.onload = function() {
 	}
 
 	fastforward.onclick = function () {
-		var x = pos;
-		audioDisabled = true;
-		window.scrollTo(0, scenes[x].start);
-		transforms[x - 1].forEach(transform, this);
-		resetAudio();
-		audioDisabled = false;
-		
+		if ( playing ) {
+			var x = pos;
+			audioDisabled = true;
+			window.scrollTo(0, scenes[x].start);
+			transforms[x - 1].forEach(transform, this);
+			resetAudio();
+			audioDisabled = false;
+		}
 	}
 
 	rewind.onclick = function () {
-		var x = pos;
-		audioDisabled = true;
-		window.scrollTo(0,  scenes[x-2].start);
-		transforms[x].forEach(transform, this);
-		resetAudio();
-		audioDisabled = false;
+		if ( playing ) {
+			var x = pos;
+			audioDisabled = true;
+			window.scrollTo(0,  scenes[x-2].start);
+			transforms[x].forEach(transform, this);
+			resetAudio();
+			audioDisabled = false;
+		}
 	}
 	
 	audioToggle.onclick = function() {
