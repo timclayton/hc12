@@ -622,16 +622,20 @@ window.onload = function() {
 		 [ //scene 10 - truck
 			{id:document.getElementById("s10t1"), start: 10.0, end: 10.1, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s10t1"), start: 10.2, end: 10.28, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("truck-grinch"), start: 10.6, end: 10.8, x:-1400, y: 0, type:"translate"},
-			{id:document.getElementById("truck"), start: 10.6, end: 10.8, x:-1400, y: 0, type:"translate"},
+			{id:document.getElementById("s10bg"), start: 10.2, end: 10.28, x:0, y: 10, type:"bgShift"},
+			{id:document.getElementById("truck"), start: 10.2, end: 10.28, x:0, y: -200, type:"translate"},
+			{id:document.getElementById("truck-grinch"), start: 10.2, end: 10.28, x:0, y: -200, type:"translate"},
+			{id:document.getElementById("businessmen"), start: 10.2, end: 10.28, x:0, y: -300, type:"translate"},
+			{id:document.getElementById("truck-grinch"), start: 10.8, end: 10.93, x:-1400, y: 0, type:"translate"},
+			{id:document.getElementById("truck"), start: 10.8, end: 10.9, x:-1400, y: 0, type:"translate"},
 
 			{id:sections[9], start: 10.2, end: 10.28, x: 1, y: 0, type:"opacity"},
 			{id:sections[9], start: 10.9, end: 10.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[9], start: 10.01, end: 10.2, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[8], start: 10.2, end: 10.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[8], start: 10.8, end: 10.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[8], start: 10.1, end: 10.3, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[8], start: 10.95, end: 10.99, x: 0.5, y: 0, type:"music"} 
 		 ],
 
 		 [ //scene 11 - pool
@@ -698,9 +702,9 @@ window.onload = function() {
 
 		 	{id:document.getElementById("s14t1"), start: 14.0, end: 14.05, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s14t1"), start: 14.1, end: 14.13, x:-1, y: 0, type:"opacity"},
-		  	{id:document.getElementById("celebrationbg"), start: 14.0, end: 14.12, x:0, y: 20, type:"bgShift"},
-		  	{id:document.getElementById("globe"), start: 14.0, end: 14.12, x:0, y: -681, type:"translate"},
-		  	{id:document.getElementById("celebration"), start: 14.0, end: 14.12, x:0, y: -600, type:"translate"},
+		  {id:document.getElementById("celebrationbg"), start: 14.0, end: 14.12, x:0, y: 20, type:"bgShift"},
+		  {id:document.getElementById("globe"), start: 14.0, end: 14.12, x:0, y: -681, type:"translate"},
+		  {id:document.getElementById("celebration"), start: 14.0, end: 14.12, x:0, y: -600, type:"translate"},
 			{id:document.getElementById("celebration"), start: 14.0, end: 14.03, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("celebration-light"), start: 14.15, end: 14.2, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("celebration-light"), start: 14.35, end: 14.39, x:-1, y: 0, type:"opacity"},
@@ -817,9 +821,8 @@ window.onload = function() {
 		
 
 		[ // scene 9 - truck 
-			{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:2},
-			{id:document.getElementById("truck-decorations"), start: 10.7, end: 10.75, prefix: "decorations", order: [1,2,3,4,5], repeat:1},
-			{id:document.getElementById("truck-grinch"), start: 10.2, end: 10.75, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
+			{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:4},
+			{id:document.getElementById("truck-grinch"), start: 10.5, end: 10.85, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
 			{id:body, start: 10.5, end: 10.6, prefix: "color", order: [9,10], repeat:1}
 		],
 
