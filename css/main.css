@@ -94,24 +94,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#preload { position: absolute; display:block; background: #B51428 url('../img/scene1/bg.jpg')  no-repeat 50% 50%;  width: 100%; height:100%;  z-index:-1;}
-#preload p { font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-weight: bold; font-size: 28px; color: #580000; margin:10% auto; text-align:center; }
+#preload { display:block; background: #B51428 url('../img/scene1/bg.jpg')  no-repeat 50% 50%;  width: 100%; height:1200px;  z-index:-1;}
+#preload p { font-family:Helvetica, Arial, sans-serif; font-weight: bold; font-size: 28px; color: #580000; margin:0 auto; }
 #preload p.preload-2 { color:#FFF; font-size: 20px; }
 #percent-text { color:#CCFF33; font-size: 23px; background: #000; border-radius: 14px; padding: 5px 10px; display:inline-block; }
 
 #maincontent { display:none; }
-
-.controls { position: fixed; padding: 5px; background: #000; border-radius: 5px; top:20px; right:20px; z-index: 50; }
+.gradient { background-image: linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(223,224,235)), color-stop(1, rgb(255,255,255))); }
+.controls { position: fixed; padding: 5px 8px; border: 4px solid #4A1D1F; border-radius: 16px; top:20px; right:20px; z-index: 50; }
 #play-toggle, #rewind, #fastforward, #audio-toggle, #info-toggle { position: relative; display: inline-block; height: 24px; background: url(../img/global/controls.png) no-repeat; text-indent: -9999px; cursor: pointer; }
-#play-toggle.paused { width: 15px; background-position: -176px 0; }
-#play-toggle.playing { width: 12px; background-position: -24px 0; }
-#play-toggle.restart { width: 20px; background-position: -43px 0; }
+#play-toggle.paused { width: 16px; margin: 0 6px 0 9px; background-position: -142px 0; }
+#play-toggle.paused:hover { background-position: -142px -30px; }
+#play-toggle.playing { width: 16px; margin: 0 6px 0 9px; background-position: -27px 0; }
+#play-toggle.restart { width: 20px; margin: 0 5px 0 6px; background-position: -43px 0; }
 #rewind { width: 15px; background-position: 0 0; }
-#fastforward { width: 15px; background-position: -70px 0; }
-#audio-toggle.audio-on { width: 18px; background-position: -116px 0; }
-#audio-toggle.audio-off { width: 20px; background-position: -92px 0; }
-#info-toggle { width: 12px; background-position: -140px 0; }
-#info-toggle:hover { background-position: -159px 0; }
+#rewind:hover { background-position: 0 -30px; }
+#fastforward { width: 15px; margin-right: 4px; background-position: -52px 0; }
+#fastforward:hover { background-position: -52px -30px; }
+#audio-toggle.audio-off { width: 39px; margin-right: 5px; background-position: -188px 0; }
+#audio-toggle.audio-off:hover { background-position: -188px -30px; }
+#audio-toggle.audio-on { width: 39px; margin-right: 5px; background-position: -74px 0; }
+#audio-toggle.audio-on:hover { background-position: -74px -30px; }
+#info-toggle { width: 12px; margin-right: 3px; background-position: -120px 0; }
+#info-toggle:hover { background-position: -120px -30px; }
+#info-box { display: none; position: fixed; top: 62px; right: 20px; width: 162px; padding: 8px 0; background: #FFF; border-radius: 11px 0px 11px 11px; box-shadow: 0px 1px 5px;}
+#info-box p { margin: 5px 10px; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 11px; font-weight: bold; }
+.info-box-corner { position: absolute; top: -10px; right: 0; width: 25%; height: 10px; background: #FFF; }
 
 .textbox-center { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; }
 
