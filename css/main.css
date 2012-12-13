@@ -369,10 +369,10 @@ audio { display: none; }
 
 /* ===== Scene 6 - Drummers ===== */
 
-#clouds-1 { position: absolute; width: 1341px; height: 406px; background: url('../img/scene6/clouds-hi.png') no-repeat 0 0;left:0; bottom: 380px; }
+#clouds-1 { position: absolute; width: 1341px; height: 406px; background: url('../img/scene6/clouds-hi.png') no-repeat 0 0;left:0; bottom: 480px; }
 #monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene6/monument.png') no-repeat 0 0; left:0px; bottom: -400px;}
 #s6t1 { background-image: url('../img/scene6/text-5.png'); }
-#feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene6/feeling-it.png') no-repeat 0 0; right:320px; bottom: 350px; opacity: 0;}
+#feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene6/feeling-it.png') no-repeat 0 0; right:166px; bottom: 350px; opacity: 0;}
 
 #drummers {  position: absolute; bottom: -400px;  right:-50px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
 #drummers.drummers1 { width: 825px; height: 442px; background-position: -0px -2265px; }
