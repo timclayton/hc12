@@ -511,7 +511,7 @@ window.onload = function() {
 
 			{id:narrationFiles[3], start: 4.01, end: 4.2, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[2], start: 4.2, end: 4.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[2], start: 4.1, end: 4.3, x: 0.5, y: 0, type:"music"},
 			{id:musicFiles[2], start: 4.95, end: 4.99, x: 0.5, y: 0, type:"music"} 
 		], 
 		
@@ -529,8 +529,8 @@ window.onload = function() {
 
 			{id:narrationFiles[4], start: 5.01, end: 5.2, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[3], start: 5.2, end: 5.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[3], start: 5.8, end: 5.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[3], start: 5.1, end: 5.3, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[3], start: 5.95, end: 5.99, x: 0.5, y: 0, type:"music"} 
 		],  
 		
 		[ 	//scene 6
@@ -541,18 +541,18 @@ window.onload = function() {
 			{id:document.getElementById("symbols"), start: 6.2, end: 6.28, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("clouds-1"), start: 6.0, end: 6.99, x: 300, y: 20, type:"translate"},
 			{id:document.getElementById("feeling-it"), start: 6.45, end: 6.5, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("drummers"), start: 6.3, end: 6.4, x: 0, y: -400, type:"translate"},
+			{id:document.getElementById("drummers"), start: 6.33, end: 6.4, x: 0, y: -400, type:"translate"},
 			{id:document.getElementById("hippies"), start: 6.24, end: 6.4, x: 0, y: -400, type:"translate"},
 			{id:document.getElementById("monument-grinch"), start: 6.2, end: 6.4, x: 0, y: -400, type:"translate"},
 			{id:document.getElementById("monument"), start: 6.2, end: 6.4, x: 0, y: -400, type:"translate"},
 			
 			{id:sections[5], start: 6.2, end: 6.28, x: 1, y: 0, type:"opacity"},
-			{id:sections[5], start: 6.9, end: 6.99, x: -1, y: 0, type:"opacity"},
+			{id:sections[5], start: 6.95, end: 6.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[5], start: 6.01, end: 6.2, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[4], start: 6.2, end: 6.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[4], start: 6.8, end: 6.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[4], start: 6.1, end: 6.3, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[4], start: 6.95, end: 6.99, x: 0.5, y: 0, type:"music"} 
 	
 		], 
 
@@ -790,7 +790,7 @@ window.onload = function() {
 			{id:document.getElementById("drummers"), start: 6.0, end: 6.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:3},
 			{id:document.getElementById("hippies"), start: 6.0, end: 6.99, prefix: "hippies", order: [1,2,3,4,5,6,7], repeat:10},
 			{id:document.getElementById("symbols"), start: 6.0, end: 6.99, prefix: "symbols", order: [1,2,3,4,5,6,7], repeat:10},
-			{id:document.getElementById("monument-grinch"), start: 6.4, end: 6.8, prefix: "monument-grinch", order: [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0},
+			{id:document.getElementById("monument-grinch"), start: 6.6, end: 6.9, prefix: "monument-grinch", order: [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0},
 			{id:body, start: 6.5, end: 6.6, prefix: "color", order: [5,6], repeat:1}
 		],
 		
