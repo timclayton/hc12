@@ -568,7 +568,7 @@ window.onload = function() {
 			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.58, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("garage-grinch"), start: 7.5, end: 7.99, x:1, y: 300, type:"translate"},
 
-			{id:sections[6], start: 7.2, end: 7.28, x: 1, y: 0, type:"opacity"},
+			{id:sections[6], start: 7.2, end: 7.26, x: 1, y: 0, type:"opacity"},
 			{id:sections[6], start: 7.95, end: 7.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[6], start: 7.01, end: 7.2, x: 1, y: 0, type:"narration"},
@@ -587,12 +587,12 @@ window.onload = function() {
 			{id:document.getElementById("carolers"), start: 8.55, end: 8.7, x:0, y: 150, type:"translate"},
 			{id:document.getElementById("s8bg"), start: 8.55, end: 8.7, x:0, y: 80, type:"bgShift"},
 
-			{id:sections[7], start: 8.2, end: 8.28, x: 1, y: 0, type:"opacity"},
+			{id:sections[7], start: 8.15, end: 8.25, x: 1, y: 0, type:"opacity"},
 			{id:sections[7], start: 8.9, end: 8.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[7], start: 8.01, end: 8.2, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[6], start: 8.2, end: 8.4, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[6], start: 8.08, end: 8.3, x: 0.5, y: 0, type:"music"},
 			{id:musicFiles[6], start: 8.95, end: 8.99, x: 0.5, y: 0, type:"music"} 
 			
 		], 
