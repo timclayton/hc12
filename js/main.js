@@ -38,11 +38,11 @@ $(document).ready(function(){
 	countImages();
 	
 	$("#info-toggle").click(function() {
-		$("#info-box").toggle();
+		$("#info-box").fadeToggle();
 	});
 	
 	$("section").click(function() {
-		$("#info-box").hide();
+		$("#info-box").fadeOut();
 	})
 	
 });
