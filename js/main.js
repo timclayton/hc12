@@ -630,7 +630,7 @@ window.onload = function() {
 			{id:document.getElementById("truck"), start: 10.8, end: 10.9, x:-1400, y: 0, type:"translate"},
 
 			{id:sections[9], start: 10.2, end: 10.28, x: 1, y: 0, type:"opacity"},
-			{id:sections[9], start: 10.9, end: 10.99, x: -1, y: 0, type:"opacity"},
+			{id:sections[9], start: 10.95, end: 10.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[9], start: 10.01, end: 10.2, x: 1, y: 0, type:"narration"},
 			
@@ -644,13 +644,13 @@ window.onload = function() {
 			{id:document.getElementById("s11t1"), start: 11.2, end: 11.28, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("swimmers"), start: 11.0, end: 11.06, x:1, y: 0, type:"opacity"},
 
-			{id:sections[10], start: 11.2, end: 11.28, x: 1, y: 0, type:"opacity"},
-			{id:sections[10], start: 11.9, end: 11.99, x: -1, y: 0, type:"opacity"},
+			{id:sections[10], start: 11.15, end: 11.25, x: 1, y: 0, type:"opacity"},
+			{id:sections[10], start: 11.95, end: 11.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[10], start: 11.01, end: 11.2, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[9], start: 11.2, end: 11.4, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[9], start: 11.8, end: 11.99, x: 0.5, y: 0, type:"music"} 
+			{id:musicFiles[9], start: 11.1, end: 11.3, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[9], start: 11.95, end: 11.99, x: 0.5, y: 0, type:"music"} 
 			
 		 ],
 
@@ -827,9 +827,9 @@ window.onload = function() {
 		],
 
 		[ // scene 10 - pool
-			{id:document.getElementById("phelps"), start: 11.3, end: 11.7, prefix: "phelps", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], repeat:1},
-			{id:document.getElementById("swimmers"), start: 11.0, end: 11.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:2},
-			{id:document.getElementById("pool-grinch"), start: 11.6, end: 11.8, prefix: "pool-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1},
+			{id:document.getElementById("phelps"), start: 11.5, end: 11.7, prefix: "phelps", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33], repeat:1},
+			{id:document.getElementById("swimmers"), start: 11.0, end: 11.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:4},
+			{id:document.getElementById("pool-grinch"), start: 11.73, end: 11.9, prefix: "pool-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1},
 			{id:body, start: 11.5, end: 11.6, prefix: "color", order: [10,11], repeat:1}
 			
 		],
