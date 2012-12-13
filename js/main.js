@@ -782,8 +782,8 @@ window.onload = function() {
 			
 			{id:narrationFiles[13], start: 14.01, end: 14.2, x: 1, y: 0, type:"narration"},
 			{id:narrationFiles[14], start: 14.4, end: 14.42, x: 1, y: 0, type:"narration"},
-			{id:narrationFiles[15], start: 14.54, end: 14.57, x: 1, y: 0, type:"narration"},
-			{id:narrationFiles[16], start: 14.66, end: 14.67, x: 1, y: 0, type:"narration"},
+			{id:narrationFiles[15], start: 14.8, end: 14.82, x: 1, y: 0, type:"narration"},
+			
 			
 			{id:musicFiles[12], start: 14.0, end: 14.1, x: 0.5, y: 0, type:"music"},
 			{id:musicFiles[12], start: 14.97, end: 14.99, x: 0, y: 0, type:"music"}
@@ -797,7 +797,7 @@ window.onload = function() {
 			
 			{id:sections[14], start: 15.1, end: 15.18, x: 1, y: 0, type:"opacity"},
 			
-			//{id:narrationFiles[17], start: 15.0, end: 15.1, x: 1, y: 0, type:"narration"},
+			{id:narrationFiles[16], start: 15.0, end: 15.01, x: 1, y: 0, type:"narration"},
 
 
 		 ]
