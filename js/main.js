@@ -529,7 +529,7 @@ window.onload = function() {
 			{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("s4t1"), start: 4.37, end: 4.42, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("memes"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("memes"), start: 4.54, end: 4.65, x: -920, y: 0, type:"translate"},
 			{id:document.getElementById("doorway"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("couch"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("grinch-burbs"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
