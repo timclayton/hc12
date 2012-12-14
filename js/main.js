@@ -191,7 +191,7 @@ window.onload = function() {
 		var vol = 0;
 		var fadeInterval = setInterval(function() {
 		
-			if ( vol < musicVol ) {
+			if ( vol < fadeTo ) {
 				vol += 0.05;
 				file.volume = vol.toFixed(2);
 			} 
@@ -480,7 +480,9 @@ window.onload = function() {
 			{id:document.getElementById("play"), start: 1.5, end: 1.7, x: -1, y: 0, type:"opacity", fade: "out"},
 			{id:document.getElementById("controls"), start: 1.5, end: 1.7, x: 1, y: 0, type:"opacity"},
 			
-			{id:sections[0], start: 1.6, end: 1.99, x: -1, y: 0, type:"opacity", fade: "out"}
+			{id:sections[0], start: 1.6, end: 1.99, x: -1, y: 0, type:"opacity", fade: "out"},
+			
+			{id:musicFiles[0], start: 1, end: 1.2, x: 0.2, y: 0, type:"music"}
 						
 		],
 		
@@ -517,7 +519,9 @@ window.onload = function() {
 			{id:sections[1], start: 2.92, end: 2.98, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[0], start: 2.01, end: 2.2, x: 1, y: 0, type:"narration"}, // For type narration or music, x controls where volume goes to
-			{id:narrationFiles[1], start: 2.52, end: 2.6, x: 1, y: 0, type:"narration"}
+			{id:narrationFiles[1], start: 2.52, end: 2.6, x: 1, y: 0, type:"narration"},
+			
+			{id:musicFiles[0], start: 2.97, end: 2.99, x: 0, y: 0, type:"music"}
 			
 		],
 
