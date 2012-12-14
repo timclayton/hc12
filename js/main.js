@@ -463,8 +463,9 @@ window.onload = function() {
 	
 		[  // global
 		
-			{id:document.getElementById("candycane1"), start: 0.01, end: 0.025, x: 60, y: -400, type:"translate"},
-			{id:document.getElementById("candycane-textbox"), start: 0.008, end: 0.012, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("wings"), start: 0.01, end: 0.03, x: 60, y: -400, type:"translate"},
+			{id:document.getElementById("candycane-textbox"), start: 0.006, end: 0.012, x: 1, y: 0, type:"opacity"},
+			{id:document.getElementById("wings"), start: 0.028, end: 0.03, x: -1, y: 0, type:"opacity", fade: "out"},
 		
 		],
 		
@@ -839,11 +840,11 @@ window.onload = function() {
 	var classShifts = [  // First array holds global class shifts, following are per scene
 	
 		[  // global
-		
+			{id:document.getElementById("wings"), start: 0.005, end: 0.035, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:12}
 		],
 		
 		[  // scene 1
-			{id:document.getElementById("wings"), start: 1.0, end: 1.99, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:3}		
+					
 		],
 	
 		[  // scene 2

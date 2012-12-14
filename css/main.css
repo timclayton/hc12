@@ -204,16 +204,7 @@ audio { display: none; }
 #text-christmas { position: absolute; top: 49.1%; left: 19.8%; width: 557px; height: 152px; background: url('../img/scene1/sprite.png') no-repeat -22px -662px; }
 #play { display: block; position: fixed; bottom: 12.3%; left: 42%; width: 92px; height: 45px; background: url('../img/scene1/sprite.png') no-repeat -455px -168px; cursor: pointer; }
 #grinch-face { position: fixed; top: 0; right: 0; width: 416px; height: 100%; background: url('../img/scene1/grinch-face.png') no-repeat 100% 50%; }
-#wings { position: absolute; bottom: 7.3%; left: 11%; width: 320px; height: 198px; background: url('../img/scene1/wings-sprite.png') no-repeat 0 0;}
-#wings.wings1 { background-position: 0 0; }
-#wings.wings2 { background-position: 0 -198px; }
-#wings.wings3 { background-position: 0 -396px; }
-#wings.wings4 { background-position: 0 -594px; }
-#wings.wings5 { background-position: 0 -792px; }
-#wings.wings6 { background-position: 0 -990px; }
-#wings.wings7 { background-position: 0 -1188px; }
-#wings.wings8 { background-position: 0 -1386px; }
-#wings.wings9 { background-position: 0 -1584px; }
+
 
 
 
@@ -990,9 +981,17 @@ audio { display: none; }
 
 /* ===== Independent Animations ===== */
 
-#candycane1 { position: fixed; top: 21%; right: 19%; width: 287px; height: 198px; background: url('../img/global/candycane.png') no-repeat; z-index: 200; }
 #candycane-textbox { position: absolute; top: -115px; left: -30px; width: 155px; height: 133px; background: url('../img/scene1/sprite.png') -392px -870px; opacity: 0; }
-#candycane2 { position: absolute; top: px; left: px; width: px; height: px; background: url('../img/scene1/sprite.png') no-repeat -px -px; }
+#wings { position: fixed; top: 21%; right: 19%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); }
+#wings.wings1 { background-position: 0 0; }
+#wings.wings2 { background-position: 0 -198px; }
+#wings.wings3 { background-position: 0 -396px; }
+#wings.wings4 { background-position: 0 -594px; }
+#wings.wings5 { background-position: 0 -792px; }
+#wings.wings6 { background-position: 0 -990px; }
+#wings.wings7 { background-position: 0 -1188px; }
+#wings.wings8 { background-position: 0 -1386px; }
+#wings.wings9 { background-position: 0 -1584px; }
 
 
 /* ==========================================================================
