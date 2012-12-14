@@ -983,7 +983,8 @@ audio { display: none; }
 /* ===== Independent Animations ===== */
 
 #candycane-textbox { position: absolute; top: -115px; left: -30px; width: 155px; height: 133px; background: url('../img/scene1/sprite.png') -392px -870px; opacity: 0; }
-#wings { position: fixed; top: 21%; right: 19%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); }
+#candycane-textbox2 { position: absolute; top: -115px; left: -30px; width: 155px; height: 133px; background: url('../img/scene1/sprite.png') -392px -870px; opacity: 0; }
+#wings, #wings2 { position: fixed; top: 21%; right: 19%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); }
 #wings.wings1 { background-position: 0 0; }
 #wings.wings2 { background-position: 0 -198px; }
 #wings.wings3 { background-position: 0 -396px; }
@@ -993,6 +994,18 @@ audio { display: none; }
 #wings.wings7 { background-position: 0 -1188px; }
 #wings.wings8 { background-position: 0 -1386px; }
 #wings.wings9 { background-position: 0 -1584px; }
+
+#wings2 { opacity:0; left:20%; }
+#wings2.wings1 { background-position: 0 0; }
+#wings2.wings2 { background-position: 0 -198px; }
+#wings2.wings3 { background-position: 0 -396px; }
+#wings2.wings4 { background-position: 0 -594px; }
+#wings2.wings5 { background-position: 0 -792px; }
+#wings2.wings6 { background-position: 0 -990px; }
+#wings2.wings7 { background-position: 0 -1188px; }
+#wings2.wings8 { background-position: 0 -1386px; }
+#wings2.wings9 { background-position: 0 -1584px; }
+
 
 
 /* ==========================================================================
