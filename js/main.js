@@ -532,6 +532,7 @@ window.onload = function() {
 			{id:document.getElementById("s3t1"), start: 3.5, end: 3.55, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("front-snow"), start: 3.1, end: 3.99, x: 0, y: 200, type:"translate"},
 			{id:document.getElementById("back-snow"), start: 3.1, end: 3.99, x: 0, y: 450, type:"translate"},
+			{id:document.getElementById("houses"), start: 3.2, end: 3.99, x: -.1, y: -.1, type:"scale"},
 			{id:document.getElementById("grinch-transition"), start: 3.2, end: 3.99, x: 1, y: 1, type:"scale"},
 			{id:document.getElementById("grinch-container"), start: 3.2, end: 3.99, x: 0, y: -350, type:"translate"},
 
