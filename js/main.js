@@ -833,8 +833,8 @@ window.onload = function() {
 			
 			{id:narrationFiles[16], start: 15.0, end: 15.01, x: 1, y: 0, type:"narration"},
 
-			{id:musicFiles[13], start: 15.0, end: 15.1, x: 0.5, y: 0, type:"music"},
-			{id:musicFiles[13], start: 15.97, end: 15.99, x: 0, y: 0, type:"music"}
+			{id:musicFiles[13], start: 15.0, end: 15.55, x: 1, y: 0, type:"music"},
+			{id:musicFiles[13], start: 15.95, end: 15.97, x: 0, y: 0, type:"music"}
 
 
 		 ]
