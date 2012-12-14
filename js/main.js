@@ -51,9 +51,8 @@ $(document).ready(function(){
 window.onload = function() {
 
 	var showMainContent = function() {
-		$("#preload").fadeOut(1000, function() {
-			$("#maincontent").fadeIn(1000);
-		});
+		$("#maincontent").fadeIn(2000);
+		$("#preload").fadeOut(2000);
 	}
 
 	showMainContent();
@@ -463,6 +462,8 @@ window.onload = function() {
 			{id:document.getElementById("text-stole"), start: 1.6, end: 1.99, x: 0, y: -80, type:"translate"},
 			{id:document.getElementById("text-christmas"), start: 1.6, end: 1.99, x: 0, y: -100, type:"translate"},
 			{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
+			{id:document.getElementById("play"), start: 1.5, end: 1.7, x: -1, y: 0, type:"opacity", fade: "out"},
+			{id:document.getElementById("controls"), start: 1.5, end: 1.7, x: 1, y: 0, type:"opacity"},
 			
 			{id:sections[0], start: 1.6, end: 1.99, x: -1, y: 0, type:"opacity", fade: "out"}
 						
@@ -929,6 +930,9 @@ window.onload = function() {
 	}
 	
 	window.scrollTo(0,0);
+	$("html, body").animate({
+		scrollTop: 600
+	}, 2000);
 
 	playToggle.onclick = function() {
 		if ( playing ) {
@@ -956,7 +960,6 @@ window.onload = function() {
 			this.className = "playing";
 			fastforward.className = "fastforward-enabled";
 			rewind.className = "rewind-enabled";
-			play.className = "playing";
 			body.style.overflowY = "hidden";
 			restartAudio();
 		}
@@ -1008,11 +1011,7 @@ window.onload = function() {
 	}
 	
 	play.onclick = function() {
-		if ( this.className !== "playing" ) {
-			scrollToEnd();
-			this.className = "playing";
-			playToggle.className = "playing";
-		}
+		playToggle.click();
 	}
 	
 }
