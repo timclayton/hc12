@@ -527,7 +527,7 @@ $(document).ready(function(){
 					
 					{id:musicFiles[0], start: 2.53, end: 2.54, x: 0, y: 0, type:"music", fadeSpeed: 400},
 					{id:musicFiles[12], start: 2.5, end: 2.55, x: 0.3, y: 0, type:"music"},
-					{id:musicFiles[12], start: 2.97, end: 2.999, x: 0, y: 0, type:"music", fadeSpeed: 200}
+					{id:musicFiles[12], start: 2.99, end: 2.999, x: 0, y: 0, type:"music", fadeSpeed: 200}
 					
 				],
 
@@ -569,7 +569,7 @@ $(document).ready(function(){
 					{id:narrationFiles[3], start: 4.01, end: 4.2, x: 1, y: 0, type:"narration"},
 					
 					{id:musicFiles[2], start: 4.1, end: 4.3, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[2], start: 4.95, end: 4.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[2], start: 4.87, end: 4.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 				], 
 				
 				[  // scene 5
@@ -587,7 +587,7 @@ $(document).ready(function(){
 					{id:narrationFiles[4], start: 5.01, end: 5.2, x: 1, y: 0, type:"narration"},
 					
 					{id:musicFiles[3], start: 5.1, end: 5.3, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[3], start: 5.95, end: 5.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[3], start: 5.87, end: 5.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 				],  
 				
 				[ 	//scene 6
@@ -611,7 +611,7 @@ $(document).ready(function(){
 					{id:narrationFiles[5], start: 6.01, end: 6.2, x: 1, y: 0, type:"narration"},
 					
 					{id:musicFiles[4], start: 6.1, end: 6.3, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[4], start: 6.95, end: 6.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[4], start: 6.87, end: 6.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 			
 				], 
 
@@ -632,8 +632,8 @@ $(document).ready(function(){
 					
 					{id:narrationFiles[6], start: 7.01, end: 7.2, x: 1, y: 0, type:"narration"},
 					
-					{id:musicFiles[5], start: 7.2, end: 7.4, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[5], start: 7.95, end: 7.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[5], start: 7.1, end: 7.4, x: 0.5, y: 0, type:"music", fadeSpeed: 200},
+					{id:musicFiles[5], start: 7.84, end: 7.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 					
 				], 
 
@@ -652,7 +652,7 @@ $(document).ready(function(){
 					{id:narrationFiles[7], start: 8.01, end: 8.2, x: 1, y: 0, type:"narration"},
 					
 					{id:musicFiles[6], start: 8.08, end: 8.3, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[6], start: 8.95, end: 8.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[6], start: 8.84, end: 8.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 					
 				], 
 
@@ -675,7 +675,7 @@ $(document).ready(function(){
 					{id:narrationFiles[8], start: 9.01, end: 9.2, x: 1, y: 0, type:"narration"},
 					
 					{id:musicFiles[7], start: 9.1, end: 9.3, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[7], start: 9.9, end: 9.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[7], start: 9.82, end: 9.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 				],
 
 				 [ //scene 10 - truck
@@ -694,7 +694,7 @@ $(document).ready(function(){
 					{id:narrationFiles[9], start: 10.01, end: 10.2, x: 1, y: 0, type:"narration"},
 					
 					{id:musicFiles[8], start: 10.1, end: 10.3, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[8], start: 10.95, end: 10.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[8], start: 10.87, end: 10.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 				 ],
 
 				 [ //scene 11 - pool
@@ -715,7 +715,7 @@ $(document).ready(function(){
 					{id:narrationFiles[10], start: 11.01, end: 11.2, x: 1, y: 0, type:"narration"},
 					
 					{id:musicFiles[9], start: 11.1, end: 11.3, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[9], start: 11.95, end: 11.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[9], start: 11.87, end: 11.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 					
 				 ],
 
@@ -734,8 +734,8 @@ $(document).ready(function(){
 					
 					{id:narrationFiles[11], start: 12.01, end: 12.2, x: 1, y: 0, type:"narration"},
 					
-					{id:musicFiles[10], start: 12.1, end: 12.3, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[10], start: 12.95, end: 12.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[10], start: 12.06, end: 12.3, x: 0.5, y: 0, type:"music", fadeSpeed: 300},
+					{id:musicFiles[10], start: 12.9, end: 12.99, x: 0, y: 0, type:"music", fadeSpeed: 250} 
 					
 				 ],
 
@@ -763,7 +763,7 @@ $(document).ready(function(){
 					{id:narrationFiles[12], start: 13.01, end: 13.2, x: 1, y: 0, type:"narration"},
 					
 					{id:musicFiles[11], start: 13.2, end: 13.4, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[11], start: 13.8, end: 13.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[11], start: 13.8, end: 13.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 				 ],
 
 				 [ //scene 14 - celebration 
@@ -818,7 +818,7 @@ $(document).ready(function(){
 					
 					
 					{id:musicFiles[12], start: 14.1, end: 14.15, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[12], start: 14.97, end: 14.99, x: 0, y: 0, type:"music"}
+					{id:musicFiles[12], start: 14.92, end: 14.99, x: 0, y: 0, type:"music", fadeSpeed: 420}
 			
 				 ],
 
@@ -837,7 +837,7 @@ $(document).ready(function(){
 					{id:narrationFiles[16], start: 15.0, end: 15.01, x: 1, y: 0, type:"narration"},
 
 					{id:musicFiles[13], start: 15.0, end: 15.55, x: 1, y: 0, type:"music"},
-					{id:musicFiles[13], start: 15.95, end: 15.97, x: 0, y: 0, type:"music"}
+					{id:musicFiles[13], start: 15.987, end: 15.97, x: 0, y: 0, type:"music", fadeSpeed: 420}
 
 
 				 ]
