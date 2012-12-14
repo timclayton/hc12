@@ -886,7 +886,7 @@ $(document).ready(function(){
 				[ // scene 6
 					{id:document.getElementById("garageband"), start: 7, end: 7.95, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:4},	
 					{id:document.getElementById("garage-grinch"), start: 7.58, end: 7.88, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:1},
-					{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13], repeat:1},
+					{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13,13], repeat:1},
 					{id:body, start: 7.5, end: 7.6, prefix: "color", order: [6,7], repeat:1}
 				],
 				
