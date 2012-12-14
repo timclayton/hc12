@@ -791,7 +791,6 @@ window.onload = function() {
 			{id:document.getElementById("hearts-small"), start: 14.54, end: 14.58, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
 			{id:document.getElementById("hearts-small"), start: 14.4, end: 14.99, x:0, y: -50, type:"translate"},
-			// {id:document.getElementById("grinch-heart"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("growing-heart"), start: 14.85, end: 14.88, x:1, y: 0, type:"opacity"},	
 			{id:document.getElementById("s14t4"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s14t4"), start: 14.75, end: 14.8, x:-1, y: 0, type:"opacity"},
@@ -815,11 +814,14 @@ window.onload = function() {
 		 [ //scene 14 - finale
 			{id:document.getElementById("tbg"), start: 15, end: 15.05, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s15t1"), start: 15.0, end: 15.05, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("s15t1"), start: 15.45, end: 15.58, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("mckayla"), start: 15.85, end: 15.92, x:0, y: -677, type:"translate"},
+			{id:document.getElementById("s15t1"), start: 15.35, end: 15.48, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("mckayla"), start: 15.75, end: 15.8, x:0, y: -677, type:"translate"},
+			{id:document.getElementById("tbg"), start: 15.90, end: 15.95, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("mckayla"), start: 15.90, end: 15.95, x:-1, y: 0, type:"opacity", fade: "out"},
+			{id:document.getElementById("sleigh"), start: 15.90, end: 15.95, x:-1, y: 0, type:"opacity", fade: "out"},
 			
 			
-			{id:sections[14], start: 15.45, end: 15.5, x: 1, y: 0, type:"opacity"},
+			{id:sections[14], start: 15.35, end: 15.42, x: 1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[16], start: 15.0, end: 15.01, x: 1, y: 0, type:"narration"},
 
