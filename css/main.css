@@ -989,6 +989,7 @@ audio { display: none; }
 /* ===== Independent Animations ===== */
 
 #candycane1 { position: fixed; top: 21%; right: 19%; width: 287px; height: 198px; background: url('../img/global/candycane.png') no-repeat; z-index: 200; }
+#candycane-textbox { position: absolute; top: -115px; left: -30px; width: 155px; height: 133px; background: url('../img/scene1/sprite.png') -392px -870px; opacity: 0; }
 #candycane2 { position: absolute; top: px; left: px; width: px; height: px; background: url('../img/scene1/sprite.png') no-repeat -px -px; }
 
 
