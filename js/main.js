@@ -339,8 +339,10 @@ window.onload = function() {
 			
 			else if ( element.type === "music" && animPercent > 0 && animPercent < 1 ) {
 			
+				fadeSpeed = element.fadeSpeed ? element.fadeSpeed : 100
+			
 				if ( !element.triggered ) {
-					toggleAudio(element.id, element.x, 100);
+					toggleAudio(element.id, element.x, fadeSpeed);
 					element.triggered = true;
 				}
 			
@@ -483,7 +485,7 @@ window.onload = function() {
 			
 			{id:sections[0], start: 1.6, end: 1.99, x: -1, y: 0, type:"opacity", fade: "out"},
 			
-			{id:musicFiles[0], start: 1, end: 1.2, x: 0.2, y: 0, type:"music"}
+			{id:musicFiles[0], start: 1, end: 1.2, x: 0.2, y: 0, type:"music", fadeSpeed: 300}
 						
 		],
 		
@@ -522,7 +524,9 @@ window.onload = function() {
 			{id:narrationFiles[0], start: 2.01, end: 2.2, x: 1, y: 0, type:"narration"}, // For type narration or music, x controls where volume goes to
 			{id:narrationFiles[1], start: 2.52, end: 2.6, x: 1, y: 0, type:"narration"},
 			
-			{id:musicFiles[0], start: 2.97, end: 2.99, x: 0, y: 0, type:"music"}
+			{id:musicFiles[0], start: 2.53, end: 2.54, x: 0, y: 0, type:"music", fadeSpeed: 400},
+			{id:musicFiles[12], start: 2.5, end: 2.55, x: 0.3, y: 0, type:"music"},
+			{id:musicFiles[12], start: 2.97, end: 2.999, x: 0, y: 0, type:"music", fadeSpeed: 200}
 			
 		],
 
