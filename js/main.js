@@ -828,9 +828,6 @@ $(document).ready(function(){
 					{id:document.getElementById("s15t1"), start: 15.35, end: 15.48, x:-1, y: 0, type:"opacity"},
 					{id:document.getElementById("tbg"), start: 15.75, end: 15.8, x:-1, y: 0, type:"opacity"},
 					{id:document.getElementById("mckayla"), start: 15.81, end: 15.83, x:1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings2"), start: 15.55, end: 15.6, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("candycane-textbox2"), start: 15.55, end: 15.6, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings2"), start: 15.55, end: 15.9, x: 0, y: 200, type:"translate"},
 					
 					
 					{id:sections[14], start: 15.35, end: 15.42, x: 1, y: 0, type:"opacity"},
@@ -847,8 +844,7 @@ $(document).ready(function(){
 			var classShifts = [  // First array holds global class shifts, following are per scene
 			
 				[  // global
-					{id:document.getElementById("wings"), start: 0.005, end: 0.035, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:12},
-					{id:document.getElementById("wings2"), start: 0.95, end: 0.99, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:15}
+					{id:document.getElementById("wings"), start: 0.005, end: 0.035, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:12}
 				],
 				
 				[  // scene 1
