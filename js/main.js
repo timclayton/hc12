@@ -820,10 +820,8 @@ window.onload = function() {
 			{id:document.getElementById("tbg"), start: 15, end: 15.05, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s15t1"), start: 15.0, end: 15.05, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s15t1"), start: 15.35, end: 15.48, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("mckayla"), start: 15.75, end: 15.8, x:0, y: -677, type:"translate"},
-			{id:document.getElementById("tbg"), start: 15.90, end: 15.95, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("mckayla"), start: 15.90, end: 15.95, x:-1, y: 0, type:"opacity", fade: "out"},
-			{id:document.getElementById("sleigh"), start: 15.90, end: 15.95, x:-1, y: 0, type:"opacity", fade: "out"},
+			{id:document.getElementById("tbg"), start: 15.75, end: 15.8, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("mckayla"), start: 15.81, end: 15.83, x:0, y: -677, type:"translate"},
 			
 			
 			{id:sections[14], start: 15.35, end: 15.42, x: 1, y: 0, type:"opacity"},
