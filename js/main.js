@@ -362,7 +362,7 @@ window.onload = function() {
     }
 	
 	var scrollIncrement = function() {
-		s < d - wh ? window.scrollBy(0,15) : stopScroll();
+		s < d - wh ? window.scrollBy(0,15) : stopScroll(true);
 	}
 	
 	var stopScroll = function(end) {
