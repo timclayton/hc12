@@ -913,7 +913,7 @@ audio { display: none; }
 #celebration.celebration7 { width: 903px; height: 673px; background-position: -914px -0px; }
 #celebration.celebration8 { width: 903px; height: 673px; background-position: -0px -0px; }
 
-#celebration-light { position:absolute; left: 440px; bottom: 230px; background: url('../img/scene-celebration/celebration-light-sprite.png') no-repeat; opacity: 0; }
+#celebration-light { position:absolute; left: 440px; bottom: 200px; background: url('../img/scene-celebration/celebration-light-sprite.png') no-repeat; opacity: 0; }
 #celebration-light.celebration-light1 { width: 631px; height: 587px; background-position: -1284px -0px; }
 #celebration-light.celebration-light2 { width: 631px; height: 587px; background-position: -642px -598px; }
 #celebration-light.celebration-light3 { width: 631px; height: 587px; background-position: -0px -598px; }
