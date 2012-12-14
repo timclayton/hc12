@@ -514,7 +514,7 @@ window.onload = function() {
 			{id:document.getElementById("gate"), start:2.8, end:2.98, x: -1, y:-1, type:"scale"},
 			
 			{id:sections[1], start: 2.1, end: 2.13, x: 1, y: 0, type:"opacity"},
-			{id:sections[1], start: 2.93, end: 2.99, x: -1, y: 0, type:"opacity"},
+			{id:sections[1], start: 2.92, end: 2.98, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[0], start: 2.01, end: 2.2, x: 1, y: 0, type:"narration"}, // For type narration or music, x controls where volume goes to
 			{id:narrationFiles[1], start: 2.52, end: 2.6, x: 1, y: 0, type:"narration"}
