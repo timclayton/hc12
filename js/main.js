@@ -741,16 +741,16 @@ window.onload = function() {
 		 [ //scene 14 - celebration 
 
 		 	{id:document.getElementById("s14t1"), start: 14.0, end: 14.05, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("s14t1"), start: 14.1, end: 14.13, x:-1, y: 0, type:"opacity"},
-		  {id:document.getElementById("celebrationbg"), start: 14.06, end: 14.12, x:0, y: 20, type:"bgShift"},
-		  {id:document.getElementById("globe"), start: 14.06, end: 14.12, x:0, y: -681, type:"translate"},
-		  {id:document.getElementById("celebration"), start: 14.06, end: 14.12, x:0, y: -600, type:"translate"},
+			{id:document.getElementById("s14t1"), start: 14.14, end: 14.18, x:-1, y: 0, type:"opacity"},
+		  {id:document.getElementById("celebrationbg"), start: 14.1, end: 14.16, x:0, y: 20, type:"bgShift"},
+		  {id:document.getElementById("globe"), start: 14.1, end: 14.16, x:0, y: -681, type:"translate"},
+		  {id:document.getElementById("celebration"), start: 14.1, end: 14.16, x:0, y: -600, type:"translate"},
 			{id:document.getElementById("celebration"), start: 14.0, end: 14.03, x:1, y: 0, type:"opacity"},
-			{id:document.getElementById("celebration-light"), start: 14.15, end: 14.2, x:1, y: 0, type:"opacity"},
+			{id:document.getElementById("celebration-light"), start: 14.2, end: 14.24, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("celebration-light"), start: 14.35, end: 14.39, x:-1, y: 0, type:"opacity"},
-			{id:document.getElementById("globe"), start: 14.24, end: 14.29, x:0, y: 681, type:"translate"},
-			{id:document.getElementById("celebration"), start: 14.24, end: 14.29, x:0, y: 650, type:"translate"},
-			{id:document.getElementById("celebrationbg"), start: 14.24, end: 14.29, x:0, y: 50, type:"bgShift"},
+			{id:document.getElementById("globe"), start: 14.28, end: 14.33, x:0, y: 681, type:"translate"},
+			{id:document.getElementById("celebration"), start: 14.28, end: 14.33, x:0, y: 650, type:"translate"},
+			{id:document.getElementById("celebrationbg"), start: 14.28, end: 14.33, x:0, y: 50, type:"bgShift"},
 			{id:document.getElementById("celebrationbg"), start: 14.4, end: 14.66, x:0, y: 20, type:"bgShift"},
 			{id:document.getElementById("s14t2"), start: 14.4, end: 14.44, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s14t2"), start: 14.5, end: 14.54, x:-1, y: 0, type:"opacity"},
@@ -782,7 +782,7 @@ window.onload = function() {
 			{id:document.getElementById("s14t5"), start: 14.84, end: 14.87, x:-1, y: 0, type:"opacity"},
 			
 
-			{id:sections[13], start: 14.06, end: 14.1, x: 1, y: 0, type:"opacity"},
+			{id:sections[13], start: 14.1, end: 14.14, x: 1, y: 0, type:"opacity"},
 			{id:sections[13], start: 14.96, end: 14.99, x: -1, y: 0, type:"opacity"},
 			
 			{id:narrationFiles[13], start: 14.01, end: 14.2, x: 1, y: 0, type:"narration"},
@@ -790,7 +790,7 @@ window.onload = function() {
 			{id:narrationFiles[15], start: 14.66, end: 14.68, x: 1, y: 0, type:"narration"},
 			
 			
-			{id:musicFiles[12], start: 14.0, end: 14.1, x: 0.5, y: 0, type:"music"},
+			{id:musicFiles[12], start: 14.1, end: 14.15, x: 0.5, y: 0, type:"music"},
 			{id:musicFiles[12], start: 14.97, end: 14.99, x: 0, y: 0, type:"music"}
 	
 		 ],
