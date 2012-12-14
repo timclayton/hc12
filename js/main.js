@@ -51,8 +51,9 @@ $(document).ready(function(){
 window.onload = function() {
 
 	var showMainContent = function() {
-		document.getElementById("maincontent").style.display = "block";
-		document.getElementById("preload").style.display = "none";
+		$("#preload").fadeOut(1000, function() {
+			$("#maincontent").fadeIn(1000);
+		});
 	}
 
 	showMainContent();

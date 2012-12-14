@@ -94,10 +94,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#preload { display:block; background: #B51428 url('../img/scene1/bg.jpg')  no-repeat 50% 50%;  width: 100%; height:1200px;  z-index:-1;}
+#preload { position: fixed; top: 0; left: 0; background: #B51428 url('../img/scene1/bg.jpg')  no-repeat 0 0; width: 100%; height:100%;  z-index:-1; }
 #preload p { font-family:Helvetica, Arial, sans-serif; font-weight: bold; font-size: 28px; color: #580000; margin:0 auto; }
-#preload p.preload-2 { color:#FFF; font-size: 20px; }
-#percent-text { color:#CCFF33; font-size: 23px; background: #000; border-radius: 14px; padding: 5px 10px; display:inline-block; }
+#preload p.preload-text { position: absolute; width: 100%; left: 0; right: 0; bottom: 7%; text-align: center; color:#FFF; font-size: 20px; }
+#preload-bunny { position: absolute; left: 50%; margin-left: -450px; bottom: 18%; width: 713px; height: 464px; background: url(../img/preload/bunny.png) no-repeat; }
+#percent-text { position: absolute; right: -43px; bottom: 48px; color:#CCFF33; font-size: 23px; background: #000; border-radius: 14px; padding: 5px 10px; display:inline-block; }
 
 #maincontent { display:none; }
 .gradient { background-image: linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(223,224,235)), color-stop(1, rgb(255,255,255))); }
