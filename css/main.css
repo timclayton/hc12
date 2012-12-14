@@ -154,7 +154,7 @@ audio { display: none; }
 /* ===== Scenes ===== */
 
 #scene1  { height:1500px; } 
-#scene2  { height:12000px; opacity: 0; } /* cliffs/honville */
+#scene2  { height:13000px; opacity: 0; } /* cliffs/honville */
 #scene3  { height:4000px; opacity: 0; }  /* transition*/
 #scene4  { height:8000px; opacity: 0; } /* burbs */
 #scene5  { height:7000px; opacity: 0; } /* poker */ 
@@ -225,10 +225,10 @@ audio { display: none; }
 #ledge { position: absolute; width: 626px; height: 952px; background: url('../img/scene2/ledge.png') no-repeat 0 0; right:0px; bottom: -1100px; }
 #lights { position: absolute; width: 1400px; height: 600px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:0; bottom:-600px; opacity: 1;}
 #s2t3 {  left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
-#back-row-houses { position: absolute; width: 2225px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: 0px; bottom: -770px; }
-#front-row-houses  { position: absolute; width: 1796px; height: 1178px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: 0px; bottom: -477px; }
-#lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -140px; bottom: -380px; }
-#gate { position: absolute; width: 1400px; height: 860px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:0; bottom: -870px; }
+#back-row-houses { position: absolute; width: 2225px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: -7px; bottom: -770px; }
+#front-row-houses  { position: absolute; width: 1796px; height: 1178px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -630px; bottom: -1200px; }
+#lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: 0px; bottom: -380px; }
+#gate { position: absolute; width: 1400px; height: 860px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:300; bottom: -870px; }
 
 #grinch { position:absolute;  background: url('../img/scene2/grinch.png') no-repeat; bottom:-696px; right:0px; }
 #grinch.grinch1 { width: 399px; height: 696px; background-position: -0px -1414px; }
