@@ -365,10 +365,10 @@ window.onload = function() {
 		s < d - wh ? window.scrollBy(0,15) : stopScroll();
 	}
 	
-	var stopScroll = function() {
+	var stopScroll = function(end) {
 		clearInterval(autoScroll);
-		play.className = "";
-		playToggle.className = "paused";
+		playToggle.className = end ? "restart" : "paused";
+		playing = false;
 	}
 	
 	var createTransformMaps = function() {
@@ -941,6 +941,15 @@ window.onload = function() {
 			pauseAllAudio(true);
 			playing = false;
 			audioReset = false;
+		}
+		else if ( playToggle.className === "restart" ) {
+			audioDisabled = true;
+			window.scrollTo(0, 0);
+			playToggle.className = "paused";
+			transforms[pos].forEach(transform, this);
+			resetAudio();
+			audioDisabled = false;
+			playToggle.click();
 		}
 		else {
 			scrollToEnd();
