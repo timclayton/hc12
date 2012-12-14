@@ -229,7 +229,7 @@ audio { display: none; }
 #back-row-houses { position: absolute; width: 2225px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: -7px; bottom: -770px; }
 #front-row-houses  { position: absolute; width: 1796px; height: 1178px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -630px; bottom: -1200px; }
 #lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: 0px; bottom: -380px; }
-#gate { position: absolute; width: 1400px; height: 860px; left:0; bottom:0; opacity:0; background: url('../img/scene2/gate.png') no-repeat 0 0; transform-origin:40% 66%; -ms-transform-origin:50% 50%; -webkit-transform-origin:40% -100%; -moz-transform-origin:50% 50%; }
+#gate { position: absolute; width: 1400px; height: 860px; left:0; bottom:-20%; opacity:0; background: url('../img/scene2/gate.png') no-repeat 0 0; transform-origin:40% 100%; -ms-transform-origin:40% 100%; -webkit-transform-origin:40% 100%; -moz-transform-origin:40% 100%; }
 
 #grinch { position:absolute;  background: url('../img/scene2/grinch.png') no-repeat; bottom:-696px; right:0px; }
 #grinch.grinch1 { width: 399px; height: 696px; background-position: -0px -1414px; }
@@ -440,11 +440,11 @@ audio { display: none; }
 
 /* ===== Scene 7 - Garage Band  ===== */
 
-#garage-exterior { position: absolute; bottom: 0; right: 0; width: 1400px; height: 853px; background: url('../img/scene-garageband/garage-exterior.png') no-repeat; }
-#garage-interior { position: absolute; bottom: 92px; right: 358px; width: 628px; height: 505px; background: url('../img/scene-garageband/garage-interior.jpg') no-repeat; }
+#garage-exterior { position: absolute; bottom: -10px; right: 0; width: 1400px; height: 853px; background: url('../img/scene-garageband/garage-exterior.png') no-repeat; }
+#garage-interior { position: absolute; bottom: 82px; right: 358px; width: 628px; height: 505px; background: url('../img/scene-garageband/garage-interior.jpg') no-repeat; }
 #s7t1 { background-image: url('../img/scene-garageband/text.png'); }
 
-#garageband { position: absolute; bottom: 0; right: 12%; width: 788px; height: 485px; background: url('../img/scene-garageband/garageband-sprite.png') no-repeat; background-position: -0px -3113px; }
+#garageband { position: absolute; bottom: -10px; right: 12%; width: 788px; height: 485px; background: url('../img/scene-garageband/garageband-sprite.png') no-repeat; background-position: -0px -3113px; }
 #garageband.garageband1 { width: 788px; height: 485px; right: 14%; background-position: -0px -3113px; }
 #garageband.garageband2 { width: 755px; height: 484px; right: 15%; background-position: -1593px -3113px; }
 #garageband.garageband3 { width: 833px; height: 487px; right: 10%; background-position: -2770px -1579px; }
@@ -468,7 +468,7 @@ audio { display: none; }
 #garageband.garageband21 { width: 948px; height: 571px; right: 11%; background-position: -1074px -0px; }
 #garageband.garageband22 { width: 885px; height: 496px; right: 12%; background-position: -920px -2269px; }
 
-#garage-grinch { position: absolute; bottom: 196px; right: -15px; background: url('../img/scene-garageband/grinch-sprite.png') no-repeat; width: 1400px; height: 825px; background-position: -4203px -0px; opacity: 0; }
+#garage-grinch { position: absolute; bottom: 186px; right: -15px; background: url('../img/scene-garageband/grinch-sprite.png') no-repeat; width: 1400px; height: 825px; background-position: -4203px -0px; opacity: 0; }
 #garage-grinch.grinch1 { background-position: -4203px -0px; }
 #garage-grinch.grinch2 { background-position: -2802px -3304px; }
 #garage-grinch.grinch3 { background-position: -1401px -3304px; }
@@ -488,7 +488,7 @@ audio { display: none; }
 #garage-grinch.grinch17 { background: none; }
 
 
-#garage-decorations { position: absolute; bottom: 581px; right: 207px; background: url('../img/scene-garageband/decorations-sprite.png') no-repeat; width: 1125px; height: 325px; background-position: -1126px -1630px; }
+#garage-decorations { position: absolute; bottom: 571px; right: 207px; background: url('../img/scene-garageband/decorations-sprite.png') no-repeat; width: 1125px; height: 325px; background-position: -1126px -1630px; }
 #garage-decorations.decorations1 { background-position: -1126px -1630px; }
 #garage-decorations.decorations2 { background-position: -1126px -1304px; }
 #garage-decorations.decorations3 { background-position: -1126px -978px; }
