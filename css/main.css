@@ -917,14 +917,14 @@ audio { display: none; }
 #celebration-light.celebration-light4 { width: 631px; height: 587px; background-position: -642px -0px; }
 #celebration-light.celebration-light5 { width: 631px; height: 587px; background-position: -0px -0px; }
 
-#hearts-large { position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/hearts-large.png'); background-repeat: no-repeat; opacity: 0; }
+#hearts-large { position:absolute; left: -150px; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/hearts-large.png'); background-repeat: no-repeat; opacity: 0; }
 #hearts-medium { position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px; background-image: url('../img/scene-sky/hearts-medium.png'); background-repeat: no-repeat; opacity: 0;}
 #hearts-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/hearts-small.png'); background-repeat: no-repeat; opacity: 0;}
-#questions-large {position:absolute; left: 0; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/questions-large.png'); background-repeat: no-repeat; opacity: 0;}
+#questions-large {position:absolute; left: -150px; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/questions-large.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-medium {position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px;background-image: url('../img/scene-sky/questions-medium.png'); background-repeat: no-repeat; opacity: 0;}
 #questions-small {position:absolute; left: 0; bottom: -100px;width: 1000px; height: 800px; background-image: url('../img/scene-sky/questions-small.png'); background-repeat: no-repeat; opacity: 0; }
-#s14t2 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-1.png'); }
-#s14t3 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-2.png'); }
+#s14t2 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; /*z-index: 9999;*/ background-image: url('../img/scene-sky/text-sky-1.png'); }
+#s14t3 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; /*z-index: 9999;*/ background-image: url('../img/scene-sky/text-sky-2.png'); }
 #s14t4 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-3.png'); }
 #s14t5 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-4.png'); }
 #s15t1 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-5.png'); }

@@ -529,9 +529,9 @@ window.onload = function() {
 			{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("s4t1"), start: 4.37, end: 4.42, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("memes"), start: 4.54, end: 4.65, x: -920, y: 0, type:"translate"},
+			{id:document.getElementById("memes"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("doorway"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
-			{id:document.getElementById("couch"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
+			{id:document.getElementById("couch"), start: 4.54, end: 4.65, x: -1050, y: 0, type:"translate"},
 			{id:document.getElementById("grinch-burbs"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
 			{id:document.getElementById("bg-test"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
 
@@ -911,7 +911,7 @@ window.onload = function() {
 
 		[ // scene 13 - celebration
 			{id:document.getElementById("celebration"), start: 14.0, end: 14.5, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:6},
-			{id:document.getElementById("celebration-light"), start: 14.2, end: 14.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:8},
+			{id:document.getElementById("celebration-light"), start: 14.2, end: 14.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:16},
 			{id:document.getElementById("growing-heart"), start: 14.88, end: 14.95, prefix: "growing-heart", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
 			{id:body, start: 14.5, end: 14.6, prefix: "color", order: [13,14], repeat:1}
 		],
