@@ -305,11 +305,13 @@ window.onload = function() {
 		}
 		
 		else if ( element.type === "scale" ) {
+
+
 			
-		 	transformMaps[element.map].translate[0][element.mapPos] = x;
-		 	transformMaps[element.map].translate[1][element.mapPos] = y;
+		 	transformMaps[element.map].scale[0][element.mapPos] = x + 1;
+		 	transformMaps[element.map].scale[1][element.mapPos] = y + 1;
 			
-		 	element.id.style[csstransform]='scale(' + transformMaps[element.map].translate[0].reduce(calcSum) + ',' + transformMaps[element.map].translate[1].reduce(calcSum) + ')';
+		 	element.id.style[csstransform]='scale(' + transformMaps[element.map].scale[0].reduce(calcSum) + ',' + transformMaps[element.map].scale[1].reduce(calcSum) + ')';
 			
 		 }
 		
@@ -382,7 +384,7 @@ window.onload = function() {
 	
 	var createTransformMaps = function() {
 	
-		var 	elements = new Array(),
+		var elements = new Array(),
 				mapNumber,
 				mapPos = 0;
 		
@@ -520,9 +522,9 @@ window.onload = function() {
 			
 			{id:document.getElementById("s3t1"), start: 3.05, end: 3.15, x: 1, y: 0, type:"opacity"},
 			{id:document.getElementById("s3t1"), start: 3.5, end: 3.55, x: -1, y: 0, type:"opacity"},
-			{id:document.getElementById("front-snow"), start: 3.1, end: 3.99, x: 0, y: 30, type:"translate"},
-			{id:document.getElementById("back-snow"), start: 3.1, end: 3.99, x: 0, y: 150, type:"translate"},
-			{id:document.getElementById("grinch-transition"), start: 3.2, end: 3.99, x: 2, y: 2, type:"scale"},
+			{id:document.getElementById("front-snow"), start: 3.1, end: 3.99, x: 0, y: 200, type:"translate"},
+			{id:document.getElementById("back-snow"), start: 3.1, end: 3.99, x: 0, y: 450, type:"translate"},
+			{id:document.getElementById("grinch-transition"), start: 3.2, end: 3.99, x: 1, y: 1, type:"scale"},
 			{id:document.getElementById("grinch-container"), start: 3.2, end: 3.99, x: 0, y: -350, type:"translate"},
 
 			{id:sections[2], start: 3.2, end: 3.35, x: 1, y: 0, type:"opacity"},
