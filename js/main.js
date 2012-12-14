@@ -463,7 +463,8 @@ window.onload = function() {
 	
 		[  // global
 		
-			{id:document.getElementById("candycane1"), start: 0.01, end: 0.04, x: 60, y: -400, type:"translate"},
+			{id:document.getElementById("candycane1"), start: 0.01, end: 0.025, x: 60, y: -400, type:"translate"},
+			{id:document.getElementById("candycane-textbox"), start: 0.008, end: 0.012, x: 1, y: 0, type:"opacity"},
 		
 		],
 		
