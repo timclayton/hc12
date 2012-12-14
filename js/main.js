@@ -947,11 +947,6 @@ window.onload = function() {
 	for ( i = 0; i < classShifts.length; i++ ) {
 		classShifts[i].forEach(duplicate, this);
 	}
-	
-	window.scrollTo(0,0);
-	$("html, body").animate({
-		scrollTop: 600
-	}, 2000);
 
 	playToggle.onclick = function() {
 		if ( playing ) {
