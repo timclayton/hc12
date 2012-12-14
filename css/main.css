@@ -956,9 +956,11 @@ audio { display: none; }
 
 /*=== Scene 15  - Finale ===== */
 
-#curtain { position: absolute; top: 0; left: 0; width: 1376px; height: 476px; background: url('../img/scene-finale/curtains.png') no-repeat; }
+#curtain { position: absolute; bottom: 500px; left: 0; width: 1376px; height: 476px; background: url('../img/scene-finale/curtains.png') no-repeat; }
+#mckayla { position: absolute; bottom: -677px; left: 50%; width: 428px; height: 677px; background: url('../img/scene-finale/mckayla.png') no-repeat; margin-left:-214px;  }
+#sleigh { position: absolute; bottom: 191px; left: 724px; width: 633px; height: 647px; background: url('../img/scene-finale/sleigh.png') no-repeat;   }
 
-#bells { position: absolute; top: 0; left: 0; width: 1140px; height: 500px; background: url('../img/scene-finale/bells-sprite.png') no-repeat; background-position: -2282px -2004px; }
+#bells { position: absolute; bottom: 500px; left: 0; width: 1140px; height: 500px; background: url('../img/scene-finale/bells-sprite.png') no-repeat; background-position: -2282px -2004px; }
 #bells.bells1 { width: 1140px; height: 500px; background-position: -2282px -2004px; }
 #bells.bells2 { width: 1140px; height: 500px; background-position: -2282px -1503px; }
 #bells.bells3 { width: 1140px; height: 500px; background-position: -2282px -1002px; }

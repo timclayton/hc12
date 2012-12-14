@@ -816,6 +816,8 @@ window.onload = function() {
 			{id:document.getElementById("tbg"), start: 15, end: 15.05, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s15t1"), start: 15.0, end: 15.05, x:1, y: 0, type:"opacity"},
 			{id:document.getElementById("s15t1"), start: 15.45, end: 15.58, x:-1, y: 0, type:"opacity"},
+			{id:document.getElementById("mckayla"), start: 15.85, end: 15.92, x:0, y: -677, type:"translate"},
+			
 			
 			{id:sections[14], start: 15.45, end: 15.5, x: 1, y: 0, type:"opacity"},
 			
