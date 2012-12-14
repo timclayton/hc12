@@ -416,8 +416,8 @@ window.onload = function() {
 				transformMaps[mapNumber].size[1].push(0);
 				transformMaps[mapNumber].bgShift[0].push(0);
 				transformMaps[mapNumber].bgShift[1].push(0);
-				transformMaps[mapNumber].scale[0].push(1);
-				transformMaps[mapNumber].scale[1].push(1);
+				transformMaps[mapNumber].scale[0].push(0);
+				transformMaps[mapNumber].scale[1].push(0);
 				transformMaps[mapNumber].opacity.push(opacity);
 				transformMaps[mapNumber].totalTransforms += 1;
 				element.mapPos = transformMaps[mapNumber].totalTransforms;
@@ -507,8 +507,10 @@ window.onload = function() {
 			{id:document.getElementById("s2t3"), start: 2.76, end: 2.8, x: -1, y: 0, type:"opacity"},
 			{id:document.getElementById("back-row-houses"), start:2.58, end:2.98, x: 220, y:-870, type:"translate"},
 			{id:document.getElementById("front-row-houses"), start:2.62, end:2.98, x: 260, y:-700, type:"translate"},
-			{id:document.getElementById("lawn-ornaments"), start:2.66, end:2.98, x: 110, y:-480, type:"translate"},
-			{id:document.getElementById("gate"), start:2.8, end:2.98, x: 0, y:-870, type:"translate"},
+			{id:document.getElementById("lawn-ornaments"), start:2.66, end:2.98, x: 110, y:-320, type:"translate"},
+			{id:document.getElementById("gate"), start:2.8, end:2.98, x: 0, y:-1000, type:"translate"},
+			{id:document.getElementById("gate"), start:2.8, end:2.82, x: 1, y:0, type:"opacity"},
+			{id:document.getElementById("gate"), start:2.8, end:2.98, x: -1, y:-1, type:"scale"},
 			
 			{id:sections[1], start: 2.1, end: 2.13, x: 1, y: 0, type:"opacity"},
 			{id:sections[1], start: 2.93, end: 2.99, x: -1, y: 0, type:"opacity"},
