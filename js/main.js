@@ -396,6 +396,7 @@ window.onload = function() {
 					size: [[0],[0]],
 					bgShift: [[0],[0]],
 					opacity: [0,opacity],
+					scale: [[1],[1]],
 					totalTransforms: 0
 				});
 				transformMaps.push(map);
@@ -412,6 +413,8 @@ window.onload = function() {
 				transformMaps[mapNumber].size[1].push(0);
 				transformMaps[mapNumber].bgShift[0].push(0);
 				transformMaps[mapNumber].bgShift[1].push(0);
+				transformMaps[mapNumber].scale[0].push(1);
+				transformMaps[mapNumber].scale[1].push(1);
 				transformMaps[mapNumber].opacity.push(opacity);
 				transformMaps[mapNumber].totalTransforms += 1;
 				element.mapPos = transformMaps[mapNumber].totalTransforms;
