@@ -225,7 +225,7 @@ audio { display: none; }
 #lights { position: absolute; width: 1400px; height: 600px; background: url('../img/scene2/lights.png') no-repeat 0 0; left:0; bottom:-600px; opacity: 1;}
 #s2t3 {  left: 50%; margin-left: -177px; width: 354px; height: 328px; background: url('../img/scene2/textbox3.png') no-repeat; opacity: 0; }
 #back-row-houses { position: absolute; width: 2225px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: 0px; bottom: -770px; }
-#front-row-houses  { position: absolute; width: 831px; height: 508px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: 0px; bottom: -477px; }
+#front-row-houses  { position: absolute; width: 1796px; height: 1178px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: 0px; bottom: -477px; }
 #lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: -140px; bottom: -380px; }
 #gate { position: absolute; width: 1400px; height: 860px; background: url('../img/scene2/gate.png') no-repeat 0 0;left:0; bottom: -870px; }
 
@@ -369,7 +369,7 @@ audio { display: none; }
 
 /* ===== Scene 6 - Drummers ===== */
 
-#clouds-1 { position: absolute; width: 1341px; height: 406px; background: url('../img/scene6/clouds-hi.png') no-repeat 0 0;left:0; bottom: 480px; }
+#clouds-1 { position: absolute; width: 1341px; height: 406px; background: url('../img/scene6/clouds-hi.png') no-repeat 0 0;left:0; bottom: 280px; }
 #monument { position: absolute; width: 618px; height: 1000px; background: url('../img/scene6/monument.png') no-repeat 0 0; left:0px; bottom: -400px;}
 #s6t1 { background-image: url('../img/scene6/text-5.png'); }
 #feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene6/feeling-it.png') no-repeat 0 0; right:166px; bottom: 350px; opacity: 0;}
@@ -393,7 +393,7 @@ audio { display: none; }
 #drummers.drummers16 { width: 825px; height: 442px; background-position: -0px -0px; }
 
 
-#hippies { position: absolute; width: 480px; height: 422px; bottom: -400px;  left:390px; background: url('../img/scene6/hippies.png') no-repeat -982px -866px;  }
+#hippies { position: absolute; width: 480px; height: 422px; bottom: -600px;  left:390px; background: url('../img/scene6/hippies.png') no-repeat -982px -866px;  }
 #hippies.hippies1 { width: 480px; height: 422px; background-position: -982px -866px;}
 #hippies.hippies2 { width: 480px; height: 422px; background-position: -982px -433px;}
 #hippies.hippies3 { width: 480px; height: 422px; background-position: -982px -0px;}
@@ -402,7 +402,7 @@ audio { display: none; }
 #hippies.hippies6 { width: 480px; height: 422px; background-position: -491px -433px;}
 #hippies.hippies7 { width: 480px; height: 422px; background-position: -0px -433px;}
 
-#symbols { position: absolute; width: 1283px; height: 678px; bottom: 100px;  left:340px; background: url('../img/scene6/symbols.png') no-repeat -2588px -0px; }
+#symbols { position: absolute; width: 1283px; height: 678px; bottom: 100px;  left:340px; background: url('../img/scene6/symbols.png') no-repeat -2588px -0px; bottom:500px; }
 #symbols.symbols1 {width: 1283px; height: 678px; background-position: -2588px -0px;}
 #symbols.symbols2 {width: 1283px; height: 678px; background-position: -1294px -2067px;}
 #symbols.symbols3 {width: 1283px; height: 678px; background-position: -0px -2067px;}
@@ -412,7 +412,6 @@ audio { display: none; }
 #symbols.symbols7 {width: 1283px; height: 678px; background-position: -0px -689px;}
 #symbols.symbols8 {width: 1283px; height: 678px; background-position: -1294px -0px;}
 #symbols.symbols9 {width: 1283px; height: 678px; background-position: -0px -0px;}
-
 
 
 
