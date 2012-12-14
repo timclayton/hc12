@@ -220,7 +220,7 @@ audio { display: none; }
 #back-row-houses { position: absolute; width: 2225px; height: 770px; background: url('../img/scene2/back-row-houses.png') no-repeat 0 0; right: -7px; bottom: -770px; }
 #front-row-houses  { position: absolute; width: 1796px; height: 1178px; background: url('../img/scene2/front-row-houses.png') no-repeat 0 0; left: -630px; bottom: -1200px; }
 #lawn-ornaments { position: absolute; width: 1235px; height: 380px; background: url('../img/scene2/lawn-ornaments.png') no-repeat 0 0; right: 0px; bottom: -380px; }
-#gate { position: absolute; width: 1400px; height: 860px; left:0; bottom:-20%; opacity:0; background: url('../img/scene2/gate.png') no-repeat 0 0; transform-origin:40% 100%; -ms-transform-origin:40% 100%; -webkit-transform-origin:40% 100%; -moz-transform-origin:40% 100%; }
+#gate { position: absolute; width: 1400px; height: 860px; left:0; bottom:-20%; opacity:0; background: url('../img/scene2/gate.png') no-repeat 0 0; transform-origin:30% 100%; -ms-transform-origin:30% 100%; -webkit-transform-origin:30% 100%; -moz-transform-origin:30% 100%; }
 
 #grinch { position:absolute;  background: url('../img/scene2/grinch.png') no-repeat; bottom:-696px; right:0px; }
 #grinch.grinch1 { width: 399px; height: 696px; background-position: -0px -1414px; }

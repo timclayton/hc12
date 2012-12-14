@@ -517,7 +517,7 @@ $(document).ready(function(){
 					{id:document.getElementById("lawn-ornaments"), start:2.66, end:2.98, x: 110, y:-320, type:"translate"},
 					{id:document.getElementById("gate"), start:2.8, end:2.98, x: 0, y:-1000, type:"translate"},
 					{id:document.getElementById("gate"), start:2.8, end:2.82, x: 1, y:0, type:"opacity"},
-					{id:document.getElementById("gate"), start:2.8, end:2.98, x: -1, y:-1, type:"scale"},
+					{id:document.getElementById("gate"), start:2.8, end:2.98, x: -.8, y:-.8, type:"scale"},
 					
 					{id:sections[1], start: 2.1, end: 2.13, x: 1, y: 0, type:"opacity"},
 					{id:sections[1], start: 2.92, end: 2.98, x: -1, y: 0, type:"opacity"},
