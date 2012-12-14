@@ -547,7 +547,7 @@ $(document).ready(function(){
 					{id:narrationFiles[2], start: 3.01, end: 3.2, x: 1, y: 0, type:"narration"}, 
 					
 					{id:musicFiles[1], start: 3.2, end: 3.6, x: 0.4, y: 0, type:"music"}, // on second call of same music file, fadeout is triggered
-					{id:musicFiles[1], start: 3.95, end: 3.99, x: 0, y: 0, type:"music"} 
+					{id:musicFiles[1], start: 3.87, end: 3.999, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 				],
 				
 				[  // scene 4	
@@ -879,14 +879,14 @@ $(document).ready(function(){
 					{id:document.getElementById("drummers"), start: 6.0, end: 6.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:4},
 					{id:document.getElementById("hippies"), start: 6.0, end: 6.99, prefix: "hippies", order: [1,2,3,4,5,6,7], repeat:10},
 					{id:document.getElementById("symbols"), start: 6.0, end: 6.99, prefix: "symbols", order: [1,2,3,4,5,6,7], repeat:10},
-					{id:document.getElementById("monument-grinch"), start: 6.6, end: 6.9, prefix: "monument-grinch", order: [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0},
+					{id:document.getElementById("monument-grinch"), start: 6.6, end: 6.9, prefix: "monument-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0},
 					{id:body, start: 6.5, end: 6.6, prefix: "color", order: [5,6], repeat:1}
 				],
 				
 				[ // scene 6
 					{id:document.getElementById("garageband"), start: 7, end: 7.95, prefix: "garageband", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21], repeat:4},	
 					{id:document.getElementById("garage-grinch"), start: 7.58, end: 7.88, prefix: "grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:1},
-					{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13], repeat:1},
+					{id:document.getElementById("garage-decorations"), start: 7.5, end: 7.9, prefix: "decorations", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,13,13,13,13], repeat:1},
 					{id:body, start: 7.5, end: 7.6, prefix: "color", order: [6,7], repeat:1}
 				],
 				
