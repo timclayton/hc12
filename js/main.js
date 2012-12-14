@@ -286,6 +286,24 @@ window.onload = function() {
 			element.id.style[csstransform]='translate(' + transformMaps[element.map].translate[0].reduce(calcSum) + 'px,' + transformMaps[element.map].translate[1].reduce(calcSum) + 'px)';
 			
 		}
+		
+		else if ( element.type === "opacity" ) {
+			
+			transformMaps[element.map].opacity[element.mapPos] = x;
+			
+			element.id.style.opacity=transformMaps[element.map].opacity.reduce(calcSum);
+			
+		}
+		
+		else if ( element.type === "bgShift" ) {
+			
+			transformMaps[element.map].bgShift[0][element.mapPos] = x;
+			transformMaps[element.map].bgShift[1][element.mapPos] = y;
+			
+			element.id.style.backgroundPosition=transformMaps[element.map].bgShift[0].reduce(calcSum) + "%" + (100 - transformMaps[element.map].bgShift[1].reduce(calcSum)) + "%";
+			
+		}
+		
 		else if ( element.type === "scale" ) {
 			
 		 	transformMaps[element.map].translate[0][element.mapPos] = x;
@@ -302,23 +320,6 @@ window.onload = function() {
 			
 			element.id.style.width=transformMaps[element.map].size[0].reduce(calcSum) + '%';
 			element.id.style.height=transformMaps[element.map].size[1].reduce(calcSum) + '%';
-			
-		}
-		
-		else if ( element.type === "opacity" ) {
-			
-			transformMaps[element.map].opacity[element.mapPos] = x;
-			
-			element.id.style.opacity=transformMaps[element.map].opacity.reduce(calcSum);
-			
-		}
-		
-		else if ( element.type === "bgShift" ) {
-			
-			transformMaps[element.map].bgShift[0][element.mapPos] = x;
-			transformMaps[element.map].bgShift[1][element.mapPos] = y;
-			
-			element.id.style.backgroundPosition=transformMaps[element.map].bgShift[0].reduce(calcSum) + "%" + (100 - transformMaps[element.map].bgShift[1].reduce(calcSum)) + "%";
 			
 		}
 		
