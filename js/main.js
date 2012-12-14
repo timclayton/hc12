@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-		var totalImages = 131;
+		var totalImages = 138;
 		var count = 0; //number of images loaded
 		var images = [];
 		var urlArray = [];
