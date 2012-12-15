@@ -184,7 +184,7 @@ audio { display: none; }
 #scene9 .bg { background:  #000 url('../img/scene-aquarium/bg.jpg') left bottom no-repeat fixed;}
 #scene10 .bg { background:  #FFF url('../img/scene-truck/bg.jpg') left bottom no-repeat fixed; }
 #scene11 .bg { background:  #B6D5EA url('../img/scene-pool/bg-2.jpg') left bottom no-repeat fixed;}
-#scene12 .bg { background:  #26291D url('../img/scene-stieff/bg.jpg') left bottom no-repeat fixed;}
+#scene12 .bg { background:  #26291D url('../img/scene-stieff/bg-2.jpg') left bottom no-repeat fixed;}
 #scene13 .bg { background:  #263383 url('../img/scene-sleeping/bg.jpg') left bottom no-repeat fixed;}
 #scene13 #sleepingbg2 { background:  #263383 url('../img/scene-sleeping/bg2.jpg') left bottom no-repeat fixed; opacity:0; }
 #scene14 .bg { background:  #BFF4FD url('../img/scene-celebration/bg.jpg') left bottom no-repeat fixed; }
@@ -753,9 +753,12 @@ audio { display: none; }
 /* ===== Scene 12  ===== */
 
 #s12t1 { background-image:url('../img/scene-stieff/stieff-text.png'); }
-#foreground {  position:absolute;bottom:-400px; left:569px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 824px; height:101px; }
 #lights-out { position:absolute; bottom: 407px; left:0; width:1399px; height:593px; background:url('../img/scene-stieff/lights-out.jpg') no-repeat; opacity: 0; }
-#midground { position:absolute; bottom: 0px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }
+#foreground {  position:absolute;bottom:-400px; left:260px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 1403px; height:138px; }
+/*#midground { position:absolute; bottom: 0px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }*/
+#back-snow-stieff { position: absolute; bottom:-100px; left:0; width:1957px; height:534px; background: url('../img/scene-stieff/back-snow.png') no-repeat 0 0; }
+#tent { position: absolute; bottom:-292px; left:680px; width:1188px; height:292px; background: url('../img/scene-stieff/tent.png') no-repeat 0 0;  }
+#woodstock { position: absolute; bottom:300px; left:429px; width:279px; height:300px; background: url('../img/scene-stieff/woodstock.png') no-repeat 0 0; }
 
 #fire { position:absolute; bottom: -400px; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat -784px -381px;  }
 #fire.fire1 { background-position: -784px -381px; }
