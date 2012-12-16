@@ -15,8 +15,7 @@ $(document).ready(function(){
 		    var displayContainer = document.getElementById('percent-text');
 		    var percent = (count/totalImages);
 		    var percentFormatted = Math.floor( percent * 100 ) + "%";
-		    displayContainer.innerHTML = percentFormatted; 
-			displayContainer.style.paddingLeft = (200 * percent) + 10 + "px";
+		    displayContainer.innerHTML = percentFormatted;
 		}
 		
 
