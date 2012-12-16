@@ -168,7 +168,7 @@ audio { display: none; }
 #scene12 { height:6000px; opacity: 0; } /* stieff */
 #scene13 { height:12000px; opacity: 0;  } /* sleeping */
 #scene14 { height:25000px; opacity: 0; } /* celebration */
-#scene15 { height:14000px; opacity: 0; } /* finale */
+#scene15 { height:28000px; opacity: 0; } /* finale */
 
 /* ===== Backgrounds ===== */
 
@@ -951,15 +951,15 @@ audio { display: none; }
 
 /*=== Scene 15  - Finale ===== */
 
-#hillock { position: absolute; bottom: -200px; left: 0; width: 100%; height: 700px; background: url('../img/scene-finale/hillock.png') no-repeat 0 0; }
-#tbg-building { position: absolute; bottom: 285px; left: 340px; width: 559px; height: 551px; background: url('../img/scene-finale/building.png') no-repeat 0 0; }
-#tbg-banner { position: absolute; top: 0px; left: 420px; width: 408px; height: 165px; background: url('../img/scene-finale/banner.png') no-repeat 50% 0; }
+#hillock { position: absolute; bottom: -350px; left: 0; width: 100%; height: 700px; background: url('../img/scene-finale/hillock.png') no-repeat 0 0; }
+#tbg-building { position: absolute; bottom: 220px; left: 340px; width: 559px; height: 551px; background: url('../img/scene-finale/building.png') no-repeat 0 0; }
+#tbg-banner { position: absolute; bottom: 540px; left: 420px; width: 408px; height: 165px; background: url('../img/scene-finale/banner.png') no-repeat 50% 0; }
 #mckayla { position: absolute; bottom: 0; left: 50%; width: 428px; height: 677px; background: url('../img/scene-finale/mckayla.png') no-repeat; margin-left:-214px;  opacity:0; }
 #sleigh { position: absolute; bottom: 191px; left: 724px; width: 633px; height: 647px; background: url('../img/scene-finale/sleigh.png') no-repeat; }
 #back-snow2 {position:absolute; background: url('../img/scene-transition/back-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:0;  }
 #front-snow2 { position:absolute; background: url('../img/scene-transition/front-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:0; }
 
-#tbg { position: absolute; top: 58px; left: 0; width: 1180px; height: 650px; background: url('../img/scene-finale/tbg-sprite.png') no-repeat; background-position: -2362px -0px; opacity: 0; }
+#tbg { position: absolute; bottom: -150px; left: 0; width: 1180px; height: 650px; background: url('../img/scene-finale/tbg-sprite.png') no-repeat; background-position: -2362px -0px; }
 #tbg.tbg1 { width: 1180px; height: 650px; background-position: -2362px -0px; }
 #tbg.tbg2 { width: 1180px; height: 650px; background-position: -1181px -1953px; }	
 #tbg.tbg3 { width: 1180px; height: 650px; background-position: -0px -1953px; }
@@ -974,27 +974,18 @@ audio { display: none; }
 
 #candycane-textbox { position: absolute; top: -115px; left: -30px; width: 155px; height: 133px; background: url('../img/scene1/sprite.png') -392px -870px; opacity: 0; }
 #wings { position: fixed; top: 50%; right: 19%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); }
-#wings.wings1 { background-position: 0 0; }
-#wings.wings2 { background-position: 0 -198px; }
-#wings.wings3 { background-position: 0 -396px; }
-#wings.wings4 { background-position: 0 -594px; }
-#wings.wings5 { background-position: 0 -792px; }
-#wings.wings6 { background-position: 0 -990px; }
-#wings.wings7 { background-position: 0 -1188px; }
-#wings.wings8 { background-position: 0 -1386px; }
-#wings.wings9 { background-position: 0 -1584px; }
+.wings1 { background-position: 0 0; }
+.wings2 { background-position: 0 -198px; }
+.wings3 { background-position: 0 -396px; }
+.wings4 { background-position: 0 -594px; }
+.wings5 { background-position: 0 -792px; }
+.wings6 { background-position: 0 -990px; }
+.wings7 { background-position: 0 -1188px; }
+.wings8 { background-position: 0 -1386px; }
+.wings9 { background-position: 0 -1584px; }
 
 #candycane-textbox2 { position: absolute; top: -115px; left: -30px; width: 155px; height: 133px; background: url('../img/scene1/sprite.png') -392px -870px; opacity: 0; }
-#wings2 { position: fixed; top: 20%; left: 20%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); opacity:0; }
-#wings.wings1 { background-position: 0 0; }
-#wings.wings2 { background-position: 0 -198px; }
-#wings.wings3 { background-position: 0 -396px; }
-#wings.wings4 { background-position: 0 -594px; }
-#wings.wings5 { background-position: 0 -792px; }
-#wings.wings6 { background-position: 0 -990px; }
-#wings.wings7 { background-position: 0 -1188px; }
-#wings.wings8 { background-position: 0 -1386px; }
-#wings.wings9 { background-position: 0 -1584px; }
+#wings2 { position: fixed; bottom: 150px; left: 480px; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); opacity:0; }
 
 
 /* ==========================================================================

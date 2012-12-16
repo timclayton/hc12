@@ -828,21 +828,22 @@ $(document).ready(function(){
 				 ],
 
 				 [ //scene 14 - finale
-					{id:document.getElementById("s15t1"), start: 15.0, end: 15.05, x:1, y: 0, type:"opacity"},
-					{id:document.getElementById("s15t1"), start: 15.35, end: 15.48, x:-1, y: 0, type:"opacity"},
-					{id:document.getElementById("front-snow2"), start: 15.35, end: 15.99, x: 0, y: 200, type:"translate"},
-					{id:document.getElementById("back-snow2"), start: 15.35, end: 15.99, x: 0, y: 450, type:"translate"},
-					{id:document.getElementById("hillock"), start: 15.35, end: 15.5, x: 0, y: 100, type:"translate"},
-					{id:document.getElementById("tbg-building"), start: 15.35, end: 15.5, x: 0, y: -75, type:"translate"},
-					{id:document.getElementById("tbg"), start: 15.45, end: 15.5, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("tbg"), start: 15.75, end: 15.8, x:-1, y: 0, type:"opacity"},
-					{id:document.getElementById("mckayla"), start: 15.81, end: 15.83, x:1, y: 0, type:"opacity"},
-					{id:document.getElementById("mckayla"), start: 15.9, end: 15.92, x:-1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings2"), start: 15.55, end: 15.6, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("candycane-textbox2"), start: 15.55, end: 15.6, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings2"), start: 15.55, end: 15.9, x: 0, y: 200, type:"translate"},
+					{id:document.getElementById("s15t1"), start: 15.0, end: 15.025, x:1, y: 0, type:"opacity"},
+					{id:document.getElementById("s15t1"), start: 15.175, end: 15.24, x:-1, y: 0, type:"opacity"},
+					{id:document.getElementById("back-snow2"), start: 15.175, end: 15.99, x: 0, y: 800, type:"translate"},
+					{id:document.getElementById("hillock"), start: 15.175, end: 15.25, x: 0, y: -50, type:"translate"},
+					{id:document.getElementById("tbg-building"), start: 15.175, end: 15.25, x: 0, y: 50, type:"translate"},
+					{id:document.getElementById("tbg-banner"), start: 15.175, end: 15.25, x: 0, y: 90, type:"translate"},
+					{id:document.getElementById("tbg"), start: 15.175, end: 15.25, x: 0, y: -50, type: "translate"},
+					{id:document.getElementById("tbg"), start: 15.375, end: 15.4, x:-1, y: 0, type:"opacity", fade: "out"},
+					{id:document.getElementById("sleigh"), start: 15.375, end: 15.4, x:-1, y: 0, type:"opacity", fade: "out"},
+					{id:document.getElementById("mckayla"), start: 15.4, end: 15.42, x:1, y: 0, type:"opacity"},
+					{id:document.getElementById("mckayla"), start: 15.45, end: 15.49, x:-1, y: 0, type:"opacity"},
+					{id:document.getElementById("wings2"), start: 15.47, end: 15.49, x: 1, y: 0, type:"opacity"},
+					{id:document.getElementById("candycane-textbox2"), start: 15.47, end: 15.49, x: 1, y: 0, type:"opacity"},
+					{id:document.getElementById("wings2"), start: 15.47, end: 15.49, x: 0, y: 200, type:"translate"},
 					
-					{id:sections[14], start: 15.35, end: 15.42, x: 1, y: 0, type:"opacity"},
+					{id:sections[14], start: 15.175, end: 15.21, x: 1, y: 0, type:"opacity"},
 					
 					{id:narrationFiles[16], start: 15.0, end: 15.01, x: 1, y: 0, type:"narration"},
 
@@ -854,8 +855,7 @@ $(document).ready(function(){
 			var classShifts = [  // First array holds global class shifts, following are per scene
 			
 				[  // global
-					{id:document.getElementById("wings"), start: 0.005, end: 0.035, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:12},
-					{id:document.getElementById("wings2"), start: 0.95, end: 0.99, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:15}
+					{id:document.getElementById("wings"), start: 0.005, end: 0.035, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:12}
 				],
 				
 				[  // scene 1
@@ -957,7 +957,8 @@ $(document).ready(function(){
 				],
 
 				[ // scene 14
-					{id:document.getElementById("tbg"), start: 15, end: 15.99, prefix: "tbg", order: [1,2,3,4,5,6,7,8,9], repeat:12},
+					{id:document.getElementById("tbg"), start: 15, end: 15.5, prefix: "tbg", order: [1,2,3,4,5,6,7,8,9], repeat:12},
+					{id:document.getElementById("wings2"), start: 15.47, end: 15.99, prefix: "wings", order: [1,2,3,4,5,6,7,8,9], repeat:30},
 					{id:body, start: 15.5, end: 15.6, prefix: "color", order: [14,15], repeat:1}
 				]
 			
