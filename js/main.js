@@ -77,9 +77,8 @@ $(document).ready(function(){
 							sections 				=  document.querySelectorAll("section");
 							scenes 				=  new Array(),
 							musicFiles			=  document.querySelectorAll(".music"),
-							musicVol				=  .5,
+							masterVol				=  1,
 							narrationFiles		=  document.querySelectorAll(".narration"),
-							narrationVol			=  1,
 							audioDisabled		=  false,
 							audioReset			=  false,
 							play						=  document.getElementById("play"),
@@ -95,7 +94,6 @@ $(document).ready(function(){
 			window.onresize = function() {
 				
 							wh						= window.innerHeight;
-							//setBgHeight();
 				
 			}
 			
@@ -124,17 +122,19 @@ $(document).ready(function(){
 					if ( element.type === "music" ) {
 						element.id.pause();
 						element.id.currentTime = 0;
+						element.id.volume = 0;
 						element.id.className = "music";
 					}
 					else if ( element.type === "narration" ) {
 						element.id.pause();
 						element.id.currentTime = 0;
+						element.id.volume = 0;
 						element.id.className = "narration";
 					}
 				
 				}
 				
-				for ( i = 0; i < sections.length; i++ ) {
+				for ( i = 0; i <= sections.length; i++ ) {
 					transforms[i].forEach(stopSceneAudio, this);
 				}
 			
@@ -184,12 +184,14 @@ $(document).ready(function(){
 			
 			}	
 			
-			var fadeInAudio = function(file, fadeTo, fadeSpeed) {
+			var fadeUpAudio = function(file, fadeTo, fadeSpeed) {
 				
-				file.volume = 0;
-				file.play();
-					
-				var vol = 0;
+				if ( file.paused ) {
+					file.volume = 0;
+					file.play();
+				}
+				
+				var vol = file.volume;
 				var fadeInterval = setInterval(function() {
 				
 					if ( vol < fadeTo ) {
@@ -205,22 +207,24 @@ $(document).ready(function(){
 			
 			}
 			
-			var fadeOutAudio = function(file, fadeTo, fadeSpeed) {
+			var fadeDownAudio = function(file, fadeTo, fadeSpeed) {
 			
 				if ( file.volume > 0 ) {
 					
 					var vol = file.volume;
 					var fadeInterval = setInterval(function() {
 					
-						if ( vol > 0 ) {
+						if ( vol > fadeTo ) {
 							vol -= 0.05;
 							file.volume = vol.toFixed(2);
 						} 
 						
 						else {
 							clearInterval(fadeInterval);
-							file.pause();
-							file.currentTime = 0;
+							if ( fadeTo === 0 ) {
+								file.pause();
+								file.currentTime = 0;
+							}
 						}
 						
 					}, fadeSpeed);
@@ -229,14 +233,19 @@ $(document).ready(function(){
 			
 			}
 			
-			var toggleAudio = function(file, fadeTo, fadeSpeed) {
+			var toggleAudio = function(element, fadeSpeed) {
+			
+				var fadeTo = element.x * masterVol;
+				var liveVolume = element.x;
+				element.id.liveVolume = liveVolume;
 				
-				if ( fadeTo > 0 ) {
-					fadeInAudio(file, fadeTo, fadeSpeed);
+				if ( liveVolume > element.id.volume ) {
+					fadeUpAudio(element.id, fadeTo, fadeSpeed);	
 				}
 				
 				else {
-					fadeOutAudio(file, fadeTo, fadeSpeed);
+					console.log(element.id.volume)
+					fadeDownAudio(element.id, fadeTo, fadeSpeed);
 				}
 				
 			}
@@ -331,7 +340,8 @@ $(document).ready(function(){
 					if ( element.type === "narration" && animPercent > 0 && animPercent < 1 ) {
 					
 						if ( !element.triggered ) {
-							element.id.volume = narrationVol;
+							element.id.volume = 1 * masterVol;
+							element.id.liveVolume = 1;
 							element.id.play();
 							element.triggered = true;
 						}
@@ -340,10 +350,10 @@ $(document).ready(function(){
 					
 					else if ( element.type === "music" && animPercent > 0 && animPercent < 1 ) {
 					
-						fadeSpeed = element.fadeSpeed ? element.fadeSpeed : 100
+						var fadeSpeed = element.fadeSpeed ? element.fadeSpeed : 100
 					
 						if ( !element.triggered ) {
-							toggleAudio(element.id, element.x, fadeSpeed);
+							toggleAudio(element, fadeSpeed);
 							element.triggered = true;
 						}
 					
@@ -376,12 +386,12 @@ $(document).ready(function(){
 			}
 			
 			var scrollIncrement = function() {
-				s < d - wh ? window.scrollBy(0,15) : stopScroll(true);
+				s < d - wh ? window.scrollBy(0,15) : stopScroll();
 			}
 			
-			var stopScroll = function(end) {
+			var stopScroll = function() {
 				clearInterval(autoScroll);
-				playToggle.className = end ? "restart" : "paused";
+				playToggle.click();
 				playing = false;
 			}
 			
@@ -823,11 +833,13 @@ $(document).ready(function(){
 					
 					
 					{id:musicFiles[12], start: 14.1, end: 14.15, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[12], start: 14.92, end: 14.99, x: 0, y: 0, type:"music", fadeSpeed: 420}
+					{id:musicFiles[12], start: 14.36, end: 14.39, x: 0.3, y: 0, type:"music", fadeSpeed: 400},
+					{id:musicFiles[12], start: 14.79, end: 14.81, x: 0.7, y: 0, type:"music", fadeSpeed: 400},
+					{id:musicFiles[12], start: 14.92, end: 14.99, x: 0, y: 0, type:"music", fadeSpeed: 520}
 			
 				 ],
 
-				 [ //scene 14 - finale
+				 [ //scene 15 - finale
 					{id:document.getElementById("s15t1"), start: 15.0, end: 15.025, x:1, y: 0, type:"opacity"},
 					{id:document.getElementById("s15t1"), start: 15.175, end: 15.24, x:-1, y: 0, type:"opacity"},
 					{id:document.getElementById("back-snow2"), start: 15.175, end: 15.99, x: 0, y: 800, type:"translate"},
@@ -847,8 +859,8 @@ $(document).ready(function(){
 					
 					{id:narrationFiles[16], start: 15.0, end: 15.01, x: 1, y: 0, type:"narration"},
 
-					{id:musicFiles[13], start: 15.0, end: 15.55, x: 1, y: 0, type:"music"},
-					{id:musicFiles[13], start: 15.987, end: 15.97, x: 0, y: 0, type:"music", fadeSpeed: 420}
+					{id:musicFiles[13], start: 15.0, end: 15.5, x: 0.6, y: 0, type:"music", fadeSpeed: 300},
+					{id:musicFiles[13], start: 15.99, end: 15.999, x: 0, y: 0, type:"music", fadeSpeed: 300}
 				 ]
 			]
 			
@@ -966,6 +978,7 @@ $(document).ready(function(){
 			
 			createSceneObjects();
 			createTransformMaps();
+			resetAudio();
 			
 			for ( i = 0; i < classShifts.length; i++ ) {
 				classShifts[i].forEach(duplicate, this);
@@ -982,15 +995,15 @@ $(document).ready(function(){
 					playing = false;
 					audioReset = false;
 				}
-				else if ( playToggle.className === "restart" ) {
-					audioDisabled = true;
-					window.scrollTo(0, 0);
-					playToggle.className = "paused";
-					transforms[pos].forEach(transform, this);
-					resetAudio();
-					audioDisabled = false;
-					playToggle.click();
-				}
+				//else if ( playToggle.className === "restart" ) {
+				//	audioDisabled = true;
+				//	window.scrollTo(0, 0);
+				//	playToggle.className = "paused";
+				//	transforms[pos].forEach(transform, this);
+				//	resetAudio();
+				//	audioDisabled = false;
+				//	playToggle.click();
+				//}
 				else {
 					scrollToEnd();
 					playing = true;
@@ -1026,23 +1039,23 @@ $(document).ready(function(){
 			
 			audioToggle.onclick = function() {
 			
-				if ( audioToggle.className === "audio-on" ) {
-					musicVol = 0;
-					narrationVol = 0;
+				if ( masterVol === 1 ) {
+					masterVol = 0;
 					audioToggle.className = "audio-off";
 				}
 				else {
-					musicVol = 0.5;
-					narrationVol = 1;
+					masterVol = 1;
 					audioToggle.className = "audio-on";
 				}
 				
 				for ( i = 0; i < musicFiles.length; i++ ) {
-					musicFiles[i].volume = musicVol;
+					musicFiles[i].volume = musicFiles[i].liveVolume * masterVol;
+					console.log(musicFiles[i].id);
+					console.log(musicFiles[i].volume);
 				}
 				
 				for ( i = 0; i < narrationFiles.length; i++ ) {
-					narrationFiles[i].volume = narrationVol;
+					narrationFiles[i].volume = narrationFiles[i].liveVolume * masterVol;
 				}
 				
 			}
