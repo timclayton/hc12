@@ -837,10 +837,11 @@ $(document).ready(function(){
 					{id:document.getElementById("tbg"), start: 15.175, end: 15.25, x: 0, y: -50, type: "translate"},
 					{id:document.getElementById("tbg"), start: 15.375, end: 15.4, x:-1, y: 0, type:"opacity", fade: "out"},
 					{id:document.getElementById("sleigh"), start: 15.375, end: 15.4, x:-1, y: 0, type:"opacity", fade: "out"},
-					{id:document.getElementById("mckayla"), start: 15.4, end: 15.42, x:1, y: 0, type:"opacity"},
-					{id:document.getElementById("mckayla"), start: 15.45, end: 15.49, x:-1, y: 0, type:"opacity"},
+					{id:document.getElementById("mckayla"), start: 15.4, end: 15.405, x:600, y: 0, type:"translate"},
+					{id:document.getElementById("mckayla"), start: 15.46, end: 15.465, x:-600, y: 0, type:"translate"},
 					{id:document.getElementById("wings2"), start: 15.47, end: 15.49, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("wings2"), start: 15.47, end: 15.49, x: 0, y: 100, type:"translate"},
+					{id:document.getElementById("wings2"), start: 15.75, end: 15.9, x: 500, y: -600, type:"translate"},
 					
 					{id:sections[14], start: 15.175, end: 15.21, x: 1, y: 0, type:"opacity"},
 					
