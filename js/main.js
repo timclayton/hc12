@@ -471,10 +471,10 @@ $(document).ready(function(){
 			
 				[  // global
 				
-					{id:document.getElementById("wings"), start: 0.02, end: 0.029, x: 3, y: 3, type:"scale"},
+					{id:document.getElementById("wings"), start: 0.019, end: 0.025, x: 14, y: 14, type:"scale"},
 					{id:document.getElementById("wings"), start: 0.008, end: 0.012, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("candycane-textbox"), start: 0.012, end: 0.014, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings"), start: 0.021, end: 0.023, x: -1, y: 0, type:"opacity"},
+					{id:document.getElementById("wings"), start: 0.0211, end: 0.0222, x: -1, y: 0, type:"opacity"},
 				
 				],
 				
