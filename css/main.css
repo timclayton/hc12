@@ -758,7 +758,7 @@ audio { display: none; }
 #foreground {  position:absolute;bottom:-400px; left:260px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 1403px; height:138px; }
 #back-snow-stieff { position: absolute; bottom:-100px; left:0; width:1957px; height:534px; background: url('../img/scene-stieff/back-snow.png') no-repeat 0 0; }
 #tent { position: absolute; bottom:-292px; left:680px; width:1188px; height:292px; background: url('../img/scene-stieff/tent.png') no-repeat 0 0;  }
-#woodstock { position: absolute; bottom:300px; left:400px; width:279px; height:300px; background: url('../img/scene-stieff/woodstock.png') no-repeat 0 0; }
+#woodstock { position: absolute; bottom:300px; left:319px; width:443px; height:300px; background: url('../img/scene-stieff/woodstock.png') no-repeat 0 0; }
 #woodstock-container { width:100%; height:100%; }
 #logs { position: absolute; bottom:-400px; left:506px; width:177px; height:82px; background: url('../img/scene-stieff/logs.png') no-repeat 0 0;  }
 
@@ -770,7 +770,7 @@ audio { display: none; }
 #fire.fire5 { background-position: -392px -0px; }
 #fire.fire6 { background-position: -0px -0px; }
 
-#stieff { position:absolute; bottom: -400px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor-sprite.png') no-repeat -2706px -493px; }
+/*#stieff { position:absolute; bottom: -400px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor-sprite.png') no-repeat -2706px -493px; }
 #stieff.stieff01 {width: 891px; height: 482px; background-position: -2706px -493px;}
 #stieff.stieff02 {width: 891px; height: 482px; background-position: -2706px -0px;}
 #stieff.stieff03 {width: 891px; height: 482px; background-position: -1804px -2465px;}
@@ -790,7 +790,30 @@ audio { display: none; }
 #stieff.stieff17 {width: 891px; height: 482px; background-position: -0px -493px;}
 #stieff.stieff18 {width: 891px; height: 482px; background-position: -1804px -0px;}
 #stieff.stieff19 {width: 891px; height: 482px; background-position: -902px -0px;}
-#stieff.stieff20 {width: 891px; height: 482px; background-position: -0px -0px;}
+#stieff.stieff20 {width: 891px; height: 482px; background-position: -0px -0px;}*/
+
+
+#stieff { position:absolute; bottom: -400px; left:342px;width: 857px; height: 466px;background: url('../img/scene-stieff/conor-sprite.png') no-repeat -2706px -477px;}
+#stieff.stieff1 { width: 857px; height: 466px; background-position: -2604px -477px;}
+#stieff.stieff2 { width: 857px; height: 466px; background-position: -2604px -0px;}
+#stieff.stieff3 { width: 857px; height: 466px; background-position: -1736px -2385px;}
+#stieff.stieff4 { width: 857px; height: 466px; background-position: -868px -2385px;}
+#stieff.stieff5 { width: 857px; height: 466px; background-position: -0px -2385px;}
+#stieff.stieff6 { width: 857px; height: 466px; background-position: -1736px -1908px;}
+#stieff.stieff7 { width: 857px; height: 466px; background-position: -868px -1908px;}
+#stieff.stieff8 { width: 857px; height: 466px; background-position: -0px -1908px;}
+#stieff.stieff9 { width: 857px; height: 466px; background-position: -1736px -1431px;}
+#stieff.stieff10 { width: 857px; height: 466px; background-position: -868px -1431px;}
+#stieff.stieff11 { width: 857px; height: 466px; background-position: -0px -1431px;}
+#stieff.stieff12 { width: 857px; height: 466px; background-position: -1736px -954px;}
+#stieff.stieff13 { width: 857px; height: 466px; background-position: -868px -954px;}
+#stieff.stieff14 { width: 857px; height: 466px; background-position: -0px -954px;}
+#stieff.stieff15 { width: 857px; height: 466px; background-position: -1736px -477px;}
+#stieff.stieff16 { width: 857px; height: 466px; background-position: -868px -477px;}
+#stieff.stieff17 { width: 857px; height: 466px; background-position: -0px -477px;}
+#stieff.stieff18 { width: 857px; height: 466px; background-position: -1736px -0px;}
+#stieff.stieff19 { width: 857px; height: 466px; background-position: -868px -0px;}
+#stieff.stieff20 { width: 857px; height: 466px; background-position: -0px -0px;}
 
 #grinch-stieff { position:absolute; bottom: -400px; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat;   }
 #grinch-stieff.grinch-stieff1 { background-position: -0px -1770px; }
