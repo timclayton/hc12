@@ -121,7 +121,7 @@ $(document).ready(function(){
 			
 					if ( element.type === "music" || element.type === "narration" ) {
 						element.id.pause();
-						element.id.currentTime = 0;
+						//element.id.currentTime = 0;
 						element.id.volume = 0;
 						element.id.liveVolume = 0;
 						element.id.className = element.type === "narration" ? "narration" : "music"
@@ -987,19 +987,6 @@ $(document).ready(function(){
 				]
 			
 			]
-			
-			var calcNewStartEnd = function(element) {
-				var 	a = (element.start - 2) * 13000,
-						c = 15000,
-						d = (element.end - 2) * 13000,
-						newStart = (a + 2000) / c + 2,
-						newEnd = (d + 2000) / c + 2,
-						id = element.id.id;
-						newStart.toFixed(2);
-						newEnd.toFixed(2);
-						console.log('{id:document.getElementById("' + id + '"), start: ' + newStart + ', end: ' + newEnd + ', x: ' + element.x + ', y:' + element.y + ', type: ' + '"' + element.type + '"},');
-				
-			}
 			
 			createSceneObjects();
 			createTransformMaps();
