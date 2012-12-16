@@ -970,9 +970,11 @@ audio { display: none; }
 #tbg.tbg8 { width: 1180px; height: 650px; background-position: -1181px -0px; }
 #tbg.tbg9 { width: 1180px; height: 650px; background-position: -0px -0px; }
 
+#replay { position: relative; display: block; width: 100%; height: 100%; z-index: 9999; }
+
 /* ===== Independent Animations ===== */
 
-#candycane-textbox { position: absolute; top: -115px; left: -30px; width: 155px; height: 133px; background: url('../img/scene1/sprite.png') -392px -870px; opacity: 0; }
+#candycane-textbox { position: absolute; top: -115px; left: -30px; width: 180px; height: 155px; background: url('../img/scene1/bubble1.png'); opacity: 0; }
 #wings { position: fixed; top: 50%; right: 19%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); }
 .wings1 { background-position: 0 0; }
 .wings2 { background-position: 0 -198px; }
@@ -985,7 +987,7 @@ audio { display: none; }
 .wings9 { background-position: 0 -1584px; }
 
 #candycane-textbox2 { position: absolute; top: -115px; left: -30px; width: 180px; height: 155px; background: url('../img/scene-finale/bubble2.png') 0 0; }
-#wings2 { position: fixed; bottom: 250px; left: 480px; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); opacity:0; }
+#wings2 { position: fixed; bottom: 250px; left: 480px; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); opacity:0; z-index: 9999;  }
 
 
 /* ==========================================================================

@@ -841,7 +841,6 @@ $(document).ready(function(){
 					{id:document.getElementById("mckayla"), start: 15.46, end: 15.465, x:-600, y: 0, type:"translate"},
 					{id:document.getElementById("wings2"), start: 15.47, end: 15.49, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("wings2"), start: 15.47, end: 15.49, x: 0, y: 100, type:"translate"},
-					{id:document.getElementById("wings2"), start: 15.75, end: 15.9, x: 500, y: -600, type:"translate"},
 					
 					{id:sections[14], start: 15.175, end: 15.21, x: 1, y: 0, type:"opacity"},
 					
@@ -1048,6 +1047,16 @@ $(document).ready(function(){
 			}
 			
 			play.onclick = function() {
+				playToggle.click();
+			}
+			
+			document.getElementById("replay").onclick = function() {
+				audioDisabled = true;
+				window.scrollTo(0, 0);
+				playToggle.className = "paused";
+				transforms[pos].forEach(transform, this);
+				resetAudio();
+				audioDisabled = false;
 				playToggle.click();
 			}
 			
