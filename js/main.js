@@ -552,7 +552,7 @@ $(document).ready(function(){
 					{id:document.getElementById("grinch-container"), start: 3.2, end: 3.99, x: 0, y: -350, type:"translate"},
 
 					{id:sections[2], start: 3.2, end: 3.35, x: 1, y: 0, type:"opacity"},
-					{id:sections[2], start: 3.85, end: 3.99, x: -1.1, y: 0, type:"opacity"},
+					{id:sections[2], start: 3.85, end: 3.99, x: -1, y: 0, type:"opacity"},
 
 					{id:narrationFiles[2], start: 3.01, end: 3.2, x: 1, y: 0, type:"narration"}, 
 					
