@@ -567,9 +567,12 @@ $(document).ready(function(){
 					{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("s4t1"), start: 4.37, end: 4.42, x: -1, y: 0, type:"opacity"},
-					{id:document.getElementById("memes"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
+					// {id:document.getElementById("memes"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
+					{id:document.getElementById("bunny-2"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
+					{id:document.getElementById("bunny-big"), start: 4.54, end: 4.75, x: -950, y: 0, type:"translate"},
+					{id:document.getElementById("know-your-memes"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
 					{id:document.getElementById("doorway"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
-					{id:document.getElementById("couch"), start: 4.54, end: 4.75, x: -1050, y: 0, type:"translate"},
+					{id:document.getElementById("couch"), start: 4.54, end: 4.75, x: -950, y: 0, type:"translate"},
 					{id:document.getElementById("grinch-burbs"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
 					{id:document.getElementById("bg-test"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
 
@@ -889,7 +892,7 @@ $(document).ready(function(){
 				
 				[  // scene 4		
 					{id:document.getElementById("ericw"), start: 4.05, end: 4.65, prefix: "ericw", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17], repeat:4},
-					{id:document.getElementById("grinch-burbs"), start: 4.66, end: 4.9, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
+					{id:document.getElementById("grinch-burbs"), start: 4.75, end: 4.9, prefix: "grinch-burbs", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
 					{id:body, start: 4.5, end: 4.6, prefix: "color", order: [3,4], repeat:1}
 				],
 				
