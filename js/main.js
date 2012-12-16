@@ -840,8 +840,7 @@ $(document).ready(function(){
 					{id:document.getElementById("mckayla"), start: 15.4, end: 15.42, x:1, y: 0, type:"opacity"},
 					{id:document.getElementById("mckayla"), start: 15.45, end: 15.49, x:-1, y: 0, type:"opacity"},
 					{id:document.getElementById("wings2"), start: 15.47, end: 15.49, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("candycane-textbox2"), start: 15.47, end: 15.49, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings2"), start: 15.47, end: 15.49, x: 0, y: 200, type:"translate"},
+					{id:document.getElementById("wings2"), start: 15.47, end: 15.49, x: 0, y: 100, type:"translate"},
 					
 					{id:sections[14], start: 15.175, end: 15.21, x: 1, y: 0, type:"opacity"},
 					

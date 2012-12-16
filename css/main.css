@@ -984,8 +984,8 @@ audio { display: none; }
 .wings8 { background-position: 0 -1386px; }
 .wings9 { background-position: 0 -1584px; }
 
-#candycane-textbox2 { position: absolute; top: -115px; left: -30px; width: 155px; height: 133px; background: url('../img/scene1/sprite.png') -392px -870px; opacity: 0; }
-#wings2 { position: fixed; bottom: 150px; left: 480px; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); opacity:0; }
+#candycane-textbox2 { position: absolute; top: -115px; left: -30px; width: 180px; height: 155px; background: url('../img/scene-finale/bubble2.png') 0 0; }
+#wings2 { position: fixed; bottom: 250px; left: 480px; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); opacity:0; }
 
 
 /* ==========================================================================
