@@ -991,7 +991,6 @@ $(document).ready(function(){
 			createSceneObjects();
 			createTransformMaps();
 			resetAudio();
-			transforms[2].forEach(calcNewStartEnd, this);
 			
 			for ( i = 0; i < classShifts.length; i++ ) {
 				classShifts[i].forEach(duplicate, this);
