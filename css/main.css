@@ -156,7 +156,7 @@ audio { display: none; }
 /* ===== Scenes ===== */
 
 #scene1  { height:1500px; } 
-#scene2  { height:13000px; opacity: 0; } /* cliffs/honville */
+#scene2  { height:15000px; opacity: 0; } /* cliffs/honville */
 #scene3  { height:4000px; opacity: 0; }  /* transition*/
 #scene4  { height:8000px; opacity: 0; } /* burbs */
 #scene5  { height:7000px; opacity: 0; } /* poker */ 
@@ -1003,7 +1003,7 @@ audio { display: none; }
 /* ===== Independent Animations ===== */
 
 #candycane-textbox { position: absolute; top: -115px; left: -30px; width: 180px; height: 155px; background: url('../img/scene1/bubble1.png'); opacity: 0; }
-#wings { position: fixed; top: 50%; right: 19%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); }
+#wings { position: fixed; bottom: 10%; left: 2%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); }
 .wings1 { background-position: 0 0; }
 .wings2 { background-position: 0 -198px; }
 .wings3 { background-position: 0 -396px; }
