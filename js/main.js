@@ -571,6 +571,7 @@ $(document).ready(function(){
 					{id:document.getElementById("bunny-2"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
 					{id:document.getElementById("bunny-big"), start: 4.54, end: 4.75, x: -950, y: 0, type:"translate"},
 					{id:document.getElementById("know-your-memes"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
+					{id:document.getElementById("know-your-memes"), start: 4.75, end: 4.78, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("doorway"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
 					{id:document.getElementById("couch"), start: 4.54, end: 4.75, x: -950, y: 0, type:"translate"},
 					{id:document.getElementById("grinch-burbs"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
