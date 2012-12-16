@@ -13,9 +13,10 @@ $(document).ready(function(){
 		function updateImageDisplay() {
 			count++;
 		    var displayContainer = document.getElementById('percent-text');
-		    var percent = Math.floor( (count/totalImages) * 100 ) + "%";
-		    displayContainer.innerHTML = percent; 
-			
+		    var percent = (count/totalImages);
+		    var percentFormatted = Math.floor( percent * 100 ) + "%";
+		    displayContainer.innerHTML = percentFormatted; 
+			displayContainer.style.paddingLeft = (200 * percent) + 10 + "px";
 		}
 		
 
@@ -552,7 +553,7 @@ $(document).ready(function(){
 					{id:document.getElementById("grinch-container"), start: 3.2, end: 3.99, x: 0, y: -350, type:"translate"},
 
 					{id:sections[2], start: 3.2, end: 3.35, x: 1, y: 0, type:"opacity"},
-					{id:sections[2], start: 3.85, end: 3.99, x: -1.1, y: 0, type:"opacity"},
+					{id:sections[2], start: 3.85, end: 3.99, x: -1, y: 0, type:"opacity"},
 
 					{id:narrationFiles[2], start: 3.01, end: 3.2, x: 1, y: 0, type:"narration"}, 
 					
@@ -998,15 +999,6 @@ $(document).ready(function(){
 					playing = false;
 					audioReset = false;
 				}
-				//else if ( playToggle.className === "restart" ) {
-				//	audioDisabled = true;
-				//	window.scrollTo(0, 0);
-				//	playToggle.className = "paused";
-				//	transforms[pos].forEach(transform, this);
-				//	resetAudio();
-				//	audioDisabled = false;
-				//	playToggle.click();
-				//}
 				else {
 					scrollToEnd();
 					playing = true;
@@ -1019,7 +1011,7 @@ $(document).ready(function(){
 			}
 
 			fastforward.onclick = function () {
-				if ( playing ) {
+				if ( playing && pos < scenes.length ) {
 					var x = pos;
 					audioDisabled = true;
 					window.scrollTo(0, scenes[x].start);
@@ -1030,7 +1022,7 @@ $(document).ready(function(){
 			}
 
 			rewind.onclick = function () {
-				if ( playing ) {
+				if ( playing && pos > 1 ) {
 					var x = pos;
 					audioDisabled = true;
 					window.scrollTo(0,  scenes[x-2].start);
@@ -1053,8 +1045,6 @@ $(document).ready(function(){
 				
 				for ( i = 0; i < musicFiles.length; i++ ) {
 					musicFiles[i].volume = musicFiles[i].liveVolume * masterVol;
-					console.log(musicFiles[i].id);
-					console.log(musicFiles[i].volume);
 				}
 				
 				for ( i = 0; i < narrationFiles.length; i++ ) {
@@ -1068,9 +1058,10 @@ $(document).ready(function(){
 			}
 			
 			document.getElementById("replay").onclick = function() {
+				stopScroll();
 				audioDisabled = true;
 				window.scrollTo(0, 0);
-				playToggle.className = "paused";
+				playing = false;
 				transforms[pos].forEach(transform, this);
 				resetAudio();
 				audioDisabled = false;
