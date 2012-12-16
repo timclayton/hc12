@@ -165,7 +165,7 @@ audio { display: none; }
 #scene9  { height:7500px; opacity: 0; } /* aquarium */
 #scene10 { height:9500px; opacity: 0; } /* truck */
 #scene11 { height:11500px; opacity: 0; } /* pool */
-#scene12 { height:6000px; opacity: 0; } /* stieff */
+#scene12 { height:7500px; opacity: 0; } /* stieff */
 #scene13 { height:12000px; opacity: 0;  } /* sleeping */
 #scene14 { height:25000px; opacity: 0; } /* celebration */
 #scene15 { height:28000px; opacity: 0; } /* finale */
@@ -755,10 +755,10 @@ audio { display: none; }
 #s12t1 { background-image:url('../img/scene-stieff/stieff-text.png'); }
 #lights-out { position:absolute; bottom: 407px; left:0; width:1399px; height:593px; background:url('../img/scene-stieff/lights-out.jpg') no-repeat; opacity: 0; }
 #foreground {  position:absolute;bottom:-400px; left:260px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 1403px; height:138px; }
-/*#midground { position:absolute; bottom: 0px; left:0; width:1400px; height:388px; background:url('../img/scene-stieff/midground.png') no-repeat;  }*/
 #back-snow-stieff { position: absolute; bottom:-100px; left:0; width:1957px; height:534px; background: url('../img/scene-stieff/back-snow.png') no-repeat 0 0; }
 #tent { position: absolute; bottom:-292px; left:680px; width:1188px; height:292px; background: url('../img/scene-stieff/tent.png') no-repeat 0 0;  }
-#woodstock { position: absolute; bottom:300px; left:429px; width:279px; height:300px; background: url('../img/scene-stieff/woodstock.png') no-repeat 0 0; }
+#woodstock { position: absolute; bottom:300px; left:409px; width:279px; height:300px; background: url('../img/scene-stieff/woodstock.png') no-repeat 0 0; }
+#logs { position: absolute; bottom:-400px; left:506px; width:177px; height:82px; background: url('../img/scene-stieff/logs.png') no-repeat 0 0;  }
 
 #fire { position:absolute; bottom: -400px; left:651px;width: 381px; height: 370px; background: url('../img/scene-stieff/fire.png') no-repeat -784px -381px;  }
 #fire.fire1 { background-position: -784px -381px; }
@@ -768,27 +768,27 @@ audio { display: none; }
 #fire.fire5 { background-position: -392px -0px; }
 #fire.fire6 { background-position: -0px -0px; }
 
-#stieff { position:absolute; bottom: -400px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor.png') no-repeat -2670px -485px; }
-#stieff.stieff1 { background-position: -2670px -485px; }
-#stieff.stieff2 { background-position: -2670px -0px; }
-#stieff.stieff3 { background-position: -1780px -2425px; }
-#stieff.stieff4 { background-position: -890px -2425px; }
-#stieff.stieff5 { background-position: -0px -2425px; }
-#stieff.stieff6 { background-position: -1780px -1940px; }
-#stieff.stieff7 { background-position: -890px -1940px; }
-#stieff.stieff8 { background-position: -0px -1940px; }
-#stieff.stieff9 { background-position: -1780px -1455px; }
-#stieff.stieff10 { background-position: -890px -1455px; }
-#stieff.stieff11 { background-position: -0px -1455px; }
-#stieff.stieff12 { background-position: -1780px -970px; }
-#stieff.stieff13 { background-position: -890px -970px; }
-#stieff.stieff14 { background-position: -0px -970px; }
-#stieff.stieff15 { background-position: -1780px -485px; }
-#stieff.stieff16 { background-position: -890px -485px; }
-#stieff.stieff17 { background-position: -0px -485px; }
-#stieff.stieff18 { background-position: -1780px -0px; }
-#stieff.stieff19 { background-position: -890px -0px; }
-#stieff.stieff20 { background-position: -0px -0px; }
+#stieff { position:absolute; bottom: -400px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor-sprite.png') no-repeat -2706px -493px; }
+#stieff.stieff01 {width: 891px; height: 482px; background-position: -2706px -493px;}
+#stieff.stieff02 {width: 891px; height: 482px; background-position: -2706px -0px;}
+#stieff.stieff03 {width: 891px; height: 482px; background-position: -1804px -2465px;}
+#stieff.stieff04 {width: 891px; height: 482px; background-position: -902px -2465px;}
+#stieff.stieff05 {width: 891px; height: 482px; background-position: -0px -2465px;}
+#stieff.stieff06 {width: 891px; height: 482px; background-position: -1804px -1972px;}
+#stieff.stieff07 {width: 891px; height: 482px; background-position: -902px -1972px;}
+#stieff.stieff08 {width: 891px; height: 482px; background-position: -0px -1972px;}
+#stieff.stieff09 {width: 891px; height: 482px; background-position: -1804px -1479px;}
+#stieff.stieff10 {width: 891px; height: 482px; background-position: -902px -1479px;}
+#stieff.stieff11 {width: 891px; height: 482px; background-position: -0px -1479px;}
+#stieff.stieff12 {width: 891px; height: 482px; background-position: -1804px -986px;}
+#stieff.stieff13 {width: 891px; height: 482px; background-position: -902px -986px;}
+#stieff.stieff14 {width: 891px; height: 482px; background-position: -0px -986px;}
+#stieff.stieff15 {width: 891px; height: 482px; background-position: -1804px -493px;}
+#stieff.stieff16 {width: 891px; height: 482px; background-position: -902px -493px;}
+#stieff.stieff17 {width: 891px; height: 482px; background-position: -0px -493px;}
+#stieff.stieff18 {width: 891px; height: 482px; background-position: -1804px -0px;}
+#stieff.stieff19 {width: 891px; height: 482px; background-position: -902px -0px;}
+#stieff.stieff20 {width: 891px; height: 482px; background-position: -0px -0px;}
 
 #grinch-stieff { position:absolute; bottom: -400px; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat;   }
 #grinch-stieff.grinch-stieff1 { background-position: -0px -1770px; }
@@ -804,6 +804,28 @@ audio { display: none; }
 #grinch-stieff.grinch-stieff11 { background-position: -982px -0px; }
 #grinch-stieff.grinch-stieff12 { background-position: -491px -0px; }
 #grinch-stieff.grinch-stieff13 { background-position: -0px -0px; }
+
+#woodstocksprite { position:absolute; bottom:  50px; left:522px; width: 223px; height: 155px; background: url('../img/scene-stieff/woodstock-sprite.png') no-repeat; opacity:0; }
+#woodstocksprite.woodstock-sprite1 {   background-position: -702px -664px;}
+#woodstocksprite.woodstock-sprite2 {   background-position: -702px -498px;}
+#woodstocksprite.woodstock-sprite3 {   background-position: -702px -332px;}
+#woodstocksprite.woodstock-sprite4 {   background-position: -702px -166px;}
+#woodstocksprite.woodstock-sprite5 {   background-position: -702px -0px;}
+#woodstocksprite.woodstock-sprite6 {   background-position: -468px -664px;}
+#woodstocksprite.woodstock-sprite7 {   background-position: -234px -664px;}
+#woodstocksprite.woodstock-sprite8 {   background-position: -0px -664px;}
+#woodstocksprite.woodstock-sprite9 {   background-position: -468px -498px;}
+#woodstocksprite.woodstock-sprite10 {   background-position: -234px -498px;}
+#woodstocksprite.woodstock-sprite11 {   background-position: -0px -498px;}
+#woodstocksprite.woodstock-sprite12 {   background-position: -468px -332px;}
+#woodstocksprite.woodstock-sprite13 {   background-position: -234px -332px;}
+#woodstocksprite.woodstock-sprite14 {   background-position: -0px -332px;}
+#woodstocksprite.woodstock-sprite15 {   background-position: -468px -166px;}
+#woodstocksprite.woodstock-sprite16 {   background-position: -234px -166px;}
+#woodstocksprite.woodstock-sprite17 {   background-position: -0px -166px;}
+#woodstocksprite.woodstock-sprite18 {   background-position: -468px -0px;}
+#woodstocksprite.woodstock-sprite19 {   background-position: -234px -0px;}
+#woodstocksprite.woodstock-sprite20 {   background-position: -0px -0px;}
 
 /* ===== Scene 13  ===== */
 

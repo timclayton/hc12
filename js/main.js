@@ -737,12 +737,14 @@ $(document).ready(function(){
 					{id:document.getElementById("grinch-stieff"), start: 12.2, end: 12.34, x: 0, y: -400, type:"translate"},
 					{id:document.getElementById("tent"), start: 12.2, end: 12.34, x: 0, y: -234, type:"translate"},
 					{id:document.getElementById("stieff"), start: 12.2, end: 12.34, x: 0, y: -400, type:"translate"},
+					{id:document.getElementById("logs"), start: 12.2, end: 12.34, x: 0, y: -400, type:"translate"},
 					{id:document.getElementById("fire"), start: 12.2, end: 12.34, x: 0, y: -400, type:"translate"},
 					{id:document.getElementById("foreground"), start: 12.2, end: 12.34, x: 0, y: -400, type:"translate"},
 					{id:document.getElementById("back-snow-stieff"), start: 12.2, end: 12.34, x: 0, y: -100, type:"translate"},
-					{id:document.getElementById("woodstock"), start: 12.2, end: 12.34, x: -.7, y: -.7, type:"scale"},
-					{id:document.getElementById("woodstock-container"), start: 12.16, end: 12.29, x: 100, y: 335, type:"translate"},
-					{id:document.getElementById("woodstock-container"), start: 12.29, end: 12.3, x: -1, y: 0, type:"opacity", fade:"out"},
+					{id:document.getElementById("woodstock"), start: 12.2, end: 12.4, x: -.7, y: -.7, type:"scale"},
+					{id:document.getElementById("woodstock-container"), start: 12.16, end: 12.39, x: 85, y: 333, type:"translate"},
+					{id:document.getElementById("woodstock-container"), start: 12.37, end: 12.39, x: -1, y: 0, type:"opacity", fade:"out"},
+					{id:document.getElementById("woodstocksprite"), start: 12.39, end: 12.4, x: 1, y: 0, type:"opacity"},
 
 					{id:sections[11], start: 12.2, end: 12.28, x: 1, y: 0, type:"opacity"},
 					{id:sections[11], start: 12.95, end: 12.99, x: -1, y: 0, type:"opacity"},
@@ -944,7 +946,8 @@ $(document).ready(function(){
 
 				[ // scene 11
 					{id:document.getElementById("fire"), start: 12.0, end: 12.99, prefix: "fire", order: [1,2,3,4,5,6], repeat:10},
-					{id:document.getElementById("stieff"), start: 12.0, end: 12.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:5},
+					{id:document.getElementById("stieff"), start: 12.0, end: 12.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:8},
+					{id:document.getElementById("woodstocksprite"), start: 12.0, end: 12.99, prefix: "woodstock-sprite", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:8},
 					{id:document.getElementById("grinch-stieff"), start: 12.5, end: 12.85, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
 					{id:body, start: 12.5, end: 12.6, prefix: "color", order: [11,12], repeat:1}
 				],
