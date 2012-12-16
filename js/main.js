@@ -13,9 +13,10 @@ $(document).ready(function(){
 		function updateImageDisplay() {
 			count++;
 		    var displayContainer = document.getElementById('percent-text');
-		    var percent = Math.floor( (count/totalImages) * 100 ) + "%";
-		    displayContainer.innerHTML = percent; 
-			
+		    var percent = (count/totalImages);
+		    var percentFormatted = Math.floor( percent * 100 ) + "%";
+		    displayContainer.innerHTML = percentFormatted; 
+			displayContainer.style.paddingLeft = (200 * percent) + 10 + "px";
 		}
 		
 
