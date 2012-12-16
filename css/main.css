@@ -166,7 +166,7 @@ audio { display: none; }
 #scene9  { height:7500px; opacity: 0; } /* aquarium */
 #scene10 { height:9500px; opacity: 0; } /* truck */
 #scene11 { height:11500px; opacity: 0; } /* pool */
-#scene12 { height:7500px; opacity: 0; } /* stieff */
+#scene12 { height:9000px; opacity: 0; } /* stieff */
 #scene13 { height:12000px; opacity: 0;  } /* sleeping */
 #scene14 { height:25000px; opacity: 0; } /* celebration */
 #scene15 { height:28000px; opacity: 0; } /* finale */
@@ -758,7 +758,7 @@ audio { display: none; }
 #foreground {  position:absolute;bottom:-400px; left:260px; background:url('../img/scene-stieff/foreground.png') no-repeat; width: 1403px; height:138px; }
 #back-snow-stieff { position: absolute; bottom:-100px; left:0; width:1957px; height:534px; background: url('../img/scene-stieff/back-snow.png') no-repeat 0 0; }
 #tent { position: absolute; bottom:-292px; left:680px; width:1188px; height:292px; background: url('../img/scene-stieff/tent.png') no-repeat 0 0;  }
-#woodstock { position: absolute; bottom:300px; left:409px; width:279px; height:300px; background: url('../img/scene-stieff/woodstock.png') no-repeat 0 0; }
+#woodstock { position: absolute; bottom:300px; left:400px; width:279px; height:300px; background: url('../img/scene-stieff/woodstock.png') no-repeat 0 0; }
 #woodstock-container { width:100%; height:100%; }
 #logs { position: absolute; bottom:-400px; left:506px; width:177px; height:82px; background: url('../img/scene-stieff/logs.png') no-repeat 0 0;  }
 
