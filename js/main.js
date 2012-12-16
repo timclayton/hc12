@@ -919,7 +919,7 @@ $(document).ready(function(){
 				],
 				
 				[ // scene 7
-					{id:document.getElementById("carolers"), start: 8.0, end: 8.99, prefix: "carolers", order: [1,2,3,,2,1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,1,2,3,2,1,2,3,2,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26], repeat:1},
+					{id:document.getElementById("carolers"), start: 8.1, end: 8.99, prefix: "carolers", order: [1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,2,1,2,3,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,16,17,18,19,20,21,22,23,24,25,26], repeat:1},
 					{id:document.getElementById("miracle-grinch"), start: 8.75, end: 8.95, prefix: "miracle-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12], repeat:1},
 					{id:body, start: 8.5, end: 8.6, prefix: "color", order: [7,8], repeat:1}	
 				],
