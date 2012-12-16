@@ -744,7 +744,7 @@ $(document).ready(function(){
 					{id:document.getElementById("back-snow-stieff"), start: 12.2, end: 12.34, x: 0, y: -100, type:"translate"},
 					{id:document.getElementById("woodstock"), start: 12.2, end: 12.4, x: -.7, y: -.7, type:"scale"},
 					{id:document.getElementById("woodstock-container"), start: 12.16, end: 12.39, x: 85, y: 333, type:"translate"},
-					{id:document.getElementById("woodstock-container"), start: 12.37, end: 12.39, x: -1, y: 0, type:"opacity", fade:"out"},
+					{id:document.getElementById("woodstock"), start: 12.37, end: 12.39, x: -1, y: 0, type:"opacity", fade:"out"},
 					{id:document.getElementById("woodstocksprite"), start: 12.39, end: 12.4, x: 1, y: 0, type:"opacity"},
 
 					{id:sections[11], start: 12.2, end: 12.28, x: 1, y: 0, type:"opacity"},
