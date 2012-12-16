@@ -834,6 +834,7 @@ $(document).ready(function(){
 					{id:document.getElementById("hillock"), start: 15.175, end: 15.25, x: 0, y: -50, type:"translate"},
 					{id:document.getElementById("tbg-building"), start: 15.175, end: 15.25, x: 0, y: 50, type:"translate"},
 					{id:document.getElementById("tbg-banner"), start: 15.175, end: 15.25, x: 0, y: 90, type:"translate"},
+					{id:document.getElementById("sleigh"), start: 15.175, end: 15.25, x: -50, y: 0, type:"translate"},
 					{id:document.getElementById("tbg"), start: 15.175, end: 15.25, x: 0, y: -50, type: "translate"},
 					{id:document.getElementById("tbg"), start: 15.375, end: 15.4, x:-1, y: 0, type:"opacity", fade: "out"},
 					{id:document.getElementById("sleigh"), start: 15.375, end: 15.4, x:-1, y: 0, type:"opacity", fade: "out"},
