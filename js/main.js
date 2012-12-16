@@ -119,17 +119,12 @@ $(document).ready(function(){
 			
 				var stopSceneAudio = function(element) {
 			
-					if ( element.type === "music" ) {
+					if ( element.type === "music" || element.type === "narration" ) {
 						element.id.pause();
 						element.id.currentTime = 0;
 						element.id.volume = 0;
-						element.id.className = "music";
-					}
-					else if ( element.type === "narration" ) {
-						element.id.pause();
-						element.id.currentTime = 0;
-						element.id.volume = 0;
-						element.id.className = "narration";
+						element.id.liveVolume = 0;
+						element.id.className = element.type === "narration" ? "narration" : "music"
 					}
 				
 				}
