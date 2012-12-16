@@ -609,7 +609,7 @@ audio { display: none; }
 
 /* ===== Scene 10 - Truck ===== */
 
-#truck { position:absolute; width:1181px; height:568px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: -200px; left:0px; }
+#truck { position:absolute; width:1181px; height:824px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: -270px; left:0px; }
 #s10t1 { background-image:url('../img/scene-truck/text-truck.png'); }
 
 #businessmen { position:absolute; width: 638px; height: 480px; bottom: -300px; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat -2318px -1463px;  }
@@ -633,7 +633,7 @@ audio { display: none; }
 #businessmen.businessmen19 { width: 760px; height: 568px; background-position: -1579px -0px; }
 #businessmen.businessmen20 { width: 797px; height: 499px; background-position: -1579px -579px; }
 
-#truck-grinch { position:absolute; bottom: 54px; left:98px;background: url('../img/scene-truck/truck-grinch.png') no-repeat; width: 372px; height: 242px; background-position: -1149px -253px; }
+#truck-grinch { position:absolute; bottom: -16px; left:98px;background: url('../img/scene-truck/truck-grinch.png') no-repeat; width: 372px; height: 242px; background-position: -1149px -253px; }
 #truck-grinch.truck-grinch1 { background-position: -1149px -253px; }
 #truck-grinch.truck-grinch2 { background-position: -1149px -0px; }
 #truck-grinch.truck-grinch3 { background-position: -766px -1012px; }
