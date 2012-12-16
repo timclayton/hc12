@@ -4,7 +4,7 @@ $(document).ready(function(){
 	
 	if ( supportedBrowser ) {
 
-		var totalImages = 138;
+		var totalImages = 147;
 		var count = 0; //number of images loaded
 		var images = [];
 		var urlArray = [];
