@@ -84,6 +84,8 @@ $(document).ready(function(){
 							play						=  document.getElementById("play"),
 							playing					=  false,
 							playToggle			=  document.getElementById("play-toggle"),
+							ff							=  document.getElementById("fastforward"),
+							rew						=  document.getElementById("rewind"),
 							audioToggle			=  document.getElementById("audio-toggle"),
 							fastforward			=  document.getElementById("fastforward"),
 							rewind					=  document.getElementById("rewind"),
@@ -112,6 +114,9 @@ $(document).ready(function(){
 					resetAudio();
 					audioReset = true;
 				}
+				
+				ff.className = pos === 15 ? "fastforward-disabled" : "fastforward-enabled";
+				rew.className = pos === 1 ? "rewind-disabled" : "rewind-enabled";
 				
 			}
 			
