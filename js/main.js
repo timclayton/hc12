@@ -552,7 +552,7 @@ $(document).ready(function(){
 				
 				[  // scene 4	
 					
-					{id:document.getElementById("ericw"), start: 4.54, end: 4.65, x: -1000, y: 0, type:"translate"},
+					{id:document.getElementById("ericw"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
 					{id:document.getElementById("s4t1"), start: 4.01, end: 4.1, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
