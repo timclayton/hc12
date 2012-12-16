@@ -770,29 +770,6 @@ audio { display: none; }
 #fire.fire5 { background-position: -392px -0px; }
 #fire.fire6 { background-position: -0px -0px; }
 
-/*#stieff { position:absolute; bottom: -400px; left:342px;width: 879px; height: 474px; background: url('../img/scene-stieff/conor-sprite.png') no-repeat -2706px -493px; }
-#stieff.stieff01 {width: 891px; height: 482px; background-position: -2706px -493px;}
-#stieff.stieff02 {width: 891px; height: 482px; background-position: -2706px -0px;}
-#stieff.stieff03 {width: 891px; height: 482px; background-position: -1804px -2465px;}
-#stieff.stieff04 {width: 891px; height: 482px; background-position: -902px -2465px;}
-#stieff.stieff05 {width: 891px; height: 482px; background-position: -0px -2465px;}
-#stieff.stieff06 {width: 891px; height: 482px; background-position: -1804px -1972px;}
-#stieff.stieff07 {width: 891px; height: 482px; background-position: -902px -1972px;}
-#stieff.stieff08 {width: 891px; height: 482px; background-position: -0px -1972px;}
-#stieff.stieff09 {width: 891px; height: 482px; background-position: -1804px -1479px;}
-#stieff.stieff10 {width: 891px; height: 482px; background-position: -902px -1479px;}
-#stieff.stieff11 {width: 891px; height: 482px; background-position: -0px -1479px;}
-#stieff.stieff12 {width: 891px; height: 482px; background-position: -1804px -986px;}
-#stieff.stieff13 {width: 891px; height: 482px; background-position: -902px -986px;}
-#stieff.stieff14 {width: 891px; height: 482px; background-position: -0px -986px;}
-#stieff.stieff15 {width: 891px; height: 482px; background-position: -1804px -493px;}
-#stieff.stieff16 {width: 891px; height: 482px; background-position: -902px -493px;}
-#stieff.stieff17 {width: 891px; height: 482px; background-position: -0px -493px;}
-#stieff.stieff18 {width: 891px; height: 482px; background-position: -1804px -0px;}
-#stieff.stieff19 {width: 891px; height: 482px; background-position: -902px -0px;}
-#stieff.stieff20 {width: 891px; height: 482px; background-position: -0px -0px;}*/
-
-
 #stieff { position:absolute; bottom: -400px; left:342px;width: 857px; height: 466px;background: url('../img/scene-stieff/conor-sprite.png') no-repeat -2706px -477px;}
 #stieff.stieff1 { width: 857px; height: 466px; background-position: -2604px -477px;}
 #stieff.stieff2 { width: 857px; height: 466px; background-position: -2604px -0px;}

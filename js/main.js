@@ -946,8 +946,8 @@ $(document).ready(function(){
 
 				[ // scene 11
 					{id:document.getElementById("fire"), start: 12.0, end: 12.99, prefix: "fire", order: [1,2,3,4,5,6], repeat:10},
-					{id:document.getElementById("stieff"), start: 12.0, end: 12.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:8},
-					{id:document.getElementById("woodstocksprite"), start: 12.0, end: 12.99, prefix: "woodstock-sprite", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:8},
+					{id:document.getElementById("stieff"), start: 12.0, end: 12.99, prefix: "stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:10},
+					{id:document.getElementById("woodstocksprite"), start: 12.0, end: 12.99, prefix: "woodstock-sprite", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20], repeat:10},
 					{id:document.getElementById("grinch-stieff"), start: 12.5, end: 12.85, prefix: "grinch-stieff", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
 					{id:body, start: 12.5, end: 12.6, prefix: "color", order: [11,12], repeat:1}
 				],
