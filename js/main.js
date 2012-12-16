@@ -476,9 +476,9 @@ $(document).ready(function(){
 			
 				[  // global
 				
-					{id:document.getElementById("wings"), start: 0.01, end: 0.031, x: 60, y: -550, type:"translate"},
+					{id:document.getElementById("wings"), start: 0.01, end: 0.029, x: 655, y: -320, type:"translate"},
 					{id:document.getElementById("candycane-textbox"), start: 0.012, end: 0.014, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings"), start: 0.027, end: 0.029, x: -1, y: 0, type:"opacity", fade: "out"},
+					{id:document.getElementById("wings"), start: 0.024, end: 0.026, x: -1, y: 0, type:"opacity", fade: "out"},
 				
 				],
 				
