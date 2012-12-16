@@ -476,9 +476,9 @@ $(document).ready(function(){
 			
 				[  // global
 				
-					{id:document.getElementById("wings"), start: 0.01, end: 0.036, x: 60, y: -450, type:"translate"},
+					{id:document.getElementById("wings"), start: 0.01, end: 0.031, x: 60, y: -550, type:"translate"},
 					{id:document.getElementById("candycane-textbox"), start: 0.012, end: 0.014, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings"), start: 0.034, end: 0.036, x: -1, y: 0, type:"opacity", fade: "out"},
+					{id:document.getElementById("wings"), start: 0.027, end: 0.029, x: -1, y: 0, type:"opacity", fade: "out"},
 				
 				],
 				
@@ -496,48 +496,48 @@ $(document).ready(function(){
 					
 					{id:sections[0], start: 1.6, end: 1.99, x: -1, y: 0, type:"opacity", fade: "out"},
 					
-					{id:musicFiles[0], start: 1, end: 1.2, x: 0.2, y: 0, type:"music", fadeSpeed: 300}
+					{id:musicFiles[0], start: 1, end: 1.2, x: 0.8, y: 0, type:"music", fadeSpeed: 100}
 								
 				],
 				
 				[  // scene 2
 					
+					{id:document.getElementById("s2t1"), start: 2.1506666666666665, end: 2.2026666666666666, x: 1, y:0, type: "opacity"},
+					{id:document.getElementById("s2t2"), start: 2.280666666666667, end: 2.3153333333333332, x: 1, y:0, type: "opacity"},
+					{id:document.getElementById("s2t1"), start: 2.48, end: 2.514666666666667, x: -1, y:0, type: "opacity"},
+					{id:document.getElementById("s2t2"), start: 2.48, end: 2.514666666666667, x: -1, y:0, type: "opacity"},
+					{id:document.getElementById("near-cliff"), start: 2.1333333333333333, end: 2.3586666666666662, x: 80, y:-700, type: "translate"},
+					{id:document.getElementById("far-cliff"), start: 2.1333333333333333, end: 2.3586666666666662, x: 0, y:-400, type: "translate"},
+					{id:document.getElementById("s2bg"), start: 2.1333333333333333, end: 2.3586666666666662, x: 0, y:-50, type: "bgShift"},
+					{id:document.getElementById("s2bg"), start: 2.514666666666667, end: 2.87, x: 0, y:-50, type: "bgShift"},
+					{id:document.getElementById("near-cliff"), start: 2.514666666666667, end: 2.6966666666666663, x: 1000, y:-800, type: "translate"},
+					{id:document.getElementById("far-cliff"), start: 2.514666666666667, end: 2.6966666666666663, x: 900, y:-600, type: "translate"},
+					{id:document.getElementById("ledge"), start: 2.246, end: 2.3586666666666662, x: 0, y:-354, type: "translate"},
+					{id:document.getElementById("grinch"), start: 2.246, end: 2.3586666666666662, x: 0, y:-696, type: "translate"},
+					{id:document.getElementById("max"), start: 2.246, end: 2.3586666666666662, x: 0, y:-354, type: "translate"},
+					{id:document.getElementById("ledge"), start: 2.514666666666667, end: 2.6533333333333333, x: 700, y:-500, type: "translate"},
+					{id:document.getElementById("grinch"), start: 2.514666666666667, end: 2.6533333333333333, x: 700, y:-500, type: "translate"},
+					{id:document.getElementById("max"), start: 2.514666666666667, end: 2.6533333333333333, x: 700, y:-500, type: "translate"},
+					{id:document.getElementById("lights"), start: 2.61, end: 2.982666666666667, x: 100, y:-900, type: "translate"},
+					{id:document.getElementById("s2t3"), start: 2.5666666666666664, end: 2.636, x: 1, y:0, type: "opacity"},
+					{id:document.getElementById("s2t3"), start: 2.792, end: 2.8266666666666667, x: -1, y:0, type: "opacity"},
+					{id:document.getElementById("back-row-houses"), start: 2.636, end: 2.982666666666667, x: 220, y:-870, type: "translate"},
+					{id:document.getElementById("front-row-houses"), start: 2.6706666666666665, end: 2.982666666666667, x: 260, y:-700, type: "translate"},
+					{id:document.getElementById("lawn-ornaments"), start: 2.7053333333333334, end: 2.982666666666667, x: 110, y:-320, type: "translate"},
+					{id:document.getElementById("gate"), start: 2.8266666666666667, end: 2.982666666666667, x: 0, y:-1000, type: "translate"},
+					{id:document.getElementById("gate"), start: 2.8266666666666667, end: 2.844, x: 1, y:0, type: "opacity"},
+					{id:document.getElementById("gate"), start: 2.8266666666666667, end: 2.982666666666667, x: -0.8, y:-0.8, type: "scale"},
 					
-					{id:document.getElementById("s2t1"), start: 2.02, end: 2.08, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("s2t2"), start: 2.17, end: 2.21, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("s2t1"), start: 2.4, end: 2.44, x: -1, y: 0, type:"opacity"},
-					{id:document.getElementById("s2t2"), start: 2.4, end: 2.44, x: -1, y: 0, type:"opacity"},
-					{id:document.getElementById("near-cliff"), start:2.0, end:2.26, x: 80, y: -700, type:"translate"},
-					{id:document.getElementById("far-cliff"), start:2.0, end:2.26, x: 0, y:-400, type:"translate"},
-					{id:document.getElementById("s2bg"), start:2.0, end:2.26, x: 0, y:-50, type:"bgShift"},
-					{id:document.getElementById("s2bg"), start:2.44, end:2.85, x: 0, y:-50, type:"bgShift"},
-					{id:document.getElementById("near-cliff"), start:2.44, end:2.65, x: 1000, y: -800, type:"translate"},
-					{id:document.getElementById("far-cliff"), start:2.44, end:2.65, x: 900, y:-600, type:"translate"},
-					{id:document.getElementById("ledge"), start:2.13, end:2.26, x: 0, y:-354, type:"translate"},
-					{id:document.getElementById("grinch"), start:2.13, end:2.26, x: 0, y: -696, type:"translate"},
-					{id:document.getElementById("max"), start:2.13, end:2.26, x: 0, y:-354, type:"translate"},
-					{id:document.getElementById("ledge"), start:2.44, end:2.6, x: 700, y:-500, type:"translate"},
-					{id:document.getElementById("grinch"), start:2.44, end:2.6, x: 700, y: -500, type:"translate"},
-					{id:document.getElementById("max"), start:2.44, end:2.6, x: 700, y:-500, type:"translate"},
-					{id:document.getElementById("lights"), start:2.55, end:2.98, x: 100, y:-900, type:"translate"},
-					{id:document.getElementById("s2t3"), start: 2.5, end: 2.58, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("s2t3"), start: 2.76, end: 2.8, x: -1, y: 0, type:"opacity"},
-					{id:document.getElementById("back-row-houses"), start:2.58, end:2.98, x: 220, y:-870, type:"translate"},
-					{id:document.getElementById("front-row-houses"), start:2.62, end:2.98, x: 260, y:-700, type:"translate"},
-					{id:document.getElementById("lawn-ornaments"), start:2.66, end:2.98, x: 110, y:-320, type:"translate"},
-					{id:document.getElementById("gate"), start:2.8, end:2.98, x: 0, y:-1000, type:"translate"},
-					{id:document.getElementById("gate"), start:2.8, end:2.82, x: 1, y:0, type:"opacity"},
-					{id:document.getElementById("gate"), start:2.8, end:2.98, x: -.8, y:-.8, type:"scale"},
+					{id:sections[1], start: 2.22, end: 2.246, x: 1, y:0, type: "opacity"},
+					{id:sections[1], start: 2.9306666666666663, end: 2.982666666666667, x: -1, y:0, type: "opacity"},
 					
-					{id:sections[1], start: 2.1, end: 2.13, x: 1, y: 0, type:"opacity"},
-					{id:sections[1], start: 2.92, end: 2.98, x: -1, y: 0, type:"opacity"},
+					{id:narrationFiles[0], start: 2.142, end: 2.3066666666666666, x: 1, y:0, type: "narration"},
+					{id:narrationFiles[1], start: 2.584, end: 2.6533333333333333, x: 1, y:0, type: "narration"},
 					
-					{id:narrationFiles[0], start: 2.01, end: 2.2, x: 1, y: 0, type:"narration"}, // For type narration or music, x controls where volume goes to
-					{id:narrationFiles[1], start: 2.52, end: 2.6, x: 1, y: 0, type:"narration"},
-					
-					{id:musicFiles[0], start: 2.53, end: 2.54, x: 0, y: 0, type:"music", fadeSpeed: 400},
-					{id:musicFiles[12], start: 2.5, end: 2.55, x: 0.3, y: 0, type:"music"},
-					{id:musicFiles[12], start: 2.99, end: 2.999, x: 0, y: 0, type:"music", fadeSpeed: 200}
+					{id:musicFiles[0], start: 2.1, end: 2.14, x: 0.2, y: 0, type:"music", fadeSpeed: 300},
+					{id:musicFiles[0], start: 2.5926666666666662, end: 2.6013333333333333, x: 0, y:0, type: "music"},
+					{id:musicFiles[12], start: 2.5666666666666664, end: 2.61, x: 0.3, y:0, type: "music"},
+					{id:musicFiles[12], start: 2.9913333333333334, end: 2.9991333333333334, x: 0, y:0, type: "music"},
 					
 				],
 
@@ -982,9 +982,23 @@ $(document).ready(function(){
 			
 			]
 			
+			var calcNewStartEnd = function(element) {
+				var 	a = (element.start - 2) * 13000,
+						c = 15000,
+						d = (element.end - 2) * 13000,
+						newStart = (a + 2000) / c + 2,
+						newEnd = (d + 2000) / c + 2,
+						id = element.id.id;
+						newStart.toFixed(2);
+						newEnd.toFixed(2);
+						console.log('{id:document.getElementById("' + id + '"), start: ' + newStart + ', end: ' + newEnd + ', x: ' + element.x + ', y:' + element.y + ', type: ' + '"' + element.type + '"},');
+				
+			}
+			
 			createSceneObjects();
 			createTransformMaps();
 			resetAudio();
+			transforms[2].forEach(calcNewStartEnd, this);
 			
 			for ( i = 0; i < classShifts.length; i++ ) {
 				classShifts[i].forEach(duplicate, this);

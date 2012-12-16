@@ -156,7 +156,7 @@ audio { display: none; }
 /* ===== Scenes ===== */
 
 #scene1  { height:1500px; } 
-#scene2  { height:13000px; opacity: 0; } /* cliffs/honville */
+#scene2  { height:15000px; opacity: 0; } /* cliffs/honville */
 #scene3  { height:4000px; opacity: 0; }  /* transition*/
 #scene4  { height:8000px; opacity: 0; } /* burbs */
 #scene5  { height:7000px; opacity: 0; } /* poker */ 
