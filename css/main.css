@@ -138,7 +138,7 @@ audio { display: none; }
 
 /* ===== Body Colors ===== */
 
-.color1 { background-color: #6089FF; }
+.color1 { background: #6089FF url('../img/scene1/texture.jpg') repeat 50% 50% fixed; }
 .color2 { background-color: #B5C7EE; }
 .color3 { background-color: #648578; }
 .color4 { background-color: #057038; }
