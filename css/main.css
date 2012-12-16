@@ -267,7 +267,6 @@ audio { display: none; }
 /* ===== Scene 4 ===== */
 
 #bg-test { position:absolute; background: url('../img/scene4/bg.jpg') no-repeat 0 0; width:2866px; height:1000px; bottom: 0; left: 0px; }
-/*#memes { position:absolute; background: url('../img/scene4/memes.png') no-repeat 0 0; width: 907px; height: 371px; left: 1182px; bottom:0px; }*/
 #bunny-2 { position:absolute; background: url('../img/scene4/bunny-2.png') no-repeat 0 0; width: 209px; height: 178px; left: 1182px; bottom:10px; }
 #bunny-big { position:absolute; background: url('../img/scene4/bunny-big.png') no-repeat 0 0; width: 437px; height: 391px; left: 1642px; bottom: -20px; }
 #know-your-memes {  position:absolute; background: url('../img/scene4/know-your-memes.png') no-repeat 0 0; width: 117px; height: 101px; left: 1542px; bottom: 300px; opacity:0;}
@@ -657,7 +656,7 @@ audio { display: none; }
 #truck-grinch.truck-grinch16 { background-position: -383px -0px; }
 #truck-grinch.truck-grinch17 { background-position: -0px -0px; }
 
-#exhaust { position:absolute; bottom: 0px; left:120px; background: url('../img/scene-truck/exhaust-sprite.png') no-repeat; }
+#exhaust { position:absolute; bottom: 0px; left:0px; background: url('../img/scene-truck/exhaust-sprite.png') no-repeat; }
 #exhaust.exhaust0 { background:none;}
 #exhaust.exhaust1{ width: 1368px; height: 740px; background-position: -0px -3004px; }
 #exhaust.exhaust2 { width: 1368px; height: 740px; background-position: -1379px -2253px;}

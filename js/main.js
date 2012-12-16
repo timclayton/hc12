@@ -563,7 +563,6 @@ $(document).ready(function(){
 					{id:document.getElementById("doorway"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("couch"), start: 4.1, end: 4.15, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("s4t1"), start: 4.37, end: 4.42, x: -1, y: 0, type:"opacity"},
-					// {id:document.getElementById("memes"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
 					{id:document.getElementById("bunny-2"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
 					{id:document.getElementById("bunny-big"), start: 4.54, end: 4.75, x: -950, y: 0, type:"translate"},
 					{id:document.getElementById("know-your-memes"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
@@ -697,7 +696,6 @@ $(document).ready(function(){
 					{id:document.getElementById("businessmen"), start: 10.2, end: 10.28, x:0, y: -300, type:"translate"},
 					{id:document.getElementById("truck-grinch"), start: 10.8, end: 10.93, x:-1400, y: 0, type:"translate"},
 					{id:document.getElementById("truck"), start: 10.8, end: 10.9, x:-1400, y: 0, type:"translate"},
-					{id:document.getElementById("exhaust"), start: 10.8, end: 10.9, x:-1000, y: 0, type:"translate"},
 
 					{id:sections[9], start: 10.2, end: 10.28, x: 1, y: 0, type:"opacity"},
 					{id:sections[9], start: 10.95, end: 10.99, x: -1, y: 0, type:"opacity"},
@@ -934,7 +932,7 @@ $(document).ready(function(){
 				[ // scene 9 - truck 
 					{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:4},
 					{id:document.getElementById("truck-grinch"), start: 10.5, end: 10.85, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
-					{id:document.getElementById("exhaust"), start: 10.8, end: 10.99, prefix: "exhaust", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
+					{id:document.getElementById("exhaust"), start: 10.78, end: 10.99, prefix: "exhaust", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
 					{id:body, start: 10.5, end: 10.6, prefix: "color", order: [9,10], repeat:1}
 				],
 
