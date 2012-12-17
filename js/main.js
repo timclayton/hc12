@@ -824,7 +824,7 @@ $(document).ready(function(){
 					{id:document.getElementById("hearts-small"), start: 14.63, end: 14.66, x:-1, y: 0, type:"opacity"},
 					{id:document.getElementById("hearts-small"), start: 14.4, end: 14.99, x:0, y: -50, type:"translate"},
 					{id:document.getElementById("growing-heart"), start: 14.85, end: 14.88, x:1, y: 0, type:"opacity"},	
-					// {id:document.getElementById("stick-extender"), start: 14.91, end: 14.92, x:1, y: 0, type:"opacity"},	
+					{id:document.getElementById("blue-feather"), start: 14.91, end: 14.92, x:1, y: 0, type:"opacity"},	
 					{id:document.getElementById("s14t4"), start: 14.66, end: 14.7, x:1, y: 0, type:"opacity"},
 					{id:document.getElementById("s14t4"), start: 14.75, end: 14.8, x:-1, y: 0, type:"opacity"},
 					{id:document.getElementById("s14t5"), start: 14.78, end: 14.82, x:1, y: 0, type:"opacity"},
