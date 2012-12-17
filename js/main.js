@@ -880,7 +880,7 @@ $(document).ready(function(){
 					{id:narrationFiles[16], start: 15.0, end: 15.01, x: 1, y: 0, type:"narration"},
 
 					{id:musicFiles[13], start: 15.0, end: 15.175, x: 0.16, y: 0, type:"music", fadeSpeed: 400},
-					{id:musicFiles[13], start: 15.175, end: 15.3, x: 1, y: 0, type:"music", fadeSpeed: 300},
+					{id:musicFiles[13], start: 15.23, end: 15.35, x: 0.6, y: 0, type:"music", fadeSpeed: 300},
 					{id:musicFiles[13], start: 15.99, end: 15.999, x: 0, y: 0, type:"music", fadeSpeed: 300}
 				 ]
 			]
