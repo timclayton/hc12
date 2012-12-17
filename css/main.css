@@ -973,7 +973,7 @@ audio { display: none; }
 #s14t5 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-4.png'); }
 #s15t1 { position: fixed; top: 25%; left: 25%; width: 50%; height: 50%; opacity: 0; background-position: 50% 50%; background-repeat: no-repeat; z-index: 9999; background-image: url('../img/scene-sky/text-sky-5.png'); }
 
-#stick-extender { position: absolute; left: 1400px; bottom: 481px; width: 375px; height: 39px; background: url('../img/scene-celebration/xraystick.png'); }
+#stick-extender { position: absolute; left: 1400px; bottom: 481px; width: 375px; height: 39px; background: url('../img/scene-celebration/xraystick.png'); opacity:0; }
 
 #growing-heart { position:absolute; left: 0; bottom: 0; width: 1400px; height: 1000px; background: url('../img/scene-celebration/grinch-heart.png') no-repeat; opacity: 0;  }
 #growing-heart.growing-heart1 { background-position: -0px -4044px;}
