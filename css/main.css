@@ -139,7 +139,7 @@ audio { display: none; }
 
 /* ===== Body Colors ===== */
 
-.color1 { background: #6089FF url('../img/scene1/texture.jpg') repeat 50% 50% fixed; }
+.color1 { background-color: #6089FF; }
 .color2 { background-color: #B5C7EE; }
 .color3 { background-color: #648578; }
 .color4 { background-color: #057038; }
@@ -1018,8 +1018,8 @@ audio { display: none; }
 
 /* ===== Independent Animations ===== */
 
-#candycane-textbox { position: absolute; top: -115px; left: -30px; width: 180px; height: 155px; background: url('../img/scene1/bubble1.png'); opacity: 0; }
-#wings { position: fixed; bottom: 40%; left: 40%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); -webkit-transform-origin: 54% 20%; -webkit-transform: scale(0); opacity: 0; }
+#candycane-textbox { position: absolute; top: -115px; left: -30px; width: 180px; height: 155px; background: url('../img/scene1/bubble1.png'); }
+#wings { position: fixed; bottom: 40%; left: 40%; width: 320px; height: 198px; background-image: url('../img/scene1/wings-sprite.png'); opacity: 0; }
 .wings1 { background-position: 0 0; }
 .wings2 { background-position: 0 -198px; }
 .wings3 { background-position: 0 -396px; }

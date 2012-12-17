@@ -322,14 +322,6 @@ $(document).ready(function(){
 					element.id.style[csstransform]='scale(' + transformMaps[element.map].scale[0].reduce(calcSum) + ',' + transformMaps[element.map].scale[1].reduce(calcSum) + ')';
 					
 				 }
-				 
-				 else if ( element.type === "bgSize" ) {
-
-					transformMaps[element.map].bgSize[element.mapPos] = x + 100;
-					
-					element.id.style.backgroundSize=transformMaps[element.map].bgSize.reduce(calcSum) + "%";
-					
-				 }
 				
 				else if ( element.type === "size" ) {
 							
@@ -417,7 +409,6 @@ $(document).ready(function(){
 							translate: [[0],[0]],
 							size: [[0],[0]],
 							bgShift: [[0],[0]],
-							bgSize: [100],
 							opacity: [0,opacity],
 							scale: [[1],[1]],
 							totalTransforms: 0
@@ -436,7 +427,6 @@ $(document).ready(function(){
 						transformMaps[mapNumber].size[1].push(0);
 						transformMaps[mapNumber].bgShift[0].push(0);
 						transformMaps[mapNumber].bgShift[1].push(0);
-						transformMaps[mapNumber].bgSize.push(0);
 						transformMaps[mapNumber].scale[0].push(0);
 						transformMaps[mapNumber].scale[1].push(0);
 						transformMaps[mapNumber].opacity.push(opacity);
@@ -484,12 +474,6 @@ $(document).ready(function(){
 			
 				[  // global
 				
-					{id:document.getElementById("wings"), start: 0.019, end: 0.025, x: 20, y: 20, type:"scale"},
-					{id:document.getElementById("body"), start: 0.019, end: 0.029, x: -30, y: 0, type:"bgSize"},
-					{id:document.getElementById("wings"), start: 0.008, end: 0.012, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("candycane-textbox"), start: 0.012, end: 0.014, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings"), start: 0.0196, end: 0.022, x: -1, y: 0, type:"opacity"},
-				
 				],
 				
 				[  // scene 1
@@ -503,6 +487,7 @@ $(document).ready(function(){
 					{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
 					{id:document.getElementById("play"), start: 1.5, end: 1.7, x: -1, y: 0, type:"opacity", fade: "out"},
 					{id:document.getElementById("controls"), start: 1.5, end: 1.7, x: 1, y: 0, type:"opacity"},
+					{id:document.getElementById("wings"), start: 1.7, end: 1.99, x: 1, y: 0, type:"opacity"},
 					
 					{id:sections[0], start: 1.6, end: 1.99, x: -1, y: 0, type:"opacity", fade: "out"},
 					
@@ -511,6 +496,9 @@ $(document).ready(function(){
 				],
 				
 				[  // scene 2
+					
+					{id:document.getElementById("wings"), start: 2.15, end: 2.2, x: -1, y: 0, type:"opacity"},
+					{id:document.getElementById("wings"), start: 2.1, end: 2.27, x: 350, y: -500, type:"translate"},
 					
 					{id:document.getElementById("s2t1"), start: 2.1506666666666665, end: 2.2026666666666666, x: 1, y:0, type: "opacity"},
 					{id:document.getElementById("s2t2"), start: 2.280666666666667, end: 2.3153333333333332, x: 1, y:0, type: "opacity"},
