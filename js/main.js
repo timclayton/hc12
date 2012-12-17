@@ -115,8 +115,20 @@ $(document).ready(function(){
 					audioReset = true;
 				}
 				
-				ff.className = pos === 15 ? "fastforward-disabled" : "fastforward-enabled";
-				rew.className = pos === 1 ? "rewind-disabled" : "rewind-enabled";
+				if ( pos === 15 ) {
+					ff.className = "fastforward-disabled";
+				}
+				else if ( pos === 1 ) {
+					rew.className = "rewind-disabled";
+				}
+				else if ( !playing ) {
+					ff.className = "fastforward-disabled";
+					rew.className = "rewind-disabled";
+				}
+				else if ( playing ) {
+					ff.className = "fastforward-enabled";
+					rew.className = "rewind-enabled";
+				}
 				
 			}
 			
