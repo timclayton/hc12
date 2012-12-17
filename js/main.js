@@ -198,7 +198,7 @@ $(document).ready(function(){
 				
 					if ( vol < fadeTo ) {
 						vol += 0.05;
-						file.volume = vol.toFixed(2);
+						file.volume = vol < 1 ? vol : 1;
 					} 
 					
 					else {
@@ -218,7 +218,7 @@ $(document).ready(function(){
 					
 						if ( vol > fadeTo ) {
 							vol -= 0.05;
-							file.volume = vol.toFixed(2);
+							file.volume = vol > 0 ? vol : 0;
 						} 
 						
 						else {
