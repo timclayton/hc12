@@ -579,7 +579,6 @@ $(document).ready(function(){
 					{id:document.getElementById("couch"), start: 4.54, end: 4.75, x: -950, y: 0, type:"translate"},
 					{id:document.getElementById("grinch-burbs"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
 					{id:document.getElementById("bg-test"), start: 4.54, end: 4.75, x: -1000, y: 0, type:"translate"},
-					{id:document.getElementById("wall"), start: 4.54, end: 4.75, x: -1600, y: 0, type:"translate"},
 
 					{id:sections[3], start: 4.2, end: 4.26, x: 1, y: 0, type:"opacity"},
 					{id:sections[3], start: 4.95, end: 4.99, x: -1, y: 0, type:"opacity"},
