@@ -1079,7 +1079,6 @@ $(document).ready(function(){
 			document.getElementById("replay").onclick = function() {
 				audioDisabled = true;
 				window.scrollTo(0, 0);
-				transforms[x].forEach(transform, this);
 				resetAudio();
 				audioDisabled = false;
 				if ( !playing ) {

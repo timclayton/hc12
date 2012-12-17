@@ -1021,7 +1021,7 @@ audio { display: none; }
 #tbg.tbg8 { width: 1180px; height: 650px; background-position: -1181px -0px; }
 #tbg.tbg9 { width: 1180px; height: 650px; background-position: -0px -0px; }
 
-#replay { position: relative; display: block; width: 100%; height: 100%; z-index: 9999; }
+#replay { position: relative; display: block; width: 100%; height: 100%; z-index: 9999; cursor: pointer; }
 
 /* ===== Independent Animations ===== */
 
