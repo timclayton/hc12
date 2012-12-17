@@ -385,9 +385,7 @@ $(document).ready(function(){
 			}
 			
 			var scrollToEnd = function() {
-				if ( !playing ) {
-					autoScroll = setInterval(scrollIncrement, 30);
-				}
+				autoScroll = setInterval(scrollIncrement, 30);
 			}
 			
 			var scrollIncrement = function() {
@@ -481,7 +479,7 @@ $(document).ready(function(){
 			
 				[  // global
 					{id:document.getElementById("wings"), start: 0.008, end: 0.012, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings"), start: 0.0196, end: 0.022, x: -1, y: 0, type:"opacity"},
+					{id:document.getElementById("wings"), start: 0.021, end: 0.022, x: -1, y: 0, type:"opacity"},
 					{id:document.getElementById("wings"), start: 0.019, end: 0.025, x: 350, y: -500, type:"translate"},
 				],
 				
@@ -496,7 +494,6 @@ $(document).ready(function(){
 					{id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
 					{id:document.getElementById("play"), start: 1.5, end: 1.7, x: -1, y: 0, type:"opacity", fade: "out"},
 					{id:document.getElementById("controls"), start: 1.5, end: 1.7, x: 1, y: 0, type:"opacity"},
-					{id:document.getElementById("wings"), start: 1.7, end: 1.99, x: 1, y: 0, type:"opacity"},
 					
 					{id:sections[0], start: 1.6, end: 1.99, x: -1, y: 0, type:"opacity", fade: "out"},
 					
@@ -1067,14 +1064,14 @@ $(document).ready(function(){
 			}
 			
 			document.getElementById("replay").onclick = function() {
-				stopScroll();
 				audioDisabled = true;
 				window.scrollTo(0, 0);
-				playing = false;
-				transforms[pos].forEach(transform, this);
+				transforms[x].forEach(transform, this);
 				resetAudio();
 				audioDisabled = false;
-				playToggle.click();
+				if ( !playing ) {
+					playToggle.click();
+				}
 			}
 			
 		}
