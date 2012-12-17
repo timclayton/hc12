@@ -911,7 +911,7 @@ $(document).ready(function(){
 				],
 
 				[ //scene 5
-					{id:document.getElementById("drummers"), start: 6.0, end: 6.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:4},
+					{id:document.getElementById("drummers"), start: 6.0, end: 6.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:6},
 					{id:document.getElementById("hippies"), start: 6.0, end: 6.99, prefix: "hippies", order: [1,2,3,4,5,6,7], repeat:10},
 					{id:document.getElementById("symbols"), start: 6.0, end: 6.99, prefix: "symbols", order: [1,2,3,4,5,6,7], repeat:10},
 					{id:document.getElementById("monument-grinch"), start: 6.6, end: 6.9, prefix: "monument-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0},
