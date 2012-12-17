@@ -126,9 +126,11 @@ $(document).ready(function(){
 			
 					if ( element.type === "music" || element.type === "narration" ) {
 						element.id.pause();
-						//element.id.currentTime = 0;
 						element.id.volume = 0;
 						element.id.liveVolume = 0;
+						if ( element.id.currentTime > 0 ) {
+							element.id.currentTime = 0;
+						}
 						element.id.className = element.type === "narration" ? "narration" : "music"
 					}
 				
@@ -244,7 +246,6 @@ $(document).ready(function(){
 				}
 				
 				else {
-					console.log(element.id.volume)
 					fadeDownAudio(element.id, fadeTo, fadeSpeed);
 				}
 				
@@ -348,7 +349,7 @@ $(document).ready(function(){
 					
 					else if ( element.type === "music" && animPercent > 0 && animPercent < 1 ) {
 					
-						var fadeSpeed = element.fadeSpeed ? element.fadeSpeed : 100
+						var fadeSpeed = element.fadeSpeed ? element.fadeSpeed : 100;
 					
 						if ( !element.triggered ) {
 							toggleAudio(element, fadeSpeed);
@@ -837,8 +838,9 @@ $(document).ready(function(){
 					
 					{id:musicFiles[12], start: 14.1, end: 14.15, x: 0.5, y: 0, type:"music"},
 					{id:musicFiles[12], start: 14.36, end: 14.39, x: 0.3, y: 0, type:"music", fadeSpeed: 400},
-					{id:musicFiles[12], start: 14.79, end: 14.81, x: 0.7, y: 0, type:"music", fadeSpeed: 400},
-					{id:musicFiles[12], start: 14.92, end: 14.99, x: 0, y: 0, type:"music", fadeSpeed: 520}
+					{id:musicFiles[12], start: 14.8, end: 14.82, x: 0.9, y: 0, type:"music", fadeSpeed: 400},
+					{id:musicFiles[12], start: 14.89, end: 14.92, x: 0.1, y: 0, type:"music", fadeSpeed: 420},
+					{id:musicFiles[12], start: 14.99, end: 14.999, x: 0, y: 0, type:"music", fadeSpeed: 500}
 			
 				 ],
 
