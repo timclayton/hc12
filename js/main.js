@@ -343,6 +343,10 @@ $(document).ready(function(){
 							element.id.liveVolume = 1;
 							element.id.play();
 							element.triggered = true;
+							element.id.addEventListener("ended", function() {
+								element.id.pause();
+								element.id.currentTime = 0;
+							});
 						}
 					
 					}
