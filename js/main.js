@@ -491,7 +491,6 @@ $(document).ready(function(){
 					{id:document.getElementById("text-grinch"), start: 1.6, end: 1.99, x: 0, y: -60, type:"translate"},
 					{id:document.getElementById("text-stole"), start: 1.6, end: 1.99, x: 0, y: -80, type:"translate"},
 					{id:document.getElementById("text-christmas"), start: 1.6, end: 1.99, x: 0, y: -100, type:"translate"},
-					// {id:document.getElementById("grinch-face"), start: 1.85, end: 1.99, x: 0, y: -300, type:"translate"},
 					{id:document.getElementById("play"), start: 1.5, end: 1.7, x: -1, y: 0, type:"opacity", fade: "out"},
 					{id:document.getElementById("controls"), start: 1.5, end: 1.7, x: 1, y: 0, type:"opacity"},
 					
