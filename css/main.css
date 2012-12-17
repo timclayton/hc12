@@ -274,7 +274,7 @@ audio { display: none; }
 #bunny-big { position:absolute; background: url('../img/scene4/bunny-big.png') no-repeat 0 0; width: 437px; height: 391px; left: 1642px; bottom: -20px; }
 #know-your-memes {  position:absolute; background: url('../img/scene4/know-your-memes.png') no-repeat 0 0; width: 117px; height: 101px; left: 1582px; bottom: 300px; opacity:0;}
 
-#doorway { position:absolute; background: url('../img/scene4/doorway.png') no-repeat 0 0; width: 253px; height: 706px; left: 1172px; bottom: 54px; opacity:0; }
+#doorway { position:absolute; background: url('../img/scene4/doorway.png') no-repeat 0 0; width: 253px; height: 759px; left: 1172px; bottom: 0px; opacity:0; }
 #couch { position:absolute; background: url('../img/scene4/couch.png') no-repeat 0 0; width: 1328px; height: 486px; left: 1242px; bottom: 0px; opacity:0;}
 #s4t1 { background-image: url('../img/scene4/kitchen-text.png'); }
 
