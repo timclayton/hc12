@@ -108,8 +108,8 @@ html.csstransforms .bad-browser-bunny { display: none; }
 html.no-csstransforms .good-browser-bunny { display: none; }
 
 #maincontent { display:none; }
-.gradient { background-color: #F1F1F1; background-image: linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(223,224,235)), color-stop(1, rgb(255,255,255))); }
-.controls { position: fixed; padding: 5px 8px; border: 4px solid #4A1D1F; border-radius: 16px; top:20px; right:20px; z-index: 50; opacity: 0; }
+/* .gradient { background-color: #F1F1F1; background-image: linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(223,224,235)), color-stop(1, rgb(255,255,255))); } */
+.controls { position: fixed; padding: 5px 8px; border: 4px solid #4A1D1F; border-radius: 16px; top:20px; right:20px; z-index: 50; opacity: 0; background-color: #F1F1F1; }
 .controls a:link, .controls a:visited, .controls a:hover, .controls a:active { outline: 0; border: 0; }
 #play-toggle, #rewind, #fastforward, #audio-toggle, #info-toggle { position: relative; display: inline-block; height: 24px; background: url(../img/global/controls.png) no-repeat; text-indent: -9999px; cursor: pointer; }
 #play-toggle.paused { width: 16px; margin: 0 6px 0 9px; background-position: -142px 0; }
