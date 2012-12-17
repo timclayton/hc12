@@ -100,6 +100,7 @@ textarea {
 #preload-items { position: absolute; left: 50%; margin-left: -450px; bottom: 18%; width: 713px; height: 464px;}
 #preload-bunny { position: absolute; width: 713px; height: 464px; }
 #percent-text { position: absolute; left: 665px; text-align: right; bottom: 56px; color:#CCFF33; font-size: 23px; background: #000; border-radius: 14px; padding: 5px 10px; display:inline-block; }
+#preload a { color: #FFF; }
 
 #maincontent { display:none; }
 .gradient { background-color: #F1F1F1; background-image: linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(223,224,235)), color-stop(1, rgb(255,255,255))); }
