@@ -738,7 +738,7 @@ $(document).ready(function(){
 					{id:narrationFiles[10], start: 11.01, end: 11.2, x: 1, y: 0, type:"narration"},
 					
 					{id:musicFiles[9], start: 11.1, end: 11.3, x: 0.5, y: 0, type:"music"},
-					{id:musicFiles[9], start: 11.87, end: 11.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
+					{id:musicFiles[9], start: 11.94, end: 11.99, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 					
 				 ],
 
