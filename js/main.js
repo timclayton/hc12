@@ -569,7 +569,7 @@ $(document).ready(function(){
 
 					{id:narrationFiles[2], start: 3.01, end: 3.2, x: 1, y: 0, type:"narration"}, 
 					
-					{id:musicFiles[1], start: 3.2, end: 3.6, x: 0.4, y: 0, type:"music"}, // on second call of same music file, fadeout is triggered
+					{id:musicFiles[1], start: 3.2, end: 3.3, x: 0.4, y: 0, type:"music"}, // on second call of same music file, fadeout is triggered
 					{id:musicFiles[1], start: 3.87, end: 3.999, x: 0, y: 0, type:"music", fadeSpeed: 420} 
 				],
 				
