@@ -137,7 +137,7 @@ $(document).ready(function(){
 				var stopSceneAudio = function(element) {
 			
 					if ( element.type === "music" || element.type === "narration" ) {
-						//element.id.pause();
+						element.id.pause();
 						element.id.volume = 0;
 						element.id.liveVolume = 0;
 						if ( element.id.currentTime > 0 ) {
