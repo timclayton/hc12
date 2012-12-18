@@ -111,7 +111,7 @@ html.no-csstransforms .good-browser-bunny { display: none; }
 
 #maincontent { display:none; }
 /* .gradient { background-color: #F1F1F1; background-image: linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -o-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -moz-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -ms-linear-gradient(bottom, rgb(223,224,235) 0%, rgb(255,255,255) 100%); background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(223,224,235)), color-stop(1, rgb(255,255,255))); } */
-.controls { position: fixed; padding: 5px 8px; border: 4px solid #4A1D1F; border-radius: 16px; top:20px; right:20px; z-index: 50; opacity: 0; background-color: #F1F1F1; }
+.controls { position: fixed; padding: 5px 8px; border: 4px solid #4A1D1F; border-radius: 16px; top:20px; right:20px; z-index: 500000; opacity: 0; background-color: #F1F1F1; }
 .controls a:link, .controls a:visited, .controls a:hover, .controls a:active { outline: 0; border: 0; }
 #play-toggle, #rewind, #fastforward, #audio-toggle, #info-toggle { position: relative; display: inline-block; height: 24px; background: url(../img/global/controls.png) no-repeat; text-indent: -9999px; cursor: pointer; }
 #play-toggle.paused { width: 16px; margin: 0 6px 0 9px; background-position: -142px 0; }
@@ -130,7 +130,7 @@ html.no-csstransforms .good-browser-bunny { display: none; }
 #audio-toggle.audio-on:hover { background-position: -74px -30px; }
 #info-toggle { width: 12px; margin-right: 3px; background-position: -120px 0; }
 #info-toggle:hover { background-position: -120px -30px; }
-#info-box { display: none; position: fixed; top: 62px; right: 20px; width: 162px; padding: 8px 0; background: #FFF; border-radius: 11px 0px 11px 11px; box-shadow: 0px 1px 5px;}
+#info-box { display: none; position: fixed; top: 62px; right: 20px; width: 162px; padding: 8px 0; background: #FFF; border-radius: 11px 0px 11px 11px; box-shadow: 0px 1px 5px; z-index:50000;}
 #info-box p { margin: 5px 10px; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 11px; font-weight: bold; }
 #info-box a { color: #0033CC; }
 .info-box-corner { position: absolute; top: -10px; right: 0; width: 25%; height: 10px; background: #FFF; }
