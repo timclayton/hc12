@@ -213,7 +213,7 @@ audio { display: none; }
 #text-grinch { position: absolute; top: 17.4%; left: 19.1%; width: 567px; height: 236px; background: url('../img/scene1/sprite.png') no-repeat -17px -274px; }
 #text-stole { position: absolute; top: 41.4%; left: 36.8%; width: 306px; height: 109px; background: url('../img/scene1/sprite.png') no-repeat -54px -539px; }
 #text-christmas { position: absolute; top: 49.1%; left: 19.8%; width: 557px; height: 152px; background: url('../img/scene1/sprite.png') no-repeat -22px -662px; }
-#play { display: block; position: fixed; bottom: 12.3%; left: 42%; width: 92px; height: 45px; background: url('../img/scene1/sprite.png') no-repeat -455px -168px; cursor: pointer; }
+#play { display: block; position: fixed; bottom: 12.3%; left: 42%; width: 92px; height: 45px; background: url('../img/scene1/sprite.png') no-repeat -455px -168px; cursor: pointer; z-index:1000000;}
 #grinch-face { position: fixed; top: 0; right: 0; width: 416px; height: 100%; background: url('../img/scene1/grinch-face.png') no-repeat 100% 50%; }
 
 
