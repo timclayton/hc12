@@ -24,7 +24,7 @@ $(document).ready(function(){
     		$('#maincontent').find('div').each(function(){
     			
     			if($(this).css('background-image') != 'none') {
-    				var url = $(this).css('background-image').replace(/^url\("?([^\"\))]+)"?\)$/i, '$1'); ;
+    				var url = $(this).css('background-image').replace(/^url\("?([^\"\))]+)"?\)$/i, '$1');
     				urlArray.push(url);
     			}
     		});
