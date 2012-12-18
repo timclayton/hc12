@@ -95,13 +95,15 @@ textarea {
    ========================================================================== */
 
 #preload { position: fixed; top: 0; left: 0; background: #B51428 url('../img/scene1/bg.jpg')  no-repeat 0 0; width: 100%; height:100%;  z-index:-1; }
-#preload p { font-family:Helvetica, Arial, sans-serif; font-weight: bold; font-size: 28px; color: #580000; margin:0 auto; }
-#preload p.preload-text { position: absolute; width: 100%; left: 0; right: 0; bottom: 7%; text-align: center; color:#FFF; font-size: 20px; }
+#preload p { font-family:Helvetica, Arial, sans-serif; font-weight: bold; } 
+#preload img { max-width: 100%; } 
+html.csstransforms .preload-text-container { position: fixed; width: 100%; left: 0; right: 0; bottom: 7%; text-align: center; color: #FFF; font-size: 20px; }
+html.no-csstransforms .preload-text-container { position: absolute; width: 300px; left: 28px; top: 84px; color: #000; font-size: 17px; text-align: center; line-height: 1.7em; }
 #preload-items { position: absolute; left: 50%; margin-left: -450px; bottom: 18%; width: 713px; height: 464px;}
-html.no-csstransforms #preload-items { position: absolute; left: 50%; margin-left: -470px; bottom: 18%; width: 774px; height: 556px;}
+html.no-csstransforms #preload-items { position: absolute; left: 50%; margin-left: -470px; bottom: 5%; width: 774px; height: 556px;}
 #preload-bunny { position: absolute; width: 100%; height: 100%; }
 #percent-text { position: absolute; left: 665px; text-align: right; bottom: 56px; color:#CCFF33; font-size: 23px; background: #000; border-radius: 14px; padding: 5px 10px; display:inline-block; }
-#preload a { color: #FFF; }
+#preload a { color: #0033CC; }
 
 html.csstransforms #upgrade-browser-alert { display: none; }
 html.csstransforms .bad-browser-bunny { display: none; }
