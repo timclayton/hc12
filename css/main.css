@@ -385,43 +385,43 @@ audio { display: none; }
 #feeling-it { position: absolute; width: 88px; height: 76px; background: url('../img/scene6/feeling-it.png') no-repeat 0 0; right:166px; bottom: 350px; opacity: 0;}
 
 #drummers {  position: absolute; bottom: -400px;  right:-50px ; background: url('../img/scene6/drummers-sprite.png') no-repeat; background-position: 0px 0px;  }
-#drummers.drummers1 { width: 825px; height: 442px; background-position: -0px -2265px; }
-#drummers.drummers2 { width: 825px; height: 442px; background-position: -1672px -1812px; }
-#drummers.drummers3 { width: 825px; height: 442px; background-position: -1672px -1359px; }
-#drummers.drummers4 { width: 825px; height: 442px; background-position: -1672px -906px; }
-#drummers.drummers5 { width: 825px; height: 442px; background-position: -1672px -453px; }
-#drummers.drummers6 { width: 825px; height: 442px; background-position: -1672px -0px; }
-#drummers.drummers7 { width: 825px; height: 442px; background-position: -836px -1812px; }
-#drummers.drummers8 { width: 825px; height: 442px; background-position: -0px -1812px; }
-#drummers.drummers9 { width: 825px; height: 442px; background-position: -836px -1359px; }
-#drummers.drummers10 { width: 825px; height: 442px; background-position: -0px -1359px; }
-#drummers.drummers11 { width: 825px; height: 442px; background-position: -836px -906px; }
-#drummers.drummers12 { width: 825px; height: 442px; background-position: -0px -906px; }
-#drummers.drummers13 { width: 825px; height: 442px; background-position: -836px -453px; }
-#drummers.drummers14 { width: 825px; height: 442px; background-position: -0px -453px; }
-#drummers.drummers15 { width: 825px; height: 442px; background-position: -836px -0px; }
-#drummers.drummers16 { width: 825px; height: 442px; background-position: -0px -0px; }
+#drummers.drummers1 { background-position: -0px -2265px; }
+#drummers.drummers2 { background-position: -1672px -1812px; }
+#drummers.drummers3 { background-position: -1672px -1359px; }
+#drummers.drummers4 { background-position: -1672px -906px; }
+#drummers.drummers5 { background-position: -1672px -453px; }
+#drummers.drummers6 { background-position: -1672px -0px; }
+#drummers.drummers7 { background-position: -836px -1812px; }
+#drummers.drummers8 { background-position: -0px -1812px; }
+#drummers.drummers9 { background-position: -836px -1359px; }
+#drummers.drummers10 { background-position: -0px -1359px; }
+#drummers.drummers11 { background-position: -836px -906px; }
+#drummers.drummers12 { background-position: -0px -906px; }
+#drummers.drummers13 { background-position: -836px -453px; }
+#drummers.drummers14 { background-position: -0px -453px; }
+#drummers.drummers15 { background-position: -836px -0px; }
+#drummers.drummers16 { background-position: -0px -0px; }
 
 
-#hippies { position: absolute; width: 480px; height: 422px; bottom: -600px;  left:390px; background: url('../img/scene6/hippies.png') no-repeat -982px -866px;  }
-#hippies.hippies1 { width: 480px; height: 422px; background-position: -982px -866px;}
-#hippies.hippies2 { width: 480px; height: 422px; background-position: -982px -433px;}
-#hippies.hippies3 { width: 480px; height: 422px; background-position: -982px -0px;}
-#hippies.hippies4 { width: 480px; height: 422px; background-position: -491px -866px;}
-#hippies.hippies5 { width: 480px; height: 422px; background-position: -0px -866px;}
-#hippies.hippies6 { width: 480px; height: 422px; background-position: -491px -433px;}
-#hippies.hippies7 { width: 480px; height: 422px; background-position: -0px -433px;}
+#hippies { position: absolute; width: 480px; height: 422px; bottom: -600px;  /*left:390px; */ left:190px; background: url('../img/scene6/hippies.png') no-repeat -982px -866px;  }
+#hippies.hippies1 {  background-position: -982px -866px;}
+#hippies.hippies2 {  background-position: -982px -433px;}
+#hippies.hippies3 {  background-position: -982px -0px;}
+#hippies.hippies4 {  background-position: -491px -866px;}
+#hippies.hippies5 {  background-position: -0px -866px;}
+#hippies.hippies6 {  background-position: -491px -433px;}
+#hippies.hippies7 {  background-position: -0px -433px;}
 
 #symbols { position: absolute; width: 1283px; height: 678px; bottom: 100px;  left:340px; background: url('../img/scene6/symbols.png') no-repeat -2588px -0px; bottom:500px; }
-#symbols.symbols1 {width: 1283px; height: 678px; background-position: -2588px -0px;}
-#symbols.symbols2 {width: 1283px; height: 678px; background-position: -1294px -2067px;}
-#symbols.symbols3 {width: 1283px; height: 678px; background-position: -0px -2067px;}
-#symbols.symbols4 {width: 1283px; height: 678px; background-position: -1294px -1378px;}
-#symbols.symbols5 {width: 1283px; height: 678px; background-position: -0px -1378px;}
-#symbols.symbols6 {width: 1283px; height: 678px; background-position: -1294px -689px;}
-#symbols.symbols7 {width: 1283px; height: 678px; background-position: -0px -689px;}
-#symbols.symbols8 {width: 1283px; height: 678px; background-position: -1294px -0px;}
-#symbols.symbols9 {width: 1283px; height: 678px; background-position: -0px -0px;}
+#symbols.symbols1 { background-position: -2588px -0px;}
+#symbols.symbols2 { background-position: -1294px -2067px;}
+#symbols.symbols3 { background-position: -0px -2067px;}
+#symbols.symbols4 { background-position: -1294px -1378px;}
+#symbols.symbols5 { background-position: -0px -1378px;}
+#symbols.symbols6 { background-position: -1294px -689px;}
+#symbols.symbols7 { background-position: -0px -689px;}
+#symbols.symbols8 { background-position: -1294px -0px;}
+#symbols.symbols9 { background-position: -0px -0px;}
 
 
 
@@ -602,21 +602,21 @@ audio { display: none; }
 
 
 #aquarium-grinch { position:absolute;  width: 1400px; height: 538px; background: url('../img/scene-aquarium/aquarium-grinch.png') no-repeat -2822px -1092px; bottom:0; left:0;  }
-#aquarium-grinch.aquarium-grinch0 {width: 1400px; height: 535px; background-position: -2822px -1092px;}
-#aquarium-grinch.aquarium-grinch1 {width: 1400px; height: 535px; background-position: -2822px -546px;}
-#aquarium-grinch.aquarium-grinch2 {width: 1400px; height: 535px; background-position: -2822px -0px;}
-#aquarium-grinch.aquarium-grinch3 {width: 1400px; height: 535px; background-position: -1411px -2730px;}
-#aquarium-grinch.aquarium-grinch4 {width: 1400px; height: 535px; background-position: -0px -2730px;}
-#aquarium-grinch.aquarium-grinch5 {width: 1400px; height: 535px; background-position: -1411px -2184px;}
-#aquarium-grinch.aquarium-grinch6 {width: 1400px; height: 535px; background-position: -0px -2184px;}
-#aquarium-grinch.aquarium-grinch7 {width: 1400px; height: 535px; background-position: -1411px -1638px;}
-#aquarium-grinch.aquarium-grinch8 {width: 1400px; height: 535px; background-position: -0px -1638px;}
-#aquarium-grinch.aquarium-grinch9 {width: 1400px; height: 535px; background-position: -1411px -1092px;}
-#aquarium-grinch.aquarium-grinch10 {width: 1400px; height: 535px; background-position: -0px -1092px;}
-#aquarium-grinch.aquarium-grinch11 {width: 1400px; height: 535px; background-position: -1411px -546px;}
-#aquarium-grinch.aquarium-grinch12 {width: 1400px; height: 535px; background-position: -0px -546px;}
-#aquarium-grinch.aquarium-grinch13 {width: 1400px; height: 535px; background-position: -1411px -0px;}
-#aquarium-grinch.aquarium-grinch14 {width: 1400px; height: 535px; background-position: -0px -0px;}
+#aquarium-grinch.aquarium-grinch0 {  background-position: -2822px -1092px;}
+#aquarium-grinch.aquarium-grinch1 {  background-position: -2822px -546px;}
+#aquarium-grinch.aquarium-grinch2 {  background-position: -2822px -0px;}
+#aquarium-grinch.aquarium-grinch3 {  background-position: -1411px -2730px;}
+#aquarium-grinch.aquarium-grinch4 {  background-position: -0px -2730px;}
+#aquarium-grinch.aquarium-grinch5 {  background-position: -1411px -2184px;}
+#aquarium-grinch.aquarium-grinch6 {  background-position: -0px -2184px;}
+#aquarium-grinch.aquarium-grinch7 {  background-position: -1411px -1638px;}
+#aquarium-grinch.aquarium-grinch8 {  background-position: -0px -1638px;}
+#aquarium-grinch.aquarium-grinch9 {  background-position: -1411px -1092px;}
+#aquarium-grinch.aquarium-grinch10 { background-position: -0px -1092px;}
+#aquarium-grinch.aquarium-grinch11 { background-position: -1411px -546px;}
+#aquarium-grinch.aquarium-grinch12 { background-position: -0px -546px;}
+#aquarium-grinch.aquarium-grinch13 { background-position: -1411px -0px;}
+#aquarium-grinch.aquarium-grinch14 { background-position: -0px -0px;}
 #aquarium-grinch.aquarium-grinch15 {background: none;}
 
 
@@ -668,19 +668,19 @@ audio { display: none; }
 
 #exhaust { position:absolute; bottom: 0px; left:0px; background: url('../img/scene-truck/exhaust-sprite.png') no-repeat; }
 #exhaust.exhaust0 { background:none;}
-#exhaust.exhaust1{ width: 1368px; height: 740px; background-position: -0px -3004px; }
-#exhaust.exhaust2 { width: 1368px; height: 740px; background-position: -1379px -2253px;}
-#exhaust.exhaust3 { width: 1368px; height: 740px; background-position: -0px -2253px;}
-#exhaust.exhaust4 { width: 1368px; height: 740px; background-position: -1379px -1502px;}
-#exhaust.exhaust5 { width: 1368px; height: 740px; background-position: -0px -1502px;}
-#exhaust.exhaust6 { width: 1368px; height: 740px; background-position: -1379px -751px;}
-#exhaust.exhaust7 { width: 1368px; height: 740px; background-position: -0px -751px;  }
-#exhaust.exhaust8 { width: 1368px; height: 740px; background-position: -1379px -0px }
-#exhaust.exhaust9 { width: 1368px; height: 740px; background-position: -0px -0px; }
-#exhaust.exhaust10 { width: 1368px; height: 740px; background-position: -2758px -2253px;}
-#exhaust.exhaust11 { width: 1368px; height: 740px; background-position: -2758px -1502px;}
-#exhaust.exhaust12 { width: 1368px; height: 740px; background-position: -2758px -751px;}
-#exhaust.exhaust13 { width: 1368px; height: 740px; background-position: -2758px -0px;}
+#exhaust.exhaust1{  background-position: -0px -3004px; }
+#exhaust.exhaust2 { background-position: -1379px -2253px;}
+#exhaust.exhaust3 { background-position: -0px -2253px;}
+#exhaust.exhaust4 { background-position: -1379px -1502px;}
+#exhaust.exhaust5 { background-position: -0px -1502px;}
+#exhaust.exhaust6 { background-position: -1379px -751px;}
+#exhaust.exhaust7 { background-position: -0px -751px;  }
+#exhaust.exhaust8 { background-position: -1379px -0px }
+#exhaust.exhaust9 { background-position: -0px -0px; }
+#exhaust.exhaust10 { background-position: -2758px -2253px;}
+#exhaust.exhaust11 { background-position: -2758px -1502px;}
+#exhaust.exhaust12 { background-position: -2758px -751px;}
+#exhaust.exhaust13 { background-position: -2758px -0px;}
 
 /* ===== Scene 11 - Pool ===== */
 
@@ -731,35 +731,35 @@ audio { display: none; }
 #phelps.phelps42 { bottom: 450px; left:1334px;  width: 89px; height: 66px; background-position: -197px -1368px;}
 
 
-#swimmers { position:absolute; /*bottom: 0;*/ bottom:-400px; left:485px; background: url('../img/scene-pool/swimmers.png') no-repeat; }
-#swimmers.swimmers1 { width: 546px; height: 363px; background-position: -2339px -404px; }
-#swimmers.swimmers2 { width: 546px; height: 393px; background-position: -2339px -0px; }
-#swimmers.swimmers3 { width: 555px; height: 397px; background-position: -1751px -1771px; }
-#swimmers.swimmers4 { width: 581px; height: 396px; background-position: -0px -1771px; }
-#swimmers.swimmers5 { width: 541px; height: 462px; background-position: -1475px -823px; }
-#swimmers.swimmers6 { width: 510px; height: 464px; background-position: -1751px -1296px; }
-#swimmers.swimmers7 { width: 642px; height: 441px; background-position: -1686px -0px; }
-#swimmers.swimmers8 { width: 639px; height: 407px; background-position: -825px -452px; }
-#swimmers.swimmers9 { width: 624px; height: 367px; background-position: -592px -1771px; }
-#swimmers.swimmers10 { width: 614px; height: 399px; background-position: -614px -1296px; }
-#swimmers.swimmers11 { width: 708px; height: 360px; background-position: -1475px -452px; }
-#swimmers.swimmers12 { width: 850px; height: 364px; background-position: -825px -0px; }
-#swimmers.swimmers13 { width: 680px; height: 369px; background-position: -0px -823px; }
-#swimmers.swimmers14 { width: 814px; height: 471px; background-position: -0px -0px; }
-#swimmers.swimmers15 { width: 603px; height: 414px; background-position: -0px -1296px; }
-#swimmers.swimmers16 { width: 501px; height: 480px; background-position: -1239px -1296px; }
-#swimmers.swimmers17 { width: 591px; height: 332px; background-position: -2194px -778px; }
-#swimmers.swimmers18 { width: 567px; height: 329px; background-position: -2272px -1121px; }
-#swimmers.swimmers19 { width: 567px; height: 299px; background-position: -2272px -1461px; }
-#swimmers.swimmers20 { width: 567px; height: 279px; background-position: -2317px -2150px; }
-#swimmers.swimmers21 { width: 356px; height: 342px; background-position: -2632px -2440px; }
-#swimmers.swimmers22 { width: 368px; height: 415px; background-position: -2253px -2440px; }
-#swimmers.swimmers23 { width: 368px; height: 415px; background-position: -1874px -2440px; }
-#swimmers.swimmers24 { width: 442px; height: 368px; background-position: -592px -2150px; }
-#swimmers.swimmers25 { width: 368px; height: 415px; background-position: -1495px -2440px; }
-#swimmers.swimmers26 { width: 442px; height: 368px; background-position: -2317px -1771px; }
-#swimmers.swimmers27 { width: 439px; height: 368px; background-position: -1045px -2150px; }
-#swimmers.swimmers28 { width: 430px; height: 368px; background-position: -0px -2440px; }
+#swimmers { position:absolute; width: 567px; height: 329px; bottom:-400px; left:485px; background: url('../img/scene-pool/swimmers.png') no-repeat; }
+#swimmers.swimmers1 { background-position: -2339px -404px; }
+#swimmers.swimmers2 { background-position: -2339px -0px; }
+#swimmers.swimmers3 { background-position: -1751px -1771px; }
+#swimmers.swimmers4 { background-position: -0px -1771px; }
+#swimmers.swimmers5 { background-position: -1475px -823px; }
+#swimmers.swimmers6 { background-position: -1751px -1296px; }
+#swimmers.swimmers7 { background-position: -1686px -0px; }
+#swimmers.swimmers8 { background-position: -825px -452px; }
+#swimmers.swimmers9 { background-position: -592px -1771px; }
+#swimmers.swimmers10 { background-position: -614px -1296px; }
+#swimmers.swimmers11 { background-position: -1475px -452px; }
+#swimmers.swimmers12 { background-position: -825px -0px; }
+#swimmers.swimmers13 { background-position: -0px -823px; }
+#swimmers.swimmers14 { background-position: -0px -0px; }
+#swimmers.swimmers15 { background-position: -0px -1296px; }
+#swimmers.swimmers16 { background-position: -1239px -1296px; }
+#swimmers.swimmers17 { background-position: -2194px -778px; }
+#swimmers.swimmers18 { background-position: -2272px -1121px; }
+#swimmers.swimmers19 { background-position: -2272px -1461px; }
+#swimmers.swimmers20 { background-position: -2317px -2150px; }
+#swimmers.swimmers21 { background-position: -2632px -2440px; }
+#swimmers.swimmers22 { background-position: -2253px -2440px; }
+#swimmers.swimmers23 { background-position: -1874px -2440px; }
+#swimmers.swimmers24 { background-position: -592px -2150px; }
+#swimmers.swimmers25 { background-position: -1495px -2440px; }
+#swimmers.swimmers26 { background-position: -2317px -1771px; }
+#swimmers.swimmers27 { background-position: -1045px -2150px; }
+#swimmers.swimmers28 { background-position: -0px -2440px; }
 
 
 #pool-grinch { position:absolute; width: 700px; height: 237px;bottom: 419px; left:702px; background: url('../img/scene-pool/pool-grinch.png') no-repeat; }
@@ -800,26 +800,26 @@ audio { display: none; }
 #fire.fire6 { background-position: -0px -0px; }
 
 #stieff { position:absolute; bottom: -400px; left:342px;width: 857px; height: 466px;background: url('../img/scene-stieff/conor-sprite.png') no-repeat -2706px -477px;}
-#stieff.stieff1 { width: 857px; height: 466px; background-position: -2604px -477px;}
-#stieff.stieff2 { width: 857px; height: 466px; background-position: -2604px -0px;}
-#stieff.stieff3 { width: 857px; height: 466px; background-position: -1736px -2385px;}
-#stieff.stieff4 { width: 857px; height: 466px; background-position: -868px -2385px;}
-#stieff.stieff5 { width: 857px; height: 466px; background-position: -0px -2385px;}
-#stieff.stieff6 { width: 857px; height: 466px; background-position: -1736px -1908px;}
-#stieff.stieff7 { width: 857px; height: 466px; background-position: -868px -1908px;}
-#stieff.stieff8 { width: 857px; height: 466px; background-position: -0px -1908px;}
-#stieff.stieff9 { width: 857px; height: 466px; background-position: -1736px -1431px;}
-#stieff.stieff10 { width: 857px; height: 466px; background-position: -868px -1431px;}
-#stieff.stieff11 { width: 857px; height: 466px; background-position: -0px -1431px;}
-#stieff.stieff12 { width: 857px; height: 466px; background-position: -1736px -954px;}
-#stieff.stieff13 { width: 857px; height: 466px; background-position: -868px -954px;}
-#stieff.stieff14 { width: 857px; height: 466px; background-position: -0px -954px;}
-#stieff.stieff15 { width: 857px; height: 466px; background-position: -1736px -477px;}
-#stieff.stieff16 { width: 857px; height: 466px; background-position: -868px -477px;}
-#stieff.stieff17 { width: 857px; height: 466px; background-position: -0px -477px;}
-#stieff.stieff18 { width: 857px; height: 466px; background-position: -1736px -0px;}
-#stieff.stieff19 { width: 857px; height: 466px; background-position: -868px -0px;}
-#stieff.stieff20 { width: 857px; height: 466px; background-position: -0px -0px;}
+#stieff.stieff1 { background-position: -2604px -477px;}
+#stieff.stieff2 { background-position: -2604px -0px;}
+#stieff.stieff3 { background-position: -1736px -2385px;}
+#stieff.stieff4 { background-position: -868px -2385px;}
+#stieff.stieff5 { background-position: -0px -2385px;}
+#stieff.stieff6 { background-position: -1736px -1908px;}
+#stieff.stieff7 { background-position: -868px -1908px;}
+#stieff.stieff8 { background-position: -0px -1908px;}
+#stieff.stieff9 { background-position: -1736px -1431px;}
+#stieff.stieff10 { background-position: -868px -1431px;}
+#stieff.stieff11 { background-position: -0px -1431px;}
+#stieff.stieff12 { background-position: -1736px -954px;}
+#stieff.stieff13 { background-position: -868px -954px;}
+#stieff.stieff14 { background-position: -0px -954px;}
+#stieff.stieff15 { background-position: -1736px -477px;}
+#stieff.stieff16 { background-position: -868px -477px;}
+#stieff.stieff17 { background-position: -0px -477px;}
+#stieff.stieff18 { background-position: -1736px -0px;}
+#stieff.stieff19 { background-position: -868px -0px;}
+#stieff.stieff20 { background-position: -0px -0px;}
 
 #grinch-stieff { position:absolute; bottom: -400px; left:752px;width: 480px; height: 579px; background: url('../img/scene-stieff/grinch-stieff.png') no-repeat;   }
 #grinch-stieff.grinch-stieff1 { background-position: -0px -1770px; }
@@ -864,15 +864,15 @@ audio { display: none; }
 #beds-mid { position:absolute; width: 1302px; height:716px; background: url('../img/scene-sleeping/beds-mid.png') no-repeat; left: 291px; bottom:884px; }
 #beds-front { position:absolute; width: 1077px; height:1059px; background: url('../img/scene-sleeping/beds-front.png') no-repeat; left: 210px; bottom:550px; }
 
-#audrey { position:absolute; bottom: 682px; left:405px;background: url('../img/scene-sleeping/audrey.png') no-repeat;  }
-#audrey.audrey1 { width: 457px; height: 287px; background-position: -936px -298px; }
-#audrey.audrey2 { width: 457px; height: 287px; background-position: -936px -0px; }
-#audrey.audrey3 { width: 457px; height: 287px; background-position: -468px -596px; }
-#audrey.audrey4 { width: 457px; height: 287px; background-position: -0px -596px; }
-#audrey.audrey5 { width: 457px; height: 287px; background-position: -468px -298px; }
-#audrey.audrey6 { width: 457px; height: 287px; background-position: -0px -298px; }
-#audrey.audrey7 { width: 457px; height: 287px; background-position: -468px -0px; }
-#audrey.audrey8 { width: 457px; height: 287px; background-position: -0px -0px; }
+#audrey { position:absolute; bottom: 682px; left:405px; width: 457px; height: 287px; background: url('../img/scene-sleeping/audrey.png') no-repeat;  }
+#audrey.audrey1 {  background-position: -936px -298px; }
+#audrey.audrey2 {  background-position: -936px -0px; }
+#audrey.audrey3 {  background-position: -468px -596px; }
+#audrey.audrey4 {  background-position: -0px -596px; }
+#audrey.audrey5 {  background-position: -468px -298px; }
+#audrey.audrey6 {  background-position: -0px -298px; }
+#audrey.audrey7 {  background-position: -468px -0px; }
+#audrey.audrey8 {  background-position: -0px -0px; }
 
 #diana { position:absolute; bottom: 1330px; left:362px;background: url('../img/scene-sleeping/diana.png') no-repeat;  }
 #diana.diana1 { width: 358px; height: 232px; background-position: -738px -0px; }
@@ -951,22 +951,22 @@ audio { display: none; }
 #globe { position:absolute; width:1707px;height:681px;background: url('../img/scene-celebration/globe.png') no-repeat; bottom: -681px; left: 0px; }
 #s14t1 { background-image: url('../img/scene-celebration/text-celebration.png'); }
 
-#celebration { position:absolute; bottom: -600px; left:300px;background: url('../img/scene-celebration/celebration-sprite.png') no-repeat; opacity: 0; }
-#celebration.celebration1 { width: 903px; height: 673px; background-position: -1828px -684px; }
-#celebration.celebration2 { width: 903px; height: 673px; background-position: -1828px -0px; }
-#celebration.celebration3 { width: 903px; height: 673px; background-position: -914px -1368px; }
-#celebration.celebration4 { width: 903px; height: 673px; background-position: -0px -1368px; }
-#celebration.celebration5 { width: 903px; height: 673px; background-position: -914px -684px; }
-#celebration.celebration6 { width: 903px; height: 673px; background-position: -0px -684px; }
-#celebration.celebration7 { width: 903px; height: 673px; background-position: -914px -0px; }
-#celebration.celebration8 { width: 903px; height: 673px; background-position: -0px -0px; }
+#celebration { position:absolute; bottom: -600px; left:300px;width: 903px; height: 673px;background: url('../img/scene-celebration/celebration-sprite.png') no-repeat; opacity: 0; }
+#celebration.celebration1 {  background-position: -1828px -684px; }
+#celebration.celebration2 {  background-position: -1828px -0px; }
+#celebration.celebration3 {  background-position: -914px -1368px; }
+#celebration.celebration4 {  background-position: -0px -1368px; }
+#celebration.celebration5 {  background-position: -914px -684px; }
+#celebration.celebration6 {  background-position: -0px -684px; }
+#celebration.celebration7 {  background-position: -914px -0px; }
+#celebration.celebration8 {  background-position: -0px -0px; }
 
-#celebration-light { position:absolute; left: 440px; bottom: 200px; background: url('../img/scene-celebration/celebration-light-sprite.png') no-repeat; opacity: 0; }
-#celebration-light.celebration-light1 { width: 631px; height: 587px; background-position: -1284px -0px; }
-#celebration-light.celebration-light2 { width: 631px; height: 587px; background-position: -642px -598px; }
-#celebration-light.celebration-light3 { width: 631px; height: 587px; background-position: -0px -598px; }
-#celebration-light.celebration-light4 { width: 631px; height: 587px; background-position: -642px -0px; }
-#celebration-light.celebration-light5 { width: 631px; height: 587px; background-position: -0px -0px; }
+#celebration-light { position:absolute; left: 440px; bottom: 200px; width: 631px; height: 587px;background: url('../img/scene-celebration/celebration-light-sprite.png') no-repeat; opacity: 0; }
+#celebration-light.celebration-light1 {  background-position: -1284px -0px; }
+#celebration-light.celebration-light2 {  background-position: -642px -598px; }
+#celebration-light.celebration-light3 {  background-position: -0px -598px; }
+#celebration-light.celebration-light4 {  background-position: -642px -0px; }
+#celebration-light.celebration-light5 {  background-position: -0px -0px; }
 
 #hearts-large { position:absolute; left: -150px; bottom: -100px; width: 1116px; height: 1107px; background-image: url('../img/scene-sky/hearts-large.png'); background-repeat: no-repeat; opacity: 0; }
 #hearts-medium { position:absolute; left: 0; bottom: -100px; width: 1200px; height: 800px; background-image: url('../img/scene-sky/hearts-medium.png'); background-repeat: no-repeat; opacity: 0;}
@@ -1014,15 +1014,15 @@ audio { display: none; }
 #front-snow2 { position:absolute; background: url('../img/scene-transition/front-snow.png') no-repeat 0 0; width: 1400px; height: 1000px; left:0; bottom:0; }
 
 #tbg { position: absolute; bottom: -150px; left: 0; width: 1180px; height: 650px; background: url('../img/scene-finale/tbg-sprite.png') no-repeat; background-position: -2362px -0px; }
-#tbg.tbg1 { width: 1180px; height: 650px; background-position: -2362px -0px; }
-#tbg.tbg2 { width: 1180px; height: 650px; background-position: -1181px -1953px; }	
-#tbg.tbg3 { width: 1180px; height: 650px; background-position: -0px -1953px; }
-#tbg.tbg4 { width: 1180px; height: 650px; background-position: -1181px -1302px; }
-#tbg.tbg5 { width: 1180px; height: 650px; background-position: -0px -1302px; }
-#tbg.tbg6 { width: 1180px; height: 650px; background-position: -1181px -651px; }
-#tbg.tbg7 { width: 1180px; height: 650px; background-position: -0px -651px; }
-#tbg.tbg8 { width: 1180px; height: 650px; background-position: -1181px -0px; }
-#tbg.tbg9 { width: 1180px; height: 650px; background-position: -0px -0px; }
+#tbg.tbg1 {  background-position: -2362px -0px; }
+#tbg.tbg2 {  background-position: -1181px -1953px; }	
+#tbg.tbg3 {  background-position: -0px -1953px; }
+#tbg.tbg4 {  background-position: -1181px -1302px; }
+#tbg.tbg5 {  background-position: -0px -1302px; }
+#tbg.tbg6 {  background-position: -1181px -651px; }
+#tbg.tbg7 {  background-position: -0px -651px; }
+#tbg.tbg8 {  background-position: -1181px -0px; }
+#tbg.tbg9 {  background-position: -0px -0px; }
 
 #replay { position: relative; display: block; width: 100%; height: 100%; z-index: 9999; cursor: pointer; }
 
