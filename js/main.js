@@ -738,6 +738,7 @@ $(document).ready(function(){
 					{id:document.getElementById("front-splash"), start: 11.27, end: 11.28, x:0, y: 20, type:"translate"},
 					{id:document.getElementById("back-splash"), start: 11.27, end: 11.28, x:0, y: 37, type:"translate"},
 					{id:document.getElementById("swimmers"), start: 11.27, end: 11.31, x:0, y: -400, type:"translate"},
+					{id:document.getElementById("swimmers"), start: 11.32, end: 11.6, x:0, y: -20, type:"translate"},
 
 					{id:sections[10], start: 11.15, end: 11.25, x: 1, y: 0, type:"opacity"},
 					{id:sections[10], start: 11.95, end: 11.99, x: -1, y: 0, type:"opacity"},
@@ -811,7 +812,7 @@ $(document).ready(function(){
 				  {id:document.getElementById("globe"), start: 14.1, end: 14.16, x:0, y: -681, type:"translate"},
 				  {id:document.getElementById("celebration"), start: 14.1, end: 14.16, x:0, y: -600, type:"translate"},
 					{id:document.getElementById("celebration"), start: 14.0, end: 14.03, x:1, y: 0, type:"opacity"},
-					{id:document.getElementById("celebration-light"), start: 14.2, end: 14.24, x:1, y: 0, type:"opacity"},
+					{id:document.getElementById("celebration-light"), start: 14.26, end: 14.3, x:1, y: 0, type:"opacity"},
 					{id:document.getElementById("celebration-light"), start: 14.35, end: 14.39, x:-1, y: 0, type:"opacity"},
 					{id:document.getElementById("globe"), start: 14.28, end: 14.33, x:0, y: 681, type:"translate"},
 					{id:document.getElementById("celebration"), start: 14.28, end: 14.33, x:0, y: 650, type:"translate"},
@@ -956,13 +957,13 @@ $(document).ready(function(){
 				[ // scene 9 - truck 
 					{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:3},
 					{id:document.getElementById("truck-grinch"), start: 10.5, end: 10.85, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
-					{id:document.getElementById("exhaust"), start: 10.75, end: 10.96, prefix: "exhaust", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
+					// {id:document.getElementById("exhaust"), start: 10.75, end: 10.96, prefix: "exhaust", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
 					{id:body, start: 10.5, end: 10.6, prefix: "color", order: [9,10], repeat:1}
 				],
 
 				[ // scene 10 - pool
 					{id:document.getElementById("phelps"), start: 11.5, end: 11.7, prefix: "phelps", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33], repeat:1},
-					{id:document.getElementById("swimmers"), start: 11.0, end: 11.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:4},
+					{id:document.getElementById("swimmers"), start: 11.0, end: 11.99, prefix: "swimmers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28], repeat:3},
 					{id:document.getElementById("pool-grinch"), start: 11.73, end: 11.9, prefix: "pool-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:1},
 					{id:body, start: 11.5, end: 11.6, prefix: "color", order: [10,11], repeat:1}
 					
@@ -989,7 +990,7 @@ $(document).ready(function(){
 				],
 
 				[ // scene 13 - celebration
-					{id:document.getElementById("celebration"), start: 14.0, end: 14.5, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:6},
+					{id:document.getElementById("celebration"), start: 14.1, end: 14.5, prefix: "celebration", order: [1,2,3,4,5,6,7,8], repeat:3},
 					{id:document.getElementById("celebration-light"), start: 14.2, end: 14.6, prefix: "celebration-light", order: [1,2,3,4,5], repeat:16},
 					{id:document.getElementById("growing-heart"), start: 14.88, end: 14.95, prefix: "growing-heart", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
 					{id:body, start: 14.5, end: 14.6, prefix: "color", order: [13,14], repeat:1}

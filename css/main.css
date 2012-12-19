@@ -685,7 +685,7 @@ audio { display: none; }
 /* ===== Scene 11 - Pool ===== */
 
 #s11t1 { background-image:url('../img/scene-pool/text-pool.png'); }
-#back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; /*bottom: 164px;*/ bottom: -300px;left:640px;  }
+#back-splash { position:absolute; width:654px; height:437px; background:url('../img/scene-pool/back-splash.png') no-repeat; bottom: -300px;left:640px;  }
 #front-splash { position:absolute; width:1147px; height:385px; background:url('../img/scene-pool/front-splash.png') no-repeat; /*bottom: 0;*/ bottom:-385px; left:144px;  }
 #divers { position:absolute; width:585px; height:837px; background:url('../img/scene-pool/diving.png') no-repeat; bottom: 1000px;left:485px; }
 
