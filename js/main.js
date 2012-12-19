@@ -697,7 +697,7 @@ $(document).ready(function(){
 					{id:document.getElementById("little-fish-1"), start: 9.0, end: 9.99, x: -200, y: 0, type:"translate"},
 					// {id:document.getElementById("little-fish-2"), start: 9.0, end: 9.99, x: -250, y: 20, type:"translate"},
 					{id:document.getElementById("big-fish"), start: 9.0, end: 9.99, x: -500, y: 20, type:"translate"},
-					// {id:document.getElementById("shark"), start: 9.65, end: 9.99, x: -2400, y: 0, type:"translate"},
+					{id:document.getElementById("shark"), start: 9.65, end: 9.99, x: -2400, y: 0, type:"translate"},
 
 					{id:sections[8], start: 9.2, end: 9.28, x: 1, y: 0, type:"opacity"},
 					{id:sections[8], start: 9.9, end: 9.99, x: -1, y: 0, type:"opacity"},
@@ -712,9 +712,9 @@ $(document).ready(function(){
 					{id:document.getElementById("s10t1"), start: 10.0, end: 10.1, x:1, y: 0, type:"opacity"},
 					{id:document.getElementById("s10t1"), start: 10.2, end: 10.28, x:-1, y: 0, type:"opacity"},
 					{id:document.getElementById("s10bg"), start: 10.2, end: 10.28, x:0, y: 10, type:"bgShift"},
-					{id:document.getElementById("truck"), start: 10.2, end: 10.28, x:0, y: -200, type:"translate"},
-					{id:document.getElementById("truck-grinch"), start: 10.2, end: 10.28, x:0, y: -200, type:"translate"},
-					{id:document.getElementById("businessmen"), start: 10.2, end: 10.28, x:0, y: -300, type:"translate"},
+					//{id:document.getElementById("truck"), start: 10.2, end: 10.28, x:0, y: -200, type:"translate"},
+					//{id:document.getElementById("truck-grinch"), start: 10.2, end: 10.28, x:0, y: -200, type:"translate"},
+					//{id:document.getElementById("businessmen"), start: 10.2, end: 10.28, x:0, y: -300, type:"translate"},
 					{id:document.getElementById("truck-grinch"), start: 10.8, end: 10.93, x:-1400, y: 0, type:"translate"},
 					{id:document.getElementById("truck"), start: 10.8, end: 10.9, x:-1400, y: 0, type:"translate"},
 

@@ -586,7 +586,7 @@ audio { display: none; }
 #little-fish-1 { position:absolute; width:352px;height:297px; background:url('../img/scene-aquarium/little-fish-9.png') no-repeat; top:150px; right:200px; }
 #little-fish-2 { position:absolute; width:480px;height:307px; background:url('../img/scene-aquarium/little-fish-18.png') no-repeat; top:50px; left:200px; }
 #s9t1 { background-image:url('../img/scene-aquarium/text-aquarium.png'); }
-#shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
+#shark { position:absolute; width:1066px;height:374px; background:url('../img/scene-aquarium/shark2.png') no-repeat; top:10px; right:-1087px; z-index: 60;  }
 
 #aquarium-people { position:absolute; width:960px; height:492px; background: url('../img/scene-aquarium/aquarium-sprite-lo.png') no-repeat -1960px -503px; bottom: 0; right: 100px;  }
 #aquarium-people.aqua1 { background-position: -1960px -503px; }
@@ -623,10 +623,10 @@ audio { display: none; }
 
 /* ===== Scene 10 - Truck ===== */
 
-#truck { position:absolute; width:1181px; height:824px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: -270px; left:0px; }
+#truck { position:absolute; width:1181px; height:824px; background:url('../img/scene-truck/truck.png') no-repeat; bottom: -70px; left:0px; }
 #s10t1 { background-image:url('../img/scene-truck/text-truck.png'); }
 
-#businessmen { position:absolute; width: 638px; height: 480px; bottom: -300px; left:400px;background: url('../img/scene-truck/businessmen.png') no-repeat -2318px -1463px;  }
+#businessmen { position:absolute; width: 638px; height: 480px; bottom: 0; left:400px; background-image: url('../img/scene-truck/businessmen-sm.png'); background-position: -2318px -1463px; background-repeat: no-repeat; }
 #businessmen.businessmen1 { width: 638px; height: 480px; background-position: -2245px -2445px; }
 #businessmen.businessmen2 { width: 638px; height: 480px; background-position: -2260px -1954px; }
 #businessmen.businessmen3 { width: 638px; height: 480px; background-position: -2318px -1463px; }
@@ -647,7 +647,7 @@ audio { display: none; }
 #businessmen.businessmen19 { width: 760px; height: 568px; background-position: -1579px -0px; }
 #businessmen.businessmen20 { width: 797px; height: 499px; background-position: -1579px -579px; }
 
-#truck-grinch { position:absolute; bottom: -16px; left:98px;background: url('../img/scene-truck/truck-grinch.png') no-repeat; width: 372px; height: 242px; background-position: -1149px -253px; }
+#truck-grinch { position:absolute; bottom: 184px; left:98px; background-image: url('../img/scene-truck/truck-grinch.png'); width: 372px; height: 242px; background-position: -1149px -253px; }
 #truck-grinch.truck-grinch1 { background-position: -1149px -253px; }
 #truck-grinch.truck-grinch2 { background-position: -1149px -0px; }
 #truck-grinch.truck-grinch3 { background-position: -766px -1012px; }
@@ -666,7 +666,7 @@ audio { display: none; }
 #truck-grinch.truck-grinch16 { background-position: -383px -0px; }
 #truck-grinch.truck-grinch17 { background-position: -0px -0px; }
 
-#exhaust { position:absolute; bottom: 0px; left:0px; background: url('../img/scene-truck/exhaust-sprite.png') no-repeat; }
+#exhaust { position:absolute; bottom: 0px; left:0px; background-image: url('../img/scene-truck/exhaust-sprite.png'); background-repeat: no-repeat; }
 #exhaust.exhaust0 { background:none;}
 #exhaust.exhaust1{  background-position: -0px -3004px; }
 #exhaust.exhaust2 { background-position: -1379px -2253px;}
