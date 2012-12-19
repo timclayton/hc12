@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var supportedBrowser = $("html").hasClass("csstransforms") ? true : false;
+	var supportedBrowser = $("html").hasClass("csstransforms3d") ? true : false;
 	
 	if ( supportedBrowser ) {
 
