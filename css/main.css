@@ -110,6 +110,10 @@ html.no-csstransforms3d #preload-items { position: absolute; left: 50%; margin-l
 html.csstransforms3d #upgrade-browser-alert { display: none; }
 html.csstransforms3d .bad-browser-bunny, html.csstransforms3d .mobile-browser-bunny { display: none; }
 html.no-csstransforms3d .good-browser-bunny, html.no-csstransforms3d .mobile-browser-bunny { display: none; }
+
+html.csstransforms3d .preload-text-nope { display:none; }
+html.no-csstransforms3d .preload-text { display:none; }
+
 .mobile-text { display: none; }
 
 #maincontent { display:none; }
@@ -1194,7 +1198,7 @@ html.csstransforms3d .mobile-browser-bunny, html.no-csstransforms3d .mobile-brow
 
 .mobile-text { display: block; position: relative; font-size: 22px; }
 html.no-csstransforms3d #preload-items, html.csstransforms3d #preload-items { position: relative; margin: 40px auto; bottom: auto; height: auto; left: auto; width: auto; }
-#preload-bunny { position:relative; width: 90%; margin: 0 auto; }
+#preload-bunny { position:absolute; width: 40%; top:0; right:10%; }
 .preload-text { display: none; }
 #maincontent { display: none; }
     
