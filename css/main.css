@@ -666,7 +666,7 @@ audio { display: none; }
 #truck-grinch.truck-grinch16 { background-position: -383px -0px; }
 #truck-grinch.truck-grinch17 { background-position: -0px -0px; }
 
-#exhaust { position:absolute; bottom: 0px; left:0px; background-image: url('../img/scene-truck/exhaust-sprite.png'); background-repeat: no-repeat; }
+#exhaust { position:absolute; bottom: 0px; left:0px; width: 1368px; height: 740px; background-image: url('../img/scene-truck/exhaust-sprite.png'); background-repeat: no-repeat; }
 #exhaust.exhaust0 { background:none;}
 #exhaust.exhaust1{  background-position: -0px -3004px; }
 #exhaust.exhaust2 { background-position: -1379px -2253px;}

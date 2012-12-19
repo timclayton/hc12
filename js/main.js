@@ -957,7 +957,7 @@ $(document).ready(function(){
 				[ // scene 9 - truck 
 					{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:3},
 					{id:document.getElementById("truck-grinch"), start: 10.5, end: 10.85, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
-					// {id:document.getElementById("exhaust"), start: 10.75, end: 10.96, prefix: "exhaust", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
+					{id:document.getElementById("exhaust"), start: 10.75, end: 10.96, prefix: "exhaust", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
 					{id:body, start: 10.5, end: 10.6, prefix: "color", order: [9,10], repeat:1}
 				],
 
