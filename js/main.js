@@ -30,11 +30,15 @@ $(document).ready(function(){
     		});
 
     		for(var i=0;i<urlArray.length;i++) {
-    			var image = new Image();
-    			image.src = urlArray[i];
-    			images.push(image);
-		    	images[i].onload = function () { updateImageDisplay();  }
-		    	images[i].onerror= function(){  }//imageloadpost() }
+    			
+    			
+    				var image = new Image();
+    				image.src = urlArray[i];
+    				images.push(image);
+		    		images[i].onload = function () { updateImageDisplay();  }
+		    		images[i].onerror= function(){  }//imageloadpost() } )
+						
+    			
 
 			}
     	}
@@ -686,12 +690,12 @@ $(document).ready(function(){
 
 					{id:document.getElementById("s9t1"), start: 9.0, end: 9.1, x: 1, y: 0, type:"opacity"},
 					{id:document.getElementById("s9t1"), start: 9.2, end: 9.28, x: -1, y: 0, type:"opacity"},
-					{id:document.getElementById("bubbles-1"), start: 9.0, end: 9.99, x: 0, y: -200, type:"translate"},
+					// {id:document.getElementById("bubbles-1"), start: 9.0, end: 9.99, x: 0, y: -200, type:"translate"},
 					{id:document.getElementById("bubbles-2"), start: 9.0, end: 9.99, x: 0, y: -250, type:"translate"},
 					{id:document.getElementById("bubbles-3"), start: 9.0, end: 9.99, x: 0, y: -300, type:"translate"},
 
 					{id:document.getElementById("little-fish-1"), start: 9.0, end: 9.99, x: -200, y: 0, type:"translate"},
-					{id:document.getElementById("little-fish-2"), start: 9.0, end: 9.99, x: -250, y: 20, type:"translate"},
+					// {id:document.getElementById("little-fish-2"), start: 9.0, end: 9.99, x: -250, y: 20, type:"translate"},
 					{id:document.getElementById("big-fish"), start: 9.0, end: 9.99, x: -500, y: 20, type:"translate"},
 					{id:document.getElementById("shark"), start: 9.65, end: 9.99, x: -2400, y: 0, type:"translate"},
 
@@ -921,7 +925,7 @@ $(document).ready(function(){
 
 				[ //scene 5
 					{id:document.getElementById("drummers"), start: 6.0, end: 6.99, prefix: "drummers", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], repeat:6},
-					{id:document.getElementById("hippies"), start: 6.0, end: 6.99, prefix: "hippies", order: [1,2,3,4,5,6,7], repeat:10},
+					{id:document.getElementById("hippies"), start: 6.0, end: 6.99, prefix: "hippies", order: [1,2,3,4,5,6,7], repeat:6},
 					{id:document.getElementById("symbols"), start: 6.0, end: 6.99, prefix: "symbols", order: [1,2,3,4,5,6,7], repeat:10},
 					{id:document.getElementById("monument-grinch"), start: 6.6, end: 6.9, prefix: "monument-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], repeat:0},
 					{id:body, start: 6.5, end: 6.6, prefix: "color", order: [5,6], repeat:1}
@@ -941,7 +945,7 @@ $(document).ready(function(){
 				],
 				
 				[ // scene 8 - aquarium
-					{id:document.getElementById("aquarium-people"), start: 9.0, end: 9.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:4},
+					{id:document.getElementById("aquarium-people"), start: 9.0, end: 9.99, prefix: "aqua", order: [1,2,3,4,5,6,7,8,9,10], repeat:3},
 					{id:document.getElementById("aquarium-grinch"), start: 9.6, end: 9.8, prefix: "aquarium-grinch", order: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], repeat:1},
 					{id:body, start: 9.5, end: 9.6, prefix: "color", order: [8,9], repeat:1}
 					
@@ -950,7 +954,7 @@ $(document).ready(function(){
 				
 
 				[ // scene 9 - truck 
-					{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:4},
+					{id:document.getElementById("businessmen"), start: 10.0, end: 10.99, prefix: "businessmen", order: [3,4,5,6,7,8,9,10,11,12,13,14,15,20,17,18,19,1,2], repeat:3},
 					{id:document.getElementById("truck-grinch"), start: 10.5, end: 10.85, prefix: "truck-grinch", order: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17], repeat:1},
 					{id:document.getElementById("exhaust"), start: 10.75, end: 10.96, prefix: "exhaust", order: [1,2,3,4,5,6,7,8,9,10,11,12,13], repeat:1},
 					{id:body, start: 10.5, end: 10.6, prefix: "color", order: [9,10], repeat:1}
