@@ -1190,7 +1190,7 @@ div.animation { margin: 2% 0%; }
     
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
 html.csstransforms3d .good-browser-bunny, html.no-csstransforms3d .good-browser-bunny { display: none; }
 html.csstransforms3d .bad-browser-bunny, html.no-csstransforms3d .bad-browser-bunny { display: none; }
